@@ -1,0 +1,448 @@
+import express from 'express';
+import cors from 'cors';
+import dotenv from 'dotenv';
+import { query, testDbConnection } from './db.js';
+
+dotenv.config();
+
+const app = express();
+const port = Number(process.env.PORT || 4000);
+
+app.use(cors({
+  origin: process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',').map(x => x.trim()) : true
+}));
+app.use(express.json({ limit: '25mb' }));
+// 🔐 PROSTE ZABEZPIECZENIE (Basic Auth)
+app.use((req, res, next) => {
+  const auth = req.headers.authorization;
+
+  if (!auth) {
+    res.setHeader('WWW-Authenticate', 'Basic realm="Test Platform"');
+    return res.status(401).send('Auth required');
+  }
+
+  const base64 = auth.split(' ')[1];
+  const [user, pass] = Buffer.from(base64, 'base64').toString().split(':');
+
+  const USER = 'tester';
+  const PASS = 'test123';
+
+  if (user === USER && pass === PASS) {
+    return next();
+  }
+
+  return res.status(403).send('Forbidden');
+});
+
+function slugify(text) {
+  return String(text || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '') || 'course';
+}
+
+function sanitizeStatus(status) {
+  const allowed = ['draft', 'review', 'needs_fix', 'approved', 'published', 'archived'];
+  return allowed.includes(status) ? status : 'draft';
+}
+
+function buildNextVersionRows(rows, incomingCourseId) {
+  const sameCourse = rows.filter(row => row.course_id === incomingCourseId);
+  if (!sameCourse.length) return 1;
+  return Math.max(...sameCourse.map(r => Number(r.version || 1))) + 1;
+}
+
+function renderHtmlPage(title, body) {
+  return `
+  <!doctype html>
+  <html lang="pl">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>${title}</title>
+      <style>
+        :root{
+          --bg:#0b1020;
+          --panel:#121a2b;
+          --panel-2:#182338;
+          --text:#eef4ff;
+          --muted:#9fb0d0;
+          --line:rgba(255,255,255,.10);
+          --accent:#78a8ff;
+          --ok:#7ad7a6;
+          --warn:#ffd36e;
+        }
+        *{box-sizing:border-box}
+        body{
+          margin:0;
+          font-family:Inter,Arial,sans-serif;
+          background:linear-gradient(180deg,#0a0f1d,#10182b);
+          color:var(--text);
+        }
+        .wrap{
+          max-width:1200px;
+          margin:0 auto;
+          padding:32px 20px 80px;
+        }
+        h1{
+          margin:0 0 8px;
+          font-size:32px;
+          line-height:1.15;
+        }
+        .sub{
+          margin:0 0 24px;
+          color:var(--muted);
+          font-size:15px;
+        }
+        .toolbar{
+          display:flex;
+          gap:12px;
+          flex-wrap:wrap;
+          margin-bottom:24px;
+        }
+        .btn{
+          appearance:none;
+          border:none;
+          border-radius:12px;
+          padding:12px 16px;
+          background:var(--accent);
+          color:white;
+          font-weight:700;
+          cursor:pointer;
+        }
+        .btn.secondary{
+          background:var(--panel-2);
+          border:1px solid var(--line);
+        }
+        .grid{
+          display:grid;
+          grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+          gap:16px;
+        }
+        .card{
+          background:rgba(18,26,43,.92);
+          border:1px solid var(--line);
+          border-radius:18px;
+          padding:18px;
+          box-shadow:0 10px 30px rgba(0,0,0,.22);
+        }
+        .label{
+          display:inline-flex;
+          align-items:center;
+          gap:8px;
+          border:1px solid var(--line);
+          border-radius:999px;
+          padding:6px 10px;
+          font-size:12px;
+          color:var(--muted);
+          background:rgba(255,255,255,.03);
+        }
+        .title{
+          margin:14px 0 8px;
+          font-size:20px;
+          line-height:1.25;
+        }
+        .meta{
+          display:grid;
+          gap:8px;
+          color:var(--muted);
+          font-size:14px;
+          margin-top:12px;
+        }
+        .row{
+          display:flex;
+          justify-content:space-between;
+          gap:16px;
+          border-top:1px solid var(--line);
+          padding-top:10px;
+        }
+        .empty{
+          padding:28px;
+          border:1px dashed var(--line);
+          border-radius:16px;
+          color:var(--muted);
+          text-align:center;
+          background:rgba(255,255,255,.02);
+        }
+        .topbar{
+          display:flex;
+          justify-content:space-between;
+          align-items:flex-start;
+          gap:16px;
+          flex-wrap:wrap;
+          margin-bottom:22px;
+        }
+        .status{
+          font-weight:700;
+          text-transform:uppercase;
+          letter-spacing:.04em;
+          font-size:12px;
+        }
+        .status.draft{color:var(--warn)}
+        .status.review{color:#8ec5ff}
+        .status.needs_fix{color:#ff9d7a}
+        .status.approved{color:#95f0b8}
+        .status.published{color:#7ad7a6}
+        .status.archived{color:#a5a5a5}
+        a.link{
+          color:#c9ddff;
+          text-decoration:none;
+        }
+        a.link:hover{
+          text-decoration:underline;
+        }
+      </style>
+    </head>
+    <body>
+      ${body}
+    </body>
+  </html>
+  `;
+}
+
+app.get('/api/health', async (req, res) => {
+  try {
+    const db = await testDbConnection();
+    return res.json({
+      ok: true,
+      app: 'platform',
+      dbTime: db.now
+    });
+  } catch (error) {
+    console.error('health error:', error);
+    return res.status(500).json({
+      ok: false,
+      error: 'Błąd połączenia z bazą danych.'
+    });
+  }
+});
+
+app.get('/api/courses', async (req, res) => {
+  try {
+    const status = req.query.status ? sanitizeStatus(String(req.query.status)) : null;
+
+    let sql = `
+      SELECT id, course_id, slug, title, course_code, language, status, version, created_at, updated_at
+      FROM courses
+    `;
+    const params = [];
+
+    if (status) {
+      sql += ' WHERE status = $1';
+      params.push(status);
+    }
+
+    sql += ' ORDER BY updated_at DESC, id DESC';
+
+    const result = await query(sql, params);
+
+    return res.json({
+      courses: result.rows
+    });
+  } catch (error) {
+    console.error('list courses error:', error);
+    return res.status(500).json({
+      error: 'Nie udało się pobrać listy kursów.'
+    });
+  }
+});
+
+app.get('/api/courses/:id', async (req, res) => {
+  try {
+    const id = Number(req.params.id);
+    if (!Number.isInteger(id)) {
+      return res.status(400).json({ error: 'Nieprawidłowe ID kursu.' });
+    }
+
+    const result = await query('SELECT * FROM courses WHERE id = $1 LIMIT 1', [id]);
+
+    if (!result.rows.length) {
+      return res.status(404).json({ error: 'Nie znaleziono kursu.' });
+    }
+
+    return res.json({
+      course: result.rows[0]
+    });
+  } catch (error) {
+    console.error('get course error:', error);
+    return res.status(500).json({
+      error: 'Nie udało się pobrać kursu.'
+    });
+  }
+});
+
+app.post('/api/courses/import', async (req, res) => {
+  try {
+    const { project, status = 'draft' } = req.body || {};
+
+    if (!project || typeof project !== 'object') {
+      return res.status(400).json({ error: 'Brakuje obiektu project.' });
+    }
+
+    const title = String(project?.course?.title || '').trim();
+    if (!title) {
+      return res.status(400).json({ error: 'Projekt nie zawiera nazwy kursu.' });
+    }
+
+    const courseId = String(project?.meta?.projectId || `course_${Date.now()}`);
+    const slugBase = String(project?.course?.courseCode || title).trim();
+    const slug = slugify(slugBase);
+    const language = String(project?.course?.language || 'pl').trim() || 'pl';
+    const courseCode = String(project?.course?.courseCode || '').trim();
+
+    const existing = await query(
+      'SELECT id, course_id, version FROM courses WHERE slug = $1 OR course_id = $2 ORDER BY version ASC',
+      [slug, courseId]
+    );
+
+    const version = buildNextVersionRows(existing.rows, courseId);
+
+    const insert = await query(`
+      INSERT INTO courses (
+        course_id,
+        slug,
+        title,
+        course_code,
+        language,
+        status,
+        version,
+        source_project_json,
+        outline_json,
+        sections_json,
+        final_exam_json,
+        final_practical_exam_json,
+        certificate_json,
+        export_package_json,
+        files_json
+      )
+      VALUES (
+        $1,$2,$3,$4,$5,$6,$7,$8::jsonb,$9::jsonb,$10::jsonb,$11::jsonb,$12::jsonb,$13::jsonb,$14::jsonb,$15::jsonb
+      )
+      RETURNING id, course_id, slug, title, course_code, language, status, version, created_at, updated_at
+    `, [
+      courseId,
+      slug,
+      title,
+      courseCode,
+      language,
+      sanitizeStatus(String(status)),
+      version,
+      JSON.stringify(project),
+      JSON.stringify(project?.outline || []),
+      JSON.stringify(project?.sections || []),
+      JSON.stringify(project?.finalExam || null),
+      JSON.stringify(project?.finalPracticalExam || null),
+      JSON.stringify(project?.certificate || null),
+      JSON.stringify(project?.exportPackage || null),
+      JSON.stringify(project?.files || [])
+    ]);
+
+    return res.status(201).json({
+      message: 'Kurs został zaimportowany.',
+      course: insert.rows[0]
+    });
+  } catch (error) {
+    console.error('import course error:', error);
+    return res.status(500).json({
+      error: 'Nie udało się zaimportować kursu.'
+    });
+  }
+});
+
+app.patch('/api/courses/:id/status', async (req, res) => {
+  try {
+    const id = Number(req.params.id);
+    const nextStatus = sanitizeStatus(String(req.body?.status || ''));
+
+    if (!Number.isInteger(id)) {
+      return res.status(400).json({ error: 'Nieprawidłowe ID kursu.' });
+    }
+
+    const result = await query(`
+      UPDATE courses
+      SET status = $2, updated_at = NOW()
+      WHERE id = $1
+      RETURNING id, course_id, slug, title, course_code, language, status, version, created_at, updated_at
+    `, [id, nextStatus]);
+
+    if (!result.rows.length) {
+      return res.status(404).json({ error: 'Nie znaleziono kursu.' });
+    }
+
+    return res.json({
+      message: 'Status kursu został zaktualizowany.',
+      course: result.rows[0]
+    });
+  } catch (error) {
+    console.error('update status error:', error);
+    return res.status(500).json({
+      error: 'Nie udało się zmienić statusu kursu.'
+    });
+  }
+});
+
+app.get('/', async (req, res) => {
+  try {
+    const result = await query(`
+      SELECT id, course_id, slug, title, course_code, language, status, version, created_at, updated_at
+      FROM courses
+      ORDER BY updated_at DESC, id DESC
+    `);
+
+    const cards = result.rows.length
+      ? `
+        <div class="grid">
+          ${result.rows.map(course => `
+            <div class="card">
+              <div class="topbar">
+                <span class="label">ID: ${course.id}</span>
+                <span class="status ${course.status}">${course.status}</span>
+              </div>
+              <div class="title">${course.title}</div>
+              <div class="meta">
+                <div><strong>Code:</strong> ${course.course_code || 'brak'}</div>
+                <div><strong>Slug:</strong> ${course.slug}</div>
+                <div><strong>Język:</strong> ${course.language}</div>
+                <div><strong>Wersja:</strong> ${course.version}</div>
+                <div><strong>Utworzono:</strong> ${new Date(course.created_at).toLocaleString('pl-PL')}</div>
+                <div><strong>Aktualizacja:</strong> ${new Date(course.updated_at).toLocaleString('pl-PL')}</div>
+              </div>
+              <div class="meta" style="margin-top:16px;">
+                <div class="row">
+                  <span>API</span>
+                  <a class="link" href="/api/courses/${course.id}" target="_blank" rel="noopener">Zobacz JSON kursu</a>
+                </div>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `
+      : `<div class="empty">Brak kursów w bibliotece.</div>`;
+
+    const html = renderHtmlPage('Platforma kursów', `
+      <div class="wrap">
+        <h1>Platforma kursów</h1>
+        <p class="sub">Centralna biblioteka kursów. Tu będą później: panel admina treści, panel testera i panel użytkownika.</p>
+
+        <div class="toolbar">
+          <button class="btn" onclick="window.location.reload()">Odśwież listę</button>
+          <a href="/api/courses" class="btn secondary">API kursów</a>
+          <a href="/api/health" class="btn secondary">Health</a>
+        </div>
+
+        ${cards}
+      </div>
+    `);
+
+    return res.send(html);
+  } catch (error) {
+    console.error('home page error:', error);
+    return res.status(500).send('Błąd renderowania strony głównej.');
+  }
+});
+
+app.listen(port, () => {
+  console.log(`PLATFORM START: http://localhost:${port}`);
+});

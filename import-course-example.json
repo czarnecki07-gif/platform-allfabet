@@ -1,0 +1,20 @@
+{
+  "project": {
+    "meta": {
+      "projectId": "course_123456789"
+    },
+    "course": {
+      "title": "Przykładowy kurs",
+      "courseCode": "PK-001",
+      "language": "pl"
+    },
+    "outline": [],
+    "sections": [],
+    "finalExam": null,
+    "finalPracticalExam": null,
+    "certificate": null,
+    "exportPackage": null,
+    "files": []
+  },
+  "status": "draft"
+}
