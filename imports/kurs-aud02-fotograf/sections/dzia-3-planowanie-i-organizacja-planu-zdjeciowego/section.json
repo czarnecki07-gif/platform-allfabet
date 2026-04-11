@@ -1,0 +1,999 @@
+{
+  "sectionId": "S-3",
+  "sectionTitle": "Dział 3: Planowanie i organizacja planu zdjęciowego",
+  "status": "ready",
+  "outlineLessons": [
+    {
+      "lessonId": "L-3-1",
+      "lessonTitle": "Lekcja 3.1: Analiza zlecenia i dobór techniki fotografowania",
+      "goal": "Określać cel sesji, rodzaj fotografii, oczekiwany efekt końcowy i technikę rejestracji adekwatną do tematu oraz warunków pracy."
+    },
+    {
+      "lessonId": "L-3-2",
+      "lessonTitle": "Lekcja 3.2: Dobór miejsca, sprzętu i materiałów do realizacji zdjęć",
+      "goal": "Przygotować listę sprzętu, akcesoriów i materiałów potrzebnych do wykonania sesji w studio, plenerze lub w obiekcie."
+    },
+    {
+      "lessonId": "L-3-3",
+      "lessonTitle": "Lekcja 3.3: Szkic planu zdjęciowego i schematy oświetlenia",
+      "goal": "Tworzyć czytelną dokumentację sesji, w tym szkic planu, schemat ustawienia lamp i zapotrzebowanie materiałowo-sprzętowe."
+    },
+    {
+      "lessonId": "L-3-4",
+      "lessonTitle": "Lekcja 3.4: Budowa sceny, montaż akcesoriów i przygotowanie obiektu",
+      "goal": "Ustawiać elementy sceny zgodnie z dokumentacją, montować akcesoria oraz przygotowywać fotografowany obiekt zgodnie z zasadami kompozycji i bezpieczeństwa."
+    },
+    {
+      "lessonId": "L-3-5",
+      "lessonTitle": "Lekcja 3.5: Pomiar światła, ekspozycja i ustawienia aparatu",
+      "goal": "Wykonywać pomiar oświetlenia, dobierać ekspozycję, ogniskową, ostrość i pozostałe parametry rejestracji obrazu do warunków zdjęciowych."
+    }
+  ],
+  "lessonsGenerated": true,
+  "mediaGenerated": true,
+  "imagesGenerated": true,
+  "audioGenerated": true,
+  "worksheetsGenerated": true,
+  "quizGenerated": true,
+  "testGenerated": true,
+  "reviewInProgress": false,
+  "ready": true,
+  "lessons": [
+    {
+      "id": "L-3-1",
+      "sectionId": "S-3",
+      "sectionTitle": "Dział 3: Planowanie i organizacja planu zdjęciowego",
+      "title": "Lekcja 3.1: Analiza zlecenia i dobór techniki fotografowania",
+      "goal": "Określać cel sesji, rodzaj fotografii, oczekiwany efekt końcowy i technikę rejestracji adekwatną do tematu oraz warunków pracy.",
+      "lead": "Dobra sesja zdjęciowa zaczyna się nie od naciśnięcia spustu migawki, ale od zrozumienia, po co zdjęcia mają powstać i do czego będą użyte. Im lepiej przeanalizujesz zlecenie, tym łatwiej dobierzesz odpowiednią technikę fotografowania, sprzęt i sposób pracy.",
+      "intro": "W tej lekcji nauczysz się czytać zlecenie fotograficzne jak plan działania. Zobaczysz, jakie pytania trzeba zadać przed rozpoczęciem pracy, jak rozpoznać rodzaj fotografii oraz jak dopasować technikę rejestracji obrazu do efektu końcowego. To podstawa świadomego planowania planu zdjęciowego.",
+      "contentBlocks": [
+        {
+          "heading": "Od czego zacząć analizę zlecenia",
+          "body": "Pierwszym krokiem jest ustalenie celu sesji. Musisz wiedzieć, czy zdjęcia mają sprzedawać produkt, dokumentować wydarzenie, budować wizerunek osoby, pokazywać architekturę, czy może służyć identyfikacji lub dokumentacji technicznej. Od tego zależy niemal wszystko: sposób kadrowania, oświetlenie, miejsce wykonania zdjęć, rodzaj obiektywu i poziom obróbki. Zawsze zwracaj uwagę na odbiorcę końcowego, format publikacji, oczekiwaną liczbę zdjęć, styl wizualny oraz termin realizacji."
+        },
+        {
+          "heading": "Jak rozpoznać rodzaj fotografii",
+          "body": "Rodzaj fotografii określasz na podstawie tematu i funkcji obrazu. Fotografia portretowa koncentruje się na osobie i jej wizerunku. Fotografia produktowa ma pokazać cechy przedmiotu w sposób czytelny i atrakcyjny. Reportaż wymaga szybkiego reagowania na sytuacje i pracy w zmiennych warunkach. Fotografia architektury wymaga kontroli perspektywy i często pracy na statywie. Zdjęcia techniczne i reprodukcyjne muszą być wierne, precyzyjne i powtarzalne. Rozpoznanie rodzaju fotografii pozwala uniknąć błędów, takich jak zbyt dekoracyjne światło w dokumentacji technicznej albo zbyt sztywne ustawienie w sesji lifestyle."
+        },
+        {
+          "heading": "Dobór techniki rejestracji obrazu",
+          "body": "Technikę fotografowania dobierasz do celu i warunków pracy. W większości zleceń komercyjnych stosuje się technikę cyfrową, ponieważ daje szybki podgląd, łatwiejszą selekcję i sprawny obieg materiału. Technika studyjna sprawdza się tam, gdzie potrzebujesz pełnej kontroli nad światłem i tłem. Praca w plenerze będzie lepsza, gdy ważne jest naturalne otoczenie, światło zastane lub autentyczność sceny. W niektórych realizacjach warto rozważyć techniki specjalne, na przykład makrofotografię, panoramę, fotografię UV lub IR, ale tylko wtedy, gdy wynikają one z potrzeb zlecenia, a nie z samej chęci eksperymentowania."
+        },
+        {
+          "heading": "Efekt końcowy wpływa na decyzje techniczne",
+          "body": "Zanim wybierzesz technikę, ustal, jak ma wyglądać gotowy obraz. Inaczej planuje się zdjęcie do dużego wydruku wystawienniczego, inaczej do sklepu internetowego, a jeszcze inaczej do relacji w mediach społecznościowych. Liczy się rozdzielczość, proporcja kadru, sposób prezentacji detalu, kolorystyka, charakter światła i poziom retuszu. Jeśli zdjęcie ma być wierne i informacyjne, technika powinna zapewniać neutralność i powtarzalność. Jeśli ma budować emocje, możesz pozwolić sobie na bardziej wyraziste światło, nietypowe kadry i świadome środki estetyczne."
+        },
+        {
+          "heading": "Pytania, które warto zadać przed sesją",
+          "body": "Przed realizacją zlecenia ustal: co fotografujesz, po co, dla kogo, gdzie, kiedy i w jakich warunkach. Zapytaj też, czy klient ma przykłady referencyjne, jakie są ograniczenia lokalizacji, czy potrzebna jest zgoda na fotografowanie, ile czasu trwa sesja i jaki będzie sposób przekazania plików. Te informacje pomagają podjąć decyzję o technice pracy oraz zapobiegają nieporozumieniom. Fotograf, który dobrze pyta, pracuje szybciej i pewniej."
+        }
+      ],
+      "practicalExamples": [
+        "Otrzymujesz zlecenie na zdjęcia biżuterii do sklepu internetowego. Po analizie celu wybierasz fotografię produktową w studio, światło kontrolowane, statyw oraz ujęcia pokazujące detal i fakturę materiału.",
+        "Masz wykonać relację z wydarzenia szkolnego. Wybierasz technikę reporterską, mobilny zestaw sprzętu, pracę przy świetle zastanym wspomaganym lampą błyskową oraz priorytet szybkiej reakcji zamiast rozbudowanej stylizacji planu.",
+        "Klient potrzebuje portretów biznesowych do strony firmowej. Dobierasz fotografię portretową o spójnym stylu, neutralne lub firmowe tło, oświetlenie modelujące twarz i sposób kadrowania dopasowany do publikacji internetowej i materiałów drukowanych."
+      ],
+      "keyTakeaways": [
+        "Analiza zlecenia zawsze zaczyna się od ustalenia celu zdjęć i sposobu ich wykorzystania.",
+        "Rodzaj fotografii rozpoznajesz po funkcji obrazu, temacie i oczekiwanej formie prezentacji.",
+        "Technikę rejestracji dobiera się do warunków pracy, a nie wyłącznie do własnych przyzwyczajeń.",
+        "Im dokładniej zbierzesz informacje przed sesją, tym mniej problemów pojawi się na planie zdjęciowym."
+      ],
+      "checkYourself": [
+        "Dlaczego ten sam obiekt można fotografować różnymi technikami w zależności od celu zlecenia?",
+        "Jakie informacje o publikacji końcowej wpływają na wybór sposobu fotografowania?",
+        "Czym różni się podejście do fotografii produktowej od podejścia do reportażu?"
+      ],
+      "summary": "Analiza zlecenia to etap, który porządkuje całą dalszą pracę. Kiedy rozumiesz cel sesji, rodzaj fotografii i oczekiwany efekt końcowy, możesz świadomie dobrać technikę rejestracji obrazu. Dzięki temu plan zdjęciowy staje się logiczny, spójny i skuteczny.",
+      "adminExtraText": "",
+      "adminMissingTextPrompt": ""
+    },
+    {
+      "id": "L-3-2",
+      "sectionId": "S-3",
+      "sectionTitle": "Dział 3: Planowanie i organizacja planu zdjęciowego",
+      "title": "Lekcja 3.2: Dobór miejsca, sprzętu i materiałów do realizacji zdjęć",
+      "goal": "Przygotować listę sprzętu, akcesoriów i materiałów potrzebnych do wykonania sesji w studio, plenerze lub w obiekcie.",
+      "lead": "Nawet najlepszy pomysł na sesję nie zostanie dobrze zrealizowany, jeśli na miejscu zabraknie potrzebnego sprzętu albo lokalizacja okaże się nieprzygotowana do pracy. Dlatego fotograf musi umieć przewidzieć warunki i przygotować kompletny zestaw narzędzi.",
+      "intro": "W tej lekcji dowiesz się, jak dobrać miejsce wykonywania zdjęć oraz jak przygotować listę sprzętu, akcesoriów i materiałów. Nauczysz się myśleć praktycznie: nie tylko o aparacie i obiektywie, ale też o zasilaniu, bezpieczeństwie, transporcie, tle, nośnikach pamięci i elementach zapasowych.",
+      "contentBlocks": [
+        {
+          "heading": "Jak wybrać miejsce realizacji zdjęć",
+          "body": "Miejsce musi odpowiadać tematowi sesji i warunkom technicznym pracy. Studio daje kontrolę nad światłem, tłem i przestrzenią, dlatego dobrze sprawdza się przy portrecie, produkcie i fotografii katalogowej. Plener jest dobry wtedy, gdy istotne są naturalne warunki, autentyczne otoczenie albo skala przestrzeni. Obiekt, taki jak biuro, hala, sklep czy mieszkanie, wymaga wcześniejszego rozpoznania warunków: dostępności prądu, wysokości pomieszczeń, koloru ścian, możliwości ustawienia statywów i bezpieczeństwa poruszania się."
+        },
+        {
+          "heading": "Podstawowe grupy sprzętu fotograficznego",
+          "body": "Tworząc listę sprzętu, myśl kategoriami. Pierwsza grupa to sprzęt rejestrujący: aparat, obiektywy, karty pamięci, akumulatory, ładowarki i ewentualnie zapasowy korpus. Druga grupa to stabilizacja i montaż: statywy fotograficzne, głowice, wężyki spustowe, wyzwalacze. Trzecia to oświetlenie: lampy błyskowe lub światło ciągłe, statywy oświetleniowe, modyfikatory, blendy, filtry i akcesoria do sterowania światłem. Czwarta to wyposażenie planu: tła, stoliki bezcieniowe, klipsy, taśmy, przedłużacze, listwy zasilające, worki obciążające i materiały do utrzymania porządku."
+        },
+        {
+          "heading": "Dobór materiałów i akcesoriów do konkretnej sesji",
+          "body": "Materiały i akcesoria zależą od rodzaju zdjęć. W fotografii produktowej przydadzą się tła, powierzchnie ekspozycyjne, rękawiczki, ściereczki antystatyczne i narzędzia do ustawiania drobnych elementów. W portrecie potrzebne mogą być krzesła, blendy, ekran dyfuzyjny, lusterko, przypinki, wałek do ubrań i podstawowe akcesoria do poprawy wyglądu modela. W plenerze trzeba myśleć o pokrowcach przeciwdeszczowych, zapasie baterii, przenośnym zasilaniu i ochronie sprzętu przed kurzem oraz wilgocią. Dobrze przygotowana lista uwzględnia także elementy zapasowe, bo to one często ratują realizację."
+        },
+        {
+          "heading": "Lista kontrolna przed wyjazdem lub wejściem na plan",
+          "body": "Profesjonalne przygotowanie oznacza sprawdzenie kompletności zestawu. Przed sesją zweryfikuj, czy sprzęt działa, akumulatory są naładowane, karty sformatowane, lampy sprawne, a przewody nieuszkodzone. Sprawdź też, czy masz zgodę na pracę w danym miejscu, czy znasz godziny dostępu do obiektu i czy przewidziałeś czas na montaż oraz demontaż. Warto przygotować listę papierową lub cyfrową i odhaczać każdy element. To prosty sposób na ograniczenie stresu i ryzyka."
+        }
+      ],
+      "practicalExamples": [
+        "Planujesz sesję portretową w studio. Na listę wpisujesz aparat, dwa obiektywy, lampy studyjne, softbox, blendę, tło papierowe, statywy, wyzwalacze, zapasowe akumulatory, kartę pamięci i przedłużacz.",
+        "Masz wykonać zdjęcia wnętrza restauracji w działającym lokalu. Dobierasz szerokokątny obiektyw, statyw, lampy o niewielkim rozmiarze, filtry korekcyjne do mieszanych źródeł światła i planujesz pracę poza godzinami największego ruchu.",
+        "Przy fotografii produktowej małych przedmiotów wybierasz stolik bezcieniowy, światło rozproszone, kartę szarą, pęsetę, rękawiczki i materiał do czyszczenia powierzchni, ponieważ każdy pyłek będzie widoczny na zdjęciu."
+      ],
+      "keyTakeaways": [
+        "Dobór miejsca musi wynikać z celu sesji oraz możliwości technicznych i organizacyjnych.",
+        "Listę sprzętu najlepiej tworzyć według grup: rejestracja, stabilizacja, światło i wyposażenie planu.",
+        "Do każdej sesji warto przygotować akcesoria pomocnicze i elementy zapasowe.",
+        "Lista kontrolna przed realizacją zmniejsza ryzyko braków sprzętowych i opóźnień."
+      ],
+      "checkYourself": [
+        "Jakie przewagi daje studio w porównaniu z plenerem?",
+        "Dlaczego sama obecność aparatu i obiektywu nie oznacza jeszcze gotowości do sesji?",
+        "Jakie elementy zapasowe powinny znaleźć się w torbie fotografa przy pracy poza studiem?"
+      ],
+      "summary": "Dobór miejsca, sprzętu i materiałów to praktyczna część planowania sesji. Jeśli potrafisz przewidzieć warunki pracy i przygotować kompletną listę potrzebnych elementów, działasz sprawniej, bezpieczniej i bardziej profesjonalnie. Dobrze wyposażony plan zdjęciowy zaczyna się od dobrej organizacji.",
+      "adminExtraText": "",
+      "adminMissingTextPrompt": ""
+    },
+    {
+      "id": "L-3-3",
+      "sectionId": "S-3",
+      "sectionTitle": "Dział 3: Planowanie i organizacja planu zdjęciowego",
+      "title": "Lekcja 3.3: Szkic planu zdjęciowego i schematy oświetlenia",
+      "goal": "Tworzyć czytelną dokumentację sesji, w tym szkic planu, schemat ustawienia lamp i zapotrzebowanie materiałowo-sprzętowe.",
+      "lead": "Dokumentacja planu zdjęciowego pozwala uporządkować pomysł i zamienić go w konkretny układ pracy. Dzięki szkicowi i schematowi oświetlenia łatwiej przygotujesz plan, odtworzysz ustawienia i unikniesz chaosu podczas sesji.",
+      "intro": "W tej lekcji nauczysz się tworzyć prostą, ale użyteczną dokumentację fotograficzną. Poznasz zasady wykonywania szkicu planu zdjęciowego, schematu oświetlenia oraz zestawienia sprzętowo-materiałowego. Nie chodzi o rysunek artystyczny, lecz o jasne przekazanie informacji potrzebnych do realizacji.",
+      "contentBlocks": [
+        {
+          "heading": "Po co tworzy się szkic planu zdjęciowego",
+          "body": "Szkic planu pokazuje, jak będą rozmieszczone najważniejsze elementy sesji: fotografowany obiekt, aparat, statywy, lampy, tła i przestrzeń robocza. Pozwala ocenić, czy plan jest wykonalny w danym pomieszczeniu lub miejscu oraz czy zachowane są odpowiednie odległości. Taki szkic pomaga także w komunikacji z zespołem, klientem lub asystentem, bo wszyscy widzą ten sam układ pracy. W praktyce wystarczy prosty rzut z góry z oznaczeniami i podpisami."
+        },
+        {
+          "heading": "Jak przygotować czytelny schemat oświetlenia",
+          "body": "Schemat oświetlenia powinien pokazywać liczbę źródeł światła, ich położenie, wysokość, kierunek świecenia i funkcję. Warto oznaczać, które światło jest główne, które wypełniające, a które buduje kontur, tło lub akcent. Dobrze jest dopisać także rodzaj modyfikatora, na przykład softbox, parasolka, strumienica lub blenda, oraz orientacyjną moc lampy lub relację jasności między źródłami. Taki schemat ułatwia powtórzenie sesji i analizę tego, dlaczego obraz wygląda właśnie w ten sposób."
+        },
+        {
+          "heading": "Jakie informacje powinna zawierać dokumentacja sesji",
+          "body": "Kompletna dokumentacja nie kończy się na rysunku. Powinna zawierać nazwę zlecenia, datę, miejsce realizacji, cel sesji, przewidywany rodzaj zdjęć, listę sprzętu, listę materiałów, przewidywany czas pracy oraz uwagi organizacyjne. Dobrą praktyką jest zapisanie planowanych ogniskowych, rodzaju tła, charakteru światła i wstępnych ustawień aparatu. Jeśli sesja obejmuje kilka ujęć lub aranżacji, warto przygotować osobne wersje dokumentacji dla każdej z nich."
+        },
+        {
+          "heading": "Zapotrzebowanie materiałowo-sprzętowe",
+          "body": "Zapotrzebowanie materiałowo-sprzętowe to uporządkowana lista wszystkiego, co będzie potrzebne do wykonania zadania. Powinna obejmować sprzęt główny, sprzęt pomocniczy, akcesoria montażowe, elementy scenografii, materiały eksploatacyjne i środki zabezpieczające. Dzięki temu nie tylko łatwiej spakujesz się na sesję, ale także oszacujesz koszty, czas montażu i potrzeby logistyczne. To ważne szczególnie przy większych realizacjach albo wtedy, gdy pracujesz w obcym obiekcie."
+        }
+      ],
+      "practicalExamples": [
+        "Przy sesji portretowej rysujesz z góry pozycję modela, aparatu, lampy głównej z softboxem pod kątem około 45 stopni, blendy po stronie cienia oraz tła oddalonego od modela, aby ograniczyć rzucanie cieni.",
+        "Dla fotografii produktowej tworzysz schemat, w którym zaznaczasz stolik bezcieniowy, dwie lampy po bokach, światło od góry, pozycję aparatu na statywie i miejsce na kartę szarą do kontroli balansu bieli.",
+        "Przed zdjęciami wnętrza przygotowujesz dokument z listą: aparat, szerokokątny obiektyw, statyw, wyzwalacz, lampy, przedłużacze, taśma, filtry korekcyjne, ściereczki i harmonogram pracy w kolejnych pomieszczeniach."
+      ],
+      "keyTakeaways": [
+        "Szkic planu zdjęciowego pomaga ocenić przestrzeń i logicznie rozmieścić elementy sesji.",
+        "Schemat oświetlenia powinien pokazywać nie tylko pozycję lamp, ale też ich funkcję i charakter światła.",
+        "Dokumentacja sesji ułatwia komunikację, organizację pracy i powtarzalność efektów.",
+        "Zapotrzebowanie materiałowo-sprzętowe porządkuje logistykę i ogranicza ryzyko braków na planie."
+      ],
+      "checkYourself": [
+        "Jakie elementy powinny znaleźć się na szkicu planu zdjęciowego?",
+        "Dlaczego warto opisywać funkcję każdej lampy w schemacie oświetlenia?",
+        "W jaki sposób dokumentacja sesji pomaga przy powtarzaniu podobnych realizacji w przyszłości?"
+      ],
+      "summary": "Czytelna dokumentacja sesji to narzędzie pracy fotografa. Szkic planu, schemat oświetlenia i lista materiałowo-sprzętowa pomagają przejść od pomysłu do sprawnej realizacji. Dzięki nim plan zdjęciowy staje się przewidywalny, uporządkowany i łatwy do odtworzenia.",
+      "adminExtraText": "",
+      "adminMissingTextPrompt": ""
+    },
+    {
+      "id": "L-3-4",
+      "sectionId": "S-3",
+      "sectionTitle": "Dział 3: Planowanie i organizacja planu zdjęciowego",
+      "title": "Lekcja 3.4: Budowa sceny, montaż akcesoriów i przygotowanie obiektu",
+      "goal": "Ustawiać elementy sceny zgodnie z dokumentacją, montować akcesoria oraz przygotowywać fotografowany obiekt zgodnie z zasadami kompozycji i bezpieczeństwa.",
+      "lead": "Na etapie budowy sceny plan przestaje być tylko pomysłem, a staje się rzeczywistą przestrzenią pracy. To moment, w którym liczy się dokładność, estetyka i bezpieczeństwo, bo każde niedopatrzenie może być widoczne na zdjęciu albo utrudnić realizację.",
+      "intro": "W tej lekcji poznasz zasady ustawiania elementów sceny, montażu akcesoriów fotograficznych oraz przygotowania fotografowanego obiektu. Dowiesz się, jak łączyć kompozycję z organizacją pracy i jak dbać o bezpieczeństwo podczas przygotowania planu zdjęciowego.",
+      "contentBlocks": [
+        {
+          "heading": "Ustawianie sceny zgodnie z dokumentacją",
+          "body": "Budowę sceny rozpoczynaj od ustawienia najważniejszych elementów zgodnie ze szkicem i planem sesji. Najpierw przygotuj tło, miejsce dla obiektu lub modela oraz pozycję aparatu, a dopiero potem ustawiaj dodatkowe elementy. Zachowuj odpowiednie odległości, aby mieć miejsce na światło, ruch fotografa i bezpieczne przejście. Jeśli podczas montażu okaże się, że warunki różnią się od założeń, wprowadzaj zmiany świadomie i zapisuj je, aby nie stracić spójności z planowaną koncepcją."
+        },
+        {
+          "heading": "Montaż akcesoriów i sprzętu pomocniczego",
+          "body": "Akcesoria, takie jak tła, blendy, softboxy, uchwyty, stoliki bezcieniowe czy filtry, powinny być montowane stabilnie i zgodnie z instrukcją użytkowania. Sprawdzaj zaciski, blokady i połączenia, a przewody prowadź tak, aby nie stanowiły zagrożenia. Statywy warto dociążać workami obciążającymi, zwłaszcza gdy pracujesz z większymi modyfikatorami światła. Nie spiesz się przy montażu, ponieważ źle zabezpieczony sprzęt może się przewrócić i uszkodzić zarówno wyposażenie, jak i fotografowany obiekt."
+        },
+        {
+          "heading": "Przygotowanie fotografowanego obiektu",
+          "body": "Przed wykonaniem zdjęć obiekt musi być przygotowany wizualnie. W przypadku produktu oznacza to oczyszczenie powierzchni, ustawienie etykiet, kontrolę odbić, sprawdzenie symetrii i detali. W przypadku portretu lub fotografii osoby ważny jest ubiór, ułożenie włosów, postawa, kierunek spojrzenia i relacja z tłem. W fotografii wnętrz trzeba usunąć zbędne elementy, uporządkować przestrzeń i zadbać o kompozycję. Każdy detal, którego nie poprawisz przed zdjęciem, zwykle będzie wymagał późniejszego retuszu albo stanie się widocznym błędem."
+        },
+        {
+          "heading": "Kompozycja i porządek na planie",
+          "body": "Przygotowanie sceny powinno uwzględniać zasady kompozycji. Zwracaj uwagę na linie, proporcje, równowagę, kierunki w kadrze oraz relację obiektu do tła. Staraj się ograniczyć przypadkowe elementy rozpraszające uwagę. Pamiętaj też, że porządek poza kadrem wpływa na porządek w kadrze. Dobrze zorganizowany plan ułatwia przemieszczanie sprzętu, szybką korektę ustawień i utrzymanie koncentracji podczas sesji."
+        },
+        {
+          "heading": "Bezpieczeństwo podczas organizacji planu zdjęciowego",
+          "body": "Podczas budowy sceny musisz przestrzegać zasad bezpieczeństwa i ergonomii. Nie blokuj przejść, zabezpieczaj przewody, nie przeciążaj gniazd zasilających i nie ustawiaj ciężkiego sprzętu na niestabilnym podłożu. Jeśli pracujesz z gorącymi źródłami światła, pamiętaj o ryzyku oparzenia i o odpowiedniej wentylacji. Organizuj stanowisko tak, aby ruch był naturalny, a dostęp do sprzętu łatwy. Bezpieczny plan zdjęciowy to nie dodatek, lecz warunek profesjonalnej pracy."
+        }
+      ],
+      "practicalExamples": [
+        "Podczas sesji produktowej ustawiasz tło, stolik bezcieniowy i aparat na statywie, a następnie czyścisz fotografowany przedmiot z kurzu i odcisków palców, zanim włączysz światło i rozpoczniesz kadrowanie.",
+        "Przy portrecie biznesowym montujesz tło papierowe, stabilizujesz statywy lamp workami obciążającymi, przygotowujesz krzesło dla modela i sprawdzasz, czy ubranie nie ma zagnieceń ani drobnych zabrudzeń.",
+        "W fotografii wnętrza usuwasz zbędne przedmioty z kadru, prostujesz elementy wyposażenia, zasłaniasz widoczne przewody i ustawiasz sprzęt tak, aby nie uszkodzić wyposażenia lokalu ani nie utrudniać poruszania się."
+      ],
+      "keyTakeaways": [
+        "Scenę buduje się etapami, zaczynając od najważniejszych elementów zgodnie z dokumentacją.",
+        "Akcesoria i sprzęt pomocniczy muszą być montowane stabilnie i bezpiecznie.",
+        "Przygotowanie obiektu do zdjęć ogranicza liczbę błędów widocznych w kadrze i zmniejsza potrzebę retuszu.",
+        "Porządek, kompozycja i bezpieczeństwo na planie wzajemnie się uzupełniają."
+      ],
+      "checkYourself": [
+        "Dlaczego warto przygotować obiekt przed rozpoczęciem kadrowania i pomiaru światła?",
+        "Jakie zagrożenia mogą wynikać z nieprawidłowego montażu statywów i lamp?",
+        "W jaki sposób organizacja przestrzeni poza kadrem wpływa na jakość pracy fotografa?"
+      ],
+      "summary": "Budowa sceny to etap, w którym decydujesz o jakości i bezpieczeństwie całej sesji. Ustawienie elementów zgodnie z dokumentacją, prawidłowy montaż akcesoriów oraz staranne przygotowanie obiektu pozwalają pracować sprawnie i uzyskać estetyczny, kontrolowany efekt końcowy.",
+      "adminExtraText": "",
+      "adminMissingTextPrompt": ""
+    },
+    {
+      "id": "L-3-5",
+      "sectionId": "S-3",
+      "sectionTitle": "Dział 3: Planowanie i organizacja planu zdjęciowego",
+      "title": "Lekcja 3.5: Pomiar światła, ekspozycja i ustawienia aparatu",
+      "goal": "Wykonywać pomiar oświetlenia, dobierać ekspozycję, ogniskową, ostrość i pozostałe parametry rejestracji obrazu do warunków zdjęciowych.",
+      "lead": "Nawet dobrze przygotowany plan zdjęciowy nie wystarczy, jeśli błędnie ustawisz aparat i źle ocenisz światło. Umiejętność pomiaru oświetlenia oraz świadomego doboru ekspozycji decyduje o technicznej poprawności zdjęcia.",
+      "intro": "W tej lekcji skupisz się na parametrach rejestracji obrazu. Nauczysz się mierzyć światło, dobierać ekspozycję, ustawiać ogniskową, ostrość i pozostałe parametry aparatu tak, aby odpowiadały tematowi zdjęcia oraz warunkom na planie.",
+      "contentBlocks": [
+        {
+          "heading": "Jak oceniać i mierzyć światło",
+          "body": "Pomiar światła możesz wykonać za pomocą światłomierza lub systemu pomiarowego wbudowanego w aparat. Najważniejsze jest ustalenie, czy pracujesz przy świetle zastanym, błyskowym czy mieszanym. Musisz ocenić kierunek światła, jego natężenie, kontrast oraz temperaturę barwową. W praktyce nie chodzi tylko o liczbę, ale o zrozumienie, jak światło modeluje obiekt. Pomiar pomaga określić punkt wyjścia, ale fotograf powinien umieć interpretować wynik i korygować go zgodnie z zamierzonym efektem."
+        },
+        {
+          "heading": "Trójkąt ekspozycji w praktyce",
+          "body": "Ekspozycję budujesz za pomocą trzech podstawowych parametrów: przysłony, czasu naświetlania i czułości ISO. Przysłona wpływa na ilość światła i głębię ostrości. Czas naświetlania decyduje o rejestrowaniu ruchu lub jego zamrożeniu. ISO wpływa na czułość matrycy, ale przy wysokich wartościach może pogarszać jakość obrazu. Dobry dobór ekspozycji oznacza nie tylko poprawną jasność, lecz także zgodność z celem zdjęcia. Inne ustawienia wybierzesz do portretu z miękkim tłem, a inne do fotografii technicznej, gdzie ważna jest duża szczegółowość."
+        },
+        {
+          "heading": "Dobór ogniskowej, planu zdjęciowego i kadru",
+          "body": "Ogniskowa wpływa na sposób przedstawienia przestrzeni, perspektywę i proporcje fotografowanego obiektu. Krótsze ogniskowe obejmują szerszy plan, ale mogą zniekształcać proporcje, jeśli podejdziesz zbyt blisko. Dłuższe ogniskowe zawężają kadr i dają bardziej naturalne odwzorowanie twarzy w portrecie. Dobierając plan zdjęciowy, decydujesz, ile otoczenia pokażesz i co ma być najważniejsze. Ustawienia aparatu powinny wspierać tę decyzję, a nie działać przypadkowo."
+        },
+        {
+          "heading": "Ustawianie ostrości i kontrola obrazu",
+          "body": "Punkt ostrości powinien znaleźć się tam, gdzie widz ma skierować uwagę. W portrecie zwykle będzie to oko najbliżej aparatu, w fotografii produktowej najważniejszy detal, a w zdjęciach technicznych obszar kluczowy dla dokumentacji. Korzystaj z autofokusa lub ręcznego ustawiania ostrości w zależności od sytuacji. Po wykonaniu zdjęcia kontroluj histogram, ostrość, przepalenia, cienie i kolor. Szybka weryfikacja na planie pozwala skorygować błędy, zanim zakończysz sesję."
+        },
+        {
+          "heading": "Dostosowanie ustawień do rodzaju zdjęć",
+          "body": "Nie ma jednego uniwersalnego zestawu parametrów dla wszystkich sytuacji. W fotografii studyjnej często pracuje się przy niskim ISO i stabilnych ustawieniach na statywie. W reportażu ważniejsze są szybki czas i gotowość do zmiany warunków. W makrofotografii rośnie znaczenie precyzyjnego ustawienia ostrości i odpowiedniej głębi ostrości. Przy świetle błyskowym trzeba uwzględniać synchronizację lampy z migawką. Fotograf powinien dobierać ustawienia świadomie, zależnie od zadania, a nie z przyzwyczajenia."
+        }
+      ],
+      "practicalExamples": [
+        "W portrecie studyjnym ustawiasz niskie ISO, przysłonę zapewniającą odpowiednią głębię ostrości i czas zgodny z synchronizacją błysku, a następnie korygujesz moc lamp, aby uzyskać właściwe światło na twarzy.",
+        "Podczas reportażu w sali o słabym oświetleniu wybierasz wyższe ISO i krótszy czas naświetlania, aby ograniczyć poruszenie, a przysłonę dopasowujesz do potrzebnej głębi ostrości i jasności obiektywu.",
+        "Przy fotografii produktu na statywie dobierasz średnią lub małą przysłonę dla większej ostrości całego obiektu, ustawiasz ostrość ręcznie i sprawdzasz histogram, aby uniknąć utraty szczegółów w jasnych partiach."
+      ],
+      "keyTakeaways": [
+        "Pomiar światła jest punktem wyjścia do świadomego ustawienia ekspozycji.",
+        "Przysłona, czas i ISO trzeba dobierać łącznie, a nie osobno.",
+        "Ogniskowa i punkt ostrości wpływają na sposób odbioru zdjęcia tak samo mocno jak jasność obrazu.",
+        "Każde zdjęcie warto kontrolować na planie, aby od razu wykryć błędy techniczne."
+      ],
+      "checkYourself": [
+        "Jakie informacje o świetle powinieneś ocenić jeszcze przed wykonaniem pierwszego zdjęcia?",
+        "Dlaczego poprawna ekspozycja nie zawsze oznacza takie same ustawienia aparatu w różnych rodzajach fotografii?",
+        "W jaki sposób dobór ogniskowej wpływa na wygląd fotografowanego obiektu?"
+      ],
+      "summary": "Pomiar światła i świadome ustawienia aparatu są kluczowe dla poprawnej rejestracji obrazu. Kiedy umiesz dobrać ekspozycję, ogniskową, ostrość i pozostałe parametry do konkretnej sytuacji zdjęciowej, zyskujesz kontrolę nad efektem technicznym i estetycznym fotografii.",
+      "adminExtraText": "",
+      "adminMissingTextPrompt": ""
+    }
+  ],
+  "media": [
+    {
+      "lessonId": "L-3-1",
+      "lessonTitle": "Lekcja 3.1: Analiza zlecenia i dobór techniki fotografowania",
+      "mediaType": "lesson_visual",
+      "imagePrompt": "Nowoczesna plansza edukacyjna w języku polskim, realistyczny styl fotograficzno-infograficzny. Fotograf siedzi przy biurku i analizuje brief klienta, obok aparat, laptop z moodboardem, próbki zdjęć: portret, produkt, reportaż, architektura. Wokół czytelne ikony i strzałki pokazujące proces decyzyjny: cel sesji -> rodzaj fotografii -> warunki pracy -> technika rejestracji -> efekt końcowy. Estetyka profesjonalna, uporządkowana, jasne światło, kolory neutralne z akcentem niebieskim, bez chaosu, format poziomy 16:9.",
+      "adminImagePrompt": "",
+      "finalImagePrompt": "Nowoczesna plansza edukacyjna w języku polskim, realistyczny styl fotograficzno-infograficzny. Fotograf siedzi przy biurku i analizuje brief klienta, obok aparat, laptop z moodboardem, próbki zdjęć: portret, produkt, reportaż, architektura. Wokół czytelne ikony i strzałki pokazujące proces decyzyjny: cel sesji -> rodzaj fotografii -> warunki pracy -> technika rejestracji -> efekt końcowy. Estetyka profesjonalna, uporządkowana, jasne światło, kolory neutralne z akcentem niebieskim, bez chaosu, format poziomy 16:9.",
+      "imageDescription": "Grafika pokazuje, że planowanie sesji zaczyna się od analizy zlecenia. Centralnym elementem jest fotograf pracujący z briefem, a wokół niego widoczne są najważniejsze decyzje: po co powstają zdjęcia, jaki to rodzaj fotografii, w jakich warunkach będzie realizacja i jaki efekt końcowy ma zostać osiągnięty.",
+      "voiceoverScript": "Kwintesencją tej lekcji jest świadoma analiza zlecenia przed rozpoczęciem zdjęć. To cel sesji, rodzaj fotografii, warunki pracy i sposób publikacji decydują o wyborze techniki, miejsca, sprzętu oraz stylu obrazu. Im lepiej zrozumiesz potrzeby klienta i zadasz właściwe pytania, tym sprawniej zaplanujesz cały plan zdjęciowy.",
+      "adminVoiceoverScript": "",
+      "finalVoiceoverScript": "Kwintesencją tej lekcji jest świadoma analiza zlecenia przed rozpoczęciem zdjęć. To cel sesji, rodzaj fotografii, warunki pracy i sposób publikacji decydują o wyborze techniki, miejsca, sprzętu oraz stylu obrazu. Im lepiej zrozumiesz potrzeby klienta i zadasz właściwe pytania, tym sprawniej zaplanujesz cały plan zdjęciowy.",
+      "slideText": "Analiza zlecenia\nCel sesji -> rodzaj fotografii -> technika -> efekt końcowy",
+      "keywords": [
+        "analiza zlecenia",
+        "cel sesji",
+        "rodzaj fotografii",
+        "dobór techniki",
+        "planowanie sesji"
+      ],
+      "adminNotes": "",
+      "customImages": [],
+      "generatedImage": {
+        "status": "ready",
+        "url": "/generated_media/s-3-l-3-1-1775577806270.png?v=1775577806279",
+        "file": "s-3-l-3-1-1775577806270.png",
+        "error": ""
+      },
+      "generatedAudio": {
+        "status": "ready",
+        "url": "/generated_audio/s-3-l-3-1-1775578187861.mp3?v=1775578187871",
+        "file": "s-3-l-3-1-1775578187861.mp3",
+        "error": ""
+      }
+    },
+    {
+      "lessonId": "L-3-2",
+      "lessonTitle": "Lekcja 3.2: Dobór miejsca, sprzętu i materiałów do realizacji zdjęć",
+      "mediaType": "lesson_visual",
+      "imagePrompt": "Profesjonalna plansza edukacyjna, realistyczny styl. Podzielony kadr pokazujący trzy typy lokalizacji sesji: studio fotograficzne, plener i wnętrze obiektu. Na pierwszym planie otwarta torba fotograficzna z uporządkowanym sprzętem: aparat, obiektywy, statyw, lampy, softbox, karty pamięci, akumulatory, przedłużacz, klipsy, taśma, rękawiczki, ściereczka. Obok papierowa lub cyfrowa checklista z odhaczonymi pozycjami. Czysta kompozycja, styl szkoleniowy, wysoka czytelność, format 16:9.",
+      "adminImagePrompt": "",
+      "finalImagePrompt": "Profesjonalna plansza edukacyjna, realistyczny styl. Podzielony kadr pokazujący trzy typy lokalizacji sesji: studio fotograficzne, plener i wnętrze obiektu. Na pierwszym planie otwarta torba fotograficzna z uporządkowanym sprzętem: aparat, obiektywy, statyw, lampy, softbox, karty pamięci, akumulatory, przedłużacz, klipsy, taśma, rękawiczki, ściereczka. Obok papierowa lub cyfrowa checklista z odhaczonymi pozycjami. Czysta kompozycja, styl szkoleniowy, wysoka czytelność, format 16:9.",
+      "imageDescription": "Ilustracja podkreśla, że gotowość do sesji zależy nie tylko od aparatu, ale od właściwego wyboru miejsca oraz kompletnej listy sprzętu, akcesoriów i materiałów. Widać różne warunki pracy i zestaw narzędzi potrzebnych do profesjonalnej realizacji.",
+      "voiceoverScript": "Sednem tej lekcji jest praktyczne przygotowanie do zdjęć. Fotograf musi dobrać miejsce pracy do celu sesji, a następnie skompletować sprzęt, oświetlenie, akcesoria i elementy zapasowe. Dobrze przygotowana lista kontrolna zmniejsza ryzyko braków, opóźnień i problemów na planie.",
+      "adminVoiceoverScript": "",
+      "finalVoiceoverScript": "Sednem tej lekcji jest praktyczne przygotowanie do zdjęć. Fotograf musi dobrać miejsce pracy do celu sesji, a następnie skompletować sprzęt, oświetlenie, akcesoria i elementy zapasowe. Dobrze przygotowana lista kontrolna zmniejsza ryzyko braków, opóźnień i problemów na planie.",
+      "slideText": "Dobór miejsca i wyposażenia\nLokalizacja + sprzęt + akcesoria + lista kontrolna",
+      "keywords": [
+        "lokalizacja sesji",
+        "sprzęt fotograficzny",
+        "akcesoria",
+        "checklista",
+        "organizacja planu"
+      ],
+      "adminNotes": "",
+      "customImages": [],
+      "generatedImage": {
+        "status": "ready",
+        "url": "/generated_media/s-3-l-3-2-1775577853757.png?v=1775577853771",
+        "file": "s-3-l-3-2-1775577853757.png",
+        "error": ""
+      },
+      "generatedAudio": {
+        "status": "ready",
+        "url": "/generated_audio/s-3-l-3-2-1775578191691.mp3?v=1775578191693",
+        "file": "s-3-l-3-2-1775578191691.mp3",
+        "error": ""
+      }
+    },
+    {
+      "lessonId": "L-3-3",
+      "lessonTitle": "Lekcja 3.3: Szkic planu zdjęciowego i schematy oświetlenia",
+      "mediaType": "lesson_visual",
+      "imagePrompt": "Czytelna grafika edukacyjna w stylu profesjonalnej dokumentacji fotograficznej. Widok z góry na kartkę lub tablet z narysowanym szkicem planu zdjęciowego: aparat, model lub produkt, tło, lampy, blenda, statywy, strzałki kierunku światła, podpisy: światło główne, wypełniające, tło. Obok lista sprzętu i materiałów oraz notatki: data, miejsce, czas pracy, ustawienia aparatu. Estetyka techniczna, precyzyjna, minimalistyczna, wysoka czytelność, format 16:9.",
+      "adminImagePrompt": "",
+      "finalImagePrompt": "Czytelna grafika edukacyjna w stylu profesjonalnej dokumentacji fotograficznej. Widok z góry na kartkę lub tablet z narysowanym szkicem planu zdjęciowego: aparat, model lub produkt, tło, lampy, blenda, statywy, strzałki kierunku światła, podpisy: światło główne, wypełniające, tło. Obok lista sprzętu i materiałów oraz notatki: data, miejsce, czas pracy, ustawienia aparatu. Estetyka techniczna, precyzyjna, minimalistyczna, wysoka czytelność, format 16:9.",
+      "imageDescription": "Grafika pokazuje, że dokumentacja sesji to nie ozdoba, lecz narzędzie pracy. Szkic planu, schemat oświetlenia i lista materiałowo-sprzętowa pomagają uporządkować pomysł, sprawdzić wykonalność ustawień i łatwo odtworzyć sesję.",
+      "voiceoverScript": "Najważniejszą ideą tej lekcji jest przełożenie pomysłu na czytelną dokumentację. Szkic planu pokazuje rozmieszczenie elementów sesji, schemat oświetlenia wyjaśnia funkcję i kierunek światła, a lista materiałowo-sprzętowa porządkuje logistykę. Dzięki temu plan zdjęciowy staje się przewidywalny, komunikatywny i łatwy do powtórzenia.",
+      "adminVoiceoverScript": "",
+      "finalVoiceoverScript": "Najważniejszą ideą tej lekcji jest przełożenie pomysłu na czytelną dokumentację. Szkic planu pokazuje rozmieszczenie elementów sesji, schemat oświetlenia wyjaśnia funkcję i kierunek światła, a lista materiałowo-sprzętowa porządkuje logistykę. Dzięki temu plan zdjęciowy staje się przewidywalny, komunikatywny i łatwy do powtórzenia.",
+      "slideText": "Dokumentacja sesji\nSzkic planu + schemat światła + lista sprzętu",
+      "keywords": [
+        "szkic planu zdjęciowego",
+        "schemat oświetlenia",
+        "dokumentacja sesji",
+        "lista sprzętu",
+        "logistyka planu"
+      ],
+      "adminNotes": "",
+      "customImages": [],
+      "generatedImage": {
+        "status": "ready",
+        "url": "/generated_media/s-3-l-3-3-1775577892422.png?v=1775577892428",
+        "file": "s-3-l-3-3-1775577892422.png",
+        "error": ""
+      },
+      "generatedAudio": {
+        "status": "ready",
+        "url": "/generated_audio/s-3-l-3-3-1775578196354.mp3?v=1775578196356",
+        "file": "s-3-l-3-3-1775578196354.mp3",
+        "error": ""
+      }
+    },
+    {
+      "lessonId": "L-3-4",
+      "lessonTitle": "Lekcja 3.4: Budowa sceny, montaż akcesoriów i przygotowanie obiektu",
+      "mediaType": "lesson_visual",
+      "imagePrompt": "Realistyczna scena studyjna o charakterze edukacyjnym. Fotograf przygotowuje plan zdjęciowy: rozstawione tło, stabilne statywy z workami obciążającymi, zamontowane softboxy, przewody zabezpieczone taśmą przy podłodze. Na stole fotografowany produkt jest czyszczony z kurzu, obok akcesoria do stylizacji i porządkowania sceny. Wszystko uporządkowane, estetyczne, bezpieczne, profesjonalne, format 16:9.",
+      "adminImagePrompt": "",
+      "finalImagePrompt": "Realistyczna scena studyjna o charakterze edukacyjnym. Fotograf przygotowuje plan zdjęciowy: rozstawione tło, stabilne statywy z workami obciążającymi, zamontowane softboxy, przewody zabezpieczone taśmą przy podłodze. Na stole fotografowany produkt jest czyszczony z kurzu, obok akcesoria do stylizacji i porządkowania sceny. Wszystko uporządkowane, estetyczne, bezpieczne, profesjonalne, format 16:9.",
+      "imageDescription": "Obraz przedstawia moment, w którym plan zdjęciowy staje się realną przestrzenią pracy. Widać prawidłowy montaż akcesoriów, porządek na planie, zabezpieczenie sprzętu oraz staranne przygotowanie fotografowanego obiektu przed rozpoczęciem zdjęć.",
+      "voiceoverScript": "Kwintesencją tej lekcji jest dokładne i bezpieczne przygotowanie sceny. Elementy planu należy ustawiać zgodnie z dokumentacją, akcesoria montować stabilnie, a obiekt dopracować wizualnie jeszcze przed fotografowaniem. Porządek, kompozycja i bezpieczeństwo bezpośrednio wpływają na jakość pracy i efekt końcowy zdjęcia.",
+      "adminVoiceoverScript": "",
+      "finalVoiceoverScript": "Kwintesencją tej lekcji jest dokładne i bezpieczne przygotowanie sceny. Elementy planu należy ustawiać zgodnie z dokumentacją, akcesoria montować stabilnie, a obiekt dopracować wizualnie jeszcze przed fotografowaniem. Porządek, kompozycja i bezpieczeństwo bezpośrednio wpływają na jakość pracy i efekt końcowy zdjęcia.",
+      "slideText": "Budowa sceny\nMontaż, porządek, przygotowanie obiektu, bezpieczeństwo",
+      "keywords": [
+        "budowa sceny",
+        "montaż akcesoriów",
+        "przygotowanie obiektu",
+        "bezpieczeństwo na planie",
+        "kompozycja"
+      ],
+      "adminNotes": "",
+      "customImages": [],
+      "generatedImage": {
+        "status": "ready",
+        "url": "/generated_media/s-3-l-3-4-1775577945694.png?v=1775577945698",
+        "file": "s-3-l-3-4-1775577945694.png",
+        "error": ""
+      },
+      "generatedAudio": {
+        "status": "ready",
+        "url": "/generated_audio/s-3-l-3-4-1775578200955.mp3?v=1775578200957",
+        "file": "s-3-l-3-4-1775578200955.mp3",
+        "error": ""
+      }
+    },
+    {
+      "lessonId": "L-3-5",
+      "lessonTitle": "Lekcja 3.5: Pomiar światła, ekspozycja i ustawienia aparatu",
+      "mediaType": "lesson_visual",
+      "imagePrompt": "Nowoczesna plansza edukacyjna, realistyczny styl techniczny. Zbliżenie na aparat fotograficzny i światłomierz w dłoni fotografa, w tle przygotowana scena zdjęciowa. Na grafice czytelne elementy infograficzne: trójkąt ekspozycji z podpisami przysłona, czas, ISO; ikonka ogniskowej, punkt ostrości na oku modela lub detalu produktu, mały histogram na ekranie aparatu. Profesjonalna estetyka, wysoka czytelność, stonowane kolory, format 16:9.",
+      "adminImagePrompt": "",
+      "finalImagePrompt": "Nowoczesna plansza edukacyjna, realistyczny styl techniczny. Zbliżenie na aparat fotograficzny i światłomierz w dłoni fotografa, w tle przygotowana scena zdjęciowa. Na grafice czytelne elementy infograficzne: trójkąt ekspozycji z podpisami przysłona, czas, ISO; ikonka ogniskowej, punkt ostrości na oku modela lub detalu produktu, mały histogram na ekranie aparatu. Profesjonalna estetyka, wysoka czytelność, stonowane kolory, format 16:9.",
+      "imageDescription": "Grafika podsumowuje techniczną stronę pracy fotografa: ocenę światła, świadomy dobór ekspozycji, wybór ogniskowej i ustawienie ostrości. Pokazuje, że poprawna rejestracja obrazu wynika z interpretacji warunków, a nie z przypadkowych ustawień aparatu.",
+      "voiceoverScript": "Sednem tej lekcji jest kontrola nad techniczną stroną zdjęcia. Fotograf najpierw ocenia światło, a potem świadomie łączy przysłonę, czas i ISO z doborem ogniskowej oraz punktu ostrości. Regularna kontrola histogramu i ostrości na planie pozwala szybko wykryć błędy i dopracować obraz jeszcze przed zakończeniem sesji.",
+      "adminVoiceoverScript": "",
+      "finalVoiceoverScript": "Sednem tej lekcji jest kontrola nad techniczną stroną zdjęcia. Fotograf najpierw ocenia światło, a potem świadomie łączy przysłonę, czas i ISO z doborem ogniskowej oraz punktu ostrości. Regularna kontrola histogramu i ostrości na planie pozwala szybko wykryć błędy i dopracować obraz jeszcze przed zakończeniem sesji.",
+      "slideText": "Pomiar i ekspozycja\nŚwiatło -> przysłona, czas, ISO -> ogniskowa -> ostrość",
+      "keywords": [
+        "pomiar światła",
+        "ekspozycja",
+        "trójkąt ekspozycji",
+        "ogniskowa",
+        "ostrość"
+      ],
+      "adminNotes": "",
+      "customImages": [],
+      "generatedImage": {
+        "status": "ready",
+        "url": "/generated_media/s-3-l-3-5-1775578001402.png?v=1775578001408",
+        "file": "s-3-l-3-5-1775578001402.png",
+        "error": ""
+      },
+      "generatedAudio": {
+        "status": "ready",
+        "url": "/generated_audio/s-3-l-3-5-1775578205114.mp3?v=1775578205202",
+        "file": "s-3-l-3-5-1775578205114.mp3",
+        "error": ""
+      }
+    }
+  ],
+  "worksheets": [
+    {
+      "lessonId": "L-3-1",
+      "lessonTitle": "Lekcja 3.1: Analiza zlecenia i dobór techniki fotografowania",
+      "worksheet": {
+        "title": "Karta pracy — Analiza zlecenia fotograficznego",
+        "taskIntro": "Przeanalizuj przykładowe zlecenie fotograficzne i dobierz technikę pracy adekwatną do celu sesji, warunków oraz oczekiwanego efektu końcowego.",
+        "instructions": [
+          "Wybierz jeden temat sesji: portret biznesowy, zdjęcie produktu do sklepu internetowego albo reportaż z wydarzenia. Zapisz cel zdjęć, odbiorcę, miejsce publikacji i oczekiwany styl wizualny.",
+          "Przygotuj krótką analizę zlecenia, odpowiadając na pytania: co fotografujesz, po co, dla kogo, gdzie, kiedy, w jakich warunkach i ile zdjęć ma powstać.",
+          "Na podstawie analizy dobierz rodzaj fotografii i technikę rejestracji obrazu. Uzasadnij wybór miejsca pracy, sposobu oświetlenia i ogólnego podejścia do sesji."
+        ],
+        "deliverables": [
+          "Karta analizy zlecenia zawierająca minimum 6 kluczowych informacji o sesji.",
+          "Krótki opis dobranej techniki fotografowania z uzasadnieniem.",
+          "Lista 5 pytań, które zadałbyś klientowi przed sesją."
+        ],
+        "successCriteria": [
+          "Analiza jasno określa cel sesji, odbiorcę i sposób wykorzystania zdjęć.",
+          "Dobór techniki fotografowania wynika z warunków pracy i efektu końcowego.",
+          "Uzasadnienie pokazuje logiczne powiązanie między zleceniem a decyzjami fotograficznymi."
+        ],
+        "estimatedMinutes": 25
+      }
+    },
+    {
+      "lessonId": "L-3-2",
+      "lessonTitle": "Lekcja 3.2: Dobór miejsca, sprzętu i materiałów do realizacji zdjęć",
+      "worksheet": {
+        "title": "Karta pracy — Lista sprzętu i wybór miejsca sesji",
+        "taskIntro": "Zaplanuj realną sesję zdjęciową i przygotuj kompletną listę miejsca, sprzętu, akcesoriów oraz materiałów potrzebnych do jej wykonania.",
+        "instructions": [
+          "Wybierz rodzaj sesji: studio, plener albo zdjęcia w obiekcie. Opisz krótko lokalizację i wskaż jej najważniejsze warunki techniczne oraz organizacyjne.",
+          "Przygotuj listę sprzętu w 4 grupach: rejestracja obrazu, stabilizacja, oświetlenie, wyposażenie planu. Dodaj także elementy zapasowe.",
+          "Uzupełnij listę o materiały i akcesoria pomocnicze potrzebne do konkretnej sesji, a następnie zaznacz, które elementy musisz sprawdzić przed wyjazdem lub wejściem na plan."
+        ],
+        "deliverables": [
+          "Opis wybranego miejsca realizacji z minimum 4 informacjami organizacyjno-technicznymi.",
+          "Lista sprzętu i akcesoriów podzielona na kategorie.",
+          "Krótka lista kontrolna przed sesją zawierająca co najmniej 8 punktów."
+        ],
+        "successCriteria": [
+          "Wybrane miejsce jest uzasadnione charakterem sesji i warunkami pracy.",
+          "Lista obejmuje nie tylko aparat i obiektywy, ale także światło, zasilanie, nośniki i akcesoria pomocnicze.",
+          "Lista kontrolna ogranicza ryzyko braków sprzętowych i problemów organizacyjnych."
+        ],
+        "estimatedMinutes": 30
+      }
+    },
+    {
+      "lessonId": "L-3-3",
+      "lessonTitle": "Lekcja 3.3: Szkic planu zdjęciowego i schematy oświetlenia",
+      "worksheet": {
+        "title": "Karta pracy — Szkic planu zdjęciowego i schemat światła",
+        "taskIntro": "Przygotuj prostą dokumentację wybranej sesji: szkic planu zdjęciowego, schemat oświetlenia oraz zestawienie potrzebnych elementów.",
+        "instructions": [
+          "Wybierz jedną sytuację zdjęciową: portret, produkt albo wnętrze. Narysuj prosty szkic planu z góry, zaznaczając położenie aparatu, fotografowanego obiektu, tła, lamp i przestrzeni roboczej.",
+          "Na osobnym schemacie opisz każde źródło światła: pozycję, kierunek świecenia, funkcję oraz użyty modyfikator lub odbłyśnik.",
+          "Dołącz krótką dokumentację sesji: nazwę zlecenia, miejsce, przewidywany czas pracy oraz listę sprzętu i materiałów potrzebnych do realizacji."
+        ],
+        "deliverables": [
+          "Szkic planu zdjęciowego z podpisanymi elementami.",
+          "Schemat oświetlenia z opisem funkcji każdej lampy lub odbijanego światła.",
+          "Zestawienie materiałowo-sprzętowe do wybranej sesji."
+        ],
+        "successCriteria": [
+          "Szkic jest czytelny i pokazuje logiczne rozmieszczenie elementów planu.",
+          "Schemat światła zawiera pozycję źródeł oraz ich funkcję w budowaniu obrazu.",
+          "Dokumentacja umożliwia przygotowanie i odtworzenie sesji w podobnych warunkach."
+        ],
+        "estimatedMinutes": 30
+      }
+    },
+    {
+      "lessonId": "L-3-4",
+      "lessonTitle": "Lekcja 3.4: Budowa sceny, montaż akcesoriów i przygotowanie obiektu",
+      "worksheet": {
+        "title": "Karta pracy — Przygotowanie sceny zdjęciowej",
+        "taskIntro": "Zorganizuj mały plan zdjęciowy według własnego pomysłu lub wcześniej przygotowanego szkicu. Skup się na poprawnym ustawieniu elementów sceny, montażu akcesoriów i przygotowaniu obiektu do zdjęcia.",
+        "instructions": [
+          "Przygotuj prostą scenę do zdjęcia produktu, portretu lub fragmentu wnętrza. Ustaw tło, miejsce dla obiektu lub modela oraz pozycję aparatu zgodnie z założoną kompozycją.",
+          "Zamontuj potrzebne akcesoria, takie jak statyw, lampa, blenda, tło lub stolik. Sprawdź stabilność ustawień i zabezpiecz przewody oraz cięższe elementy.",
+          "Przygotuj fotografowany obiekt do zdjęcia: usuń zabrudzenia, popraw detale, uporządkuj kadr i oceń, czy w scenie nie ma elementów rozpraszających uwagę."
+        ],
+        "deliverables": [
+          "Zdjęcie lub krótki opis gotowej sceny przed wykonaniem fotografii.",
+          "Lista wykonanych czynności przygotowawczych i zabezpieczających.",
+          "Krótka notatka: co poprawiono w obiekcie lub przestrzeni przed rozpoczęciem zdjęć."
+        ],
+        "successCriteria": [
+          "Scena została zbudowana etapami i zachowuje porządek kompozycyjny.",
+          "Akcesoria są zamontowane stabilnie, a organizacja planu uwzględnia bezpieczeństwo pracy.",
+          "Obiekt jest przygotowany estetycznie i nie zawiera oczywistych błędów widocznych w kadrze."
+        ],
+        "estimatedMinutes": 25
+      }
+    },
+    {
+      "lessonId": "L-3-5",
+      "lessonTitle": "Lekcja 3.5: Pomiar światła, ekspozycja i ustawienia aparatu",
+      "worksheet": {
+        "title": "Karta pracy — Dobór ekspozycji i ustawień aparatu",
+        "taskIntro": "Wykonaj serię próbnych zdjęć tego samego obiektu w wybranych warunkach oświetleniowych i świadomie dobierz ustawienia aparatu do celu fotografii.",
+        "instructions": [
+          "Wybierz prosty temat zdjęcia, na przykład portret, produkt lub fragment wnętrza. Oceń rodzaj światła, jego kierunek, natężenie i charakter, a następnie zapisz warunki pracy.",
+          "Ustaw aparat i wykonaj co najmniej 3 zdjęcia próbne, zmieniając parametry ekspozycji lub ogniskową. Zanotuj dla każdego ujęcia: przysłonę, czas, ISO, ogniskową i sposób ustawienia ostrości.",
+          "Porównaj efekty i wybierz najlepsze ustawienie. Krótko uzasadnij, dlaczego ta kombinacja parametrów najlepiej odpowiada tematowi oraz warunkom zdjęciowym."
+        ],
+        "deliverables": [
+          "Tabela z minimum 3 zestawami ustawień aparatu.",
+          "Wybrane zdjęcie końcowe lub wskazanie najlepszego ujęcia z krótkim uzasadnieniem.",
+          "Krótka notatka z oceny światła i kontroli efektu technicznego."
+        ],
+        "successCriteria": [
+          "Parametry ekspozycji zostały dobrane świadomie i zapisane w uporządkowany sposób.",
+          "Uczeń potrafi wyjaśnić wpływ przysłony, czasu, ISO, ogniskowej i ostrości na efekt zdjęcia.",
+          "Wybór najlepszego ujęcia wynika z analizy światła oraz jakości technicznej obrazu."
+        ],
+        "estimatedMinutes": 30
+      }
+    }
+  ],
+  "sectionQuiz": {
+    "title": "Quiz działowy — Dział 3: Planowanie i organizacja planu zdjęciowego",
+    "questions": [
+      {
+        "question": "Od jakiego działania należy zacząć planowanie sesji fotograficznej na podstawie zlecenia?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Od ustawienia lamp i wyboru tła",
+          "b": "Od ustalenia celu zdjęć i sposobu ich wykorzystania",
+          "c": "Od wyboru najdroższego obiektywu",
+          "d": "Od natychmiastowego wykonania zdjęć próbnych"
+        },
+        "correctAnswer": "b",
+        "explanation": "Cel sesji decyduje o technice fotografowania, sprzęcie, miejscu pracy i oczekiwanym efekcie końcowym."
+      },
+      {
+        "question": "Która sytuacja najlepiej uzasadnia wybór fotografii studyjnej zamiast pleneru?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Gdy najważniejsza jest pełna kontrola nad światłem i tłem",
+          "b": "Gdy zależy nam wyłącznie na naturalnym otoczeniu",
+          "c": "Gdy chcemy pracować bez żadnych przygotowań",
+          "d": "Gdy sesja ma wyglądać przypadkowo i spontanicznie"
+        },
+        "correctAnswer": "a",
+        "explanation": "Studio wybiera się wtedy, gdy trzeba precyzyjnie kontrolować warunki oświetleniowe i tło."
+      },
+      {
+        "question": "Dlaczego ten sam obiekt można fotografować różnymi technikami w zależności od zlecenia?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Ponieważ każdy fotograf ma obowiązek stosować wszystkie techniki",
+          "b": "Ponieważ technika zależy głównie od koloru aparatu",
+          "c": "Ponieważ o wyborze techniki decydują cel zdjęcia, warunki pracy i oczekiwany efekt końcowy",
+          "d": "Ponieważ zawsze trzeba używać technik specjalnych"
+        },
+        "correctAnswer": "c",
+        "explanation": "Ten sam temat może pełnić różne funkcje, więc wymaga innego sposobu rejestracji i prezentacji."
+      },
+      {
+        "question": "Który zestaw najlepiej pokazuje logiczny podział listy sprzętu do sesji?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Sprzęt tani, drogi, nowy i stary",
+          "b": "Sprzęt rejestrujący, stabilizacja, oświetlenie i wyposażenie planu",
+          "c": "Aparaty osobno, wszystko inne razem",
+          "d": "Wyłącznie aparat i obiektyw, bo reszta zależy od improwizacji"
+        },
+        "correctAnswer": "b",
+        "explanation": "Tworzenie listy według grup ułatwia organizację i zmniejsza ryzyko pominięcia ważnych elementów."
+      },
+      {
+        "question": "Jaki jest główny cel szkicu planu zdjęciowego?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Pokazanie artystycznych umiejętności rysownika",
+          "b": "Zastąpienie próbnego ustawienia planu",
+          "c": "Ocena rozmieszczenia elementów sesji i ułatwienie organizacji pracy",
+          "d": "Udokumentowanie wyłącznie parametrów obiektywu"
+        },
+        "correctAnswer": "c",
+        "explanation": "Szkic pomaga zaplanować przestrzeń, rozstawienie sprzętu i komunikację z zespołem."
+      },
+      {
+        "question": "Co powinien zawierać czytelny schemat oświetlenia?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Wyłącznie liczbę lamp bez opisu ich roli",
+          "b": "Pozycję źródeł światła, kierunek świecenia i funkcję każdej lampy",
+          "c": "Tylko nazwę producenta lamp",
+          "d": "Jedynie godzinę rozpoczęcia sesji"
+        },
+        "correctAnswer": "b",
+        "explanation": "Dobry schemat pokazuje nie tylko gdzie stoją lampy, ale też jakie zadanie pełni każde źródło światła."
+      },
+      {
+        "question": "Dlaczego przygotowanie fotografowanego obiektu przed wykonaniem zdjęć jest tak ważne?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Bo pozwala ograniczyć widoczne błędy w kadrze i zmniejsza potrzebę retuszu",
+          "b": "Bo zastępuje ustawienie ostrości i ekspozycji",
+          "c": "Bo dzięki temu można zrezygnować z oświetlenia",
+          "d": "Bo obiekt zawsze wygląda lepiej z dużej odległości"
+        },
+        "correctAnswer": "a",
+        "explanation": "Kurz, odciski, zagniecenia czy bałagan w kadrze lepiej usunąć przed zdjęciem niż poprawiać później."
+      },
+      {
+        "question": "Które działanie najlepiej zwiększa bezpieczeństwo na planie zdjęciowym?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Ustawianie ciężkich lamp na niestabilnym podłożu",
+          "b": "Pozostawienie przewodów w przejściach, aby były pod ręką",
+          "c": "Dociążanie statywów i zabezpieczanie przewodów przed potknięciem",
+          "d": "Podłączanie wszystkich urządzeń do jednego przeciążonego gniazda"
+        },
+        "correctAnswer": "c",
+        "explanation": "Stabilny montaż sprzętu i zabezpieczenie przewodów to podstawowe zasady bezpiecznej organizacji planu."
+      },
+      {
+        "question": "Co oznacza świadome stosowanie trójkąta ekspozycji?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Ustawianie przysłony, czasu i ISO łącznie, zależnie od efektu i warunków",
+          "b": "Zmianę tylko jednego parametru bez wpływu na pozostałe",
+          "c": "Pracę zawsze na najwyższym ISO",
+          "d": "Wybór parametrów wyłącznie według automatyki aparatu"
+        },
+        "correctAnswer": "a",
+        "explanation": "Przysłona, czas i ISO wpływają na siebie wzajemnie, dlatego dobiera się je razem do konkretnego zadania."
+      },
+      {
+        "question": "Które stwierdzenie najlepiej opisuje znaczenie kontroli zdjęcia na planie po jego wykonaniu?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Nie jest potrzebna, jeśli fotograf pracuje w RAW",
+          "b": "Służy tylko do sprawdzenia, czy karta pamięci działa",
+          "c": "Pozwala od razu wykryć problemy z ostrością, ekspozycją, kolorem i przepaleniami",
+          "d": "Jest ważna tylko przy fotografii reportażowej"
+        },
+        "correctAnswer": "c",
+        "explanation": "Szybka weryfikacja obrazu na planie umożliwia poprawienie błędów jeszcze podczas sesji."
+      }
+    ]
+  },
+  "sectionTest": {
+    "title": "Test działowy — Dział 3: Planowanie i organizacja planu zdjęciowego",
+    "totalQuestions": 20,
+    "passingPercent": 50,
+    "questions": [
+      {
+        "question": "Od jakiego etapu należy rozpocząć planowanie sesji zdjęciowej według zasad omawianych w dziale?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Od zakupu nowych akcesoriów do aparatu",
+          "b": "Od analizy celu zlecenia i sposobu wykorzystania zdjęć",
+          "c": "Od wyboru programu do obróbki zdjęć",
+          "d": "Od ustawienia lamp na planie",
+          "e": "Od wykonania próbnego retuszu",
+          "f": "Od publikacji zapowiedzi sesji w mediach społecznościowych"
+        },
+        "correctAnswer": "b",
+        "explanation": "Planowanie zaczyna się od zrozumienia celu sesji, odbiorcy i zastosowania zdjęć."
+      },
+      {
+        "question": "Która cecha najlepiej charakteryzuje fotografię reportażową?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Pełna kontrola nad tłem i światłem w studio",
+          "b": "Obowiązkowe stosowanie statywu i bardzo długiego czasu ekspozycji",
+          "c": "Szybkie reagowanie na sytuacje i praca w zmiennych warunkach",
+          "d": "Wierność odwzorowania potrzebna w dokumentacji technicznej",
+          "e": "Stałe używanie obiektywu makro",
+          "f": "Konieczność fotografowania wyłącznie czarno-białego"
+        },
+        "correctAnswer": "c",
+        "explanation": "Reportaż wymaga mobilności, obserwacji i szybkiej reakcji na zmieniające się sytuacje."
+      },
+      {
+        "question": "Kiedy technika studyjna będzie najtrafniejszym wyborem?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Gdy najważniejsza jest pełna kontrola nad światłem i tłem",
+          "b": "Gdy fotograf chce uniknąć używania lamp",
+          "c": "Gdy nie ma czasu na przygotowanie planu",
+          "d": "Gdy sesja musi odbyć się podczas deszczu w otwartej przestrzeni",
+          "e": "Gdy zdjęcia mają wyglądać całkowicie przypadkowo",
+          "f": "Gdy klient nie określił celu zlecenia"
+        },
+        "correctAnswer": "a",
+        "explanation": "Studio daje największą kontrolę nad warunkami oświetleniowymi i sceną."
+      },
+      {
+        "question": "Która informacja o efekcie końcowym najbardziej wpływa na decyzje techniczne podczas sesji?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Ulubiony kolor fotografa",
+          "b": "Marka torby fotograficznej",
+          "c": "Format publikacji i sposób prezentacji zdjęcia",
+          "d": "Długość nazwy pliku",
+          "e": "Numer seryjny aparatu",
+          "f": "Kolejność pakowania statywów"
+        },
+        "correctAnswer": "c",
+        "explanation": "To, czy zdjęcie trafi do dużego wydruku, sklepu internetowego czy mediów społecznościowych, wpływa na parametry i sposób fotografowania."
+      },
+      {
+        "question": "Które pytanie warto zadać klientowi jeszcze przed sesją?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Jakiego koloru ma być pasek aparatu fotografa?",
+          "b": "Czy klient ma przykłady referencyjne i jakie są ograniczenia lokalizacji?",
+          "c": "Ile zdjęć fotograf publikuje prywatnie w tygodniu?",
+          "d": "Jaki model telefonu ma asystent?",
+          "e": "Czy klient woli pliki zapisane alfabetycznie czy według długości nazw?",
+          "f": "Czy obiektyw był kiedyś serwisowany?"
+        },
+        "correctAnswer": "b",
+        "explanation": "Referencje i ograniczenia miejsca pomagają dobrać technikę, sprzęt i organizację pracy."
+      },
+      {
+        "question": "Do której grupy wyposażenia należy zaliczyć karty pamięci, akumulatory i zapasowy korpus?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Do sprzętu rejestrującego",
+          "b": "Do scenografii planu",
+          "c": "Do środków transportu",
+          "d": "Do wyposażenia BHP niezwiązanego z fotografią",
+          "e": "Do materiałów promocyjnych",
+          "f": "Do elementów dekoracyjnych tła"
+        },
+        "correctAnswer": "a",
+        "explanation": "To podstawowe elementy związane bezpośrednio z rejestracją obrazu."
+      },
+      {
+        "question": "Przy wyborze obiektu, takiego jak biuro lub hala, co należy sprawdzić przed sesją?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Wyłącznie liczbę okien, bez innych warunków",
+          "b": "Tylko kolor podłogi",
+          "c": "Dostęp do prądu, wysokość pomieszczeń i możliwość ustawienia statywów",
+          "d": "Jedynie nazwę właściciela budynku",
+          "e": "Wyłącznie odległość od najbliższej kawiarni",
+          "f": "Tylko temperaturę zewnętrzną w poprzednim tygodniu"
+        },
+        "correctAnswer": "c",
+        "explanation": "Warunki techniczne i organizacyjne obiektu mają bezpośredni wpływ na możliwość realizacji zdjęć."
+      },
+      {
+        "question": "Dlaczego na liście sprzętu warto uwzględnić elementy zapasowe?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Aby sprzęt wyglądał bardziej profesjonalnie na zdjęciach zza kulis",
+          "b": "Ponieważ tylko zapasowy sprzęt można legalnie przewozić",
+          "c": "Aby wydłużyć czas przygotowania sesji",
+          "d": "Ponieważ elementy zapasowe często ratują realizację w razie awarii lub braków",
+          "e": "Aby uniknąć używania listy kontrolnej",
+          "f": "Ponieważ klient zawsze wymaga podwójnego kompletu wszystkiego"
+        },
+        "correctAnswer": "d",
+        "explanation": "Zapasowe akumulatory, karty czy przewody ograniczają ryzyko przerwania pracy."
+      },
+      {
+        "question": "Jaki jest główny cel wykonania szkicu planu zdjęciowego?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Stworzenie artystycznego rysunku do portfolio fotografa",
+          "b": "Pokazanie rozmieszczenia najważniejszych elementów sesji i ocena wykonalności planu",
+          "c": "Zastąpienie wszystkich ustawień aparatu",
+          "d": "Wyłącznie ozdobienie dokumentacji klienta",
+          "e": "Zapisanie nazw plików wynikowych",
+          "f": "Automatyczne dobranie ekspozycji"
+        },
+        "correctAnswer": "b",
+        "explanation": "Szkic pomaga uporządkować przestrzeń, sprawdzić odległości i komunikować plan pracy."
+      },
+      {
+        "question": "Co powinien zawierać czytelny schemat oświetlenia?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Wyłącznie liczbę lamp bez określenia ich roli",
+          "b": "Tylko nazwę producenta oświetlenia",
+          "c": "Położenie źródeł światła, kierunek świecenia i funkcję każdej lampy",
+          "d": "Wyłącznie sugerowaną cenę wypożyczenia lamp",
+          "e": "Tylko kolor kabli zasilających",
+          "f": "Jedynie orientacyjną godzinę rozpoczęcia zdjęć"
+        },
+        "correctAnswer": "c",
+        "explanation": "Schemat powinien wyjaśniać, gdzie są lampy i jaką pełnią funkcję w budowaniu obrazu."
+      },
+      {
+        "question": "Który zestaw informacji najlepiej opisuje kompletną dokumentację sesji?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Wyłącznie nazwę zlecenia i numer telefonu klienta",
+          "b": "Tylko listę zdjęć referencyjnych z internetu",
+          "c": "Nazwę zlecenia, datę, miejsce, cel sesji, listę sprzętu i uwagi organizacyjne",
+          "d": "Wyłącznie dane do faktury",
+          "e": "Tylko ustawienia balansu bieli",
+          "f": "Jedynie szkic bez żadnych opisów"
+        },
+        "correctAnswer": "c",
+        "explanation": "Dokumentacja ma wspierać organizację, logistykę i powtarzalność realizacji."
+      },
+      {
+        "question": "Czemu służy zapotrzebowanie materiałowo-sprzętowe?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Wyłącznie ozdobieniu harmonogramu sesji",
+          "b": "Uporządkowaniu listy potrzebnych elementów oraz oszacowaniu logistyki i kosztów",
+          "c": "Zastąpieniu pomiaru światła",
+          "d": "Automatycznemu wyborowi ogniskowej",
+          "e": "Zmniejszeniu liczby wykonanych zdjęć",
+          "f": "Publikacji zdjęć bez zgody klienta"
+        },
+        "correctAnswer": "b",
+        "explanation": "Taka lista porządkuje przygotowania i pomaga przewidzieć potrzeby realizacyjne."
+      },
+      {
+        "question": "W jakiej kolejności należy zwykle budować scenę zdjęciową?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Najpierw przypadkowe dodatki, a potem obiekt główny",
+          "b": "Najpierw przygotowanie najważniejszych elementów zgodnie z dokumentacją, potem dodatki",
+          "c": "Najpierw retusz zdjęć, a później montaż planu",
+          "d": "Najpierw publikacja efektów, potem ustawienie tła",
+          "e": "Najpierw demontaż planu, potem dobór miejsca",
+          "f": "Wyłącznie według kolejności kolorów akcesoriów"
+        },
+        "correctAnswer": "b",
+        "explanation": "Najpierw ustawia się kluczowe elementy: tło, miejsce obiektu i pozycję aparatu, a dopiero później dodatki."
+      },
+      {
+        "question": "Jak należy postępować podczas montażu akcesoriów i sprzętu pomocniczego?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Montować je szybko, bez sprawdzania blokad i zacisków",
+          "b": "Ustawiać przewody w przejściach, żeby były łatwo dostępne",
+          "c": "Montować stabilnie, sprawdzać połączenia i zabezpieczać statywy obciążnikami",
+          "d": "Zawsze rezygnować z instrukcji producenta",
+          "e": "Opierać ciężkie lampy o ścianę zamiast używać statywów",
+          "f": "Przenosić softboxy wyłącznie za przewody zasilające"
+        },
+        "correctAnswer": "c",
+        "explanation": "Stabilny i bezpieczny montaż zmniejsza ryzyko wypadku oraz uszkodzenia sprzętu."
+      },
+      {
+        "question": "Co oznacza prawidłowe przygotowanie fotografowanego obiektu przed wykonaniem zdjęć produktowych?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Wyłącznie zwiększenie nasycenia kolorów w aparacie",
+          "b": "Pozostawienie kurzu i odcisków palców do późniejszego retuszu",
+          "c": "Oczyszczenie powierzchni, kontrolę detali i ustawienie elementów zgodnie z założeniem",
+          "d": "Zmniejszenie liczby lamp do jednej bez względu na potrzeby",
+          "e": "Fotografowanie tylko z ręki",
+          "f": "Pomijanie kontroli odbić i symetrii"
+        },
+        "correctAnswer": "c",
+        "explanation": "Dobre przygotowanie obiektu ogranicza błędy w kadrze i zmniejsza potrzebę retuszu."
+      },
+      {
+        "question": "Dlaczego porządek poza kadrem ma znaczenie dla jakości pracy fotografa?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Nie ma żadnego znaczenia, jeśli sam kadr wygląda dobrze",
+          "b": "Ponieważ bałagan ułatwia szybsze odnajdywanie sprzętu",
+          "c": "Ponieważ wpływa na bezpieczeństwo, sprawność pracy i łatwość wprowadzania korekt",
+          "d": "Ponieważ klient ocenia tylko liczbę przewodów na podłodze",
+          "e": "Ponieważ w nieuporządkowanej przestrzeni aparat działa ostrzej",
+          "f": "Ponieważ porządek automatycznie zmienia ogniskową obiektywu"
+        },
+        "correctAnswer": "c",
+        "explanation": "Dobrze zorganizowany plan ułatwia ruch, poprawki i koncentrację podczas sesji."
+      },
+      {
+        "question": "Które informacje o świetle należy ocenić przed wykonaniem pierwszego zdjęcia?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Wyłącznie markę lampy",
+          "b": "Kierunek, natężenie, kontrast i temperaturę barwową światła",
+          "c": "Tylko długość przewodów zasilających",
+          "d": "Wyłącznie kolor statywu",
+          "e": "Jedynie numer kanału wyzwalacza",
+          "f": "Tylko nazwę pliku ustawień aparatu"
+        },
+        "correctAnswer": "b",
+        "explanation": "To podstawowe cechy światła, które wpływają na ekspozycję i wygląd fotografowanego obiektu."
+      },
+      {
+        "question": "Co tworzy trójkąt ekspozycji?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Balans bieli, ogniskowa i format pliku",
+          "b": "Przysłona, czas naświetlania i ISO",
+          "c": "Autofokus, histogram i stabilizacja",
+          "d": "Kontrast, nasycenie i ostrość",
+          "e": "Moc lampy, kolor tła i wysokość statywu",
+          "f": "Perspektywa, kadr i retusz"
+        },
+        "correctAnswer": "b",
+        "explanation": "Ekspozycję budują trzy podstawowe parametry: przysłona, czas i czułość ISO."
+      },
+      {
+        "question": "Jak dobór ogniskowej wpływa na obraz?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Nie wpływa na nic poza wagą aparatu",
+          "b": "Wpływa na sposób pokazania przestrzeni, perspektywę i proporcje obiektu",
+          "c": "Zmienia wyłącznie nazwę pliku zapisu",
+          "d": "Decyduje tylko o kolorze zdjęcia",
+          "e": "Służy jedynie do regulacji jasności lamp",
+          "f": "Automatycznie ustawia głębię ostrości niezależnie od przysłony"
+        },
+        "correctAnswer": "b",
+        "explanation": "Ogniskowa wpływa na kadr, perspektywę oraz sposób odwzorowania fotografowanego obiektu."
+      },
+      {
+        "question": "Dlaczego po wykonaniu zdjęcia warto kontrolować histogram, ostrość i ewentualne przepalenia?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Aby wydłużyć czas sesji",
+          "b": "Aby uniknąć konieczności rozmowy z klientem",
+          "c": "Aby wcześnie wykryć błędy techniczne i skorygować je jeszcze na planie",
+          "d": "Aby zastąpić dokumentację sesji",
+          "e": "Aby nie używać światłomierza",
+          "f": "Aby zmniejszyć liczbę kart pamięci"
+        },
+        "correctAnswer": "c",
+        "explanation": "Kontrola na bieżąco pozwala poprawić ustawienia zanim sesja się zakończy."
+      }
+    ]
+  },
+  "files": {
+    "sectionJson": "",
+    "lessonsJson": "",
+    "mediaJson": "",
+    "worksheetsJson": "",
+    "quizJson": "",
+    "testJson": ""
+  }
+}

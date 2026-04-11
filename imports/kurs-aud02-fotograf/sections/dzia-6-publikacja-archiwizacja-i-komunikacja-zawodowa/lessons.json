@@ -1,0 +1,278 @@
+[
+  {
+    "id": "L-6-1",
+    "sectionId": "S-6",
+    "sectionTitle": "Dział 6: Publikacja, archiwizacja i komunikacja zawodowa",
+    "title": "Lekcja 6.1: Przygotowanie plików do publikacji internetowej i galerii cyfrowej",
+    "goal": "Dobierać formaty, rozdzielczość, kompresję i sposób prezentacji zdjęć do publikacji online oraz tworzyć spójne galerie cyfrowe.",
+    "lead": "Publikacja zdjęcia w internecie nie polega tylko na wrzuceniu pliku na stronę lub do mediów społecznościowych. Trzeba dobrać odpowiedni format, rozmiar, kompresję i sposób prezentacji, tak aby fotografia wyglądała dobrze, ładowała się szybko i była czytelna na różnych urządzeniach.",
+    "intro": "W tej lekcji nauczysz się przygotowywać fotografie do publikacji internetowej i budować galerie cyfrowe, które są spójne wizualnie oraz wygodne dla odbiorcy. Poznasz zasady doboru parametrów plików, organizowania kolejności zdjęć i dbania o jakość prezentacji online.",
+    "contentBlocks": [
+      {
+        "heading": "Jak dobrać format pliku do publikacji online",
+        "body": "Do publikacji internetowej najczęściej stosuje się pliki JPEG, ponieważ zapewniają dobry kompromis między jakością a rozmiarem. Format PNG sprawdza się wtedy, gdy potrzebujesz przezroczystości albo grafiki z ostrymi krawędziami, ale zwykle zajmuje więcej miejsca. W niektórych zastosowaniach internetowych można spotkać nowocześniejsze formaty, jednak najważniejsze jest to, by wybrany plik był poprawnie wyświetlany na różnych urządzeniach i w popularnych przeglądarkach. W praktyce fotograf najczęściej przygotowuje zoptymalizowany JPEG w przestrzeni barw sRGB, ponieważ to najbezpieczniejsze rozwiązanie dla internetu."
+      },
+      {
+        "heading": "Rozdzielczość, wymiary i kompresja zdjęcia",
+        "body": "W publikacji internetowej kluczowe są wymiary w pikselach, a nie sama wartość DPI. Jeśli zdjęcie ma być wyświetlane na stronie, liczy się jego szerokość i wysokość, na przykład 1600 px na dłuższym boku dla galerii portfolio albo 2048 px dla prezentacji pełnoekranowej. Zbyt duży plik spowalnia ładowanie strony, a zbyt mocna kompresja obniża jakość i powoduje artefakty. Dlatego warto zapisywać zdjęcia z umiarkowaną kompresją: taką, która zachowuje szczegóły, ale nie tworzy niepotrzebnie ciężkich plików. Zawsze sprawdzaj efekt końcowy po eksporcie, powiększając obraz i oceniając ostrość, przejścia tonalne oraz jednolite powierzchnie."
+      },
+      {
+        "heading": "Spójność galerii cyfrowej",
+        "body": "Dobra galeria cyfrowa nie jest przypadkowym zbiorem fotografii. Zdjęcia powinny tworzyć logiczny i estetyczny ciąg. Warto zadbać o podobne proporcje kadru, zbliżony poziom obróbki, konsekwentny kontrast i jednolitą temperaturę barwową całej serii. Istotna jest też kolejność prezentacji. Pierwsze zdjęcie powinno przyciągać uwagę, kolejne rozwijać temat, a ostatnie zostawiać dobre wrażenie. Jeśli tworzysz galerię dla klienta, pamiętaj również o czytelnym nazewnictwie, miniaturach oraz podziale na kategorie, takie jak portret, produkt, reportaż czy backstage."
+      },
+      {
+        "heading": "Praktyczne zasady publikacji i prezentacji online",
+        "body": "Przed publikacją sprawdź, czy zdjęcia są poprawnie wyostrzone do ekranu i zapisane w odpowiedniej przestrzeni barw. Zadbaj o podstawowe metadane, takie jak autor, tytuł lub słowa kluczowe, jeśli system publikacji z nich korzysta. W galerii cyfrowej ważna jest także wygoda odbiorcy: sensowna liczba zdjęć, szybkie ładowanie, estetyczne miniatury i brak chaosu wizualnego. Jeżeli publikujesz zdjęcia komercyjne, pamiętaj o zgodzie na publikację, prawie autorskim i ochronie wizerunku. W praktyce dobra publikacja internetowa łączy jakość obrazu, porządek prezentacji i zgodność z zasadami zawodowymi."
+      }
+    ],
+    "practicalExamples": [
+      "Przygotowujesz portfolio portretowe na stronę internetową. Eksportujesz zdjęcia do JPEG w sRGB, ustawiasz 1800 px na dłuższym boku i sprawdzasz, czy skóra oraz detale włosów nie tracą jakości po kompresji.",
+      "Tworzysz galerię z reportażu ślubnego dla klienta. Porządkujesz zdjęcia chronologicznie, wybierasz spójną kolorystykę całej serii i dzielisz materiał na sekcje: przygotowania, ceremonia, przyjęcie.",
+      "Publikujesz zdjęcia produktów w sklepie internetowym. Zachowujesz jednolite tło, takie same proporcje kadru i podobną wielkość obiektu w kadrze, aby cała galeria wyglądała profesjonalnie i czytelnie."
+    ],
+    "keyTakeaways": [
+      "Do publikacji internetowej najczęściej wybiera się JPEG w przestrzeni sRGB.",
+      "W internecie ważniejsze od DPI są rzeczywiste wymiary zdjęcia w pikselach.",
+      "Dobra galeria cyfrowa powinna być spójna pod względem kolejności, estetyki i obróbki.",
+      "Publikacja online musi łączyć jakość obrazu, szybkość działania i zgodność z prawem."
+    ],
+    "checkYourself": [
+      "Dlaczego do internetu najczęściej przygotowuje się zdjęcia w przestrzeni sRGB?",
+      "Co ma większe znaczenie przy publikacji online: DPI czy wymiary obrazu w pikselach?",
+      "Jakie elementy decydują o tym, że galeria cyfrowa wygląda spójnie i profesjonalnie?"
+    ],
+    "summary": "Przygotowanie zdjęć do internetu wymaga świadomego doboru formatu, wielkości pliku i sposobu prezentacji. Jako fotograf powinieneś umieć połączyć jakość obrazu z wygodą odbiorcy, a pojedyncze zdjęcia układać w spójne galerie cyfrowe. To ważna część profesjonalnej publikacji obrazu.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  },
+  {
+    "id": "L-6-2",
+    "sectionId": "S-6",
+    "sectionTitle": "Dział 6: Publikacja, archiwizacja i komunikacja zawodowa",
+    "title": "Lekcja 6.2: Przygotowanie fotografii do druku i dobór materiałów eksploatacyjnych",
+    "goal": "Ustalać parametry pliku do wydruku, dobierać papier, atrament i ustawienia drukarki oraz kontrolować jakość odbitki fotograficznej.",
+    "lead": "To, że zdjęcie dobrze wygląda na monitorze, nie oznacza jeszcze, że równie dobrze wyjdzie na papierze. Druk fotograficzny wymaga przygotowania pliku, właściwego doboru nośnika i kontroli parametrów urządzenia.",
+    "intro": "W tej lekcji poznasz podstawy przygotowania fotografii do wydruku. Dowiesz się, jak określić docelowy format odbitki, dobrać odpowiedni papier i atrament oraz jak ocenić, czy gotowy wydruk spełnia wymagania jakościowe.",
+    "contentBlocks": [
+      {
+        "heading": "Parametry pliku do wydruku",
+        "body": "Przygotowując zdjęcie do druku, musisz znać docelowy format odbitki i sposób jej prezentacji. Dla wysokiej jakości odbitek najczęściej przyjmuje się rozdzielczość około 240 do 300 ppi w finalnym rozmiarze wydruku. Oznacza to, że plik musi mieć odpowiednią liczbę pikseli już na etapie eksportu. Należy także zwrócić uwagę na proporcje obrazu, aby uniknąć niekontrolowanego kadrowania. Jeżeli fotografia ma być drukowana z ramką, passe-partout lub jako duży wydruk wystawowy, trzeba uwzględnić to wcześniej w przygotowaniu pliku."
+      },
+      {
+        "heading": "Dobór papieru i materiałów eksploatacyjnych",
+        "body": "Papier fotograficzny wpływa na odbiór obrazu równie mocno jak sama fotografia. Papier błyszczący podkreśla kontrast i nasycenie barw, ale może dawać odbicia światła. Papier matowy jest bardziej stonowany i elegancki, dobrze sprawdza się w wystawach oraz portretach. Papiery satynowe i półmatowe stanowią rozwiązanie pośrednie. Dobierając materiał, zwracaj uwagę na gramaturę, fakturę, biel podłoża i kompatybilność z drukarką oraz atramentem. Nie każdy papier nadaje się do każdego typu urządzenia, dlatego zawsze sprawdzaj specyfikację producenta."
+      },
+      {
+        "heading": "Ustawienia drukarki i zarządzanie barwą",
+        "body": "Aby wydruk był przewidywalny, stanowisko pracy powinno być skalibrowane, a drukarka poprawnie skonfigurowana. Trzeba dobrać właściwy typ papieru w ustawieniach sterownika, jakość druku oraz sposób zarządzania kolorem. Błędem jest jednoczesne sterowanie kolorem przez program graficzny i przez drukarkę, ponieważ może to prowadzić do podwójnej korekcji barw. W praktyce warto korzystać z odpowiednich profili i drukować próbki kontrolne przed wykonaniem finalnej odbitki. Dzięki temu łatwiej wychwycisz różnice w jasności, dominanty barwne i utratę szczegółów."
+      },
+      {
+        "heading": "Ocena jakości odbitki fotograficznej",
+        "body": "Gotowy wydruk należy oceniać w odpowiednich warunkach oświetleniowych, najlepiej w neutralnym świetle. Sprawdza się wtedy ostrość, kontrast, nasycenie kolorów, przejścia tonalne oraz jednolitość powierzchni. Warto porównać wydruk z obrazem na skalibrowanym monitorze, pamiętając jednak, że papier i ekran zawsze różnią się sposobem prezentacji obrazu. Jeśli wydruk jest zbyt ciemny, zbyt zimny albo traci szczegóły w cieniach, wróć do pliku i skoryguj ustawienia. Profesjonalna praca polega na kontrolowaniu całego procesu, a nie tylko na kliknięciu polecenia drukowania."
+      }
+    ],
+    "practicalExamples": [
+      "Drukujesz portret w formacie A4 do portfolio. Sprawdzasz, czy plik ma odpowiednią rozdzielczość, wybierasz papier półmatowy i wykonujesz próbny wydruk, aby ocenić odcień skóry.",
+      "Przygotowujesz duży wydruk krajobrazowy na wystawę. Dobierasz papier matowy o wyższej gramaturze, ponieważ zdjęcie będzie oglądane w silnym świetle galerii i nie chcesz odbić na powierzchni.",
+      "Realizujesz wydruki produktowe dla klienta. Porównujesz efekt na dwóch rodzajach papieru i wybierasz ten, który najlepiej oddaje kolor opakowania oraz detale faktury."
+    ],
+    "keyTakeaways": [
+      "Do druku liczy się finalny rozmiar odbitki i odpowiednia rozdzielczość pliku.",
+      "Papier wpływa na kontrast, nasycenie, odbicia światła i ogólny charakter fotografii.",
+      "Poprawne ustawienia drukarki i zarządzania barwą są niezbędne dla przewidywalnego wyniku.",
+      "Każdy wydruk należy oceniać w odpowiednich warunkach i w razie potrzeby korygować."
+    ],
+    "checkYourself": [
+      "Dlaczego przed drukiem trzeba znać docelowy format odbitki?",
+      "Czym może różnić się odbiór tej samej fotografii na papierze błyszczącym i matowym?",
+      "Jakie błędy mogą pojawić się, gdy kolor jest jednocześnie zarządzany przez program i drukarkę?"
+    ],
+    "summary": "Przygotowanie fotografii do druku to połączenie wiedzy technicznej i świadomych decyzji estetycznych. Musisz dobrać właściwy plik, papier, atrament i ustawienia urządzenia, a następnie ocenić odbitkę pod kątem jakości. Dzięki temu uzyskasz wydruk zgodny z zamierzeniem autora i oczekiwaniami klienta.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  },
+  {
+    "id": "L-6-3",
+    "sectionId": "S-6",
+    "sectionTitle": "Dział 6: Publikacja, archiwizacja i komunikacja zawodowa",
+    "title": "Lekcja 6.3: Ekspozycja fotografii w przestrzeni wystawienniczej",
+    "goal": "Dobierać system prezentacji, planować układ prac i przygotowywać fotografie do bezpiecznej i estetycznej ekspozycji.",
+    "lead": "Dobra fotografia może stracić siłę oddziaływania, jeśli zostanie źle pokazana. Odbiór pracy zależy nie tylko od samego obrazu, lecz także od formy prezentacji, wysokości zawieszenia, oświetlenia i sposobu prowadzenia widza przez wystawę.",
+    "intro": "W tej lekcji poznasz zasady przygotowania fotografii do ekspozycji w galerii, szkole, instytucji kultury lub przestrzeni komercyjnej. Dowiesz się, jak planować układ prac, dobierać systemy prezentacji i chronić wydruki przed uszkodzeniem.",
+    "contentBlocks": [
+      {
+        "heading": "Wybór systemu prezentacji",
+        "body": "System prezentacji należy dobrać do charakteru fotografii, miejsca ekspozycji i budżetu. Zdjęcia mogą być prezentowane w ramach, na piance, dibondzie, w antyramach, w passe-partout albo jako wydruki wielkoformatowe montowane bezpośrednio na podłożu. Każde rozwiązanie daje inny efekt wizualny i inny poziom ochrony pracy. W przestrzeniach profesjonalnych często wybiera się rozwiązania trwałe i estetyczne, które podkreślają rangę fotografii. W miejscach tymczasowych lub edukacyjnych można stosować prostsze formy, ale nadal należy dbać o stabilność i bezpieczeństwo ekspozycji."
+      },
+      {
+        "heading": "Planowanie układu prac",
+        "body": "Układ fotografii na ścianie lub w sali powinien tworzyć czytelną opowieść wizualną. Warto ustalić kolejność oglądania, odstępy między pracami, wysokość zawieszenia i relacje między formatami. Wystawa nie powinna być ani zbyt ciasna, ani zbyt pusta. Zbyt wiele prac obok siebie męczy odbiorcę, a zbyt duże odstępy rozbijają narrację. Dobrą praktyką jest przygotowanie wcześniej szkicu lub prostego planu rozmieszczenia. Pomaga to ocenić, czy seria działa jako całość, czy wymaga skrócenia albo przegrupowania."
+      },
+      {
+        "heading": "Oświetlenie i warunki oglądania",
+        "body": "Fotografia na wystawie powinna być dobrze widoczna, ale nie może być narażona na zbyt intensywne światło, odbicia lub przegrzewanie. Oświetlenie powinno wydobywać obraz, a nie przeszkadzać w odbiorze. Trzeba uważać szczególnie przy powierzchniach błyszczących i szkłach, które łatwo łapią refleksy. Ważne są także warunki otoczenia: wilgotność, temperatura i ryzyko zabrudzeń. W przypadku cennych lub delikatnych odbitek należy ograniczać czynniki, które mogą przyspieszyć ich zniszczenie."
+      },
+      {
+        "heading": "Bezpieczne przygotowanie fotografii do ekspozycji",
+        "body": "Przed montażem każdą pracę trzeba sprawdzić pod kątem uszkodzeń, zabrudzeń i jakości wykończenia. Wydruki powinny być transportowane w bezpiecznych opakowaniach, a podczas montażu należy używać czystych rękawiczek lub zachować szczególną ostrożność. Ramy, zawiesia i elementy mocujące muszą być trwałe i dobrane do ciężaru pracy. Jeżeli przygotowujesz opisy, sygnatury lub etykiety, zadbaj o ich czytelność i spójność graficzną. Profesjonalna ekspozycja to połączenie estetyki, porządku i dbałości o materiał."
+      }
+    ],
+    "practicalExamples": [
+      "Organizujesz wystawę portretów w szkolnym korytarzu. Wybierasz lekkie ramy, planujesz równą linię zawieszenia i unikasz miejsc, gdzie na zdjęcia pada bezpośrednie światło z okien.",
+      "Przygotowujesz serię fotografii produktowych do ekspozycji w showroomie. Dobierasz jednolity format wydruków i rozmieszczasz prace w rytmicznym układzie, aby całość wyglądała spójnie.",
+      "Wystawiasz fotografie artystyczne w galerii. Przed montażem wykonujesz próbne ustawienie na podłodze, sprawdzasz kolejność narracyjną i decydujesz, które zdjęcie otwiera, a które zamyka wystawę."
+    ],
+    "keyTakeaways": [
+      "Forma ekspozycji powinna odpowiadać charakterowi zdjęć i warunkom miejsca.",
+      "Układ prac musi być przemyślany pod względem narracji, odstępów i wysokości zawieszenia.",
+      "Oświetlenie ma ogromny wpływ na odbiór fotografii i nie może powodować refleksów ani zniszczeń.",
+      "Bezpieczny transport i montaż są równie ważne jak sama estetyka prezentacji."
+    ],
+    "checkYourself": [
+      "Od czego zależy wybór systemu prezentacji fotografii na wystawie?",
+      "Dlaczego warto przygotować szkic rozmieszczenia prac przed montażem?",
+      "Jakie zagrożenia dla fotografii mogą wynikać z nieodpowiedniego oświetlenia i warunków otoczenia?"
+    ],
+    "summary": "Ekspozycja fotografii to końcowy etap publikacji obrazu w przestrzeni fizycznej. Jako fotograf powinieneś umieć zaplanować sposób prezentacji, zadbać o estetykę układu i zabezpieczyć prace przed uszkodzeniem. Dzięki temu widz odbiera fotografie zgodnie z intencją autora, a sama wystawa wygląda profesjonalnie.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  },
+  {
+    "id": "L-6-4",
+    "sectionId": "S-6",
+    "sectionTitle": "Dział 6: Publikacja, archiwizacja i komunikacja zawodowa",
+    "title": "Lekcja 6.4: Archiwizacja zdjęć, metadane i zabezpieczanie zasobów",
+    "goal": "Tworzyć strukturę katalogów, uzupełniać metadane, dobierać nośniki pamięci oraz zabezpieczać obrazy cyfrowe i fotograficzne przed utratą i uszkodzeniem.",
+    "lead": "Dobrze wykonane zdjęcie ma wartość tylko wtedy, gdy można je później odnaleźć i bezpiecznie przechować. Archiwizacja to nie dodatek do pracy fotografa, ale jej stały i obowiązkowy element.",
+    "intro": "W tej lekcji dowiesz się, jak porządkować pliki, opisywać fotografie za pomocą metadanych i chronić zasoby przed przypadkową utratą. Poznasz także podstawowe zasady zabezpieczania odbitek, negatywów i innych materiałów fotograficznych.",
+    "contentBlocks": [
+      {
+        "heading": "Struktura katalogów i porządek w archiwum",
+        "body": "Archiwum powinno mieć logiczną i powtarzalną strukturę. Najczęściej stosuje się podział na lata, miesiące, rodzaje zleceń lub klientów. Ważne jest, aby raz przyjęty system stosować konsekwentnie. Foldery i pliki należy nazywać jasno, bez przypadkowych skrótów i nieczytelnych oznaczeń. Dobrze zaprojektowana struktura katalogów pozwala szybko odnaleźć materiał, odróżnić pliki źródłowe od wersji roboczych i wyeksportowanych oraz uniknąć chaosu przy większej liczbie realizacji. Porządek w archiwum to oszczędność czasu i mniejsze ryzyko pomyłek."
+      },
+      {
+        "heading": "Metadane jako narzędzie wyszukiwania i dokumentacji",
+        "body": "Metadane to informacje zapisane w pliku graficznym, takie jak autor, data wykonania, słowa kluczowe, opis zdjęcia, miejsce, dane kontaktowe czy informacje o prawach autorskich. Dzięki nim można szybciej wyszukiwać materiały i lepiej zarządzać dużymi zbiorami fotografii. W pracy zawodowej metadane pomagają także w utrzymaniu porządku prawnego i organizacyjnego. Jeżeli pracujesz z biblioteką zdjęć, reportażem albo materiałem komercyjnym, uzupełnienie metadanych znacząco zwiększa wartość użytkową archiwum. To szczególnie ważne wtedy, gdy do plików wracasz po długim czasie."
+      },
+      {
+        "heading": "Nośniki pamięci i kopie bezpieczeństwa",
+        "body": "Zdjęcia nie powinny istnieć tylko w jednym miejscu. Profesjonalna praktyka archiwizacji opiera się na wykonywaniu kopii bezpieczeństwa na różnych nośnikach. Mogą to być dyski zewnętrzne, serwery sieciowe lub rozwiązania chmurowe. Ważne jest, aby regularnie sprawdzać stan nośników i nie zakładać, że zapisane raz pliki są bezpieczne na zawsze. Karty pamięci nie są archiwum długoterminowym. Służą do przenoszenia danych, a nie do ich trwałego przechowywania. Dobre archiwum to takie, które chroni materiał przed awarią sprzętu, przypadkowym skasowaniem i utratą dostępu."
+      },
+      {
+        "heading": "Zabezpieczanie materiałów cyfrowych i fotograficznych",
+        "body": "Oprócz plików cyfrowych fotograf powinien umieć chronić odbitki, negatywy i inne oryginalne materiały. Należy przechowywać je w odpowiednich opakowaniach, z dala od wilgoci, intensywnego światła, wysokiej temperatury i zabrudzeń. Materiały papierowe najlepiej trzymać w teczkach, koszulkach archiwalnych lub pudłach przeznaczonych do długiego przechowywania. Negatywy powinny być opisane i oddzielone tak, aby nie ulegały zarysowaniu. W przypadku archiwum cyfrowego warto stosować hasła, kontrolę dostępu i podstawowe zabezpieczenia przed nieuprawnionym użyciem danych."
+      }
+    ],
+    "practicalExamples": [
+      "Po zakończeniu sesji ślubnej zapisujesz materiał w folderze według schematu: rok, klient, rodzaj zlecenia, a następnie tworzysz osobne podfoldery na RAW, selekcję, retusz i eksport.",
+      "Przy katalogowaniu zdjęć produktowych dodajesz do plików nazwę marki, model produktu, słowa kluczowe i informację o autorze, aby materiał można było szybko odnaleźć po kilku miesiącach.",
+      "Po wywołaniu odbitek do archiwum umieszczasz je w bezkwasowych teczkach, opisujesz datę i temat serii oraz przechowujesz w suchym, zacienionym miejscu."
+    ],
+    "keyTakeaways": [
+      "Skuteczna archiwizacja wymaga spójnej struktury katalogów i czytelnego nazewnictwa plików.",
+      "Metadane pomagają wyszukiwać zdjęcia, dokumentować ich pochodzenie i porządkować prawa do materiału.",
+      "Każdy ważny materiał powinien mieć kopie bezpieczeństwa na więcej niż jednym nośniku.",
+      "Materiały cyfrowe i tradycyjne trzeba chronić przed awarią, światłem, wilgocią i uszkodzeniem mechanicznym."
+    ],
+    "checkYourself": [
+      "Dlaczego konsekwentna struktura katalogów jest tak ważna w pracy fotografa?",
+      "Jakie informacje warto wpisać do metadanych pliku fotograficznego?",
+      "Dlaczego karta pamięci nie powinna być traktowana jako miejsce długoterminowej archiwizacji?"
+    ],
+    "summary": "Archiwizacja to podstawa bezpiecznej pracy z obrazem. Musisz umieć tworzyć uporządkowane archiwum, uzupełniać metadane i wykonywać kopie bezpieczeństwa, a także chronić odbitki i materiały analogowe. Dzięki temu Twoje zdjęcia pozostaną dostępne, uporządkowane i zabezpieczone przez długi czas.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  },
+  {
+    "id": "L-6-5",
+    "sectionId": "S-6",
+    "sectionTitle": "Dział 6: Publikacja, archiwizacja i komunikacja zawodowa",
+    "title": "Lekcja 6.5: Obsługa klienta, etyka zawodowa i organizacja własnej pracy",
+    "goal": "Prowadzić komunikację z klientem, planować realizację zlecenia, zarządzać czasem, współpracować w zespole i podejmować decyzje zgodnie z etyką zawodową.",
+    "lead": "Fotograf pracuje nie tylko z aparatem, ale też z ludźmi, terminami i odpowiedzialnością. Profesjonalizm zawodowy widać w sposobie rozmowy z klientem, organizacji pracy i podejmowaniu uczciwych decyzji.",
+    "intro": "W tej lekcji poznasz zasady dobrej komunikacji z klientem, planowania zleceń i organizowania własnego czasu. Zobaczysz też, jak etyka zawodowa wpływa na codzienną pracę fotografa oraz na budowanie zaufania i reputacji.",
+    "contentBlocks": [
+      {
+        "heading": "Komunikacja z klientem od pierwszego kontaktu",
+        "body": "Dobra obsługa klienta zaczyna się od uważnego słuchania. Musisz ustalić potrzeby, zakres zlecenia, termin, sposób wykorzystania zdjęć oraz oczekiwania dotyczące stylu i efektu końcowego. Ważne jest zadawanie konkretnych pytań i potwierdzanie ustaleń w czytelnej formie. W komunikacji liczy się uprzejmość, jasność wypowiedzi i terminowość odpowiedzi. Klient powinien wiedzieć, czego może się spodziewać, jakie są etapy realizacji i kiedy otrzyma materiał. Unikanie niejasności już na początku ogranicza ryzyko konfliktów w późniejszym etapie współpracy."
+      },
+      {
+        "heading": "Planowanie zlecenia i zarządzanie czasem",
+        "body": "Każde zlecenie warto rozłożyć na etapy: przygotowanie, realizację zdjęć, selekcję, obróbkę, publikację lub przekazanie plików. Dobrą praktyką jest przygotowanie prostego harmonogramu z terminami pośrednimi. Pozwala to kontrolować postęp pracy i uniknąć sytuacji, w której całość odkładana jest na ostatnią chwilę. Organizacja czasu dotyczy także buforu na poprawki, problemy techniczne i kontakt z klientem. Profesjonalny fotograf nie tylko wykonuje zdjęcia, ale potrafi zaplanować cały proces tak, by termin został dotrzymany bez chaosu i niepotrzebnego stresu."
+      },
+      {
+        "heading": "Etyka zawodowa fotografa",
+        "body": "Etyka zawodowa oznacza uczciwość, szacunek dla klienta i odpowiedzialność za materiał. Fotograf powinien dotrzymywać ustaleń, nie wykorzystywać cudzych prac jako własnych, dbać o prawa autorskie i ochronę wizerunku oraz nie publikować zdjęć bez odpowiednich zgód. Ważna jest także lojalność wobec klienta i poufność w sprawach związanych ze zleceniem. W reportażu i fotografii dokumentalnej szczególne znaczenie ma rzetelność oraz unikanie działań, które zniekształcają rzeczywistość w sposób nieuczciwy wobec odbiorcy. Etyka buduje zaufanie, a zaufanie jest podstawą relacji zawodowej."
+      },
+      {
+        "heading": "Współpraca w zespole i odpowiedzialność za działanie",
+        "body": "W wielu realizacjach fotograf współpracuje z retuszerem, stylistą, grafikiem, drukarnią, modelem lub klientem instytucjonalnym. Współpraca wymaga jasnego podziału zadań, przekazywania informacji i szacunku dla pracy innych. Dobrze działający zespół ustala wspólny cel i potrafi reagować na zmiany bez wzajemnego obwiniania się. Odpowiedzialność zawodowa polega także na przewidywaniu skutków własnych działań. Jeśli popełnisz błąd, powinieneś go zauważyć, zgłosić i zaproponować rozwiązanie, zamiast ukrywać problem."
+      }
+    ],
+    "practicalExamples": [
+      "Klient pyta o sesję biznesową. Zamiast od razu podawać cenę, najpierw ustalasz liczbę osób, miejsce wykonania zdjęć, sposób wykorzystania fotografii i oczekiwany termin realizacji.",
+      "Masz do oddania reportaż z wydarzenia w piątek. Tworzysz plan: zgranie materiału w dniu zdjęć, selekcja następnego dnia, podstawowa obróbka dzień później i rezerwa czasowa na ewentualne poprawki.",
+      "Otrzymujesz prośbę o publikację zdjęć z wydarzenia, na których widać osoby postronne. Sprawdzasz, czy zakres publikacji jest zgodny z ustaleniami i czy nie narusza praw do wizerunku."
+    ],
+    "keyTakeaways": [
+      "Profesjonalna obsługa klienta opiera się na jasnych ustaleniach, kulturze komunikacji i terminowości.",
+      "Dobre planowanie zlecenia pozwala kontrolować etapy pracy i ograniczać stres.",
+      "Etyka zawodowa obejmuje uczciwość, szacunek dla praw autorskich, ochronę wizerunku i odpowiedzialność za materiał.",
+      "Współpraca w zespole wymaga wymiany informacji, podziału zadań i gotowości do rozwiązywania problemów."
+    ],
+    "checkYourself": [
+      "Jakie informacje warto ustalić z klientem przed rozpoczęciem realizacji zlecenia?",
+      "Dlaczego harmonogram pracy jest ważny nawet przy niewielkim projekcie fotograficznym?",
+      "Jakie sytuacje w pracy fotografa mogą dotyczyć etyki zawodowej i ochrony wizerunku?"
+    ],
+    "summary": "Fotograf odpowiada nie tylko za jakość obrazu, ale też za sposób współpracy z ludźmi. Umiejętność komunikacji, organizacji pracy i etycznego działania wpływa na przebieg zlecenia oraz opinię o Twoim profesjonalizmie. To kompetencje niezbędne w codziennej praktyce zawodowej.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  },
+  {
+    "id": "L-6-6",
+    "sectionId": "S-6",
+    "sectionTitle": "Dział 6: Publikacja, archiwizacja i komunikacja zawodowa",
+    "title": "Lekcja 6.6: Język obcy zawodowy w fotografii",
+    "goal": "Stosować podstawowe słownictwo branżowe w rozmowie, instrukcji, e-mailu i dokumentacji dotyczącej sprzętu, procesu realizacji oraz obsługi klienta.",
+    "lead": "W pracy fotografa coraz częściej korzysta się z dokumentacji, oprogramowania i komunikacji w języku obcym, najczęściej po angielsku. Nawet podstawowa znajomość słownictwa branżowego ułatwia pracę ze sprzętem, klientem i materiałami technicznymi.",
+    "intro": "W tej lekcji skupisz się na praktycznym używaniu języka obcego zawodowego w fotografii. Nauczysz się rozumieć podstawowe pojęcia spotykane w instrukcjach, prostych wiadomościach i rozmowach, a także tworzyć krótkie komunikaty związane z realizacją zadań fotograficznych.",
+    "contentBlocks": [
+      {
+        "heading": "Podstawowe słownictwo związane ze sprzętem i realizacją zdjęć",
+        "body": "W języku zawodowym fotografa często pojawiają się nazwy sprzętu i ustawień, takie jak camera body, lens, tripod, flash, light stand, softbox, memory card, shutter speed, aperture, ISO, white balance czy focal length. Warto rozumieć nie tylko pojedyncze słowa, ale też krótkie polecenia i opisy funkcji sprzętu. Dzięki temu łatwiej korzystać z instrukcji obsługi, menu urządzeń, materiałów producentów i szkoleń online. Znajomość podstawowego słownictwa pozwala szybciej reagować na sytuacje techniczne oraz swobodniej rozmawiać o przebiegu pracy."
+      },
+      {
+        "heading": "Język obcy w kontakcie z klientem",
+        "body": "W obsłudze klienta potrzebne są proste, uprzejme i zrozumiałe komunikaty. W praktyce mogą to być pytania o termin, miejsce sesji, liczbę zdjęć, sposób przekazania materiału czy zakres retuszu. Ważne są także formy grzecznościowe i umiejętność potwierdzenia ustaleń. Nie musisz mówić skomplikowanymi zdaniami. Wystarczy, że potrafisz jasno zapytać, wyjaśnić i odpowiedzieć. W pracy zawodowej liczy się skuteczność komunikacji, a nie rozbudowane słownictwo. Dobrze przygotowany prosty e-mail bywa ważniejszy niż bardzo zaawansowana, ale niepraktyczna znajomość języka."
+      },
+      {
+        "heading": "Rozumienie instrukcji i dokumentacji",
+        "body": "Fotograf często spotyka się z anglojęzycznymi instrukcjami, opisami aktualizacji oprogramowania, komunikatami błędów i parametrami urządzeń. Dlatego warto ćwiczyć wyszukiwanie słów kluczowych i rozumienie kontekstu. Nie trzeba tłumaczyć każdego wyrazu osobno. Ważniejsze jest uchwycenie głównej informacji: co trzeba ustawić, co oznacza ostrzeżenie, jak wykonać daną czynność. W praktyce pomaga korzystanie ze słownika, notowanie powtarzających się zwrotów oraz porównywanie terminów używanych w programach graficznych i aparatach."
+      },
+      {
+        "heading": "Tworzenie krótkich wypowiedzi zawodowych",
+        "body": "W języku obcym zawodowym przydają się krótkie formy pisemne i ustne: e-mail z potwierdzeniem terminu, instrukcja dla klienta, opis plików do wysyłki czy odpowiedź na pytanie o sprzęt. Ważne jest, aby wypowiedź była prosta, logiczna i adekwatna do sytuacji. Możesz korzystać z gotowych schematów, na przykład: potwierdzenie spotkania, prośba o przesłanie referencji, informacja o czasie realizacji, instrukcja pobrania galerii lub pytanie o zgodę na publikację. Systematyczne używanie takich form szybko buduje praktyczną sprawność językową."
+      }
+    ],
+    "practicalExamples": [
+      "Czytasz instrukcję lampy błyskowej w języku angielskim i rozpoznajesz słowa takie jak power, sync, trigger i recycle time, dzięki czemu potrafisz poprawnie ustawić urządzenie.",
+      "Piszesz prosty e-mail do klienta: potwierdzasz termin sesji, prosisz o przesłanie inspiracji i informujesz, kiedy klient otrzyma gotową galerię.",
+      "Podczas współpracy z zagranicznym modelem używasz prostych poleceń dotyczących ustawienia się do zdjęcia, na przykład look at the camera, turn left, relax your shoulders."
+    ],
+    "keyTakeaways": [
+      "Podstawowe słownictwo branżowe ułatwia pracę ze sprzętem, oprogramowaniem i dokumentacją.",
+      "W komunikacji z klientem najważniejsze są jasność, uprzejmość i praktyczne zwroty.",
+      "Przy czytaniu instrukcji warto szukać słów kluczowych i rozumieć ogólny sens komunikatu.",
+      "Krótkie e-maile, instrukcje i odpowiedzi zawodowe można budować według prostych schematów."
+    ],
+    "checkYourself": [
+      "Jakie angielskie słowa związane z aparatem i oświetleniem warto znać na początku?",
+      "Dlaczego w komunikacji z klientem w języku obcym lepiej używać prostych, jasnych zdań?",
+      "Jak możesz poradzić sobie z instrukcją techniczną, jeśli nie rozumiesz każdego słowa?"
+    ],
+    "summary": "Język obcy zawodowy w fotografii służy przede wszystkim do skutecznej komunikacji i rozumienia materiałów branżowych. Nie musisz znać wszystkich słów, ale powinieneś umieć korzystać z podstawowego słownictwa, czytać proste instrukcje i tworzyć krótkie komunikaty związane z pracą. To realna kompetencja zawodowa, która zwiększa Twoją samodzielność.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  }
+]

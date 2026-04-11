@@ -1,0 +1,98 @@
+[
+  {
+    "lessonId": "L-1-1",
+    "lessonTitle": "Lekcja 1.1: Przepisy BHP, ochrona przeciwpożarowa i ochrona środowiska w pracowni fotograficznej",
+    "worksheet": {
+      "title": "Karta pracy — audyt bezpieczeństwa w pracowni fotograficznej",
+      "taskIntro": "Przeprowadź krótki audyt wybranego stanowiska pracy fotografa: studia, pracowni cyfrowej albo ciemni. Twoim zadaniem jest wskazanie najważniejszych wymagań BHP, przeciwpożarowych i środowiskowych oraz przypisanie odpowiedzialności pracownikowi i pracodawcy.",
+      "instructions": [
+        "Wybierz jedno miejsce pracy fotografa i sporządź listę co najmniej 8 elementów, które należy sprawdzić przed rozpoczęciem pracy, np. drożność wyjścia, stan kabli, gaśnica, wentylacja, oznaczenia, segregacja odpadów.",
+        "Przy każdym elemencie dopisz, czy za jego zapewnienie odpowiada głównie pracodawca, pracownik czy obie strony, oraz krótko uzasadnij decyzję.",
+        "Na końcu wskaż 3 możliwe zagrożenia w tym miejscu pracy i zapisz, jakie działanie należy podjąć, aby im zapobiec lub ograniczyć ich skutki."
+      ],
+      "deliverables": [
+        "Lista kontrolna audytu z minimum 8 punktami",
+        "Tabela odpowiedzialności: pracodawca / pracownik / wspólnie",
+        "Krótki plan działań zapobiegawczych dla 3 zagrożeń"
+      ],
+      "successCriteria": [
+        "Lista obejmuje zagadnienia BHP, ochrony przeciwpożarowej i ochrony środowiska.",
+        "Odpowiedzialność została poprawnie przypisana i logicznie uzasadniona.",
+        "Zaproponowane działania są praktyczne i możliwe do zastosowania w codziennej pracy fotografa."
+      ],
+      "estimatedMinutes": 20
+    }
+  },
+  {
+    "lessonId": "L-1-2",
+    "lessonTitle": "Lekcja 1.2: Ergonomia stanowiska, oznaczenia bezpieczeństwa i środki ochrony",
+    "worksheet": {
+      "title": "Karta pracy — ergonomiczne i bezpieczne stanowisko fotografa",
+      "taskIntro": "Zaprojektuj ergonomiczne stanowisko pracy dla fotografa i dobierz do niego odpowiednie oznaczenia bezpieczeństwa oraz środki ochrony. Możesz wybrać stanowisko komputerowe, plan zdjęciowy albo ciemnię.",
+      "instructions": [
+        "Narysuj prosty schemat stanowiska lub opisz jego układ, uwzględniając rozmieszczenie najważniejszych elementów, np. monitor, krzesło, aparat, statywy, lampy, kable, chemikalia, wentylację.",
+        "Wskaż minimum 5 zasad ergonomii, które zastosujesz na tym stanowisku, oraz napisz, jaki problem zdrowotny lub organizacyjny pomaga ograniczyć każda z nich.",
+        "Dobierz do stanowiska co najmniej 3 oznaczenia bezpieczeństwa i 3 środki ochrony, zaznaczając, które są indywidualne, a które zbiorowe."
+      ],
+      "deliverables": [
+        "Schemat lub opis stanowiska pracy",
+        "Lista 5 zasad ergonomii z uzasadnieniem",
+        "Zestaw oznaczeń bezpieczeństwa i środków ochrony z podziałem na indywidualne i zbiorowe"
+      ],
+      "successCriteria": [
+        "Projekt stanowiska jest uporządkowany i uwzględnia realne warunki pracy fotografa.",
+        "Zasady ergonomii są poprawnie dobrane do wybranego rodzaju pracy.",
+        "Oznaczenia i środki ochrony odpowiadają rzeczywistym zagrożeniom na stanowisku."
+      ],
+      "estimatedMinutes": 25
+    }
+  },
+  {
+    "lessonId": "L-1-3",
+    "lessonTitle": "Lekcja 1.3: Czynniki szkodliwe, materiały chemiczne i zasady utylizacji",
+    "worksheet": {
+      "title": "Karta pracy — rozpoznawanie zagrożeń i bezpieczne postępowanie z odpadami",
+      "taskIntro": "Przygotuj praktyczną kartę zagrożeń dla jednego miejsca pracy fotografa. Skup się na czynnikach szkodliwych, zasadach bezpiecznego kontaktu z materiałami chemicznymi oraz właściwej segregacji odpadów.",
+      "instructions": [
+        "Wybierz studio, pracownię cyfrową albo ciemnię i wypisz co najmniej 6 czynników szkodliwych lub niebezpiecznych, dzieląc je na fizyczne, chemiczne i organizacyjne.",
+        "Dla każdego zagrożenia zapisz po jednym objawie, który może wystąpić u pracownika, oraz jednym sposobie zapobiegania lub ograniczania ryzyka.",
+        "Przygotuj prostą tabelę odpadów powstających w tym miejscu pracy: wpisz minimum 5 przykładów odpadów i sposób właściwego postępowania z każdym z nich."
+      ],
+      "deliverables": [
+        "Karta zagrożeń z podziałem na rodzaje czynników",
+        "Tabela: zagrożenie — objaw — działanie zapobiegawcze",
+        "Tabela segregacji i utylizacji minimum 5 rodzajów odpadów"
+      ],
+      "successCriteria": [
+        "Wskazane zagrożenia są trafne dla wybranego miejsca pracy fotografa.",
+        "Objawy i działania zapobiegawcze są realistyczne oraz zgodne z zasadami bezpiecznej pracy.",
+        "Sposoby postępowania z odpadami pokazują odpowiedzialność za zdrowie i środowisko."
+      ],
+      "estimatedMinutes": 25
+    }
+  },
+  {
+    "lessonId": "L-1-4",
+    "lessonTitle": "Lekcja 1.4: Pierwsza pomoc w wypadkach i nagłych stanach zagrożenia zdrowia",
+    "worksheet": {
+      "title": "Karta pracy — schemat działania w nagłym wypadku na planie zdjęciowym",
+      "taskIntro": "Przećwicz podejmowanie decyzji w sytuacji zagrożenia zdrowia lub życia. Opracujesz prosty plan pierwszej pomocy dla wybranego zdarzenia, które może wystąpić podczas pracy fotografa.",
+      "instructions": [
+        "Wybierz jeden scenariusz: porażenie prądem, omdlenie, oparzenie chemiczne, upadek z urazem albo utrata przytomności, i krótko opisz sytuację.",
+        "Zapisz kolejność działań ratownika od momentu zauważenia zdarzenia: zabezpieczenie miejsca, ocena przytomności, ocena oddechu, wezwanie pomocy, dalsze postępowanie.",
+        "Przygotuj krótką notatkę do zgłoszenia na numer 112: miejsce zdarzenia, liczba poszkodowanych, rodzaj urazu lub zagrożenia, co już zostało zrobione."
+      ],
+      "deliverables": [
+        "Opis wybranego scenariusza wypadku",
+        "Schemat działań krok po kroku",
+        "Gotowy komunikat do przekazania dyspozytorowi numeru 112"
+      ],
+      "successCriteria": [
+        "Plan działania zaczyna się od zapewnienia bezpieczeństwa ratownikowi i otoczeniu.",
+        "Kolejność czynności jest logiczna i zgodna z podstawowymi zasadami pierwszej pomocy.",
+        "Zgłoszenie alarmowe zawiera najważniejsze informacje potrzebne do wysłania pomocy."
+      ],
+      "estimatedMinutes": 20
+    }
+  }
+]

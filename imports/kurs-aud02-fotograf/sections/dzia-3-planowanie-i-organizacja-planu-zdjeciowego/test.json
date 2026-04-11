@@ -1,0 +1,287 @@
+{
+  "title": "Test działowy — Dział 3: Planowanie i organizacja planu zdjęciowego",
+  "totalQuestions": 20,
+  "passingPercent": 50,
+  "questions": [
+    {
+      "question": "Od jakiego etapu należy rozpocząć planowanie sesji zdjęciowej według zasad omawianych w dziale?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Od zakupu nowych akcesoriów do aparatu",
+        "b": "Od analizy celu zlecenia i sposobu wykorzystania zdjęć",
+        "c": "Od wyboru programu do obróbki zdjęć",
+        "d": "Od ustawienia lamp na planie",
+        "e": "Od wykonania próbnego retuszu",
+        "f": "Od publikacji zapowiedzi sesji w mediach społecznościowych"
+      },
+      "correctAnswer": "b",
+      "explanation": "Planowanie zaczyna się od zrozumienia celu sesji, odbiorcy i zastosowania zdjęć."
+    },
+    {
+      "question": "Która cecha najlepiej charakteryzuje fotografię reportażową?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Pełna kontrola nad tłem i światłem w studio",
+        "b": "Obowiązkowe stosowanie statywu i bardzo długiego czasu ekspozycji",
+        "c": "Szybkie reagowanie na sytuacje i praca w zmiennych warunkach",
+        "d": "Wierność odwzorowania potrzebna w dokumentacji technicznej",
+        "e": "Stałe używanie obiektywu makro",
+        "f": "Konieczność fotografowania wyłącznie czarno-białego"
+      },
+      "correctAnswer": "c",
+      "explanation": "Reportaż wymaga mobilności, obserwacji i szybkiej reakcji na zmieniające się sytuacje."
+    },
+    {
+      "question": "Kiedy technika studyjna będzie najtrafniejszym wyborem?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Gdy najważniejsza jest pełna kontrola nad światłem i tłem",
+        "b": "Gdy fotograf chce uniknąć używania lamp",
+        "c": "Gdy nie ma czasu na przygotowanie planu",
+        "d": "Gdy sesja musi odbyć się podczas deszczu w otwartej przestrzeni",
+        "e": "Gdy zdjęcia mają wyglądać całkowicie przypadkowo",
+        "f": "Gdy klient nie określił celu zlecenia"
+      },
+      "correctAnswer": "a",
+      "explanation": "Studio daje największą kontrolę nad warunkami oświetleniowymi i sceną."
+    },
+    {
+      "question": "Która informacja o efekcie końcowym najbardziej wpływa na decyzje techniczne podczas sesji?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Ulubiony kolor fotografa",
+        "b": "Marka torby fotograficznej",
+        "c": "Format publikacji i sposób prezentacji zdjęcia",
+        "d": "Długość nazwy pliku",
+        "e": "Numer seryjny aparatu",
+        "f": "Kolejność pakowania statywów"
+      },
+      "correctAnswer": "c",
+      "explanation": "To, czy zdjęcie trafi do dużego wydruku, sklepu internetowego czy mediów społecznościowych, wpływa na parametry i sposób fotografowania."
+    },
+    {
+      "question": "Które pytanie warto zadać klientowi jeszcze przed sesją?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Jakiego koloru ma być pasek aparatu fotografa?",
+        "b": "Czy klient ma przykłady referencyjne i jakie są ograniczenia lokalizacji?",
+        "c": "Ile zdjęć fotograf publikuje prywatnie w tygodniu?",
+        "d": "Jaki model telefonu ma asystent?",
+        "e": "Czy klient woli pliki zapisane alfabetycznie czy według długości nazw?",
+        "f": "Czy obiektyw był kiedyś serwisowany?"
+      },
+      "correctAnswer": "b",
+      "explanation": "Referencje i ograniczenia miejsca pomagają dobrać technikę, sprzęt i organizację pracy."
+    },
+    {
+      "question": "Do której grupy wyposażenia należy zaliczyć karty pamięci, akumulatory i zapasowy korpus?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Do sprzętu rejestrującego",
+        "b": "Do scenografii planu",
+        "c": "Do środków transportu",
+        "d": "Do wyposażenia BHP niezwiązanego z fotografią",
+        "e": "Do materiałów promocyjnych",
+        "f": "Do elementów dekoracyjnych tła"
+      },
+      "correctAnswer": "a",
+      "explanation": "To podstawowe elementy związane bezpośrednio z rejestracją obrazu."
+    },
+    {
+      "question": "Przy wyborze obiektu, takiego jak biuro lub hala, co należy sprawdzić przed sesją?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyłącznie liczbę okien, bez innych warunków",
+        "b": "Tylko kolor podłogi",
+        "c": "Dostęp do prądu, wysokość pomieszczeń i możliwość ustawienia statywów",
+        "d": "Jedynie nazwę właściciela budynku",
+        "e": "Wyłącznie odległość od najbliższej kawiarni",
+        "f": "Tylko temperaturę zewnętrzną w poprzednim tygodniu"
+      },
+      "correctAnswer": "c",
+      "explanation": "Warunki techniczne i organizacyjne obiektu mają bezpośredni wpływ na możliwość realizacji zdjęć."
+    },
+    {
+      "question": "Dlaczego na liście sprzętu warto uwzględnić elementy zapasowe?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Aby sprzęt wyglądał bardziej profesjonalnie na zdjęciach zza kulis",
+        "b": "Ponieważ tylko zapasowy sprzęt można legalnie przewozić",
+        "c": "Aby wydłużyć czas przygotowania sesji",
+        "d": "Ponieważ elementy zapasowe często ratują realizację w razie awarii lub braków",
+        "e": "Aby uniknąć używania listy kontrolnej",
+        "f": "Ponieważ klient zawsze wymaga podwójnego kompletu wszystkiego"
+      },
+      "correctAnswer": "d",
+      "explanation": "Zapasowe akumulatory, karty czy przewody ograniczają ryzyko przerwania pracy."
+    },
+    {
+      "question": "Jaki jest główny cel wykonania szkicu planu zdjęciowego?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Stworzenie artystycznego rysunku do portfolio fotografa",
+        "b": "Pokazanie rozmieszczenia najważniejszych elementów sesji i ocena wykonalności planu",
+        "c": "Zastąpienie wszystkich ustawień aparatu",
+        "d": "Wyłącznie ozdobienie dokumentacji klienta",
+        "e": "Zapisanie nazw plików wynikowych",
+        "f": "Automatyczne dobranie ekspozycji"
+      },
+      "correctAnswer": "b",
+      "explanation": "Szkic pomaga uporządkować przestrzeń, sprawdzić odległości i komunikować plan pracy."
+    },
+    {
+      "question": "Co powinien zawierać czytelny schemat oświetlenia?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyłącznie liczbę lamp bez określenia ich roli",
+        "b": "Tylko nazwę producenta oświetlenia",
+        "c": "Położenie źródeł światła, kierunek świecenia i funkcję każdej lampy",
+        "d": "Wyłącznie sugerowaną cenę wypożyczenia lamp",
+        "e": "Tylko kolor kabli zasilających",
+        "f": "Jedynie orientacyjną godzinę rozpoczęcia zdjęć"
+      },
+      "correctAnswer": "c",
+      "explanation": "Schemat powinien wyjaśniać, gdzie są lampy i jaką pełnią funkcję w budowaniu obrazu."
+    },
+    {
+      "question": "Który zestaw informacji najlepiej opisuje kompletną dokumentację sesji?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyłącznie nazwę zlecenia i numer telefonu klienta",
+        "b": "Tylko listę zdjęć referencyjnych z internetu",
+        "c": "Nazwę zlecenia, datę, miejsce, cel sesji, listę sprzętu i uwagi organizacyjne",
+        "d": "Wyłącznie dane do faktury",
+        "e": "Tylko ustawienia balansu bieli",
+        "f": "Jedynie szkic bez żadnych opisów"
+      },
+      "correctAnswer": "c",
+      "explanation": "Dokumentacja ma wspierać organizację, logistykę i powtarzalność realizacji."
+    },
+    {
+      "question": "Czemu służy zapotrzebowanie materiałowo-sprzętowe?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyłącznie ozdobieniu harmonogramu sesji",
+        "b": "Uporządkowaniu listy potrzebnych elementów oraz oszacowaniu logistyki i kosztów",
+        "c": "Zastąpieniu pomiaru światła",
+        "d": "Automatycznemu wyborowi ogniskowej",
+        "e": "Zmniejszeniu liczby wykonanych zdjęć",
+        "f": "Publikacji zdjęć bez zgody klienta"
+      },
+      "correctAnswer": "b",
+      "explanation": "Taka lista porządkuje przygotowania i pomaga przewidzieć potrzeby realizacyjne."
+    },
+    {
+      "question": "W jakiej kolejności należy zwykle budować scenę zdjęciową?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Najpierw przypadkowe dodatki, a potem obiekt główny",
+        "b": "Najpierw przygotowanie najważniejszych elementów zgodnie z dokumentacją, potem dodatki",
+        "c": "Najpierw retusz zdjęć, a później montaż planu",
+        "d": "Najpierw publikacja efektów, potem ustawienie tła",
+        "e": "Najpierw demontaż planu, potem dobór miejsca",
+        "f": "Wyłącznie według kolejności kolorów akcesoriów"
+      },
+      "correctAnswer": "b",
+      "explanation": "Najpierw ustawia się kluczowe elementy: tło, miejsce obiektu i pozycję aparatu, a dopiero później dodatki."
+    },
+    {
+      "question": "Jak należy postępować podczas montażu akcesoriów i sprzętu pomocniczego?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Montować je szybko, bez sprawdzania blokad i zacisków",
+        "b": "Ustawiać przewody w przejściach, żeby były łatwo dostępne",
+        "c": "Montować stabilnie, sprawdzać połączenia i zabezpieczać statywy obciążnikami",
+        "d": "Zawsze rezygnować z instrukcji producenta",
+        "e": "Opierać ciężkie lampy o ścianę zamiast używać statywów",
+        "f": "Przenosić softboxy wyłącznie za przewody zasilające"
+      },
+      "correctAnswer": "c",
+      "explanation": "Stabilny i bezpieczny montaż zmniejsza ryzyko wypadku oraz uszkodzenia sprzętu."
+    },
+    {
+      "question": "Co oznacza prawidłowe przygotowanie fotografowanego obiektu przed wykonaniem zdjęć produktowych?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyłącznie zwiększenie nasycenia kolorów w aparacie",
+        "b": "Pozostawienie kurzu i odcisków palców do późniejszego retuszu",
+        "c": "Oczyszczenie powierzchni, kontrolę detali i ustawienie elementów zgodnie z założeniem",
+        "d": "Zmniejszenie liczby lamp do jednej bez względu na potrzeby",
+        "e": "Fotografowanie tylko z ręki",
+        "f": "Pomijanie kontroli odbić i symetrii"
+      },
+      "correctAnswer": "c",
+      "explanation": "Dobre przygotowanie obiektu ogranicza błędy w kadrze i zmniejsza potrzebę retuszu."
+    },
+    {
+      "question": "Dlaczego porządek poza kadrem ma znaczenie dla jakości pracy fotografa?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Nie ma żadnego znaczenia, jeśli sam kadr wygląda dobrze",
+        "b": "Ponieważ bałagan ułatwia szybsze odnajdywanie sprzętu",
+        "c": "Ponieważ wpływa na bezpieczeństwo, sprawność pracy i łatwość wprowadzania korekt",
+        "d": "Ponieważ klient ocenia tylko liczbę przewodów na podłodze",
+        "e": "Ponieważ w nieuporządkowanej przestrzeni aparat działa ostrzej",
+        "f": "Ponieważ porządek automatycznie zmienia ogniskową obiektywu"
+      },
+      "correctAnswer": "c",
+      "explanation": "Dobrze zorganizowany plan ułatwia ruch, poprawki i koncentrację podczas sesji."
+    },
+    {
+      "question": "Które informacje o świetle należy ocenić przed wykonaniem pierwszego zdjęcia?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyłącznie markę lampy",
+        "b": "Kierunek, natężenie, kontrast i temperaturę barwową światła",
+        "c": "Tylko długość przewodów zasilających",
+        "d": "Wyłącznie kolor statywu",
+        "e": "Jedynie numer kanału wyzwalacza",
+        "f": "Tylko nazwę pliku ustawień aparatu"
+      },
+      "correctAnswer": "b",
+      "explanation": "To podstawowe cechy światła, które wpływają na ekspozycję i wygląd fotografowanego obiektu."
+    },
+    {
+      "question": "Co tworzy trójkąt ekspozycji?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Balans bieli, ogniskowa i format pliku",
+        "b": "Przysłona, czas naświetlania i ISO",
+        "c": "Autofokus, histogram i stabilizacja",
+        "d": "Kontrast, nasycenie i ostrość",
+        "e": "Moc lampy, kolor tła i wysokość statywu",
+        "f": "Perspektywa, kadr i retusz"
+      },
+      "correctAnswer": "b",
+      "explanation": "Ekspozycję budują trzy podstawowe parametry: przysłona, czas i czułość ISO."
+    },
+    {
+      "question": "Jak dobór ogniskowej wpływa na obraz?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Nie wpływa na nic poza wagą aparatu",
+        "b": "Wpływa na sposób pokazania przestrzeni, perspektywę i proporcje obiektu",
+        "c": "Zmienia wyłącznie nazwę pliku zapisu",
+        "d": "Decyduje tylko o kolorze zdjęcia",
+        "e": "Służy jedynie do regulacji jasności lamp",
+        "f": "Automatycznie ustawia głębię ostrości niezależnie od przysłony"
+      },
+      "correctAnswer": "b",
+      "explanation": "Ogniskowa wpływa na kadr, perspektywę oraz sposób odwzorowania fotografowanego obiektu."
+    },
+    {
+      "question": "Dlaczego po wykonaniu zdjęcia warto kontrolować histogram, ostrość i ewentualne przepalenia?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Aby wydłużyć czas sesji",
+        "b": "Aby uniknąć konieczności rozmowy z klientem",
+        "c": "Aby wcześnie wykryć błędy techniczne i skorygować je jeszcze na planie",
+        "d": "Aby zastąpić dokumentację sesji",
+        "e": "Aby nie używać światłomierza",
+        "f": "Aby zmniejszyć liczbę kart pamięci"
+      },
+      "correctAnswer": "c",
+      "explanation": "Kontrola na bieżąco pozwala poprawić ustawienia zanim sesja się zakończy."
+    }
+  ]
+}

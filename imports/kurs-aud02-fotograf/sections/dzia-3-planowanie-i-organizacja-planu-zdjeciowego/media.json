@@ -1,0 +1,172 @@
+[
+  {
+    "lessonId": "L-3-1",
+    "lessonTitle": "Lekcja 3.1: Analiza zlecenia i dobór techniki fotografowania",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Nowoczesna plansza edukacyjna w języku polskim, realistyczny styl fotograficzno-infograficzny. Fotograf siedzi przy biurku i analizuje brief klienta, obok aparat, laptop z moodboardem, próbki zdjęć: portret, produkt, reportaż, architektura. Wokół czytelne ikony i strzałki pokazujące proces decyzyjny: cel sesji -> rodzaj fotografii -> warunki pracy -> technika rejestracji -> efekt końcowy. Estetyka profesjonalna, uporządkowana, jasne światło, kolory neutralne z akcentem niebieskim, bez chaosu, format poziomy 16:9.",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Nowoczesna plansza edukacyjna w języku polskim, realistyczny styl fotograficzno-infograficzny. Fotograf siedzi przy biurku i analizuje brief klienta, obok aparat, laptop z moodboardem, próbki zdjęć: portret, produkt, reportaż, architektura. Wokół czytelne ikony i strzałki pokazujące proces decyzyjny: cel sesji -> rodzaj fotografii -> warunki pracy -> technika rejestracji -> efekt końcowy. Estetyka profesjonalna, uporządkowana, jasne światło, kolory neutralne z akcentem niebieskim, bez chaosu, format poziomy 16:9.",
+    "imageDescription": "Grafika pokazuje, że planowanie sesji zaczyna się od analizy zlecenia. Centralnym elementem jest fotograf pracujący z briefem, a wokół niego widoczne są najważniejsze decyzje: po co powstają zdjęcia, jaki to rodzaj fotografii, w jakich warunkach będzie realizacja i jaki efekt końcowy ma zostać osiągnięty.",
+    "voiceoverScript": "Kwintesencją tej lekcji jest świadoma analiza zlecenia przed rozpoczęciem zdjęć. To cel sesji, rodzaj fotografii, warunki pracy i sposób publikacji decydują o wyborze techniki, miejsca, sprzętu oraz stylu obrazu. Im lepiej zrozumiesz potrzeby klienta i zadasz właściwe pytania, tym sprawniej zaplanujesz cały plan zdjęciowy.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Kwintesencją tej lekcji jest świadoma analiza zlecenia przed rozpoczęciem zdjęć. To cel sesji, rodzaj fotografii, warunki pracy i sposób publikacji decydują o wyborze techniki, miejsca, sprzętu oraz stylu obrazu. Im lepiej zrozumiesz potrzeby klienta i zadasz właściwe pytania, tym sprawniej zaplanujesz cały plan zdjęciowy.",
+    "slideText": "Analiza zlecenia\nCel sesji -> rodzaj fotografii -> technika -> efekt końcowy",
+    "keywords": [
+      "analiza zlecenia",
+      "cel sesji",
+      "rodzaj fotografii",
+      "dobór techniki",
+      "planowanie sesji"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-3-l-3-1-1775577806270.png?v=1775577806279",
+      "file": "s-3-l-3-1-1775577806270.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-3-l-3-1-1775578187861.mp3?v=1775578187871",
+      "file": "s-3-l-3-1-1775578187861.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-3-2",
+    "lessonTitle": "Lekcja 3.2: Dobór miejsca, sprzętu i materiałów do realizacji zdjęć",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Profesjonalna plansza edukacyjna, realistyczny styl. Podzielony kadr pokazujący trzy typy lokalizacji sesji: studio fotograficzne, plener i wnętrze obiektu. Na pierwszym planie otwarta torba fotograficzna z uporządkowanym sprzętem: aparat, obiektywy, statyw, lampy, softbox, karty pamięci, akumulatory, przedłużacz, klipsy, taśma, rękawiczki, ściereczka. Obok papierowa lub cyfrowa checklista z odhaczonymi pozycjami. Czysta kompozycja, styl szkoleniowy, wysoka czytelność, format 16:9.",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Profesjonalna plansza edukacyjna, realistyczny styl. Podzielony kadr pokazujący trzy typy lokalizacji sesji: studio fotograficzne, plener i wnętrze obiektu. Na pierwszym planie otwarta torba fotograficzna z uporządkowanym sprzętem: aparat, obiektywy, statyw, lampy, softbox, karty pamięci, akumulatory, przedłużacz, klipsy, taśma, rękawiczki, ściereczka. Obok papierowa lub cyfrowa checklista z odhaczonymi pozycjami. Czysta kompozycja, styl szkoleniowy, wysoka czytelność, format 16:9.",
+    "imageDescription": "Ilustracja podkreśla, że gotowość do sesji zależy nie tylko od aparatu, ale od właściwego wyboru miejsca oraz kompletnej listy sprzętu, akcesoriów i materiałów. Widać różne warunki pracy i zestaw narzędzi potrzebnych do profesjonalnej realizacji.",
+    "voiceoverScript": "Sednem tej lekcji jest praktyczne przygotowanie do zdjęć. Fotograf musi dobrać miejsce pracy do celu sesji, a następnie skompletować sprzęt, oświetlenie, akcesoria i elementy zapasowe. Dobrze przygotowana lista kontrolna zmniejsza ryzyko braków, opóźnień i problemów na planie.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Sednem tej lekcji jest praktyczne przygotowanie do zdjęć. Fotograf musi dobrać miejsce pracy do celu sesji, a następnie skompletować sprzęt, oświetlenie, akcesoria i elementy zapasowe. Dobrze przygotowana lista kontrolna zmniejsza ryzyko braków, opóźnień i problemów na planie.",
+    "slideText": "Dobór miejsca i wyposażenia\nLokalizacja + sprzęt + akcesoria + lista kontrolna",
+    "keywords": [
+      "lokalizacja sesji",
+      "sprzęt fotograficzny",
+      "akcesoria",
+      "checklista",
+      "organizacja planu"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-3-l-3-2-1775577853757.png?v=1775577853771",
+      "file": "s-3-l-3-2-1775577853757.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-3-l-3-2-1775578191691.mp3?v=1775578191693",
+      "file": "s-3-l-3-2-1775578191691.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-3-3",
+    "lessonTitle": "Lekcja 3.3: Szkic planu zdjęciowego i schematy oświetlenia",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Czytelna grafika edukacyjna w stylu profesjonalnej dokumentacji fotograficznej. Widok z góry na kartkę lub tablet z narysowanym szkicem planu zdjęciowego: aparat, model lub produkt, tło, lampy, blenda, statywy, strzałki kierunku światła, podpisy: światło główne, wypełniające, tło. Obok lista sprzętu i materiałów oraz notatki: data, miejsce, czas pracy, ustawienia aparatu. Estetyka techniczna, precyzyjna, minimalistyczna, wysoka czytelność, format 16:9.",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Czytelna grafika edukacyjna w stylu profesjonalnej dokumentacji fotograficznej. Widok z góry na kartkę lub tablet z narysowanym szkicem planu zdjęciowego: aparat, model lub produkt, tło, lampy, blenda, statywy, strzałki kierunku światła, podpisy: światło główne, wypełniające, tło. Obok lista sprzętu i materiałów oraz notatki: data, miejsce, czas pracy, ustawienia aparatu. Estetyka techniczna, precyzyjna, minimalistyczna, wysoka czytelność, format 16:9.",
+    "imageDescription": "Grafika pokazuje, że dokumentacja sesji to nie ozdoba, lecz narzędzie pracy. Szkic planu, schemat oświetlenia i lista materiałowo-sprzętowa pomagają uporządkować pomysł, sprawdzić wykonalność ustawień i łatwo odtworzyć sesję.",
+    "voiceoverScript": "Najważniejszą ideą tej lekcji jest przełożenie pomysłu na czytelną dokumentację. Szkic planu pokazuje rozmieszczenie elementów sesji, schemat oświetlenia wyjaśnia funkcję i kierunek światła, a lista materiałowo-sprzętowa porządkuje logistykę. Dzięki temu plan zdjęciowy staje się przewidywalny, komunikatywny i łatwy do powtórzenia.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Najważniejszą ideą tej lekcji jest przełożenie pomysłu na czytelną dokumentację. Szkic planu pokazuje rozmieszczenie elementów sesji, schemat oświetlenia wyjaśnia funkcję i kierunek światła, a lista materiałowo-sprzętowa porządkuje logistykę. Dzięki temu plan zdjęciowy staje się przewidywalny, komunikatywny i łatwy do powtórzenia.",
+    "slideText": "Dokumentacja sesji\nSzkic planu + schemat światła + lista sprzętu",
+    "keywords": [
+      "szkic planu zdjęciowego",
+      "schemat oświetlenia",
+      "dokumentacja sesji",
+      "lista sprzętu",
+      "logistyka planu"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-3-l-3-3-1775577892422.png?v=1775577892428",
+      "file": "s-3-l-3-3-1775577892422.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-3-l-3-3-1775578196354.mp3?v=1775578196356",
+      "file": "s-3-l-3-3-1775578196354.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-3-4",
+    "lessonTitle": "Lekcja 3.4: Budowa sceny, montaż akcesoriów i przygotowanie obiektu",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Realistyczna scena studyjna o charakterze edukacyjnym. Fotograf przygotowuje plan zdjęciowy: rozstawione tło, stabilne statywy z workami obciążającymi, zamontowane softboxy, przewody zabezpieczone taśmą przy podłodze. Na stole fotografowany produkt jest czyszczony z kurzu, obok akcesoria do stylizacji i porządkowania sceny. Wszystko uporządkowane, estetyczne, bezpieczne, profesjonalne, format 16:9.",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Realistyczna scena studyjna o charakterze edukacyjnym. Fotograf przygotowuje plan zdjęciowy: rozstawione tło, stabilne statywy z workami obciążającymi, zamontowane softboxy, przewody zabezpieczone taśmą przy podłodze. Na stole fotografowany produkt jest czyszczony z kurzu, obok akcesoria do stylizacji i porządkowania sceny. Wszystko uporządkowane, estetyczne, bezpieczne, profesjonalne, format 16:9.",
+    "imageDescription": "Obraz przedstawia moment, w którym plan zdjęciowy staje się realną przestrzenią pracy. Widać prawidłowy montaż akcesoriów, porządek na planie, zabezpieczenie sprzętu oraz staranne przygotowanie fotografowanego obiektu przed rozpoczęciem zdjęć.",
+    "voiceoverScript": "Kwintesencją tej lekcji jest dokładne i bezpieczne przygotowanie sceny. Elementy planu należy ustawiać zgodnie z dokumentacją, akcesoria montować stabilnie, a obiekt dopracować wizualnie jeszcze przed fotografowaniem. Porządek, kompozycja i bezpieczeństwo bezpośrednio wpływają na jakość pracy i efekt końcowy zdjęcia.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Kwintesencją tej lekcji jest dokładne i bezpieczne przygotowanie sceny. Elementy planu należy ustawiać zgodnie z dokumentacją, akcesoria montować stabilnie, a obiekt dopracować wizualnie jeszcze przed fotografowaniem. Porządek, kompozycja i bezpieczeństwo bezpośrednio wpływają na jakość pracy i efekt końcowy zdjęcia.",
+    "slideText": "Budowa sceny\nMontaż, porządek, przygotowanie obiektu, bezpieczeństwo",
+    "keywords": [
+      "budowa sceny",
+      "montaż akcesoriów",
+      "przygotowanie obiektu",
+      "bezpieczeństwo na planie",
+      "kompozycja"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-3-l-3-4-1775577945694.png?v=1775577945698",
+      "file": "s-3-l-3-4-1775577945694.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-3-l-3-4-1775578200955.mp3?v=1775578200957",
+      "file": "s-3-l-3-4-1775578200955.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-3-5",
+    "lessonTitle": "Lekcja 3.5: Pomiar światła, ekspozycja i ustawienia aparatu",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Nowoczesna plansza edukacyjna, realistyczny styl techniczny. Zbliżenie na aparat fotograficzny i światłomierz w dłoni fotografa, w tle przygotowana scena zdjęciowa. Na grafice czytelne elementy infograficzne: trójkąt ekspozycji z podpisami przysłona, czas, ISO; ikonka ogniskowej, punkt ostrości na oku modela lub detalu produktu, mały histogram na ekranie aparatu. Profesjonalna estetyka, wysoka czytelność, stonowane kolory, format 16:9.",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Nowoczesna plansza edukacyjna, realistyczny styl techniczny. Zbliżenie na aparat fotograficzny i światłomierz w dłoni fotografa, w tle przygotowana scena zdjęciowa. Na grafice czytelne elementy infograficzne: trójkąt ekspozycji z podpisami przysłona, czas, ISO; ikonka ogniskowej, punkt ostrości na oku modela lub detalu produktu, mały histogram na ekranie aparatu. Profesjonalna estetyka, wysoka czytelność, stonowane kolory, format 16:9.",
+    "imageDescription": "Grafika podsumowuje techniczną stronę pracy fotografa: ocenę światła, świadomy dobór ekspozycji, wybór ogniskowej i ustawienie ostrości. Pokazuje, że poprawna rejestracja obrazu wynika z interpretacji warunków, a nie z przypadkowych ustawień aparatu.",
+    "voiceoverScript": "Sednem tej lekcji jest kontrola nad techniczną stroną zdjęcia. Fotograf najpierw ocenia światło, a potem świadomie łączy przysłonę, czas i ISO z doborem ogniskowej oraz punktu ostrości. Regularna kontrola histogramu i ostrości na planie pozwala szybko wykryć błędy i dopracować obraz jeszcze przed zakończeniem sesji.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Sednem tej lekcji jest kontrola nad techniczną stroną zdjęcia. Fotograf najpierw ocenia światło, a potem świadomie łączy przysłonę, czas i ISO z doborem ogniskowej oraz punktu ostrości. Regularna kontrola histogramu i ostrości na planie pozwala szybko wykryć błędy i dopracować obraz jeszcze przed zakończeniem sesji.",
+    "slideText": "Pomiar i ekspozycja\nŚwiatło -> przysłona, czas, ISO -> ogniskowa -> ostrość",
+    "keywords": [
+      "pomiar światła",
+      "ekspozycja",
+      "trójkąt ekspozycji",
+      "ogniskowa",
+      "ostrość"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-3-l-3-5-1775578001402.png?v=1775578001408",
+      "file": "s-3-l-3-5-1775578001402.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-3-l-3-5-1775578205114.mp3?v=1775578205202",
+      "file": "s-3-l-3-5-1775578205114.mp3",
+      "error": ""
+    }
+  }
+]

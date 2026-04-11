@@ -1,0 +1,240 @@
+[
+  {
+    "id": "L-2-1",
+    "sectionId": "S-2",
+    "sectionTitle": "Dział 2: Język fotografii, światło i sprzęt",
+    "title": "Lekcja 2.1: Terminologia fotografii i analiza obrazu",
+    "goal": "Posługiwać się poprawną terminologią z zakresu fotografii, rejestracji, obróbki i publikacji obrazu oraz analizować fotografię pod względem estetyki i funkcji.",
+    "lead": "Fotografia to nie tylko naciskanie spustu migawki. To także świadome używanie pojęć, które pozwalają opisać obraz, sprzęt, sposób wykonania zdjęcia i jego przeznaczenie. Im lepiej rozumiesz język fotografii, tym łatwiej uczysz się kolejnych zagadnień i podejmujesz trafne decyzje podczas pracy.",
+    "intro": "W tej lekcji uporządkujesz podstawowe słownictwo fotograficzne i zobaczysz, jak rozmawiać o zdjęciu w sposób zawodowy. Nauczysz się odróżniać pojęcia związane z estetyką obrazu od terminów technicznych oraz poznasz prosty sposób analizy fotografii: od tego, co widać, do tego, jak i po co zostało pokazane.",
+    "contentBlocks": [
+      {
+        "heading": "Język fotografii jako narzędzie pracy",
+        "body": "W fotografii precyzyjne nazewnictwo ma duże znaczenie. Pojęcia takie jak kadr, plan zdjęciowy, perspektywa, ostrość, głębia ostrości, kontrast, ekspozycja, światło zastane, balans bieli czy plik RAW nie są ozdobą wypowiedzi, ale narzędziem pracy. Dzięki nim możesz opisać problem, zaplanować zdjęcie, zrozumieć instrukcję sprzętu i porozumieć się z klientem, retuszerem lub drukarnią. W praktyce zawodowej nie wystarczy powiedzieć, że zdjęcie jest „ładne” albo „ciemne”. Lepiej wskazać, że fotografia ma niski kontrast, zbyt płytką głębię ostrości, nieprawidłowy balans bieli albo nieczytelny pierwszy plan."
+      },
+      {
+        "heading": "Podstawowe grupy terminów fotograficznych",
+        "body": "Terminologię fotograficzną można podzielić na kilka grup. Pierwsza dotyczy estetyki obrazu, czyli tego, jak zdjęcie wygląda i działa na odbiorcę. Należą do niej takie pojęcia jak kompozycja, rytm, proporcje, dominanta, harmonia, napięcie, punkt ciężkości obrazu czy relacja planów. Druga grupa obejmuje rejestrację obrazu: przysłonę, czas naświetlania, czułość ISO, ogniskową, autofocus, pomiar światła, tryb manualny i automatyczny. Trzecia grupa wiąże się z obróbką: kadrowanie, retusz, korekcja tonalna, korekcja barwna, rozdzielczość, kompresja, maska, warstwa. Czwarta dotyczy publikacji: format pliku, profil barwny, przygotowanie do druku, eksport do internetu, metadane i wielkość obrazu."
+      },
+      {
+        "heading": "Jak analizować fotografię",
+        "body": "Analiza fotografii powinna przebiegać etapami. Najpierw opisz to, co widać bez oceniania: temat zdjęcia, bohatera, miejsce, plan, kierunek światła, kolorystykę i układ elementów. Następnie przejdź do warstwy formalnej, czyli odpowiedz, jak zdjęcie zostało zbudowane. Zwróć uwagę na kadr, perspektywę, ostrość, głębię ostrości, kontrast, relacje jasnych i ciemnych partii oraz użycie koloru lub czerni i bieli. Dopiero później oceń funkcję fotografii: czy dokumentuje, sprzedaje, opowiada historię, buduje wizerunek, porusza emocje czy przekazuje informację techniczną. Taki porządek pomaga uniknąć chaotycznych opinii i uczy profesjonalnego myślenia o obrazie."
+      },
+      {
+        "heading": "Estetyka obrazu a funkcja zdjęcia",
+        "body": "Nie każda dobra fotografia działa w ten sam sposób. Zdjęcie reportażowe może być dynamiczne, nieidealne technicznie, ale bardzo silne emocjonalnie. Fotografia produktowa powinna być czytelna, powtarzalna i neutralna kolorystycznie, bo jej zadaniem jest pokazanie cech przedmiotu. Portret może eksponować charakter modela przez światło, mimikę i bliskość kadru. Analizując zdjęcie, zawsze pytaj nie tylko „czy mi się podoba”, ale też „czy spełnia swoje zadanie”. W pracy zawodowej funkcja obrazu jest równie ważna jak jego estetyka."
+      }
+    ],
+    "practicalExamples": [
+      "Patrzysz na portret wykonany przy oknie i zamiast mówić, że zdjęcie jest „miłe”, opisujesz je precyzyjnie: miękkie światło boczne modeluje twarz, tło jest nieostre, a mała głębia ostrości kieruje uwagę na oczy modela.",
+      "Oceniając fotografię produktu do sklepu internetowego, zwracasz uwagę nie na artystyczny klimat, ale na czytelność kształtu, poprawność koloru, równomierne oświetlenie i brak rozpraszających elementów w kadrze.",
+      "Podczas rozmowy z grafikiem mówisz, że potrzebujesz pliku w wysokiej rozdzielczości, w odpowiedniej przestrzeni barwnej i bez nadmiernej kompresji, zamiast ogólnego stwierdzenia, że zdjęcie ma być „dobrej jakości”."
+    ],
+    "keyTakeaways": [
+      "Poprawna terminologia fotograficzna ułatwia naukę, analizę zdjęć i komunikację zawodową.",
+      "Pojęcia fotograficzne obejmują estetykę obrazu, rejestrację, obróbkę i publikację.",
+      "Analizę fotografii warto prowadzić od opisu tego, co widać, przez formę, aż do funkcji zdjęcia.",
+      "Dobre zdjęcie to nie tylko obraz atrakcyjny, ale także obraz skuteczny w swoim zastosowaniu."
+    ],
+    "checkYourself": [
+      "Czym różni się opis techniczny fotografii od opisu jej estetyki?",
+      "Jakie etapy warto przejść, aby profesjonalnie przeanalizować zdjęcie?",
+      "Dlaczego przy ocenie fotografii trzeba brać pod uwagę jej funkcję, a nie tylko własne upodobania?"
+    ],
+    "summary": "Znajomość języka fotografii pozwala Ci świadomie mówić o obrazie i trafnie oceniać jego jakość. Umiesz już rozróżniać podstawowe grupy terminów oraz analizować zdjęcie pod względem treści, formy i przeznaczenia. To fundament do dalszej nauki kompozycji, światła, sprzętu i obróbki obrazu.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  },
+  {
+    "id": "L-2-2",
+    "sectionId": "S-2",
+    "sectionTitle": "Dział 2: Język fotografii, światło i sprzęt",
+    "title": "Lekcja 2.2: Kompozycja kadru, perspektywa i plany zdjęciowe",
+    "goal": "Stosować zasady kompozycji, świadomie budować kadr i dobierać plany zdjęciowe do celu fotografii.",
+    "lead": "To, co znajdzie się w kadrze i w jaki sposób zostanie pokazane, ma ogromny wpływ na odbiór zdjęcia. Kompozycja nie jest zbiorem sztywnych zakazów i nakazów, ale sposobem kierowania uwagą widza i porządkowania obrazu.",
+    "intro": "W tej lekcji poznasz najważniejsze zasady budowania kadru. Dowiesz się, jak działają linie, rytm, symetria, przestrzeń i punkt widzenia. Nauczysz się także dobierać plany zdjęciowe oraz rozumieć wpływ perspektywy na znaczenie i charakter fotografii.",
+    "contentBlocks": [
+      {
+        "heading": "Co tworzy dobrą kompozycję",
+        "body": "Kompozycja to układ wszystkich elementów w obrębie kadru. Dobra kompozycja porządkuje obraz, prowadzi wzrok odbiorcy i wzmacnia przekaz. W praktyce zwracasz uwagę na rozmieszczenie głównego motywu, relacje między pierwszym planem a tłem, obecność linii pionowych, poziomych i ukośnych, a także na to, czy w obrazie panuje równowaga czy celowe napięcie. Pomocne bywają zasady takie jak trójpodział, prowadzenie wzroku liniami, kadrowanie przez ramę naturalną czy wykorzystanie powtórzeń, ale zawsze najważniejsze jest to, czy wybrany układ wspiera temat zdjęcia."
+      },
+      {
+        "heading": "Kadr i świadome eliminowanie zbędnych elementów",
+        "body": "Budowanie kadru polega nie tylko na dodawaniu elementów, ale także na usuwaniu tego, co przeszkadza. Początkujący często próbują pokazać zbyt wiele naraz, przez co zdjęcie staje się chaotyczne. Warto więc przed wykonaniem fotografii zadać sobie pytanie, co jest głównym tematem i co może go osłabiać. Zmiana pozycji, wysokości aparatu, ogniskowej lub niewielkie przesunięcie obiektu często wystarczą, by uporządkować obraz. Kadrowanie to decyzja o granicach zdjęcia, a więc także o tym, co zostaje poza nim."
+      },
+      {
+        "heading": "Perspektywa i punkt widzenia",
+        "body": "Perspektywa wpływa na to, jak widzimy relacje przestrzenne i proporcje obiektów. Zdjęcie wykonane z poziomu oczu jest zwykle neutralne, z góry może porządkować scenę lub pomniejszać fotografowany obiekt, a z dołu nadaje mu siłę i dominację. Równie ważna jest odległość od fotografowanego motywu. Podejście bliżej zmienia relacje między planami i wzmacnia poczucie obecności, a odsunięcie aparatu porządkuje przestrzeń lub pokazuje kontekst. Perspektywa to nie tylko kwestia techniczna, ale też decyzja znaczeniowa."
+      },
+      {
+        "heading": "Plany zdjęciowe i ich funkcja",
+        "body": "Plan zdjęciowy określa, jak duża część postaci, obiektu lub przestrzeni jest widoczna na zdjęciu. Plan ogólny pokazuje szeroki kontekst miejsca, plan pełny przedstawia całą postać, plan amerykański kończy się zwykle w okolicach kolan, półzbliżenie obejmuje górną część sylwetki, a zbliżenie skupia się na twarzy lub detalu. Dobór planu zależy od celu zdjęcia. Jeśli chcesz opowiedzieć o relacji człowieka z otoczeniem, sięgnij po plan szeroki. Jeśli chcesz pokazać emocję, wybierz bliższy plan. W fotografii produktowej plan decyduje o tym, czy ważniejsza jest całość obiektu, czy szczegół jego wykonania."
+      }
+    ],
+    "practicalExamples": [
+      "Fotografując osobę na tle miasta, wybierasz plan pełny lub amerykański, aby pokazać zarówno bohatera, jak i kontekst miejsca, zamiast ciasnego zbliżenia, które odcina otoczenie.",
+      "Podczas zdjęcia architektury odsuwasz się i ustawiasz aparat bardziej na wprost budynku, dzięki czemu ograniczasz przypadkowe zniekształcenia perspektywy i porządkujesz piony.",
+      "Przy fotografii produktu usuwasz z kadru zbędne przedmioty i pozostawiasz tylko te elementy, które wzmacniają przekaz marki lub pokazują skalę przedmiotu."
+    ],
+    "keyTakeaways": [
+      "Kompozycja organizuje obraz i kieruje uwagę odbiorcy na to, co najważniejsze.",
+      "Świadomy kadr wymaga eliminowania elementów rozpraszających i podejmowania decyzji o granicach obrazu.",
+      "Perspektywa zależy od punktu widzenia i odległości aparatu od obiektu, a jej wybór wpływa na znaczenie zdjęcia.",
+      "Plan zdjęciowy dobiera się do celu fotografii: informacji, emocji, prezentacji przestrzeni lub detalu."
+    ],
+    "checkYourself": [
+      "Jak zmiana punktu widzenia może wpłynąć na odbiór fotografowanej osoby lub obiektu?",
+      "Kiedy lepiej użyć planu ogólnego, a kiedy zbliżenia?",
+      "Dlaczego usunięcie jednego zbędnego elementu z kadru może poprawić jakość całego zdjęcia?"
+    ],
+    "summary": "Kompozycja, perspektywa i plan zdjęciowy to podstawowe narzędzia budowania przekazu wizualnego. Umiesz już patrzeć na kadr nie tylko jako na zapis rzeczywistości, ale jako na świadomie zorganizowany obraz. Dzięki temu Twoje zdjęcia mogą być bardziej czytelne, spójne i skuteczne.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  },
+  {
+    "id": "L-2-3",
+    "sectionId": "S-2",
+    "sectionTitle": "Dział 2: Język fotografii, światło i sprzęt",
+    "title": "Lekcja 2.3: Światło, barwa i przestrzenie barwne",
+    "goal": "Wyjaśniać wpływ światła i barwy na obraz fotograficzny oraz rozróżniać podstawowe przestrzenie barwne używane w rejestracji, obróbce i publikacji.",
+    "lead": "Bez światła nie ma fotografii. To ono buduje kształt, fakturę, nastrój i czytelność obrazu. Równie ważna jest barwa, bo wpływa na realizm zdjęcia, emocje odbiorcy i poprawność publikacji.",
+    "intro": "W tej lekcji dowiesz się, jak rozpoznawać podstawowe cechy światła i jak przekładają się one na wygląd zdjęcia. Poznasz pojęcia temperatury barwowej, balansu bieli i kontrastu oraz nauczysz się odróżniać najważniejsze przestrzenie barwne używane w fotografii cyfrowej.",
+    "contentBlocks": [
+      {
+        "heading": "Najważniejsze cechy światła w fotografii",
+        "body": "Światło opisuje się przez kierunek, jakość, intensywność i barwę. Kierunek światła wpływa na modelowanie formy. Światło przednie spłaszcza obraz, boczne wydobywa fakturę, tylne buduje kontur i może tworzyć efekt sylwetki. Jakość światła dotyczy tego, czy jest ono twarde czy miękkie. Twarde światło daje wyraźne cienie i mocny kontrast, a miękkie płynnie przechodzi między światłem a cieniem. Intensywność decyduje o jasności sceny i możliwościach ustawienia ekspozycji. Im lepiej rozumiesz te cechy, tym łatwiej przewidujesz efekt jeszcze przed wykonaniem zdjęcia."
+      },
+      {
+        "heading": "Barwa światła i balans bieli",
+        "body": "Różne źródła światła mają różną temperaturę barwową. Światło dzienne w południe jest inne niż światło żarowe, świetlówkowe czy światło o zachodzie słońca. Aparat próbuje zinterpretować tę barwę tak, aby biel na zdjęciu była neutralna, ale nie zawsze robi to idealnie. Dlatego tak ważny jest balans bieli, czyli ustawienie określające, jak aparat lub program do obróbki ma odczytywać kolor światła. Błędny balans bieli może sprawić, że fotografia będzie zbyt niebieska, zbyt żółta albo nienaturalna. W pracy zawodowej poprawna kontrola barwy ma duże znaczenie zwłaszcza w portrecie, fotografii produktowej i reprodukcji."
+      },
+      {
+        "heading": "Barwa jako element przekazu",
+        "body": "Kolor w fotografii nie służy wyłącznie do wiernego odwzorowania rzeczywistości. Może budować nastrój, porządkować kadr i przyciągać uwagę. Barwy ciepłe zwykle wydają się bliższe i bardziej dynamiczne, a chłodne spokojniejsze i bardziej zdystansowane. Kontrast barwny potrafi wydobyć główny motyw z tła, a ograniczona paleta kolorystyczna nadaje zdjęciu spójność. W praktyce warto obserwować, czy kolor wspiera temat zdjęcia, czy rozprasza. Czasem lepszy efekt daje świadome uproszczenie kolorów, a czasem wręcz przeciwnie, wykorzystanie ich różnorodności."
+      },
+      {
+        "heading": "Przestrzenie barwne w fotografii cyfrowej",
+        "body": "Przestrzeń barwna określa zakres kolorów, jakie może zapisać, wyświetlić lub wydrukować urządzenie albo plik. W fotografii najczęściej spotyka się sRGB i Adobe RGB. sRGB jest standardem powszechnie używanym w internecie i na wielu urządzeniach konsumenckich. Adobe RGB oferuje szerszy zakres barw, dlatego bywa używany w bardziej zaawansowanej obróbce i przygotowaniu do druku. Sama szersza przestrzeń nie gwarantuje lepszego zdjęcia, jeśli cały proces pracy nie jest odpowiednio zarządzany. Trzeba pamiętać, że aparat, monitor, program i drukarka muszą współpracować ze sobą w sposób świadomy."
+      },
+      {
+        "heading": "Od rejestracji do publikacji",
+        "body": "W praktyce fotografa ważne jest, aby myśleć o kolorze nie tylko podczas wykonywania zdjęcia, ale także podczas edycji i publikacji. Jeśli źle ustawisz balans bieli lub niekontrolowanie zmienisz przestrzeń barwną, fotografia może wyglądać inaczej na monitorze, inaczej w telefonie, a jeszcze inaczej po wydruku. Dlatego warto pracować na skalibrowanym sprzęcie, znać przeznaczenie zdjęcia i dobierać parametry pliku do miejsca publikacji. Świadoma kontrola światła i barwy to element profesjonalnego warsztatu."
+      }
+    ],
+    "practicalExamples": [
+      "Fotografując portret przy zachodzącym słońcu, zachowujesz lekko ciepły balans bieli, aby nie zniszczyć naturalnego nastroju sceny zbyt chłodną korektą.",
+      "Przy zdjęciu produktu przeznaczonego do sklepu internetowego dbasz o neutralne światło i poprawny kolor, bo klient powinien zobaczyć przedmiot możliwie wiernie.",
+      "Eksportując fotografie do publikacji online, wybierasz sRGB, aby ograniczyć ryzyko nieprawidłowego wyświetlania kolorów na różnych urządzeniach."
+    ],
+    "keyTakeaways": [
+      "Kierunek, jakość, intensywność i barwa światła decydują o wyglądzie fotografii.",
+      "Balans bieli pomaga poprawnie interpretować kolor światła i zachować naturalność obrazu.",
+      "Barwa w fotografii wpływa zarówno na realizm, jak i na emocjonalny odbiór zdjęcia.",
+      "Przestrzenie barwne, takie jak sRGB i Adobe RGB, mają znaczenie w rejestracji, obróbce i publikacji obrazu."
+    ],
+    "checkYourself": [
+      "Jakie cechy światła najbardziej wpływają na nastrój i czytelność zdjęcia?",
+      "Dlaczego błędny balans bieli może być problemem w fotografii produktowej?",
+      "Kiedy w praktyce najczęściej wybiera się przestrzeń barwną sRGB?"
+    ],
+    "summary": "Światło i barwa są podstawą fotograficznego obrazu. Rozumiesz już, że fotografia to nie tylko zapis sceny, ale świadoma interpretacja światła i koloru. Potrafisz też odróżnić najważniejsze przestrzenie barwne i wiesz, dlaczego ich wybór ma znaczenie na etapie rejestracji, obróbki i publikacji.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  },
+  {
+    "id": "L-2-4",
+    "sectionId": "S-2",
+    "sectionTitle": "Dział 2: Język fotografii, światło i sprzęt",
+    "title": "Lekcja 2.4: Aparaty, obiektywy, lampy i urządzenia pomiarowe",
+    "goal": "Rozpoznawać sprzęt fotograficzny i oświetleniowy, określać jego zastosowanie oraz dobierać urządzenia do rodzaju realizowanego zdjęcia.",
+    "lead": "Sprzęt nie zastąpi wiedzy i wrażliwości, ale źle dobrane urządzenie może utrudnić wykonanie nawet prostego zdjęcia. Fotograf powinien wiedzieć, czym różnią się aparaty, obiektywy, lampy i narzędzia pomiarowe oraz kiedy warto po nie sięgnąć.",
+    "intro": "W tej lekcji poznasz podstawowe grupy sprzętu używanego podczas rejestracji obrazu. Dowiesz się, jak rozumieć ich przeznaczenie, jakie mają ograniczenia i jak dobrać je do fotografii portretowej, reportażowej, produktowej czy plenerowej.",
+    "contentBlocks": [
+      {
+        "heading": "Rodzaje aparatów fotograficznych",
+        "body": "W pracy fotografa spotkasz aparaty cyfrowe i analogowe, a wśród aparatów cyfrowych przede wszystkim lustrzanki i bezlusterkowce. Lustrzanki mają optyczny wizjer i tradycyjną konstrukcję, bezlusterkowce są zwykle bardziej kompaktowe i oferują podgląd elektroniczny. W praktyce ważniejsze od samej nazwy systemu są możliwości aparatu: wielkość matrycy, szybkość działania, jakość pliku, celność autofocusu, ergonomia i dostępność obiektywów. Do reportażu liczy się szybkość i mobilność, do studia wygodna obsługa i powtarzalność, a do fotografii technicznej precyzja odwzorowania."
+      },
+      {
+        "heading": "Obiektywy i ich właściwości użytkowe",
+        "body": "Obiektyw decyduje o kącie widzenia, perspektywicznym charakterze obrazu i możliwościach pracy w różnych warunkach. Szerokokątne ogniskowe pokazują więcej przestrzeni i dobrze sprawdzają się w architekturze czy wnętrzach. Standardowe są bardziej zbliżone do naturalnego odbioru sceny. Teleobiektywy zawężają kąt widzenia, pozwalają fotografować z dystansu i ułatwiają separację obiektu od tła. Ważna jest też jasność obiektywu, czyli maksymalny otwór przysłony. Jaśniejszy obiektyw lepiej sprawdza się w słabszym świetle i umożliwia płytszą głębię ostrości. Dobierając obiektyw, myślisz nie tylko o ogniskowej, ale o efekcie, jaki chcesz uzyskać."
+      },
+      {
+        "heading": "Lampy i modyfikatory światła",
+        "body": "W fotografii używa się światła zastanego, lamp błyskowych i światła ciągłego. Reporterskie lampy błyskowe są mobilne i wygodne poza studiem. Studyjne lampy błyskowe dają większą moc i kontrolę, dlatego dobrze sprawdzają się przy portretach i fotografii produktowej. Światło ciągłe pozwala od razu zobaczyć efekt na planie, co jest wygodne przy nauce, filmowaniu i niektórych zdjęciach studyjnych. Samo źródło światła to jednak nie wszystko. O charakterze oświetlenia decydują również modyfikatory, takie jak softboxy, parasolki, strumienice, wrota, plastry miodu, blendy i dyfuzory. To one zmieniają twardość światła, jego kierunek i rozproszenie."
+      },
+      {
+        "heading": "Statywy, akcesoria i urządzenia pomiarowe",
+        "body": "Statyw fotograficzny stabilizuje aparat, co jest szczególnie ważne przy dłuższych czasach naświetlania, fotografii produktowej, architekturze, panoramach i reprodukcjach. Statywy oświetleniowe służą do bezpiecznego ustawiania lamp i modyfikatorów. Przydatne są także wyzwalacze lamp, filtry, szare karty i wzorniki. W profesjonalnej pracy dużą rolę odgrywają urządzenia pomiarowe, przede wszystkim światłomierze. Pozwalają dokładniej ocenić ilość światła padającego lub odbitego, dzięki czemu łatwiej uzyskać powtarzalny efekt i poprawną ekspozycję. To szczególnie ważne w studiu i przy pracy z bardziej złożonym oświetleniem."
+      }
+    ],
+    "practicalExamples": [
+      "Do reportażu z wydarzenia wybierasz lekki aparat z szybkim autofokusem, uniwersalny zoom lub jasny obiektyw stałoogniskowy oraz reporterską lampę błyskową, bo liczy się mobilność i szybka reakcja.",
+      "Przy fotografii produktu ustawiasz aparat na statywie, używasz obiektywu o odpowiedniej ogniskowej, lamp studyjnych i softboxów, aby uzyskać powtarzalne kadry i kontrolowane światło.",
+      "Podczas portretu studyjnego mierzysz światło światłomierzem, dzięki czemu łatwiej utrzymujesz stałą ekspozycję w serii zdjęć wykonywanych przy tym samym ustawieniu lamp."
+    ],
+    "keyTakeaways": [
+      "Dobór aparatu zależy od rodzaju pracy, ergonomii, jakości pliku i możliwości systemu.",
+      "Obiektyw wpływa na kąt widzenia, charakter obrazu, głębię ostrości i komfort pracy w różnych warunkach.",
+      "Lampy oraz modyfikatory pozwalają kontrolować kierunek, miękkość i intensywność światła.",
+      "Statywy, akcesoria i urządzenia pomiarowe zwiększają precyzję, bezpieczeństwo i powtarzalność pracy fotografa."
+    ],
+    "checkYourself": [
+      "Jakie cechy sprzętu są najważniejsze przy fotografii reportażowej, a jakie w studiu?",
+      "W jaki sposób ogniskowa obiektywu wpływa na sposób pokazania sceny?",
+      "Dlaczego światłomierz jest szczególnie przydatny podczas pracy z oświetleniem studyjnym?"
+    ],
+    "summary": "Znasz już podstawowe rodzaje sprzętu fotograficznego i oświetleniowego oraz rozumiesz, że ich dobór wynika z zadania fotograficznego. Umiesz spojrzeć na aparat, obiektyw, lampę czy światłomierz nie jako na osobne urządzenia, ale jako elementy jednego systemu pracy nad obrazem.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  },
+  {
+    "id": "L-2-5",
+    "sectionId": "S-2",
+    "sectionTitle": "Dział 2: Język fotografii, światło i sprzęt",
+    "title": "Lekcja 2.5: Matryce, materiały fotograficzne, nośniki pamięci i dokumentacja techniczna",
+    "goal": "Porównywać właściwości matryc, materiałów fotograficznych, papierów i nośników pamięci oraz odczytywać oznaczenia techniczne, schematy i normy stosowane w fotografii.",
+    "lead": "Fotograf pracuje nie tylko aparatem i światłem, ale także materiałem światłoczułym, plikiem, kartą pamięci, papierem i dokumentacją techniczną. Świadomy wybór tych elementów wpływa na jakość obrazu, bezpieczeństwo danych i sprawność całego procesu pracy.",
+    "intro": "W tej lekcji poznasz podstawowe właściwości matryc cyfrowych oraz materiałów fotograficznych używanych w technikach cyfrowych i tradycyjnych. Dowiesz się też, jak oceniać nośniki pamięci, rozumieć oznaczenia techniczne i po co fotografowi znajomość norm oraz dokumentacji sprzętu.",
+    "contentBlocks": [
+      {
+        "heading": "Matryce i ich właściwości użytkowe",
+        "body": "Matryca to element aparatu cyfrowego, który rejestruje obraz. Różne matryce różnią się wielkością, rozdzielczością, zakresem tonalnym, zachowaniem przy wysokim ISO i sposobem odwzorowania szczegółów. Większa matryca zwykle daje większą swobodę pracy z głębią ostrości i lepszą jakość w trudniejszych warunkach oświetleniowych, ale sama wielkość nie rozstrzyga o wszystkim. Znaczenie mają także technologia wykonania, jakość obiektywu i sposób obróbki pliku. W praktyce fotograf powinien umieć ocenić, czy dany sprzęt wystarczy do publikacji internetowej, wydruku, reportażu, portretu czy fotografii technicznej."
+      },
+      {
+        "heading": "Materiały fotograficzne i materiały do wydruku",
+        "body": "W fotografii funkcjonują zarówno materiały tradycyjne, jak i cyfrowe nośniki obrazu. W technice analogowej spotkasz filmy negatywowe, diapozytywy i papiery fotograficzne o różnych cechach użytkowych. Różnią się one czułością, kontrastem, ziarnistością i przeznaczeniem. W procesach cyfrowych ważne są materiały eksploatacyjne do druku, takie jak tusze, tonery i papiery. Papier może mieć powierzchnię błyszczącą, półmatową, matową, satynową lub artystyczną. Wybór materiału wpływa na kontrast, głębię czerni, nasycenie barw i odbiór finalnej fotografii. Inny papier sprawdzi się w albumie, inny na wystawie, a jeszcze inny przy odbitkach roboczych."
+      },
+      {
+        "heading": "Nośniki pamięci i bezpieczeństwo danych",
+        "body": "Nośniki pamięci służą do zapisu i przenoszenia plików fotograficznych. W praktyce spotyka się karty pamięci różnych typów, dyski zewnętrzne, pamięci SSD, serwery i rozwiązania chmurowe. Przy wyborze nośnika liczą się pojemność, szybkość zapisu i odczytu, niezawodność oraz zgodność ze sprzętem. Szybka karta ma znaczenie zwłaszcza przy zdjęciach seryjnych i nagrywaniu wideo, a odpowiednia pojemność ułatwia pracę podczas dłuższych sesji. Równie istotne jest bezpieczeństwo danych. Pliki fotograficzne powinny być kopiowane, porządkowane i archiwizowane, bo utrata materiału może oznaczać utratę efektów pracy i odpowiedzialność zawodową."
+      },
+      {
+        "heading": "Dokumentacja techniczna i oznaczenia",
+        "body": "Fotograf powinien umieć czytać instrukcje, parametry urządzeń, oznaczenia na obiektywach, kartach pamięci, akumulatorach i materiałach eksploatacyjnych. Oznaczenia mówią o ogniskowej, jasności obiektywu, pojemności nośnika, klasie prędkości, kompatybilności sprzętu czy sposobie użytkowania. Ważna jest również umiejętność interpretowania schematów oświetlenia, prostych rysunków technicznych i znaków umieszczonych na opakowaniach materiałów. To pozwala unikać błędów, dobierać właściwe elementy zestawu oraz pracować sprawniej i bezpieczniej."
+      },
+      {
+        "heading": "Normy i procedury oceny zgodności",
+        "body": "W pracy zawodowej spotkasz się z normami, oznaczeniami i procedurami, które porządkują sposób opisu sprzętu i materiałów. Norma nie jest przypadkowym zapisem, lecz ustalonym standardem, który ułatwia porównywanie parametrów oraz bezpieczne użytkowanie urządzeń. Fotograf nie musi znać wszystkich norm na pamięć, ale powinien rozumieć, że oznaczenia krajowe, europejskie i międzynarodowe mają praktyczne znaczenie. Pomagają ocenić, czy produkt spełnia wymagania jakościowe, jest zgodny z urządzeniem i nadaje się do danego zastosowania."
+      }
+    ],
+    "practicalExamples": [
+      "Przed ważną sesją sprawdzasz, czy karta pamięci ma odpowiednią szybkość zapisu do fotografowania serią w formacie RAW, aby uniknąć spowolnienia pracy aparatu.",
+      "Wybierając papier do wydruku portretu wystawowego, decydujesz się na powierzchnię, która dobrze oddaje przejścia tonalne skóry i pasuje do charakteru prezentacji, zamiast używać przypadkowego papieru biurowego.",
+      "Czytając oznaczenia na obiektywie, rozpoznajesz jego ogniskową i maksymalną jasność, dzięki czemu wiesz, czy lepiej sprawdzi się do portretu, reportażu czy fotografii wnętrz."
+    ],
+    "keyTakeaways": [
+      "Właściwości matrycy wpływają na jakość obrazu, ale ich znaczenie trzeba oceniać w kontekście konkretnego zadania fotograficznego.",
+      "Materiały fotograficzne i materiały do wydruku różnią się cechami użytkowymi, które wpływają na finalny wygląd zdjęcia.",
+      "Nośniki pamięci należy dobierać nie tylko pod względem pojemności, ale także szybkości, niezawodności i bezpieczeństwa archiwizacji.",
+      "Umiejętność odczytywania dokumentacji technicznej, oznaczeń i norm jest częścią profesjonalnego warsztatu fotografa."
+    ],
+    "checkYourself": [
+      "Jakie cechy matrycy mają znaczenie przy ocenie przydatności aparatu do konkretnej pracy?",
+      "Dlaczego wybór papieru fotograficznego wpływa na odbiór finalnej odbitki?",
+      "Jakie informacje praktyczne możesz odczytać z oznaczeń na karcie pamięci lub obiektywie?"
+    ],
+    "summary": "Fotografia to także świadoma praca z materiałem, danymi i dokumentacją techniczną. Rozumiesz już, że jakość obrazu zależy nie tylko od samego wykonania zdjęcia, ale również od właściwości matrycy, doboru materiałów, bezpieczeństwa zapisu i umiejętności interpretowania parametrów technicznych. To wiedza niezbędna w codziennej pracy fotografa.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "L-5-1",
+    "sectionId": "S-5",
+    "sectionTitle": "Dział 5: Cyfrowa i chemiczna obróbka obrazu",
+    "title": "Lekcja 5.1: Konfiguracja stanowiska do obróbki i zarządzanie barwą",
+    "goal": "Przygotować środowisko pracy programu graficznego, skonfigurować urządzenia peryferyjne oraz wykonać kalibrację i profilowanie stanowiska.",
+    "lead": "Dobrze przygotowane stanowisko do obróbki obrazu decyduje o tym, czy zdjęcie będzie wyglądało tak samo na monitorze, w druku i po publikacji w sieci. W tej lekcji nauczysz się, jak uporządkować przestrzeń roboczą, ustawić urządzenia oraz świadomie zarządzać barwą.",
+    "intro": "Obróbka zdjęć nie zaczyna się od retuszu, ale od poprawnego przygotowania środowiska pracy. Jeżeli monitor wyświetla zafałszowane kolory, drukarka nie jest skonfigurowana, a program pracuje w niewłaściwej przestrzeni barwnej, nawet dobrze wykonana korekcja może dać błędny efekt. Dlatego najpierw trzeba zadbać o spójność całego toru pracy: od pliku źródłowego, przez monitor, aż po urządzenie wyjściowe.",
+    "contentBlocks": [
+      {
+        "heading": "Stanowisko do obróbki obrazu jako spójny system",
+        "body": "Stanowisko do obróbki obrazu tworzą nie tylko komputer i program graficzny, ale cały zestaw urządzeń współpracujących ze sobą w jednym procesie. Należą do niego monitor, skaner, drukarka, czytnik kart pamięci, tablet graficzny oraz oprogramowanie sterujące. Każdy z tych elementów wpływa na końcowy efekt. Dlatego konfigurację zaczynasz od sprawdzenia, czy urządzenia są poprawnie podłączone, zainstalowane i działają z aktualnymi sterownikami. Równie ważne są warunki pracy: neutralne oświetlenie pomieszczenia, brak silnych odbić na ekranie, wygodna pozycja przy biurku i stabilne zasilanie. Dobrze zorganizowane stanowisko zmniejsza liczbę błędów i ułatwia ocenę obrazu."
+      },
+      {
+        "heading": "Konfiguracja programu graficznego i przestrzeni roboczej",
+        "body": "Po uruchomieniu programu graficznego warto od razu ustawić przestrzeń roboczą zgodnie z przeznaczeniem zdjęć. Do pracy internetowej często używa się sRGB, a do bardziej wymagającej obróbki i wydruku jakościowego często Adobe RGB lub innej szerszej przestrzeni, jeśli cały tor pracy jest do niej przygotowany. Istotne jest także ustawienie zasad zarządzania profilami ICC, ostrzeżeń o niezgodności profilu oraz sposobu wyświetlania podglądu. Dobrą praktyką jest zapisanie własnego układu paneli i narzędzi tak, aby najczęściej używane funkcje były pod ręką. W pracy zawodowej liczy się nie tylko poprawność, ale również powtarzalność i szybkość działania."
+      },
+      {
+        "heading": "Kalibracja monitora i profilowanie urządzeń",
+        "body": "Kalibracja polega na doprowadzeniu urządzenia do określonego, przewidywalnego stanu pracy, a profilowanie na opisaniu jego sposobu odwzorowania barw. W praktyce najczęściej zaczynasz od monitora, ponieważ to na nim oceniasz zdjęcie. Za pomocą kolorymetru lub spektrofotometru ustawiasz docelową jasność, punkt bieli, gammę i tworzysz profil ICC. Następnie możesz profilować drukarkę i papier, a w bardziej zaawansowanym środowisku także aparat i skaner. Dzięki temu program wie, jak przeliczać kolory między urządzeniami. Bez tego ta sama fotografia może wyglądać inaczej na każdym etapie pracy."
+      },
+      {
+        "heading": "Tor kalibracyjny i kontrola zgodności barwnej",
+        "body": "Tor kalibracyjny to uporządkowany łańcuch pracy, w którym każde urządzenie ma znany profil i określoną funkcję. Plik wejściowy jest interpretowany zgodnie z profilem źródłowym, monitor pokazuje obraz po kalibracji, a drukarka otrzymuje dane przeliczone do własnej charakterystyki. W praktyce oznacza to, że przed rozpoczęciem większego zlecenia warto wykonać próbę: otworzyć obraz testowy, ocenić neutralne szarości, przejścia tonalne i nasycone kolory, a następnie porównać monitor z wydrukiem w kontrolowanym świetle. Tylko regularna kontrola daje pewność, że stanowisko działa poprawnie i że podejmowane decyzje edycyjne są wiarygodne."
+      }
+    ],
+    "practicalExamples": [
+      "Przygotowujesz zdjęcia produktowe do sklepu internetowego, więc ustawiasz przestrzeń roboczą sRGB, kalibrujesz monitor do umiarkowanej jasności i zapisujesz własny układ paneli do szybkiej pracy seryjnej.",
+      "Masz wykonać wydruki wystawowe, dlatego profilujesz monitor i drukarkę dla konkretnego papieru fotograficznego, a następnie porównujesz wydruk próbny z obrazem na ekranie w neutralnym oświetleniu.",
+      "Po wymianie monitora zauważasz, że zdjęcia wydają się zbyt chłodne. Zamiast korygować wszystkie pliki, najpierw przeprowadzasz kalibrację nowego ekranu i dopiero wtedy oceniasz materiał."
+    ],
+    "keyTakeaways": [
+      "Stanowisko do obróbki obrazu musi działać jako spójny system, a nie zbiór przypadkowych urządzeń.",
+      "Przestrzeń roboczą i ustawienia zarządzania barwą dobiera się do celu publikacji oraz możliwości całego toru pracy.",
+      "Kalibracja ustawia urządzenie do przewidywalnej pracy, a profilowanie opisuje jego sposób odwzorowania barw.",
+      "Regularna kontrola monitora, drukarki i warunków oświetleniowych pozwala zachować zgodność barwną między ekranem a wydrukiem."
+    ],
+    "checkYourself": [
+      "Dlaczego sama korekcja zdjęcia nie wystarczy, jeśli monitor nie został skalibrowany?",
+      "Czym różni się kalibracja urządzenia od jego profilowania?",
+      "W jakiej sytuacji wybór przestrzeni sRGB będzie bezpieczniejszy niż szerszej przestrzeni barwnej?"
+    ],
+    "summary": "W tej lekcji poznałeś podstawy przygotowania stanowiska do obróbki obrazu. Wiesz już, że poprawna konfiguracja programu, aktualne sterowniki, kalibracja monitora oraz świadome zarządzanie profilami barwnymi są konieczne, aby uzyskać przewidywalny efekt na ekranie i w druku. To fundament każdej dalszej pracy nad zdjęciem.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  },
+  {
+    "id": "L-5-2",
+    "sectionId": "S-5",
+    "sectionTitle": "Dział 5: Cyfrowa i chemiczna obróbka obrazu",
+    "title": "Lekcja 5.2: Skanowanie materiałów transparentnych i refleksyjnych",
+    "goal": "Dobierać skaner i parametry skanowania, digitalizować negatywy, slajdy i odbitki oraz kontrolować jakość uzyskanego pliku.",
+    "lead": "Skanowanie to nie tylko zamiana obrazu analogowego na plik. To etap, który decyduje o ilości zachowanych szczegółów, jakości barw i możliwościach dalszej obróbki. W tej lekcji nauczysz się skanować świadomie, a nie przypadkowo.",
+    "intro": "W pracy fotografa często trzeba digitalizować archiwalne negatywy, slajdy, odbitki i inne materiały obrazowe. Każdy z tych nośników zachowuje się inaczej i wymaga odmiennego podejścia. Inne będą potrzeby przy skanowaniu małoobrazkowego negatywu do dużego wydruku, a inne przy digitalizacji papierowej odbitki do publikacji internetowej. Dlatego ważne jest prawidłowe dobranie skanera, ustawień i sposobu kontroli jakości.",
+    "contentBlocks": [
+      {
+        "heading": "Materiały transparentne i refleksyjne",
+        "body": "Materiały transparentne to takie, przez które przechodzi światło, na przykład negatywy i slajdy. Materiały refleksyjne odbijają światło, jak odbitki papierowe, dokumenty czy ilustracje. Ta różnica ma znaczenie praktyczne, ponieważ do transparentów potrzebny jest skaner wyposażony w moduł do podświetlania filmu albo specjalistyczny skaner filmowy. Materiały refleksyjne skanuje się z wykorzystaniem światła odbitego. W obu przypadkach celem jest uzyskanie pliku, który wiernie odda szczegóły, tonalność i kolor oryginału oraz będzie odpowiedni do dalszej obróbki lub archiwizacji."
+      },
+      {
+        "heading": "Dobór skanera i ustawień technicznych",
+        "body": "Dobór urządzenia zależy od rodzaju materiału i oczekiwanego efektu końcowego. Do negatywów i slajdów najlepiej sprawdzają się skanery filmowe lub płaskie skanery wysokiej jakości z przystawką do transparentów. Do odbitek papierowych wystarczy często dobry skaner płaski. Najważniejsze parametry to rzeczywista rozdzielczość optyczna, głębia bitowa, zakres tonalny oraz możliwość pracy z profilami barwnymi. Podczas skanowania ustalasz rozdzielczość zgodną z przeznaczeniem pliku, tryb barwny, format zapisu oraz ewentualne funkcje dodatkowe, takie jak usuwanie kurzu czy korekcja ekspozycji. Nie należy jednak przesadzać z automatyzacją, bo zbyt agresywne poprawki potrafią zniszczyć naturalny charakter obrazu."
+      },
+      {
+        "heading": "Przygotowanie materiału i przebieg skanowania",
+        "body": "Przed skanowaniem materiał trzeba oczyścić z kurzu, włókien i zabrudzeń. W przypadku filmu używa się gruszki, miękkiego pędzelka lub przeznaczonych do tego akcesoriów antystatycznych. Odbitkę warto delikatnie oczyścić i sprawdzić, czy nie ma zagięć lub śladów wilgoci. Następnie umieszcza się materiał w odpowiednim uchwycie lub na szybie skanera, dba o właściwe położenie i wykonuje podgląd. Na etapie podglądu ustalasz obszar skanowania, orientację obrazu oraz podstawowe parametry. Dopiero po tej kontroli wykonujesz skan właściwy. Dobre przygotowanie materiału zmniejsza późniejszą ilość retuszu i przyspiesza cały proces."
+      },
+      {
+        "heading": "Ocena jakości pliku po skanowaniu",
+        "body": "Po zeskanowaniu nie kończysz pracy od razu. Trzeba sprawdzić, czy plik zawiera odpowiednią ilość szczegółów, czy nie wystąpiły przepalenia świateł albo utrata informacji w cieniach, czy ostrość jest wystarczająca i czy nie pojawiły się artefakty. W materiałach czarno-białych zwracasz uwagę na płynność przejść tonalnych, a w barwnych dodatkowo na dominanty kolorystyczne. Warto też skontrolować, czy skan ma właściwy profil, nazwę pliku i czy został zapisany w odpowiednim formacie, na przykład TIFF do archiwum lub JPEG do podglądu. Jakość skanu ocenia się zawsze w kontekście celu, do którego plik ma być użyty."
+      }
+    ],
+    "practicalExamples": [
+      "Digitalizujesz rodzinny negatyw 35 mm przeznaczony do powiększenia na wystawę, dlatego wybierasz skaner do transparentów, ustawiasz wysoką rozdzielczość optyczną i zapisujesz plik w formacie TIFF z dużą głębią barwną.",
+      "Skanujesz starą odbitkę do publikacji na stronie internetowej, więc dobierasz umiarkowaną rozdzielczość, delikatnie oczyszczasz powierzchnię zdjęcia i zapisujesz plik roboczy oraz wersję zmniejszoną do sieci.",
+      "Przy skanowaniu slajdu zauważasz pyłki i drobne rysy, dlatego przed kolejną próbą czyścisz materiał i sprawdzasz, czy funkcja usuwania kurzu nie pogarsza szczegółów na obrazie."
+    ],
+    "keyTakeaways": [
+      "Transparenty i materiały refleksyjne wymagają innego sposobu oświetlenia i często innego typu skanera.",
+      "Najważniejsze parametry skanowania to rozdzielczość optyczna, głębia bitowa, zakres tonalny i właściwy format zapisu.",
+      "Dokładne oczyszczenie materiału przed skanowaniem ogranicza konieczność późniejszego retuszu.",
+      "Jakość pliku po skanowaniu należy ocenić pod kątem szczegółowości, tonalności, barwy i celu wykorzystania obrazu."
+    ],
+    "checkYourself": [
+      "Dlaczego ten sam skaner nie zawsze będzie równie dobry do odbitek papierowych i do negatywów?",
+      "Jakie znaczenie ma oczyszczenie filmu lub odbitki przed skanowaniem?",
+      "Na co zwrócisz uwagę, oceniając jakość pliku po zeskanowaniu slajdu?"
+    ],
+    "summary": "W tej lekcji nauczyłeś się rozróżniać materiały transparentne i refleksyjne, dobierać odpowiedni skaner oraz ustawiać parametry skanowania zgodnie z przeznaczeniem pliku. Wiesz także, jak przygotować materiał do digitalizacji i jak ocenić, czy uzyskany skan nadaje się do dalszej obróbki, archiwizacji lub publikacji.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  },
+  {
+    "id": "L-5-3",
+    "sectionId": "S-5",
+    "sectionTitle": "Dział 5: Cyfrowa i chemiczna obróbka obrazu",
+    "title": "Lekcja 5.3: Selekcja materiału, kopie cyfrowe i retusz zdjęć",
+    "goal": "Wybierać materiał do opracowania, tworzyć kopie robocze i wykonywać retusz z użyciem narzędzi programu graficznego.",
+    "lead": "Dobra obróbka zaczyna się od właściwej selekcji. Nie każde zdjęcie warto retuszować, a nie każdy retusz poprawia obraz. W tej lekcji nauczysz się wybierać materiał do opracowania, zabezpieczać oryginały i retuszować w sposób kontrolowany.",
+    "intro": "W praktyce zawodowej fotograf pracuje nie na jednym zdjęciu, ale na całych zestawach plików. Dlatego trzeba umieć ocenić, które ujęcia są technicznie i estetycznie najlepsze, a następnie przygotować bezpieczny proces edycji. Ważne jest też rozróżnienie między korektą obrazu a retuszem. Korekta poprawia ogólny wygląd zdjęcia, natomiast retusz dotyczy zwykle wybranych fragmentów i usuwa konkretne niedoskonałości.",
+    "contentBlocks": [
+      {
+        "heading": "Selekcja materiału do opracowania",
+        "body": "Selekcja to etap wyboru zdjęć, które mają największą wartość techniczną i komunikacyjną. Oceniasz ostrość, ekspozycję, kompozycję, wyraz chwili, zgodność ze zleceniem i potencjał do dalszej obróbki. Przy większych sesjach warto stosować system oznaczeń, gwiazdek, flag lub kolorów. Dzięki temu oddzielasz pliki odrzucone, materiał roboczy i ujęcia finalne. Dobra selekcja oszczędza czas, bo zamiast poprawiać wszystko, skupiasz się na zdjęciach, które rzeczywiście warto rozwijać."
+      },
+      {
+        "heading": "Tworzenie kopii cyfrowych i bezpieczeństwo pracy",
+        "body": "Przed rozpoczęciem edycji należy zabezpieczyć materiał źródłowy. Oryginałów nie powinno się nadpisywać. Najlepiej utworzyć kopię roboczą lub pracować nieniszcząco, wykorzystując warstwy, maski i osobne wersje plików. W praktyce oznacza to także logiczne nazewnictwo, porządek katalogów i zapis kolejnych etapów pracy. W przypadku ważnych zleceń warto od razu wykonać kopię bezpieczeństwa na dodatkowym nośniku. Taki sposób pracy chroni przed utratą danych i pozwala wrócić do wcześniejszych decyzji edycyjnych."
+      },
+      {
+        "heading": "Podstawowe narzędzia retuszu",
+        "body": "Retusz cyfrowy wykonuje się z użyciem narzędzi służących do usuwania plam, rys, pyłu, drobnych przebarwień czy niepożądanych elementów kadru. W zależności od programu mogą to być pędzle korygujące, stempel, łatka, narzędzia wypełniania z uwzględnieniem zawartości oraz maski warstw. Ważne jest, by pracować w powiększeniu, ale regularnie wracać do widoku całości zdjęcia. Zbyt dokładne poprawianie pojedynczych miejsc może prowadzić do nienaturalnego efektu. Profesjonalny retusz powinien być skuteczny, ale możliwie niewidoczny."
+      },
+      {
+        "heading": "Granice retuszu i zgodność z celem zdjęcia",
+        "body": "Zakres retuszu zależy od rodzaju fotografii. W fotografii reklamowej dopuszcza się szerzej zakrojone poprawki, natomiast w fotografii dokumentalnej i reportażowej ingerencja powinna być minimalna i etycznie uzasadniona. Trzeba więc wiedzieć, czy usuwasz techniczne zabrudzenia, czy zmieniasz znaczenie obrazu. W pracy zawodowej zawsze warto zachować umiar i pamiętać o przejrzystości procesu. Jeżeli zdjęcie ma pełnić funkcję informacyjną, retusz nie może fałszować rzeczywistości."
+      }
+    ],
+    "practicalExamples": [
+      "Po sesji portretowej wybierasz z kilkudziesięciu ujęć pięć najlepszych, oznaczasz je jako materiał finalny i dopiero dla nich tworzysz kopie robocze do retuszu skóry oraz usunięcia drobnych pyłków na tle.",
+      "Pracujesz nad skanem starej fotografii rodzinnej, więc zachowujesz plik archiwalny bez zmian, a retusz prowadzisz na osobnej kopii, usuwając pęknięcia, kurz i niewielkie przebarwienia.",
+      "Otrzymujesz zdjęcie reportażowe z przypadkowym paprochem na matrycy. Usuwasz tylko techniczną skazę, ale nie ingerujesz w układ sceny ani w obecność osób w kadrze."
+    ],
+    "keyTakeaways": [
+      "Selekcja zdjęć pozwala skupić się na ujęciach o największej wartości i ogranicza niepotrzebną pracę.",
+      "Oryginały plików należy chronić przez tworzenie kopii roboczych lub stosowanie metod nieniszczącej edycji.",
+      "Retusz powinien usuwać niedoskonałości w sposób kontrolowany i możliwie niewidoczny.",
+      "Zakres retuszu trzeba dopasować do rodzaju fotografii, celu publikacji i zasad etycznych."
+    ],
+    "checkYourself": [
+      "Jakie kryteria warto przyjąć podczas selekcji materiału po sesji zdjęciowej?",
+      "Dlaczego nie należy pracować bezpośrednio na jedynym pliku źródłowym?",
+      "W jakiej sytuacji retusz może stać się nieetyczną ingerencją w obraz?"
+    ],
+    "summary": "W tej lekcji poznałeś zasady selekcji materiału, tworzenia kopii cyfrowych i bezpiecznej organizacji pracy. Nauczyłeś się także, jak korzystać z podstawowych narzędzi retuszu oraz jak rozpoznawać granicę między poprawą jakości obrazu a zbyt daleką ingerencją w jego treść.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  },
+  {
+    "id": "L-5-4",
+    "sectionId": "S-5",
+    "sectionTitle": "Dział 5: Cyfrowa i chemiczna obróbka obrazu",
+    "title": "Lekcja 5.4: Korekcja tonalna, korekcja barwna i automatyzacja pracy",
+    "goal": "Poprawiać kontrast, jasność, kolor i szczegółowość obrazu oraz stosować działania seryjne usprawniające obróbkę większych zestawów zdjęć.",
+    "lead": "Korekcja tonalna i barwna decyduje o czytelności, nastroju i jakości technicznej zdjęcia. Gdy pracujesz na większej liczbie plików, równie ważna staje się automatyzacja. W tej lekcji połączysz precyzję edycji z wydajnością pracy.",
+    "intro": "Po selekcji i podstawowym retuszu przychodzi czas na właściwe opracowanie obrazu. Na tym etapie poprawiasz jasność, kontrast, balans kolorów, lokalne przejścia tonalne i szczegółowość. Celem nie jest przypadkowe upiększanie zdjęcia, ale doprowadzenie go do stanu zgodnego z zamierzeniem autora i wymaganiami publikacji. Gdy plików jest dużo, warto stosować działania seryjne, presety, synchronizację ustawień i inne formy automatyzacji.",
+    "contentBlocks": [
+      {
+        "heading": "Korekcja tonalna: jasność, kontrast i zakres dynamiczny",
+        "body": "Korekcja tonalna polega na świadomym kształtowaniu jasności obrazu. Oceniasz, czy zdjęcie ma zachowane szczegóły w światłach i cieniach, czy nie jest zbyt płaskie albo zbyt kontrastowe i czy ważne elementy kadru są odpowiednio czytelne. Pomocne są histogram, krzywe tonalne, poziomy oraz narzędzia lokalnego rozjaśniania i przyciemniania. Dobrze wykonana korekcja tonalna wydobywa strukturę obrazu, porządkuje relacje między planami i kieruje uwagę odbiorcy tam, gdzie chcesz."
+      },
+      {
+        "heading": "Korekcja barwna: balans bieli i zgodność kolorystyczna",
+        "body": "Korekcja barwna służy do usuwania niepożądanych dominant oraz do budowania zamierzonego charakteru zdjęcia. Podstawą jest prawidłowy balans bieli, ale równie ważne są nasycenie, odcień i relacje między poszczególnymi kolorami. W fotografii produktowej dąży się zwykle do możliwie wiernego odwzorowania barw, natomiast w portrecie czy fotografii autorskiej można pozwolić sobie na bardziej interpretacyjne podejście. Trzeba jednak pamiętać, że każda zmiana koloru wpływa na odbiór materiału, dlatego korekcję należy wykonywać świadomie i w odniesieniu do celu publikacji."
+      },
+      {
+        "heading": "Szczegółowość obrazu i kontrola jakości",
+        "body": "Podczas obróbki często poprawia się także mikro-kontrast, ostrość i czytelność detali. Te zabiegi powinny być dostosowane do rodzaju zdjęcia i planowanej publikacji. Innego wyostrzenia wymaga plik do druku wielkoformatowego, a innego zdjęcie do mediów społecznościowych. Zbyt mocne wyostrzenie prowadzi do powstawania obwódek i sztucznego wyglądu, a zbyt silna redukcja szumu może usunąć naturalną fakturę obrazu. Dlatego po każdej większej korekcie trzeba sprawdzić efekt w powiększeniu i w widoku całości."
+      },
+      {
+        "heading": "Automatyzacja pracy przy większych zestawach zdjęć",
+        "body": "Kiedy obrabiasz serię plików wykonanych w podobnych warunkach, nie musisz powtarzać tych samych czynności ręcznie. Możesz wykorzystać ustawienia zapisane jako presety, synchronizację parametrów między zdjęciami, akcje, skrypty lub przetwarzanie wsadowe. Automatyzacja przyspiesza pracę i zwiększa spójność materiału, ale nie zwalnia z kontroli. Po zastosowaniu ustawień seryjnych zawsze trzeba sprawdzić, czy każde zdjęcie zachowało poprawną tonalność, kolor i szczegółowość. Najlepsze efekty daje połączenie pracy seryjnej z indywidualną korektą wybranych kadrów."
+      }
+    ],
+    "practicalExamples": [
+      "Obrabiasz serię zdjęć z jednego wydarzenia wykonaną przy tym samym świetle, więc ustawiasz poprawny balans bieli i kontrast na zdjęciu wzorcowym, a następnie synchronizujesz ustawienia z całą grupą plików.",
+      "Przygotowujesz portret do druku i zauważasz, że twarz jest zbyt ciemna względem tła. Wykonujesz lokalne rozjaśnienie głównego planu, zamiast podnosić jasność całego zdjęcia.",
+      "Skan starej odbitki ma wyraźną żółtą dominantę. Korygujesz barwę, kontrolując przy tym neutralność jasnych partii i zachowanie naturalnego wyglądu skóry."
+    ],
+    "keyTakeaways": [
+      "Korekcja tonalna porządkuje jasność, kontrast i czytelność obrazu, a nie tylko go rozjaśnia lub przyciemnia.",
+      "Korekcja barwna powinna wynikać z celu zdjęcia i dążyć do spójności kolorystycznej.",
+      "Wyostrzenie i poprawa szczegółowości trzeba dopasować do rodzaju obrazu oraz sposobu publikacji.",
+      "Automatyzacja pracy przyspiesza obróbkę, ale wymaga kontroli rezultatów dla każdego zestawu zdjęć."
+    ],
+    "checkYourself": [
+      "Jak rozpoznasz, że zdjęcie wymaga korekcji tonalnej, a nie tylko ogólnego zwiększenia jasności?",
+      "Dlaczego zdjęcia do katalogu produktów i zdjęcia artystyczne mogą wymagać innego podejścia do korekcji barwnej?",
+      "Jakie korzyści daje synchronizacja ustawień lub przetwarzanie wsadowe przy dużej liczbie podobnych plików?"
+    ],
+    "summary": "W tej lekcji nauczyłeś się wykonywać korekcję tonalną i barwną oraz kontrolować szczegółowość obrazu. Poznałeś także sposoby automatyzacji obróbki większych serii zdjęć. Dzięki temu potrafisz pracować zarówno precyzyjnie, jak i wydajnie, zachowując spójność całego materiału.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  },
+  {
+    "id": "L-5-5",
+    "sectionId": "S-5",
+    "sectionTitle": "Dział 5: Cyfrowa i chemiczna obróbka obrazu",
+    "title": "Lekcja 5.5: Kopiowanie analogowe i chemiczna obróbka materiałów fotograficznych",
+    "goal": "Przygotowywać roztwory, prowadzić negatywową i pozytywową obróbkę chemiczną, wykonywać odbitki oraz kontrolować parametry procesu i stan sprzętu.",
+    "lead": "Chemiczna obróbka materiałów fotograficznych wymaga dokładności, cierpliwości i przestrzegania zasad bezpieczeństwa. W tej lekcji poznasz logiczny przebieg procesu od przygotowania roztworów po wykonanie odbitki i ocenę rezultatu.",
+    "intro": "Mimo dominacji technik cyfrowych obróbka chemiczna nadal pozostaje ważną częścią zawodu fotografa. Pozwala zrozumieć klasyczny proces powstawania obrazu, a w wielu sytuacjach jest także praktyczną metodą pracy twórczej lub archiwalnej. Aby osiągnąć przewidywalny efekt, trzeba znać rolę roztworów, kolejność czynności, wpływ temperatury i czasu oraz zasady obsługi sprzętu ciemniowego.",
+    "contentBlocks": [
+      {
+        "heading": "Bezpieczeństwo pracy w ciemni i przygotowanie stanowiska",
+        "body": "Praca z chemią fotograficzną wymaga zachowania zasad bezpieczeństwa i higieny pracy. Stanowisko powinno być dobrze zorganizowane, wentylowane i wyposażone w odpowiednie naczynia, kuwety, koreksy, termometry, menzurki, szczypce oraz źródło bezpiecznego oświetlenia do pracy z materiałami światłoczułymi. Przed rozpoczęciem pracy zakładasz środki ochrony indywidualnej, dbasz o porządek i oznaczasz roztwory. Nie wolno mieszać chemikaliów przypadkowo ani przelewać ich do nieopisanych pojemników. Równie ważne jest właściwe postępowanie z odpadami chemicznymi zgodnie z zasadami ochrony środowiska."
+      },
+      {
+        "heading": "Roztwory chemiczne i ich znaczenie w procesie",
+        "body": "W obróbce materiałów fotograficznych każdy roztwór pełni określoną funkcję. Wywoływacz ujawnia obraz utajony, przerywacz zatrzymuje działanie wywoływacza, a utrwalacz usuwa niewywołane związki światłoczułe i stabilizuje obraz. W zależności od procesu mogą występować także roztwory pomocnicze, na przykład zwilżające. Kluczowe znaczenie mają proporcje sporządzania, świeżość chemii, temperatura i czas działania. Nawet niewielkie odchylenia mogą zmienić kontrast, gęstość negatywu albo trwałość odbitki. Dlatego każdy etap należy wykonywać dokładnie według instrukcji technologicznej."
+      },
+      {
+        "heading": "Obróbka negatywowa i pozytywowa krok po kroku",
+        "body": "Obróbka negatywowa polega na wywołaniu materiału po naświetleniu, a następnie na jego utrwaleniu, płukaniu i suszeniu. W praktyce oznacza to załadowanie filmu do koreksu w ciemności, przygotowanie roztworów o odpowiedniej temperaturze, prowadzenie procesu według czasu oraz delikatne poruszanie koreksem, aby chemia działała równomiernie. Obróbka pozytywowa obejmuje wykonanie odbitki z negatywu za pomocą powiększalnika, naświetlenie papieru fotograficznego i przeprowadzenie go przez kolejne kąpiele chemiczne. Tu równie ważna jest kontrola czasu, temperatury oraz obserwacja zmian zachodzących w obrazie."
+      },
+      {
+        "heading": "Kopiowanie analogowe i kontrola parametrów procesu",
+        "body": "Podczas wykonywania odbitek trzeba dobrać negatyw, ustawić powiększalnik, ostrość, wielkość obrazu, czas naświetlania i ewentualnie filtrację kontrastu. W fotografii czarno-białej duże znaczenie ma także wybór papieru oraz ocena gęstości i skali tonalnej negatywu. Kontrola procesu polega na obserwacji, czy roztwory działają prawidłowo, czy temperatura jest stabilna i czy czasy są zachowane. Jeżeli odbitki są zbyt ciemne, zbyt jasne, płaskie lub mają nierówne plamy, trzeba przeanalizować cały przebieg pracy: od ekspozycji pod powiększalnikiem po stan chemii i czystość kuwet."
+      },
+      {
+        "heading": "Konserwacja sprzętu i ocena gotowych prac",
+        "body": "Po zakończeniu pracy nie wolno zostawiać sprzętu bez przeglądu. Kuwety, koreksy, menzurki i szczypce trzeba umyć, osuszyć i odłożyć we właściwe miejsce. Powiększalnik należy utrzymywać w czystości, podobnie jak obiektyw, maskownice i powierzchnie robocze. Gotowe negatywy i odbitki powinny zostać ocenione w odpowiednim świetle, wysuszone i zabezpieczone przed uszkodzeniem. Tylko czysty sprzęt i uporządkowane stanowisko gwarantują powtarzalność kolejnych procesów oraz bezpieczeństwo pracy."
+      }
+    ],
+    "practicalExamples": [
+      "Wywołujesz film czarno-biały w koreksie, kontrolując temperaturę roztworu i czas agitacji, aby uzyskać równomiernie wywołany negatyw bez plam i nierówności.",
+      "W ciemni wykonujesz odbitkę z jednego negatywu, przygotowujesz paski próbne z różnymi czasami naświetlania i na tej podstawie wybierasz najlepszą ekspozycję pod powiększalnikiem.",
+      "Po serii odbitek zauważasz spadek jakości obrazu, więc sprawdzasz świeżość utrwalacza, temperaturę roztworów i czystość kuwet, zamiast od razu zakładać, że problem leży w negatywie."
+    ],
+    "keyTakeaways": [
+      "Chemiczna obróbka materiałów fotograficznych wymaga ścisłego przestrzegania zasad bezpieczeństwa, porządku i ochrony środowiska.",
+      "Roztwory chemiczne pełnią różne funkcje, a ich proporcje, temperatura i czas działania bezpośrednio wpływają na wynik procesu.",
+      "Obróbka negatywowa i pozytywowa musi przebiegać według ustalonej kolejności i kontrolowanych parametrów.",
+      "Regularna konserwacja sprzętu oraz właściwa ocena gotowych negatywów i odbitek są częścią profesjonalnej pracy w ciemni."
+    ],
+    "checkYourself": [
+      "Dlaczego w chemicznej obróbce materiałów fotograficznych tak ważne są czas i temperatura?",
+      "Jaką funkcję pełnią wywoływacz, przerywacz i utrwalacz?",
+      "Co sprawdzisz, jeśli wykonywane odbitki zaczynają różnić się jakością mimo podobnych ustawień powiększalnika?"
+    ],
+    "summary": "W tej lekcji poznałeś podstawy kopiowania analogowego i chemicznej obróbki materiałów fotograficznych. Wiesz już, jak przygotować stanowisko, sporządzać roztwory, prowadzić obróbkę negatywową i pozytywową oraz kontrolować parametry procesu. Rozumiesz także, jak duże znaczenie mają bezpieczeństwo pracy, czystość sprzętu i poprawna ocena gotowych materiałów.",
+    "adminExtraText": "",
+    "adminMissingTextPrompt": ""
+  }
+]

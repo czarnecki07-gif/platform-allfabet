@@ -1,0 +1,287 @@
+{
+  "title": "Test działowy — Dział 1: Bezpieczna organizacja pracy fotografa",
+  "totalQuestions": 20,
+  "passingPercent": 50,
+  "questions": [
+    {
+      "question": "Co najlepiej opisuje pojęcie BHP w pracy fotografa?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zbiór zasad chroniących zdrowie i życie podczas wykonywania pracy",
+        "b": "Wyłącznie instrukcję obsługi aparatu fotograficznego",
+        "c": "Sposób prowadzenia dokumentacji księgowej studia",
+        "d": "Zasady wyłącznie dotyczące ubioru pracownika",
+        "e": "Metodę archiwizacji zdjęć cyfrowych",
+        "f": "System oceniania jakości zdjęć"
+      },
+      "correctAnswer": "a",
+      "explanation": "BHP obejmuje zasady bezpiecznej i higienicznej pracy, których celem jest ochrona zdrowia i życia."
+    },
+    {
+      "question": "Która instytucja w Polsce sprawuje nadzór nad warunkami pracy?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Narodowy Bank Polski",
+        "b": "Państwowa Inspekcja Pracy",
+        "c": "Urząd Ochrony Konkurencji i Konsumentów",
+        "d": "Polski Komitet Normalizacyjny",
+        "e": "Państwowa Komisja Wyborcza",
+        "f": "Zakład Ubezpieczeń Społecznych"
+      },
+      "correctAnswer": "b",
+      "explanation": "Państwowa Inspekcja Pracy kontroluje warunki pracy i przestrzeganie przepisów prawa pracy oraz BHP."
+    },
+    {
+      "question": "Który z poniższych obowiązków należy do pracodawcy w pracowni fotograficznej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Ignorowanie drobnych usterek sprzętu",
+        "b": "Zapewnienie bezpiecznych warunków pracy i przeszkolenie pracownika",
+        "c": "Przeniesienie całej odpowiedzialności za bezpieczeństwo na pracownika",
+        "d": "Zezwalanie na pracę bez instrukcji stanowiskowych",
+        "e": "Dopuszczanie do zastawiania dróg ewakuacyjnych",
+        "f": "Ograniczenie dostępu do apteczki"
+      },
+      "correctAnswer": "b",
+      "explanation": "Pracodawca ma obowiązek organizować bezpieczne stanowisko pracy, szkolić pracowników i informować o zagrożeniach."
+    },
+    {
+      "question": "Kiedy pracownik ma prawo odmówić wykonania pracy?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Gdy zadanie jest mało interesujące",
+        "b": "Gdy warunki stwarzają bezpośrednie zagrożenie dla zdrowia lub życia",
+        "c": "Zawsze, gdy pracuje z klientem",
+        "d": "Tylko wtedy, gdy kończy zmianę",
+        "e": "Wyłącznie przy pracy z lampą błyskową",
+        "f": "Tylko po uzyskaniu zgody współpracownika"
+      },
+      "correctAnswer": "b",
+      "explanation": "Pracownik ma prawo odmówić pracy, jeśli występuje bezpośrednie zagrożenie zdrowia lub życia."
+    },
+    {
+      "question": "Które działanie jest zgodne z zasadami ochrony środowiska w pracowni fotograficznej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wylewanie zużytych odczynników do zwykłego zlewu bez sprawdzenia procedury",
+        "b": "Wyrzucanie baterii do kosza na odpady zmieszane",
+        "c": "Oddawanie zużytych chemikaliów i baterii do właściwych punktów lub pojemników",
+        "d": "Palenie odpadów papierowych za budynkiem",
+        "e": "Przechowywanie wszystkich odpadów razem w jednym worku",
+        "f": "Pozostawianie uszkodzonego sprzętu elektronicznego na zapleczu"
+      },
+      "correctAnswer": "c",
+      "explanation": "Ochrona środowiska wymaga właściwej segregacji i przekazywania odpadów do odpowiednich miejsc."
+    },
+    {
+      "question": "Jak powinien być ustawiony monitor na ergonomicznym stanowisku komputerowym?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Znacznie powyżej linii wzroku, aby patrzeć w górę",
+        "b": "Bokiem do użytkownika, aby oszczędzać miejsce",
+        "c": "Na wysokości wzroku, w odpowiedniej odległości od oczu",
+        "d": "Bardzo nisko, tuż nad blatem",
+        "e": "Za plecami użytkownika",
+        "f": "Dowolnie, ustawienie monitora nie ma znaczenia"
+      },
+      "correctAnswer": "c",
+      "explanation": "Monitor ustawiony na wysokości wzroku i w odpowiedniej odległości zmniejsza zmęczenie wzroku oraz napięcie karku."
+    },
+    {
+      "question": "Jak należy postąpić z kablami przebiegającymi przez ciąg komunikacyjny na planie zdjęciowym?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Pozostawić je bez zmian, jeśli nikt jeszcze się nie potknął",
+        "b": "Przykryć tkaniną dekoracyjną bez mocowania",
+        "c": "Zabezpieczyć je najazdem kablowym lub taśmą i ograniczyć ryzyko potknięcia",
+        "d": "Ułożyć je pod nogami statywu i niczego nie oznaczać",
+        "e": "Polewać wodą, aby lepiej przylegały do podłogi",
+        "f": "Zwinąć je ciasno wokół lampy"
+      },
+      "correctAnswer": "c",
+      "explanation": "Kable muszą być zabezpieczone, aby nie stwarzały zagrożenia potknięcia i uszkodzenia sprzętu."
+    },
+    {
+      "question": "Co oznacza znak zakazu w pracowni fotograficznej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Miejsce przechowywania aparatów",
+        "b": "Konieczność natychmiastowej ewakuacji z budynku",
+        "c": "Informację, czego nie wolno robić",
+        "d": "Lokalizację apteczki",
+        "e": "Obowiązek założenia rękawic",
+        "f": "Dozwolony kierunek ustawienia lamp"
+      },
+      "correctAnswer": "c",
+      "explanation": "Znaki zakazu wskazują czynności zabronione, na przykład zakaz używania otwartego ognia."
+    },
+    {
+      "question": "Który z poniższych przykładów jest środkiem ochrony indywidualnej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wentylacja pomieszczenia",
+        "b": "Oznakowana droga ewakuacyjna",
+        "c": "Gaśnica",
+        "d": "Rękawice ochronne",
+        "e": "Instrukcja stanowiskowa na ścianie",
+        "f": "Zabezpieczenie kabli"
+      },
+      "correctAnswer": "d",
+      "explanation": "Środki ochrony indywidualnej chronią konkretną osobę, np. rękawice, okulary czy fartuch."
+    },
+    {
+      "question": "Który z poniższych przykładów jest środkiem ochrony zbiorowej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Okulary ochronne",
+        "b": "Rękawice nitrylowe",
+        "c": "Fartuch roboczy",
+        "d": "Obuwie antypoślizgowe",
+        "e": "Wentylacja i wyciąg w ciemni",
+        "f": "Maseczka ochronna"
+      },
+      "correctAnswer": "e",
+      "explanation": "Środki ochrony zbiorowej zabezpieczają jednocześnie więcej osób, np. wentylacja, osłony i oznakowanie."
+    },
+    {
+      "question": "Który czynnik szkodliwy jest szczególnie charakterystyczny dla pracy w ciemni fotograficznej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyłącznie ryzyko odmrożenia dłoni",
+        "b": "Kontakt z oparami i substancjami chemicznymi",
+        "c": "Stałe działanie promieniowania słonecznego",
+        "d": "Wyłącznie hałas uliczny",
+        "e": "Zagrożenie lawinowe",
+        "f": "Pył cementowy z budowy"
+      },
+      "correctAnswer": "b",
+      "explanation": "W ciemni główne zagrożenia obejmują chemikalia mogące drażnić skórę, oczy i drogi oddechowe."
+    },
+    {
+      "question": "Co należy zrobić, gdy w pracowni znajduje się nieopisany pojemnik z bezbarwnym płynem?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Użyć go ostrożnie w małej ilości",
+        "b": "Wylać do zlewu, aby nie zajmował miejsca",
+        "c": "Przelać do mniejszej butelki bez opisu",
+        "d": "Nie używać go do czasu prawidłowej identyfikacji i oznaczenia",
+        "e": "Dodać do innych chemikaliów w celu sprawdzenia reakcji",
+        "f": "Postawić obok napojów pracowników"
+      },
+      "correctAnswer": "d",
+      "explanation": "Nieopisanych substancji nie wolno używać, ponieważ może to doprowadzić do pomyłki i wypadku."
+    },
+    {
+      "question": "Który objaw jest przykładem przewlekłego przeciążenia wynikającego z pracy fotografa?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Natychmiastowe złamanie nogi",
+        "b": "Nagły wybuch lampy",
+        "c": "Ból kręgosłupa i drętwienie dłoni po długiej pracy",
+        "d": "Przemoczenie odzieży podczas deszczu",
+        "e": "Jednorazowe kichnięcie",
+        "f": "Szum uliczny za oknem"
+      },
+      "correctAnswer": "c",
+      "explanation": "Przewlekłe skutki przeciążeń to m.in. bóle kręgosłupa, napięcie mięśni i drętwienie dłoni."
+    },
+    {
+      "question": "Który odpad powstający w pracy fotografa wymaga szczególnie ostrożnego postępowania?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Czysta kartka papieru biurowego",
+        "b": "Zużyte odczynniki chemiczne",
+        "c": "Niezapisana koperta papierowa",
+        "d": "Nowe pudełko kartonowe",
+        "e": "Nieużywany notes",
+        "f": "Czysta ściereczka bawełniana"
+      },
+      "correctAnswer": "b",
+      "explanation": "Zużyte chemikalia fotograficzne wymagają odpowiedniego oznaczenia i utylizacji zgodnej z procedurą."
+    },
+    {
+      "question": "Jaka powinna być pierwsza czynność przed udzieleniem pierwszej pomocy poszkodowanemu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zrobienie zdjęcia miejsca zdarzenia",
+        "b": "Podanie wody poszkodowanemu bez oceny stanu",
+        "c": "Ocena bezpieczeństwa miejsca zdarzenia i własnego bezpieczeństwa",
+        "d": "Przeniesienie poszkodowanego w dowolne miejsce",
+        "e": "Zamknięcie studia bez informowania innych",
+        "f": "Natychmiastowe rozpoczęcie masażu serca u każdej osoby"
+      },
+      "correctAnswer": "c",
+      "explanation": "Ratownik nie może narażać siebie; najpierw trzeba ocenić zagrożenia w miejscu zdarzenia."
+    },
+    {
+      "question": "Jak należy postąpić z osobą nieprzytomną, która oddycha prawidłowo?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Pozostawić ją samą i wrócić do pracy",
+        "b": "Ułożyć w pozycji bezpiecznej i kontrolować oddech",
+        "c": "Natychmiast podać jedzenie",
+        "d": "Posadzić ją na krześle bez podparcia",
+        "e": "Polać twarz gorącą wodą",
+        "f": "Rozpocząć RKO mimo prawidłowego oddechu"
+      },
+      "correctAnswer": "b",
+      "explanation": "Osobę nieprzytomną, ale oddychającą, układa się w pozycji bezpiecznej i obserwuje do przyjazdu pomocy."
+    },
+    {
+      "question": "W jakiej sytuacji należy rozpocząć resuscytację krążeniowo-oddechową?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Gdy osoba jest przytomna i mówi",
+        "b": "Gdy osoba ma niewielkie skaleczenie dłoni",
+        "c": "Gdy osoba nieprzytomna nie oddycha prawidłowo",
+        "d": "Gdy ktoś zgłasza ból pleców po retuszu",
+        "e": "Przy każdym omdleniu, bez sprawdzania oddechu",
+        "f": "Wyłącznie po uzyskaniu pisemnej zgody przełożonego"
+      },
+      "correctAnswer": "c",
+      "explanation": "RKO rozpoczyna się u osoby nieprzytomnej, która nie oddycha lub oddycha nieprawidłowo."
+    },
+    {
+      "question": "Jak należy postąpić przy podejrzeniu porażenia prądem?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Natychmiast chwycić poszkodowanego gołymi rękami",
+        "b": "Polać urządzenie wodą",
+        "c": "Najpierw bezpiecznie odłączyć źródło zasilania i dopiero wtedy podejść do poszkodowanego",
+        "d": "Usiąść obok i czekać na poprawę sytuacji",
+        "e": "Zasłonić oczy poszkodowanemu",
+        "f": "Przenieść lampy bliżej miejsca zdarzenia"
+      },
+      "correctAnswer": "c",
+      "explanation": "Nie wolno dotykać osoby porażonej prądem przed odłączeniem źródła zasilania."
+    },
+    {
+      "question": "Co należy zrobić po zachlapaniu skóry odczynnikiem chemicznym w ciemni?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Przykryć miejsce ubraniem i pracować dalej",
+        "b": "Natrzeć skórę tłustym kremem bez płukania",
+        "c": "Natychmiast obficie płukać wodą i postępować zgodnie z instrukcją dla substancji",
+        "d": "Zignorować sytuację, jeśli płyn jest bezbarwny",
+        "e": "Posypać skórę proszkiem do prania",
+        "f": "Owinąć miejsce folią"
+      },
+      "correctAnswer": "c",
+      "explanation": "Przy kontakcie chemii ze skórą należy przerwać pracę, płukać miejsce dużą ilością wody i stosować właściwe procedury."
+    },
+    {
+      "question": "Jakie informacje są najważniejsze podczas rozmowy z numerem alarmowym 112?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Marka aparatu i rodzaj wykonywanej sesji",
+        "b": "Wyłącznie nazwisko fotografa",
+        "c": "Cena uszkodzonego sprzętu",
+        "d": "Miejsce zdarzenia, liczba poszkodowanych, rodzaj zagrożenia i numer telefonu zgłaszającego",
+        "e": "Plan publikacji zdjęć po sesji",
+        "f": "Długość doświadczenia zawodowego ratownika"
+      },
+      "correctAnswer": "d",
+      "explanation": "Dyspozytor potrzebuje konkretnych danych o miejscu, poszkodowanych i zagrożeniu, aby właściwie wysłać pomoc."
+    }
+  ]
+}

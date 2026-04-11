@@ -1,0 +1,287 @@
+{
+  "title": "Test działowy — Dział 2: Język fotografii, światło i sprzęt",
+  "totalQuestions": 20,
+  "passingPercent": 50,
+  "questions": [
+    {
+      "question": "Który z poniższych terminów należy przede wszystkim do obróbki obrazu, a nie do etapu rejestracji?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Przysłona",
+        "b": "Czas naświetlania",
+        "c": "Retusz",
+        "d": "Pomiar światła",
+        "e": "Autofocus",
+        "f": "Ogniskowa"
+      },
+      "correctAnswer": "c",
+      "explanation": "Retusz jest pojęciem związanym z obróbką zdjęcia, a pozostałe odpowiedzi dotyczą głównie rejestracji obrazu."
+    },
+    {
+      "question": "Jaka kolejność analizy fotografii jest najbardziej profesjonalna?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Najpierw ocena emocji, potem parametry techniczne, na końcu temat",
+        "b": "Najpierw opis tego, co widać, potem analiza formy, na końcu funkcja zdjęcia",
+        "c": "Najpierw wybór najlepszego filtra, potem opis koloru, na końcu temat",
+        "d": "Najpierw funkcja zdjęcia, potem miejsce wykonania, na końcu kadr",
+        "e": "Najpierw porównanie z innymi zdjęciami, potem ocena estetyki, na końcu temat",
+        "f": "Najpierw sprzęt użyty do zdjęcia, potem rozdzielczość, na końcu treść"
+      },
+      "correctAnswer": "b",
+      "explanation": "Właściwa analiza przebiega od opisu treści, przez warstwę formalną, aż do określenia funkcji fotografii."
+    },
+    {
+      "question": "Dlaczego przy ocenie fotografii nie wystarczy kierować się wyłącznie własnym gustem?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Ponieważ każda fotografia musi być czarno-biała",
+        "b": "Ponieważ najważniejsza jest cena użytego sprzętu",
+        "c": "Ponieważ dobre zdjęcie powinno przede wszystkim spełniać swoje zadanie",
+        "d": "Ponieważ wszystkie zdjęcia ocenia się tylko pod kątem ostrości",
+        "e": "Ponieważ funkcja zdjęcia nie ma znaczenia w pracy zawodowej",
+        "f": "Ponieważ estetyka jest ważna tylko w reklamie"
+      },
+      "correctAnswer": "c",
+      "explanation": "W pracy fotograficznej liczy się nie tylko atrakcyjność obrazu, ale też to, czy fotografia realizuje swój cel."
+    },
+    {
+      "question": "Który opis jest przykładem poprawnego, zawodowego języka fotografii?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zdjęcie jest fajne i takie trochę jasne",
+        "b": "Fotografia ma niski kontrast i nieczytelny pierwszy plan",
+        "c": "Obraz jest super, ale czegoś mu brakuje",
+        "d": "To zdjęcie ma dobry klimat, bo jest dobre",
+        "e": "Fotografia wygląda normalnie i poprawnie",
+        "f": "Zdjęcie jest ładne, więc na pewno jest profesjonalne"
+      },
+      "correctAnswer": "b",
+      "explanation": "To sformułowanie precyzyjnie opisuje konkretne cechy obrazu, a nie opiera się na ogólnych wrażeniach."
+    },
+    {
+      "question": "Jaki jest główny cel świadomej kompozycji kadru?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Pokazanie jak największej liczby elementów naraz",
+        "b": "Ukrycie tematu zdjęcia",
+        "c": "Porządkowanie obrazu i kierowanie uwagi odbiorcy",
+        "d": "Zawsze idealne zachowanie symetrii",
+        "e": "Całkowite usunięcie tła ze zdjęcia",
+        "f": "Uzyskanie maksymalnej rozdzielczości pliku"
+      },
+      "correctAnswer": "c",
+      "explanation": "Kompozycja służy organizacji obrazu i prowadzeniu wzroku widza do najważniejszych elementów."
+    },
+    {
+      "question": "Jaki efekt często daje fotografowanie obiektu z dołu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Pomniejsza obiekt i osłabia jego znaczenie",
+        "b": "Nadaje obiektowi siłę i dominację",
+        "c": "Automatycznie rozmywa całe tło",
+        "d": "Zawsze eliminuje zniekształcenia perspektywy",
+        "e": "Powoduje przejście zdjęcia do czerni i bieli",
+        "f": "Zmniejsza kontrast sceny"
+      },
+      "correctAnswer": "b",
+      "explanation": "Perspektywa z dołu często wzmacnia wrażenie siły, wysokości i dominacji fotografowanego obiektu."
+    },
+    {
+      "question": "W jakiej sytuacji plan ogólny będzie zwykle najlepszym wyborem?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Gdy chcesz pokazać detal biżuterii",
+        "b": "Gdy najważniejsza jest mimika twarzy",
+        "c": "Gdy chcesz pokazać postać w szerokim kontekście miejsca",
+        "d": "Gdy fotografujesz tylko oczy modela",
+        "e": "Gdy zależy Ci wyłącznie na rozmyciu tła",
+        "f": "Gdy chcesz ukryć otoczenie"
+      },
+      "correctAnswer": "c",
+      "explanation": "Plan ogólny służy pokazaniu szerszej przestrzeni i relacji bohatera z otoczeniem."
+    },
+    {
+      "question": "Które stwierdzenie najlepiej opisuje plan amerykański?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Pokazuje wyłącznie twarz modela",
+        "b": "Obejmuje całą przestrzeń bez wyraźnego bohatera",
+        "c": "Kończy się zwykle w okolicach kolan",
+        "d": "Pokazuje wyłącznie ręce i detal",
+        "e": "Zawsze obejmuje całą postać od stóp do głów",
+        "f": "Jest stosowany tylko w fotografii produktowej"
+      },
+      "correctAnswer": "c",
+      "explanation": "Plan amerykański przedstawia postać mniej więcej do kolan."
+    },
+    {
+      "question": "Jakie działanie ma światło boczne w fotografii?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Spłaszcza obraz i ogranicza widoczność faktury",
+        "b": "Wydobywa fakturę i modeluje formę",
+        "c": "Zawsze eliminuje cienie",
+        "d": "Powoduje całkowity brak kontrastu",
+        "e": "Daje wyłącznie efekt sylwetki",
+        "f": "Nie wpływa na odbiór przestrzenności"
+      },
+      "correctAnswer": "b",
+      "explanation": "Światło boczne podkreśla kształt i fakturę, ponieważ tworzy bardziej czytelne przejścia światła i cienia."
+    },
+    {
+      "question": "Czym może skutkować błędny balans bieli?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zmniejszeniem pojemności karty pamięci",
+        "b": "Nienaturalnym zafarbeniem zdjęcia, np. zbyt niebieskim lub żółtym",
+        "c": "Automatycznym zwiększeniem ostrości",
+        "d": "Zmianą ogniskowej obiektywu",
+        "e": "Utratą metadanych pliku",
+        "f": "Przekształceniem pliku RAW w JPEG"
+      },
+      "correctAnswer": "b",
+      "explanation": "Niepoprawny balans bieli powoduje błędną interpretację koloru światła i nienaturalny wygląd fotografii."
+    },
+    {
+      "question": "Którą przestrzeń barwną najczęściej wybiera się do publikacji zdjęć w internecie?",
+      "type": "single_choice",
+      "answers": {
+        "a": "CMYK",
+        "b": "Lab",
+        "c": "ProPhoto RGB",
+        "d": "sRGB",
+        "e": "Pantone",
+        "f": "XYZ"
+      },
+      "correctAnswer": "d",
+      "explanation": "sRGB jest najpowszechniejszym standardem wyświetlania kolorów w internecie i na wielu urządzeniach."
+    },
+    {
+      "question": "Jak zwykle odbierane są barwy ciepłe w fotografii?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Jako bardziej odległe i chłodne emocjonalnie",
+        "b": "Jako bardziej dynamiczne i bliższe",
+        "c": "Jako całkowicie neutralne",
+        "d": "Jako zawsze mniej widoczne od chłodnych",
+        "e": "Jako pozbawione wpływu na nastrój zdjęcia",
+        "f": "Jako odpowiednie wyłącznie do fotografii technicznej"
+      },
+      "correctAnswer": "b",
+      "explanation": "Barwy ciepłe często wydają się bliższe, bardziej aktywne i silniej przyciągają uwagę."
+    },
+    {
+      "question": "Który zestaw najlepiej odpowiada potrzebom fotografii reportażowej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Ciężki aparat studyjny, statyw reprodukcyjny i duże tło bezcieniowe",
+        "b": "Lekki aparat z szybkim autofokusem i mobilna lampa reporterska",
+        "c": "Aparat analogowy średnioformatowy i światłomierz studyjny",
+        "d": "Wyłącznie obiektyw makro i filtr polaryzacyjny",
+        "e": "Tylko statyw i karta szara, bez aparatu",
+        "f": "Skaner, ploter i papier barytowy"
+      },
+      "correctAnswer": "b",
+      "explanation": "W reportażu liczą się szybkość działania, mobilność i możliwość szybkiej reakcji na sytuację."
+    },
+    {
+      "question": "Do jakiego rodzaju zdjęć szczególnie przydaje się obiektyw szerokokątny?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Do wnętrz i architektury",
+        "b": "Wyłącznie do zbliżeń oczu",
+        "c": "Tylko do fotografii makro",
+        "d": "Wyłącznie do sportu na stadionie z daleka",
+        "e": "Do każdej sytuacji identycznie, bez różnic",
+        "f": "Tylko do skanowania dokumentów"
+      },
+      "correctAnswer": "a",
+      "explanation": "Obiektyw szerokokątny obejmuje duży fragment sceny, dlatego dobrze sprawdza się we wnętrzach i fotografii architektury."
+    },
+    {
+      "question": "Jaka jest rola modyfikatorów światła, takich jak softbox czy parasolka?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zwiększają pojemność akumulatora aparatu",
+        "b": "Zmieniają charakter światła, jego miękkość i kierunek",
+        "c": "Automatycznie ustawiają balans bieli",
+        "d": "Służą wyłącznie do przechowywania lamp",
+        "e": "Zmniejszają rozdzielczość zdjęcia",
+        "f": "Zastępują obiektyw podczas sesji"
+      },
+      "correctAnswer": "b",
+      "explanation": "Modyfikatory wpływają na rozproszenie, twardość i kierunek światła, czyli na wygląd oświetlenia w kadrze."
+    },
+    {
+      "question": "Dlaczego światłomierz jest szczególnie przydatny w studiu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Bo zmienia ogniskową obiektywu",
+        "b": "Bo służy do czyszczenia matrycy",
+        "c": "Bo pozwala dokładniej i powtarzalnie mierzyć światło",
+        "d": "Bo automatycznie retuszuje skórę modela",
+        "e": "Bo zastępuje kartę pamięci",
+        "f": "Bo obniża temperaturę barwową lamp"
+      },
+      "correctAnswer": "c",
+      "explanation": "Światłomierz ułatwia uzyskanie powtarzalnej ekspozycji, co ma duże znaczenie przy pracy ze światłem studyjnym."
+    },
+    {
+      "question": "Jaka korzyść często wynika z używania większej matrycy aparatu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zawsze daje nieograniczoną głębię ostrości",
+        "b": "Często zapewnia większą swobodę pracy z głębią ostrości i lepszą jakość w trudnym świetle",
+        "c": "Eliminuje potrzebę używania obiektywu",
+        "d": "Automatycznie drukuje zdjęcia w większym formacie",
+        "e": "Uniemożliwia fotografowanie w RAW",
+        "f": "Zastępuje lampę błyskową w każdych warunkach"
+      },
+      "correctAnswer": "b",
+      "explanation": "Większa matryca zwykle daje większą kontrolę nad głębią ostrości i lepsze rezultaty przy słabym oświetleniu."
+    },
+    {
+      "question": "Dlaczego wybór papieru fotograficznego ma znaczenie dla finalnej odbitki?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Bo papier decyduje o kontraście, głębi czerni i odbiorze zdjęcia",
+        "b": "Bo każdy papier daje identyczny efekt",
+        "c": "Bo papier zmienia ogniskową użytego obiektywu",
+        "d": "Bo papier wpływa tylko na nazwę pliku",
+        "e": "Bo papier jest ważny wyłącznie przy skanach",
+        "f": "Bo papier zastępuje kalibrację monitora"
+      },
+      "correctAnswer": "a",
+      "explanation": "Rodzaj papieru wpływa na wygląd odbitki, między innymi na kontrast, nasycenie barw i charakter prezentacji."
+    },
+    {
+      "question": "Która cecha karty pamięci jest szczególnie ważna podczas fotografowania serią w formacie RAW?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Kolor etykiety",
+        "b": "Szybkość zapisu",
+        "c": "Długość nazwy producenta",
+        "d": "Materiał opakowania",
+        "e": "Poziom połysku obudowy",
+        "f": "Data wydruku instrukcji"
+      },
+      "correctAnswer": "b",
+      "explanation": "Przy zdjęciach seryjnych RAW aparat zapisuje dużo danych, więc istotna jest wysoka szybkość zapisu karty."
+    },
+    {
+      "question": "Jaką praktyczną informację można odczytać z oznaczeń na obiektywie?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyłącznie nazwę sklepu, w którym został kupiony",
+        "b": "Tylko datę ostatniego czyszczenia",
+        "c": "Ogniskową i maksymalną jasność obiektywu",
+        "d": "Hasło do sieci Wi-Fi aparatu",
+        "e": "Temperaturę pracy drukarki",
+        "f": "Rodzaj papieru do albumu"
+      },
+      "correctAnswer": "c",
+      "explanation": "Oznaczenia na obiektywie zwykle informują między innymi o ogniskowej i maksymalnym otworze przysłony."
+    }
+  ]
+}

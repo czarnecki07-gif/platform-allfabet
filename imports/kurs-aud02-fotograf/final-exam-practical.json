@@ -1,0 +1,112 @@
+{
+  "title": "Egzamin końcowy — część praktyczna",
+  "totalTasks": 3,
+  "passingPercent": 50,
+  "tasks": [
+    {
+      "title": "Kompleksowa sesja produktowa do e-commerce i dokumentacji technicznej",
+      "scenario": "Otrzymujesz zlecenie od małej marki sprzedającej akcesoria użytkowe online. Klient potrzebuje spójnego zestawu zdjęć produktu do sklepu internetowego oraz jednego ujęcia o charakterze technicznym. Materiał ma być przygotowany do publikacji online, do próbnego wydruku oraz do archiwum firmowego. Masz samodzielnie zaplanować pracę, zorganizować bezpieczne stanowisko, wykonać zdjęcia, opracować pliki i przygotować sposób przekazania materiału.",
+      "instructions": [
+        "Przeanalizuj zlecenie i przygotuj krótką kartę realizacji zawierającą: cel zdjęć, odbiorcę, sposób publikacji, wymagania techniczne, listę sprzętu, zasady BHP, ergonomii i organizacji stanowiska.",
+        "Przygotuj plan zdjęciowy: wykonaj szkic stanowiska lub schemat oświetlenia, dobierz tło, aparat, obiektyw, statyw, lampy i akcesoria. Zadbaj o bezpieczne ustawienie sprzętu, zabezpieczenie przewodów i przygotowanie produktu do zdjęć.",
+        "Wykonaj minimum 6 ujęć: co najmniej 4 zdjęcia katalogowe na jednolitym tle, 1 zdjęcie detalu i 1 zdjęcie techniczne lub dokumentacyjne pokazujące cechę konstrukcyjną produktu. Zachowaj powtarzalność kadru, ekspozycji i odwzorowania koloru.",
+        "Dokonaj selekcji materiału, utwórz kopię roboczą i przeprowadź retusz techniczny, korekcję tonalną i barwną. Pracuj nieniszcząco lub na kopii roboczej. Zastosuj podstawy zarządzania barwą właściwe dla stanowiska.",
+        "Przygotuj finalne pliki w dwóch wersjach: do publikacji internetowej oraz do druku próbnego. Nadaj plikom logiczne nazwy, uzupełnij podstawowe metadane i zaproponuj strukturę archiwum dla tego zlecenia.",
+        "Dołącz krótką notatkę dla klienta z opisem przekazywanego materiału, zakresu retuszu i sposobu wykorzystania plików."
+      ],
+      "deliverables": [
+        "Karta realizacji zlecenia z analizą celu, listą sprzętu, zasadami BHP i schematem planu zdjęciowego.",
+        "Minimum 6 zdjęć źródłowych oraz minimum 4 finalne zdjęcia po obróbce.",
+        "Pliki końcowe przygotowane do internetu i do druku próbnego.",
+        "Przykładowa struktura archiwum, nazewnictwo plików i podstawowe metadane.",
+        "Krótka notatka lub wiadomość do klienta dotycząca przekazania materiału."
+      ],
+      "assessmentCriteria": [
+        "Analiza zlecenia, organizacja stanowiska, ergonomia i bezpieczeństwo pracy: 0–20 pkt.",
+        "Dobór techniki, sprzętu, oświetlenia i poprawność wykonania zdjęć produktowych oraz technicznych: 0–25 pkt.",
+        "Powtarzalność serii, kompozycja, ostrość, ekspozycja i kontrola odwzorowania produktu: 0–20 pkt.",
+        "Selekcja, kopia robocza, retusz techniczny, korekcja tonalna i barwna: 0–20 pkt.",
+        "Przygotowanie plików do publikacji i druku, nazewnictwo, metadane, archiwizacja i komunikacja z klientem: 0–15 pkt."
+      ],
+      "evidenceTypes": [
+        "Zdjęcia źródłowe i finalne pliki JPG/TIFF/PNG zgodnie z poleceniem.",
+        "Schemat planu zdjęciowego, lista sprzętu i karta BHP stanowiska.",
+        "Zrzuty ekranu z etapu obróbki lub plik roboczy z warstwami.",
+        "Dokument archiwizacji i notatka dla klienta."
+      ],
+      "maxPoints": 100,
+      "passingPoints": 50,
+      "modelAnswerOutline": "Modelowa realizacja zawiera krótki i trafny brief, bezpiecznie przygotowane stanowisko bezcieniowe lub katalogowe, logiczny schemat światła, poprawnie oczyszczony produkt oraz serię spójnych ujęć o stałej perspektywie. Kandydat wybiera najlepsze kadry, wykonuje nieniszczący retusz techniczny, zachowuje naturalny kolor produktu, eksportuje pliki do internetu w sRGB i przygotowuje osobną wersję do druku. Materiał jest uporządkowany, opisany metadanymi i zapisany w czytelnej strukturze archiwum."
+    },
+    {
+      "title": "Portret studyjny i zdjęcie identyfikacyjne dla klienta firmowego",
+      "scenario": "Firma zamawia zestaw zdjęć dla nowego pracownika: portret biznesowy do strony internetowej i mediów społecznościowych oraz zdjęcie identyfikacyjne spełniające wymagania formalne. Dodatkowo dział HR klienta jest anglojęzyczny i oczekuje krótkiego potwierdzenia organizacyjnego po angielsku. Masz przygotować plan, poprowadzić modela, wykonać zdjęcia, opracować pliki i przekazać materiał zgodnie z zasadami etyki zawodowej.",
+      "instructions": [
+        "Przygotuj kartę ustaleń z klientem zawierającą: cel zdjęć, zakres wykorzystania, oczekiwaną stylistykę, termin, informacje o zgodzie na publikację i podstawowe wymagania dla zdjęcia identyfikacyjnego.",
+        "Napisz krótki e-mail po angielsku do przedstawiciela klienta, w którym potwierdzasz termin sesji, prosisz o ewentualne referencje i informujesz o terminie przekazania gotowych plików.",
+        "Zorganizuj bezpieczne stanowisko portretowe i osobne neutralne ustawienie do zdjęcia identyfikacyjnego. Przygotuj schemat oświetlenia oraz ustawienia aparatu i obiektywu odpowiednie do portretu i zdjęcia formalnego.",
+        "Wykonaj minimum 5 ujęć portretowych tej samej osoby oraz 2 ujęcia identyfikacyjne. Pokaż umiejętność pracy z modelem: komunikację, korektę pozy, kierunku spojrzenia i ustawienia głowy.",
+        "Wybierz minimum 2 portrety finalne i 1 zdjęcie identyfikacyjne. Wykonaj umiarkowany retusz zgodny z celem zdjęcia: portret może mieć delikatny retusz estetyczny, zdjęcie identyfikacyjne musi pozostać neutralne i zgodne z wymaganiami formalnymi.",
+        "Przygotuj pliki do dwóch zastosowań: publikacji internetowej oraz wydruku próbnego. Uporządkuj materiał w strukturze folderów, dodaj podstawowe metadane i dołącz krótką informację o zakresie retuszu oraz zasadach publikacji."
+      ],
+      "deliverables": [
+        "Karta ustaleń z klientem i zgody/założenia dotyczące publikacji oraz wizerunku.",
+        "Krótki e-mail zawodowy w języku angielskim.",
+        "Schemat oświetlenia i ustawienia aparatu dla portretu oraz zdjęcia identyfikacyjnego.",
+        "Minimum 5 ujęć portretowych i 2 ujęcia identyfikacyjne, z czego minimum 3 pliki finalne po obróbce.",
+        "Wersje plików przygotowane do internetu i do druku próbnego oraz uporządkowane archiwum zadania."
+      ],
+      "assessmentCriteria": [
+        "Jakość przygotowania zlecenia, poprawność komunikacji z klientem i uwzględnienie zasad etycznych oraz ochrony wizerunku: 0–20 pkt.",
+        "Bezpieczna organizacja planu, dobór oświetlenia, aparatu, obiektywu i ustawień ekspozycji: 0–20 pkt.",
+        "Praca z modelem, poprawność kadru, ostrości, proporcji twarzy i jakości portretu studyjnego: 0–20 pkt.",
+        "Zgodność zdjęcia identyfikacyjnego z wymaganiami formalnymi oraz poprawność retuszu w obu typach zdjęć: 0–20 pkt.",
+        "Przygotowanie plików do publikacji i druku, archiwizacja, metadane i poprawność e-maila branżowego po angielsku: 0–20 pkt."
+      ],
+      "evidenceTypes": [
+        "Zdjęcia źródłowe i finalne pliki portretowe oraz identyfikacyjne.",
+        "Schemat światła, karta ustaleń z klientem i notatka o zgodach.",
+        "Zrzuty ekranu z eksportu plików lub plik roboczy z etapem retuszu.",
+        "Krótki e-mail zawodowy w języku angielskim."
+      ],
+      "maxPoints": 100,
+      "passingPoints": 50,
+      "modelAnswerOutline": "Modelowa odpowiedź pokazuje, że kandydat potrafi zebrać wymagania klienta, zorganizować bezpieczne stanowisko i dobrać dwa różne ustawienia światła: bardziej modelujące do portretu i neutralne do zdjęcia identyfikacyjnego. Portret ma poprawną ostrość na oku, naturalne proporcje twarzy i dobrą komunikację z modelem, a zdjęcie identyfikacyjne spełnia wymogi formalne. Obróbka jest umiarkowana i etyczna, pliki są poprawnie wyeksportowane, opisane i przekazane wraz z prostą, poprawną wiadomością po angielsku."
+    },
+    {
+      "title": "Dokumentacja wydarzenia i obiektu z elementem archiwizacji materiału analogowego",
+      "scenario": "Dom kultury organizuje dzień otwarty w swojej siedzibie i zleca Ci wykonanie materiału obejmującego: zdjęcia budynku, krótką relację z wydarzenia oraz digitalizację jednego archiwalnego materiału analogowego do wykorzystania w miniwystawie i archiwum. Masz przygotować dokumentację planu, bezpiecznie pracować w obiekcie, wykonać zdjęcia w świetle zastanym lub mieszanym, opracować materiał, przygotować propozycję ekspozycji i archiwizacji. Jeśli pracownia dysponuje ciemnią, możesz zamiast skanu wykonać jedną prostą odbitkę analogową z dostarczonego negatywu i następnie ją zdigitalizować lub opisać do archiwum.",
+      "instructions": [
+        "Przygotuj plan realizacji zlecenia: cele materiału, harmonogram pracy, zasady BHP w obiekcie, listę sprzętu oraz szkic działań obejmujących fotografię architektury, reportaż i digitalizację lub obróbkę materiału analogowego.",
+        "Wykonaj minimum 2 zdjęcia architektury obiektu z kontrolą perspektywy oraz minimum 4 zdjęcia reportażowe pokazujące przebieg wydarzenia, emocje, kontekst i detal. Zachowaj logiczną różnorodność ujęć i reaguj na światło zastane lub mieszane.",
+        "Zdigitalizuj 1 materiał archiwalny: negatyw, slajd lub odbitkę, dobierając właściwy sposób skanowania i podstawowe parametry. Jeżeli dostępna jest ciemnia i takie polecenie wyda komisja, wykonaj zamiast tego jedną prostą odbitkę analogową lub pasek próbny z dostarczonego negatywu oraz udokumentuj proces.",
+        "Dokonaj selekcji całego materiału, wykonaj podstawową korekcję tonalną i barwną oraz przygotuj minimum 5 finalnych plików: 2 architektura, 2 reportaż, 1 plik archiwalny po digitalizacji lub z procesu analogowego.",
+        "Przygotuj mini projekt ekspozycji lub galerii: wybierz 5 zdjęć, zaplanuj kolejność, sposób prezentacji oraz jedną wersję pliku do internetu i jedną do druku lub planszy wystawowej.",
+        "Utwórz uporządkowaną strukturę archiwum dla zlecenia, dodaj podstawowe metadane, zaproponuj kopie bezpieczeństwa i dołącz krótką notatkę dla instytucji o zakresie materiału oraz sposobie jego przechowywania."
+      ],
+      "deliverables": [
+        "Plan realizacji zlecenia z harmonogramem, listą sprzętu, zasadami BHP i szkicem działań.",
+        "Minimum 6 zdjęć źródłowych z części architektonicznej i reportażowej oraz minimum 5 plików finalnych po obróbce.",
+        "Plik ze skanu materiału archiwalnego albo dokumentacja wykonania odbitki analogowej wraz z wynikiem procesu.",
+        "Projekt mini ekspozycji lub galerii z uzasadnioną kolejnością prac.",
+        "Struktura archiwum, metadane, plan kopii bezpieczeństwa i notatka dla instytucji."
+      ],
+      "assessmentCriteria": [
+        "Planowanie realizacji, organizacja pracy, bezpieczeństwo, ergonomia i adekwatny dobór sprzętu do obiektu oraz wydarzenia: 0–20 pkt.",
+        "Jakość zdjęć architektury i reportażu, kontrola perspektywy, ekspozycji, światła i narracji wizualnej: 0–25 pkt.",
+        "Poprawność wykonania digitalizacji materiału transparentnego lub refleksyjnego albo poprawność procesu analogowego zgodnie z wyposażeniem pracowni: 0–20 pkt.",
+        "Selekcja, korekcja tonalna i barwna, przygotowanie materiału do publikacji online i do ekspozycji fizycznej: 0–20 pkt.",
+        "Archiwizacja, metadane, plan kopii bezpieczeństwa, czytelność dokumentacji i komunikacji z instytucją: 0–15 pkt."
+      ],
+      "evidenceTypes": [
+        "Zdjęcia źródłowe i finalne pliki architektoniczne oraz reportażowe.",
+        "Skan materiału analogowego lub dokumentacja procesu chemicznego i odbitki próbnej.",
+        "Szkic ekspozycji lub układu galerii oraz wersje plików do internetu i druku.",
+        "Dokument archiwizacji, metadane i plan kopii bezpieczeństwa."
+      ],
+      "maxPoints": 100,
+      "passingPoints": 50,
+      "modelAnswerOutline": "Modelowa realizacja łączy przemyślany plan pracy z poprawnym wykonaniem kilku typów materiału. Zdjęcia architektury zachowują kontrolę pionów i czytelny kadr, a reportaż zawiera ujęcie otwierające, sceny działania, emocje i detal. Materiał analogowy jest poprawnie zeskanowany lub opracowany w ciemni zgodnie z procedurą i bezpieczeństwem. Finalny zestaw jest spójny, poprawnie skorygowany, przygotowany do internetu i miniwystawy, a całe zlecenie zostaje uporządkowane w archiwum z metadanymi i planem zabezpieczenia danych."
+    }
+  ]
+}

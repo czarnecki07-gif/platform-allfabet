@@ -1,0 +1,125 @@
+{
+  "title": "Quiz działowy — Dział 4: Rejestracja obrazu w praktyce",
+  "questions": [
+    {
+      "question": "Fotografujesz serię produktów w studiu z użyciem lamp błyskowych i zależy Ci na maksymalnej powtarzalności ekspozycji. Który tryb pracy aparatu będzie najwłaściwszy?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Tryb manualny, bo pozwala utrzymać stałe parametry między ujęciami",
+        "b": "Tryb automatyczny, bo aparat sam dobierze najlepsze ustawienia",
+        "c": "Tryb sportowy, bo zwiększa ostrość zdjęć produktowych",
+        "d": "Tryb preselekcji czasu, bo zawsze daje najwierniejsze kolory"
+      },
+      "correctAnswer": "a",
+      "explanation": "W fotografii produktowej i studyjnej liczy się kontrola i powtarzalność, dlatego tryb manualny jest najbezpieczniejszym wyborem."
+    },
+    {
+      "question": "Podczas fotografowania dynamicznego wydarzenia chcesz zwiększyć szansę na uchwycenie ostrego momentu. Jakie ustawienie będzie najtrafniejsze?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Pojedynczy autofokus i pojedyncze zdjęcie",
+        "b": "Ciągły autofokus i zdjęcia seryjne",
+        "c": "Ręczne ostrzenie ustawione raz na nieskończoność",
+        "d": "Długi czas migawki i niskie ISO"
+      },
+      "correctAnswer": "b",
+      "explanation": "W reportażu i przy ruchu najlepiej sprawdzają się ciągły AF oraz zdjęcia seryjne, bo pomagają śledzić obiekt i wybrać najlepszy moment."
+    },
+    {
+      "question": "Fotografujesz elewację budynku i chcesz ograniczyć zbieganie się pionów. Co powinieneś zrobić przede wszystkim?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Przechylić aparat mocniej do góry, aby objąć cały budynek",
+        "b": "Użyć jak najszerszego obiektywu i podejść bliżej",
+        "c": "Utrzymać aparat możliwie równolegle do fasady i w razie potrzeby odejść dalej",
+        "d": "Włączyć lampę błyskową, aby wyrównać geometrię kadru"
+      },
+      "correctAnswer": "c",
+      "explanation": "W fotografii architektury przechylenie aparatu powoduje zbieganie pionów, dlatego lepiej zachować równoległość i zwiększyć dystans."
+    },
+    {
+      "question": "Który opis najlepiej odpowiada poprawnie wykonanemu zdjęciu identyfikacyjnemu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Mocny światłocień, swobodna poza i artystyczne tło",
+        "b": "Szeroki kadr środowiskowy z naturalnym cieniem na twarzy",
+        "c": "Równomierne światło, neutralne tło, twarz czytelna i ustawiona zgodnie z wymogami",
+        "d": "Mała głębia ostrości i kreatywne przechylenie aparatu"
+      },
+      "correctAnswer": "c",
+      "explanation": "Zdjęcie identyfikacyjne ma służyć rozpoznaniu osoby, więc musi być neutralne, czytelne i zgodne z formalnymi wymaganiami."
+    },
+    {
+      "question": "Chcesz zbudować wizualnie kompletny reportaż z wydarzenia. Jakiego podejścia powinieneś się trzymać?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wykonać wyłącznie efektowne zbliżenia twarzy",
+        "b": "Skupić się tylko na zdjęciach organizatorów",
+        "c": "Zebrać ujęcia ogólne, średnie, detale i emocje, aby opowiedzieć historię",
+        "d": "Fotografować wyłącznie scenę główną z jednego miejsca"
+      },
+      "correctAnswer": "c",
+      "explanation": "Dobry reportaż składa się z różnych typów kadrów, które razem budują czytelną narrację wizualną."
+    },
+    {
+      "question": "Fotografujesz błyszczący zegarek do katalogu. Co pomoże najlepiej zapanować nad niechcianymi odbiciami?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Silny bezpośredni błysk z przodu",
+        "b": "Duże powierzchnie rozpraszające światło i kontrola otoczenia planu",
+        "c": "Maksymalne podniesienie ISO, aby skrócić czas",
+        "d": "Fotografowanie z ręki bez przygotowania stanowiska"
+      },
+      "correctAnswer": "b",
+      "explanation": "Przy powierzchniach błyszczących kluczowe jest świadome kształtowanie odbić przez miękkie światło i uporządkowane otoczenie."
+    },
+    {
+      "question": "Jaki warunek jest kluczowy przy reprodukcji płaskiego obiektu, na przykład dokumentu lub grafiki?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Ustawienie aparatu pod wyraźnym kątem dla lepszej plastyki",
+        "b": "Maksymalnie otwarta przysłona dla rozmycia tła",
+        "c": "Idealnie równoległe ustawienie aparatu względem obiektu",
+        "d": "Silne światło tylko z jednej strony"
+      },
+      "correctAnswer": "c",
+      "explanation": "Równoległe ustawienie aparatu zapobiega deformacjom perspektywicznym i pomaga utrzymać równą ostrość całej powierzchni."
+    },
+    {
+      "question": "Wykonujesz panoramę z kilku kadrów przeznaczonych do późniejszego połączenia. Co musisz szczególnie zachować między zdjęciami?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zmienne ISO i automatyczny balans bieli, aby każde zdjęcie było optymalne osobno",
+        "b": "Stałą ekspozycję, balans bieli, ostrość i odpowiednie zakładki między kadrami",
+        "c": "Różne ogniskowe, aby program miał więcej danych",
+        "d": "Losową kolejność kadrów, aby uniknąć powtarzalności"
+      },
+      "correctAnswer": "b",
+      "explanation": "Spójne parametry i nakładające się fragmenty zdjęć są podstawą poprawnego składania panoramy."
+    },
+    {
+      "question": "Dlaczego makrofotografia wymaga szczególnie stabilnej pracy i precyzyjnego ustawienia ostrości?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Bo w makro aparat automatycznie obniża rozdzielczość",
+        "b": "Bo przy dużym powiększeniu głębia ostrości jest bardzo mała, a drgania stają się wyraźne",
+        "c": "Bo w makro zawsze trzeba fotografować wyłącznie z lampą pierścieniową",
+        "d": "Bo obiekty makro są zbyt jasne dla standardowych ustawień"
+      },
+      "correctAnswer": "b",
+      "explanation": "W makrofotografii nawet minimalny ruch i niewielki błąd ostrości są bardzo widoczne z powodu dużej skali odwzorowania."
+    },
+    {
+      "question": "Fotografujesz wieczorną architekturę w świetle ulicznym i lekko doświetlasz scenę lampą. Na co powinieneś zwrócić szczególną uwagę?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyłącznie na to, by lampa była ustawiona na maksymalną moc",
+        "b": "Na temperaturę barwową i spójność światła zastanego z doświetleniem",
+        "c": "Na użycie najszerszej przysłony niezależnie od efektu",
+        "d": "Na to, by całkowicie wyeliminować światło zastane z kadru"
+      },
+      "correctAnswer": "b",
+      "explanation": "Przy świetle mieszanym trzeba kontrolować nie tylko jasność, ale też balans bieli i relację barwną między różnymi źródłami światła."
+    }
+  ]
+}

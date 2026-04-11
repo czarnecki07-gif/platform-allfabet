@@ -1,0 +1,206 @@
+[
+  {
+    "lessonId": "L-4-1",
+    "lessonTitle": "Lekcja 4.1: Obsługa aparatu, obiektywu, statywów i lamp",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Realistyczna edukacyjna scena fotograficzna w studiu: fotograf ustawia aparat na statywie, na ekranie aparatu widoczny histogram i parametry ekspozycji, obiektyw z zaznaczonym pierścieniem ogniskowej i AF/MF, obok statyw oświetleniowy z dużym softboxem dociążony workiem, uporządkowane przewody, wyraźnie pokazane bezpieczne ustawienie sprzętu. Styl nowoczesny, szkoleniowy, wysoka czytelność, neutralne tło, profesjonalne światło, bez napisów.",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Realistyczna edukacyjna scena fotograficzna w studiu: fotograf ustawia aparat na statywie, na ekranie aparatu widoczny histogram i parametry ekspozycji, obiektyw z zaznaczonym pierścieniem ogniskowej i AF/MF, obok statyw oświetleniowy z dużym softboxem dociążony workiem, uporządkowane przewody, wyraźnie pokazane bezpieczne ustawienie sprzętu. Styl nowoczesny, szkoleniowy, wysoka czytelność, neutralne tło, profesjonalne światło, bez napisów.",
+    "imageDescription": "Grafika pokazuje kompletny, poprawnie przygotowany zestaw fotograficzny: aparat, obiektyw, statywy i lampę z modyfikatorem. Najważniejszy przekaz lekcji to świadoma kontrola ekspozycji, korzystanie z funkcji aparatu oraz bezpieczna organizacja stanowiska pracy.",
+    "voiceoverScript": "W tej lekcji najważniejsze jest połączenie techniki z dobrymi nawykami pracy. Fotograf musi umieć szybko ustawić ekspozycję, świadomie korzystać z autofokusa i funkcji wspomagających, a jednocześnie stabilnie i bezpiecznie rozstawić statywy oraz oświetlenie. Profesjonalna obsługa sprzętu to nie tylko jakość zdjęcia, ale też przewidywalność i bezpieczeństwo na planie.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "W tej lekcji najważniejsze jest połączenie techniki z dobrymi nawykami pracy. Fotograf musi umieć szybko ustawić ekspozycję, świadomie korzystać z autofokusa i funkcji wspomagających, a jednocześnie stabilnie i bezpiecznie rozstawić statywy oraz oświetlenie. Profesjonalna obsługa sprzętu to nie tylko jakość zdjęcia, ale też przewidywalność i bezpieczeństwo na planie.",
+    "slideText": "Obsługa sprzętu = kontrola ekspozycji, świadome użycie obiektywu i bezpieczna praca ze statywami oraz lampami.",
+    "keywords": [
+      "aparat fotograficzny",
+      "ekspozycja",
+      "autofokus",
+      "statyw",
+      "oświetlenie studyjne"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-4-l-4-1-1775578944530.png?v=1775578944547",
+      "file": "s-4-l-4-1-1775578944530.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-4-l-4-1-1775579281860.mp3?v=1775579281861",
+      "file": "s-4-l-4-1-1775579281860.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-4-2",
+    "lessonTitle": "Lekcja 4.2: Zdjęcia plenerowe i fotografia architektury",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Edukacyjna realistyczna ilustracja plenerowa o złotej godzinie: fotograf na statywie wykonuje zdjęcie nowoczesnego budynku i krajobrazu, aparat ustawiony prosto z zachowaniem pionów, w kadrze widoczne linie perspektywy, szerokokątny obiektyw, miękkie światło wschodu lub zachodu słońca, lekka mgła w tle, torba fotograficzna z filtrem polaryzacyjnym i zapasową baterią. Czysta kompozycja, szkoleniowy charakter, bez napisów.",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Edukacyjna realistyczna ilustracja plenerowa o złotej godzinie: fotograf na statywie wykonuje zdjęcie nowoczesnego budynku i krajobrazu, aparat ustawiony prosto z zachowaniem pionów, w kadrze widoczne linie perspektywy, szerokokątny obiektyw, miękkie światło wschodu lub zachodu słońca, lekka mgła w tle, torba fotograficzna z filtrem polaryzacyjnym i zapasową baterią. Czysta kompozycja, szkoleniowy charakter, bez napisów.",
+    "imageDescription": "Obraz łączy dwa główne obszary lekcji: fotografię plenerową i architekturę. Podkreśla planowanie pracy, obserwację światła, użycie statywu oraz kontrolę perspektywy i pionów przy fotografowaniu budynków.",
+    "voiceoverScript": "Dobre zdjęcie plenerowe zaczyna się od obserwacji miejsca, światła i pogody. W krajobrazie liczy się porządek kompozycji i dobór parametrów, a w architekturze dodatkowo kontrola geometrii oraz pionów. Gdy pojawia się światło mieszane, musisz panować jednocześnie nad ekspozycją i kolorem obrazu.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Dobre zdjęcie plenerowe zaczyna się od obserwacji miejsca, światła i pogody. W krajobrazie liczy się porządek kompozycji i dobór parametrów, a w architekturze dodatkowo kontrola geometrii oraz pionów. Gdy pojawia się światło mieszane, musisz panować jednocześnie nad ekspozycją i kolorem obrazu.",
+    "slideText": "Plener i architektura wymagają planowania, kontroli perspektywy oraz świadomej pracy ze światłem zastanym i mieszanym.",
+    "keywords": [
+      "plener",
+      "architektura",
+      "perspektywa",
+      "złota godzina",
+      "światło mieszane"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-4-l-4-2-1775578988647.png?v=1775578988651",
+      "file": "s-4-l-4-2-1775578988647.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-4-l-4-2-1775579285957.mp3?v=1775579285958",
+      "file": "s-4-l-4-2-1775579285957.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-4-3",
+    "lessonTitle": "Lekcja 4.3: Portret studyjny, zdjęcia identyfikacyjne i praca z modelem",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Realistyczna scena studyjna do kursu fotografii: fotograf rozmawia z modelem ustawionym na neutralnym tle, duży softbox pod kątem około 45 stopni modeluje twarz, aparat na wysokości oczu, wyraźny refleks w oczach, po prawej uproszczona druga aranżacja do zdjęcia identyfikacyjnego z równym oświetleniem i prostym kadrem. Profesjonalne studio, czysto, czytelnie, edukacyjnie, bez napisów.",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Realistyczna scena studyjna do kursu fotografii: fotograf rozmawia z modelem ustawionym na neutralnym tle, duży softbox pod kątem około 45 stopni modeluje twarz, aparat na wysokości oczu, wyraźny refleks w oczach, po prawej uproszczona druga aranżacja do zdjęcia identyfikacyjnego z równym oświetleniem i prostym kadrem. Profesjonalne studio, czysto, czytelnie, edukacyjnie, bez napisów.",
+    "imageDescription": "Grafika pokazuje dwa kluczowe zastosowania portretu: portret studyjny oraz zdjęcie identyfikacyjne. W centrum znajduje się relacja fotografa z modelem, poprawne ustawienie światła i dbałość o formalną poprawność kadru.",
+    "voiceoverScript": "Portret to połączenie światła, parametrów i komunikacji z człowiekiem. Fotograf musi prowadzić modela spokojnie i precyzyjnie, jednocześnie kontrolując kierunek światła, ostrość oraz proporcje twarzy. Przy zdjęciu identyfikacyjnym dochodzi jeszcze wymóg pełnej zgodności z zasadami formalnymi.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Portret to połączenie światła, parametrów i komunikacji z człowiekiem. Fotograf musi prowadzić modela spokojnie i precyzyjnie, jednocześnie kontrolując kierunek światła, ostrość oraz proporcje twarzy. Przy zdjęciu identyfikacyjnym dochodzi jeszcze wymóg pełnej zgodności z zasadami formalnymi.",
+    "slideText": "Dobry portret wymaga światła, komunikacji i kontroli kadru; zdjęcie identyfikacyjne dodatkowo musi spełniać wymogi formalne.",
+    "keywords": [
+      "portret studyjny",
+      "model",
+      "softbox",
+      "zdjęcie identyfikacyjne",
+      "komunikacja"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-4-l-4-3-1775579046152.png?v=1775579046174",
+      "file": "s-4-l-4-3-1775579046152.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-4-l-4-3-1775579290149.mp3?v=1775579290152",
+      "file": "s-4-l-4-3-1775579290149.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-4-4",
+    "lessonTitle": "Lekcja 4.4: Reportaż fotograficzny i rejestracja wydarzeń",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Dynamiczna realistyczna scena reportażowa podczas wydarzenia: fotograf z aparatem pracuje dyskretnie w tłumie, na pierwszym planie prelegent lub artysta, w tle reakcje publiczności, detale wydarzenia i różne plany kadru sugerujące narrację wizualną. Aparat ustawiony do szybkiej pracy, ciągły autofokus, zdjęcia seryjne, zmienne światło sceniczne. Styl edukacyjny, wysoka energia, czytelna kompozycja, bez napisów.",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Dynamiczna realistyczna scena reportażowa podczas wydarzenia: fotograf z aparatem pracuje dyskretnie w tłumie, na pierwszym planie prelegent lub artysta, w tle reakcje publiczności, detale wydarzenia i różne plany kadru sugerujące narrację wizualną. Aparat ustawiony do szybkiej pracy, ciągły autofokus, zdjęcia seryjne, zmienne światło sceniczne. Styl edukacyjny, wysoka energia, czytelna kompozycja, bez napisów.",
+    "imageDescription": "Ilustracja pokazuje istotę reportażu: rejestrowanie wydarzenia w sposób szybki, dyskretny i narracyjny. Ważne są nie tylko główni bohaterowie, ale też reakcje otoczenia, detale i logiczna sekwencja obrazów budujących historię.",
+    "voiceoverScript": "W reportażu nie wystarczy jedno efektowne zdjęcie. Trzeba przewidywać przebieg wydarzeń, zbierać różne rodzaje ujęć i pracować na ustawieniach, które pozwalają reagować natychmiast. Dobry materiał reporterski łączy refleks, przygotowanie techniczne i odpowiedzialność za sposób pokazania rzeczywistości.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "W reportażu nie wystarczy jedno efektowne zdjęcie. Trzeba przewidywać przebieg wydarzeń, zbierać różne rodzaje ujęć i pracować na ustawieniach, które pozwalają reagować natychmiast. Dobry materiał reporterski łączy refleks, przygotowanie techniczne i odpowiedzialność za sposób pokazania rzeczywistości.",
+    "slideText": "Reportaż to szybka reakcja, myślenie historią i świadome budowanie kompletnego materiału z wydarzenia.",
+    "keywords": [
+      "reportaż",
+      "wydarzenie",
+      "narracja wizualna",
+      "autofokus ciągły",
+      "selekcja ujęć"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-4-l-4-4-1775579102377.png?v=1775579102389",
+      "file": "s-4-l-4-4-1775579102377.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-4-l-4-4-1775579294083.mp3?v=1775579294084",
+      "file": "s-4-l-4-4-1775579294083.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-4-5",
+    "lessonTitle": "Lekcja 4.5: Fotografia produktowa, katalogowa, techniczna i bezcieniowa",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Realistyczne stanowisko fotografii produktowej: aparat na statywie skierowany na starannie ustawiony produkt na stole bezcieniowym, miękkie oświetlenie z dwóch stron, blendy i czarne flagi kontrolujące odbicia, zaznaczone powtarzalne ustawienie planu, czyste tło, obok drugi produkt sfotografowany technicznie na neutralnym tle. Styl szkoleniowy, bardzo wysoka precyzja, bez napisów.",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Realistyczne stanowisko fotografii produktowej: aparat na statywie skierowany na starannie ustawiony produkt na stole bezcieniowym, miękkie oświetlenie z dwóch stron, blendy i czarne flagi kontrolujące odbicia, zaznaczone powtarzalne ustawienie planu, czyste tło, obok drugi produkt sfotografowany technicznie na neutralnym tle. Styl szkoleniowy, bardzo wysoka precyzja, bez napisów.",
+    "imageDescription": "Grafika przedstawia uporządkowane stanowisko do fotografii przedmiotów i pokazuje dwa cele pracy: estetyczne zdjęcie produktowe oraz wierną dokumentację techniczną. Nacisk położono na czystość planu, kontrolę odbić, powtarzalność ustawień i poprawne odwzorowanie produktu.",
+    "voiceoverScript": "W fotografii przedmiotów liczy się precyzja, a nie przypadek. Trzeba przygotować produkt i stanowisko, dopasować światło do materiału powierzchni oraz zadbać o powtarzalność kadru i ekspozycji. Zdjęcie katalogowe ma być spójne i atrakcyjne, a techniczne przede wszystkim rzetelne i czytelne.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "W fotografii przedmiotów liczy się precyzja, a nie przypadek. Trzeba przygotować produkt i stanowisko, dopasować światło do materiału powierzchni oraz zadbać o powtarzalność kadru i ekspozycji. Zdjęcie katalogowe ma być spójne i atrakcyjne, a techniczne przede wszystkim rzetelne i czytelne.",
+    "slideText": "Fotografia produktowa wymaga czystego planu, kontroli światła i odbić oraz pełnej powtarzalności serii.",
+    "keywords": [
+      "fotografia produktowa",
+      "stół bezcieniowy",
+      "odbicia",
+      "e-commerce",
+      "dokumentacja techniczna"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-4-l-4-5-1775579150435.png?v=1775579150438",
+      "file": "s-4-l-4-5-1775579150435.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-4-l-4-5-1775579298649.mp3?v=1775579298651",
+      "file": "s-4-l-4-5-1775579298649.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-4-6",
+    "lessonTitle": "Lekcja 4.6: Reprodukcja, makrofotografia, panorama oraz techniki specjalne",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Zaawansowana edukacyjna kompozycja fotograficzna podzielona na cztery czytelne strefy: reprodukcja płaskiego dokumentu z aparatem ustawionym idealnie równolegle i symetrycznym światłem, makrofotografia owada na statywie z bardzo precyzyjnym ostrzeniem, panorama wykonywana z głowicą panoramiczną i serią nakładających się kadrów, oraz bezpieczna fotografia specjalna UV/IR z filtrem i kontrolowanym źródłem światła. Realistyczny styl szkoleniowy, wysoka dokładność, bez napisów.",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Zaawansowana edukacyjna kompozycja fotograficzna podzielona na cztery czytelne strefy: reprodukcja płaskiego dokumentu z aparatem ustawionym idealnie równolegle i symetrycznym światłem, makrofotografia owada na statywie z bardzo precyzyjnym ostrzeniem, panorama wykonywana z głowicą panoramiczną i serią nakładających się kadrów, oraz bezpieczna fotografia specjalna UV/IR z filtrem i kontrolowanym źródłem światła. Realistyczny styl szkoleniowy, wysoka dokładność, bez napisów.",
+    "imageDescription": "Ilustracja syntetyzuje cztery wymagające obszary fotografii technicznej i specjalistycznej. Wspólnym mianownikiem jest precyzja ustawienia aparatu, powtarzalność parametrów, stabilność planu oraz bezpieczeństwo pracy przy niestandardowych technikach.",
+    "voiceoverScript": "Reprodukcja, makro, panorama i techniki specjalne łączy jedno: każdy drobny błąd ma duże konsekwencje. Dlatego kluczowe są równoległość ustawienia, stabilizacja, spójne parametry i bardzo dokładna kontrola światła oraz ostrości. W przypadku UV i IR równie ważna jak technika jest bezwzględna ostrożność i znajomość procedur.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Reprodukcja, makro, panorama i techniki specjalne łączy jedno: każdy drobny błąd ma duże konsekwencje. Dlatego kluczowe są równoległość ustawienia, stabilizacja, spójne parametry i bardzo dokładna kontrola światła oraz ostrości. W przypadku UV i IR równie ważna jak technika jest bezwzględna ostrożność i znajomość procedur.",
+    "slideText": "Fotografie specjalistyczne wymagają maksymalnej precyzji, stabilności oraz świadomej i bezpiecznej pracy ze sprzętem.",
+    "keywords": [
+      "reprodukcja",
+      "makrofotografia",
+      "panorama",
+      "UV",
+      "IR"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-4-l-4-6-1775579196175.png?v=1775579196178",
+      "file": "s-4-l-4-6-1775579196175.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-4-l-4-6-1775579303078.mp3?v=1775579303162",
+      "file": "s-4-l-4-6-1775579303078.mp3",
+      "error": ""
+    }
+  }
+]

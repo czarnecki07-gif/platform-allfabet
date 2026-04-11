@@ -1,0 +1,122 @@
+[
+  {
+    "lessonId": "L-2-1",
+    "lessonTitle": "Lekcja 2.1: Terminologia fotografii i analiza obrazu",
+    "worksheet": {
+      "title": "Karta pracy — Słownik fotograficzny i analiza wybranego zdjęcia",
+      "taskIntro": "Uporządkuj podstawowe pojęcia fotograficzne i przećwicz profesjonalną analizę obrazu na przykładzie jednego wybranego zdjęcia.",
+      "instructions": [
+        "Przygotuj mini słownik zawierający 12 pojęć fotograficznych: po 3 z zakresu estetyki obrazu, rejestracji, obróbki i publikacji. Przy każdym pojęciu zapisz krótką definicję własnymi słowami oraz jeden przykład zastosowania.",
+        "Wybierz jedno zdjęcie: własne albo znalezione w legalnym źródle edukacyjnym. Przeanalizuj je w trzech etapach: 1) co widać, 2) jak zdjęcie zostało zbudowane, 3) jaką funkcję pełni fotografia.",
+        "Na końcu zapisz krótką ocenę zawodową w 5–6 zdaniach, używając co najmniej 6 poprawnych terminów fotograficznych zamiast ogólnych określeń typu „ładne” lub „fajne”."
+      ],
+      "deliverables": [
+        "Mini słownik 12 pojęć fotograficznych z definicjami i przykładami",
+        "Analiza jednego zdjęcia w trzech etapach",
+        "Krótka ocena zawodowa zdjęcia z użyciem terminologii fotograficznej"
+      ],
+      "successCriteria": [
+        "Uczeń poprawnie rozróżnia terminy związane z estetyką, rejestracją, obróbką i publikacją obrazu",
+        "Analiza zdjęcia przebiega w logicznej kolejności: opis, forma, funkcja",
+        "W wypowiedzi końcowej zastosowano minimum 6 trafnych pojęć fotograficznych"
+      ],
+      "estimatedMinutes": 25
+    }
+  },
+  {
+    "lessonId": "L-2-2",
+    "lessonTitle": "Lekcja 2.2: Kompozycja kadru, perspektywa i plany zdjęciowe",
+    "worksheet": {
+      "title": "Karta pracy — Trzy kadry, trzy decyzje kompozycyjne",
+      "taskIntro": "Wykonaj serię prostych zdjęć tego samego motywu, aby sprawdzić, jak kompozycja, perspektywa i plan zdjęciowy zmieniają przekaz obrazu.",
+      "instructions": [
+        "Wybierz jeden motyw: osobę, przedmiot, fragment wnętrza albo element architektury. Wykonaj 3 zdjęcia tego samego motywu: jedno w planie ogólnym lub pełnym, jedno w bliższym planie, jedno z wyraźnie zmienionym punktem widzenia.",
+        "Przed każdym zdjęciem świadomie usuń z kadru przynajmniej jeden element rozpraszający. Jeśli trzeba, zmień pozycję, wysokość aparatu albo odległość od obiektu.",
+        "Pod każdym zdjęciem dopisz krótką notatkę: jaki plan zastosowano, jaka jest perspektywa oraz jaki efekt wizualny lub znaczeniowy udało się uzyskać."
+      ],
+      "deliverables": [
+        "Seria 3 zdjęć tego samego motywu wykonanych z różnym kadrem lub perspektywą",
+        "Krótki opis do każdego zdjęcia: plan, punkt widzenia i efekt",
+        "Jedno zdanie podsumowania: które ujęcie najlepiej realizuje cel fotografii i dlaczego"
+      ],
+      "successCriteria": [
+        "Zdjęcia wyraźnie różnią się planem zdjęciowym lub perspektywą",
+        "Kadr jest uporządkowany i pozbawiony oczywistych elementów rozpraszających",
+        "Opis pokazuje zrozumienie wpływu kompozycji na odbiór fotografii"
+      ],
+      "estimatedMinutes": 30
+    }
+  },
+  {
+    "lessonId": "L-2-3",
+    "lessonTitle": "Lekcja 2.3: Światło, barwa i przestrzenie barwne",
+    "worksheet": {
+      "title": "Karta pracy — Obserwacja światła i kontrola barwy",
+      "taskIntro": "Porównaj, jak różne warunki oświetleniowe wpływają na wygląd tego samego obiektu oraz przećwicz świadome opisywanie barwy i ustawień publikacyjnych.",
+      "instructions": [
+        "Wybierz jeden prosty obiekt o widocznej fakturze lub kolorze, na przykład kubek, owoc, książkę albo twarz modela. Wykonaj 3 zdjęcia tego samego obiektu w różnych warunkach: przy świetle bocznym, przednim i przy świetle o innej barwie, na przykład żarowym lub przy zachodzie słońca.",
+        "Przy każdym zdjęciu zapisz krótką obserwację: kierunek światła, jego jakość (twarde lub miękkie), wpływ na cienie, fakturę i nastrój oraz czy kolor wygląda neutralnie czy ciepło/chłodno.",
+        "Na końcu dopisz, który wariant najlepiej nadaje się do fotografii użytkowej, a który do budowania nastroju. Dodaj też informację, w jakiej przestrzeni barwnej wyeksportowałbyś zdjęcie do internetu i dlaczego."
+      ],
+      "deliverables": [
+        "Seria 3 zdjęć tego samego obiektu wykonanych w różnych warunkach oświetleniowych",
+        "Notatki porównawcze opisujące światło, barwę i nastrój każdego zdjęcia",
+        "Krótka decyzja końcowa dotycząca zastosowania zdjęcia i wyboru przestrzeni barwnej do publikacji"
+      ],
+      "successCriteria": [
+        "Uczeń poprawnie rozpoznaje kierunek i jakość światła na wykonanych zdjęciach",
+        "Opis uwzględnia wpływ barwy światła lub balansu bieli na wygląd fotografii",
+        "W podsumowaniu poprawnie wskazano sRGB jako standardowy wybór do publikacji internetowej"
+      ],
+      "estimatedMinutes": 30
+    }
+  },
+  {
+    "lessonId": "L-2-4",
+    "lessonTitle": "Lekcja 2.4: Aparaty, obiektywy, lampy i urządzenia pomiarowe",
+    "worksheet": {
+      "title": "Karta pracy — Dobór zestawu sprzętu do zadania fotograficznego",
+      "taskIntro": "Przećwicz praktyczne myślenie o sprzęcie, dobierając aparat, obiektyw i światło do konkretnego typu sesji.",
+      "instructions": [
+        "Wybierz dwa z trzech tematów: portret studyjny, reportaż z wydarzenia, fotografia produktu. Dla każdego tematu zapisz proponowany zestaw sprzętu: aparat, obiektyw, źródło światła, modyfikator oraz jedno dodatkowe akcesorium.",
+        "Przy każdym elemencie wyposażenia dopisz krótkie uzasadnienie, dlaczego będzie przydatny w danym zadaniu, na przykład mobilność, kontrola światła, wygoda pracy, odpowiednia ogniskowa lub powtarzalność efektu.",
+        "Na końcu porównaj oba zestawy w 4–5 zdaniach i wskaż, które elementy są wspólne, a które wynikają bezpośrednio z charakteru zlecenia."
+      ],
+      "deliverables": [
+        "Opis 2 zestawów sprzętu dobranych do wybranych zadań fotograficznych",
+        "Uzasadnienie wyboru poszczególnych urządzeń i akcesoriów",
+        "Krótkie porównanie obu zestawów"
+      ],
+      "successCriteria": [
+        "Dobór sprzętu jest logicznie powiązany z typem fotografii i warunkami pracy",
+        "Uczeń poprawnie rozpoznaje funkcję aparatu, obiektywu, źródła światła i akcesoriów",
+        "Uzasadnienia są praktyczne i odnoszą się do efektu fotograficznego lub organizacji pracy"
+      ],
+      "estimatedMinutes": 25
+    }
+  },
+  {
+    "lessonId": "L-2-5",
+    "lessonTitle": "Lekcja 2.5: Matryce, materiały fotograficzne, nośniki pamięci i dokumentacja techniczna",
+    "worksheet": {
+      "title": "Karta pracy — Czytanie parametrów i plan bezpiecznej pracy z plikami",
+      "taskIntro": "Połącz analizę parametrów technicznych z praktycznym planowaniem pracy fotografa: od wyboru nośnika po archiwizację i dobór materiału do wydruku.",
+      "instructions": [
+        "Wybierz jeden aparat, jedną kartę pamięci i jeden obiektyw. Mogą to być urządzenia, które masz pod ręką, albo przykłady z oficjalnych stron producentów. Spisz najważniejsze oznaczenia techniczne i wyjaśnij, co oznaczają w praktyce.",
+        "Przygotuj krótką tabelę porównawczą z trzema obszarami: matryca aparatu, nośnik pamięci, materiał do wydruku. W każdym obszarze wpisz po 2–3 cechy użytkowe i ich znaczenie dla fotografa.",
+        "Na końcu opracuj prosty plan bezpieczeństwa danych po sesji: zrzut plików, nazewnictwo folderów, kopia zapasowa i miejsce archiwizacji."
+      ],
+      "deliverables": [
+        "Opis oznaczeń technicznych aparatu, obiektywu i karty pamięci",
+        "Tabela porównawcza cech użytkowych matrycy, nośnika i materiału do wydruku",
+        "Krótki plan archiwizacji i zabezpieczenia plików po sesji"
+      ],
+      "successCriteria": [
+        "Uczeń poprawnie odczytuje podstawowe parametry techniczne sprzętu i nośników",
+        "Tabela pokazuje związek między cechą techniczną a praktycznym zastosowaniem",
+        "Plan pracy z danymi uwzględnia co najmniej jedną kopię zapasową i logiczne porządkowanie plików"
+      ],
+      "estimatedMinutes": 30
+    }
+  }
+]

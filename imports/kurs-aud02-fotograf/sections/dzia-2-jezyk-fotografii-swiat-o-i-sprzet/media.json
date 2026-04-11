@@ -1,0 +1,172 @@
+[
+  {
+    "lessonId": "L-2-1",
+    "lessonTitle": "Lekcja 2.1: Terminologia fotografii i analiza obrazu",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Nowoczesna edukacyjna infografika fotograficzna w języku wizualnym, bez napisów w obrazie. Centralnie jedno profesjonalne zdjęcie portretowe analizowane warstwowo: zaznaczony kadr, kierunek światła, obszar ostrości, tło poza ostrością, układ planów, kontrast i kolor. Wokół zdjęcia subtelne ikony reprezentujące cztery grupy pojęć: estetyka obrazu, rejestracja, obróbka, publikacja. Kompozycja czysta, profesjonalna, minimalistyczna, jasne tło, akcenty w kolorze niebieskim i grafitowym, styl kursu online o fotografii.",
+    "adminImagePrompt": "bez napisów w obrazie. Centralnie jedno profesjonalne zdjęcie portretowe analizowane warstwowo: zaznaczony kadr, kierunek światła, obszar ostrości, tło poza ostrością, układ planów, kontrast i kolor. Wokół zdjęcia subtelne ikony reprezentujące cztery grupy pojęć: estetyka obrazu, rejestracja, obróbka, publikacja. Kompozycja czysta, profesjonalna, minimalistyczna, jasne tło,  Zrób bez jakichkolwiek tekstów.",
+    "finalImagePrompt": "bez napisów w obrazie. Centralnie jedno profesjonalne zdjęcie portretowe analizowane warstwowo: zaznaczony kadr, kierunek światła, obszar ostrości, tło poza ostrością, układ planów, kontrast i kolor. Wokół zdjęcia subtelne ikony reprezentujące cztery grupy pojęć: estetyka obrazu, rejestracja, obróbka, publikacja. Kompozycja czysta, profesjonalna, minimalistyczna, jasne tło,  Zrób bez jakichkolwiek tekstów.",
+    "imageDescription": "Grafika pokazuje, że fotografia może być opisywana jednocześnie językiem estetyki, techniki, obróbki i publikacji. Centralne zdjęcie jest punktem wyjścia do analizy: najpierw co widać, potem jak zostało zbudowane, a na końcu po co zostało wykonane.",
+    "voiceoverScript": "W fotografii precyzyjne słownictwo to narzędzie pracy, a nie zbędna teoria. Dzięki poprawnym pojęciom możesz trafnie opisać obraz, wskazać problem techniczny i ocenić, czy zdjęcie spełnia swoją funkcję. Profesjonalna analiza fotografii przebiega etapami: najpierw opisujesz to, co widać, potem formę obrazu, a na końcu jego cel. To właśnie taki sposób myślenia buduje świadomy warsztat fotografa.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "W fotografii precyzyjne słownictwo to narzędzie pracy, a nie zbędna teoria. Dzięki poprawnym pojęciom możesz trafnie opisać obraz, wskazać problem techniczny i ocenić, czy zdjęcie spełnia swoją funkcję. Profesjonalna analiza fotografii przebiega etapami: najpierw opisujesz to, co widać, potem formę obrazu, a na końcu jego cel. To właśnie taki sposób myślenia buduje świadomy warsztat fotografa.",
+    "slideText": "Terminologia fotografii = język pracy\n• Opisuj obraz precyzyjnie, nie ogólnikowo\n• Analizuj zdjęcie: co widać → jak zbudowano → po co wykonano\n• Oceniaj nie tylko estetykę, ale też funkcję fotografii",
+    "keywords": [
+      "terminologia fotografii",
+      "analiza obrazu",
+      "estetyka zdjęcia",
+      "ekspozycja",
+      "funkcja fotografii"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-2-l-2-1-1775576931428.png?v=1775576931431",
+      "file": "s-2-l-2-1-1775576931428.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-2-l-2-1-1775577241649.mp3?v=1775577241650",
+      "file": "s-2-l-2-1-1775577241649.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-2-2",
+    "lessonTitle": "Lekcja 2.2: Kompozycja kadru, perspektywa i plany zdjęciowe",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Edukacyjna plansza fotograficzna bez napisów, pokazująca tę samą osobę w miejskiej przestrzeni w kilku wariantach kadru. Widoczne różne plany zdjęciowe od planu ogólnego do zbliżenia, różne punkty widzenia: z góry, z poziomu oczu, z dołu, oraz subtelna siatka trójpodziału i linie prowadzące wzrok. Kompozycja nowoczesna, czytelna, profesjonalna, minimalistyczna, neutralne kolory z akcentem czerwonym lub niebieskim, styl kursowy.",
+    "adminImagePrompt": "Edukacyjna plansza fotograficzna bez napisów, pokazująca tę samą osobę w miejskiej przestrzeni w kilku wariantach kadru. Widoczne różne plany zdjęciowe od planu ogólnego do zbliżenia, różne punkty widzenia: z góry, z poziomu oczu, z dołu, oraz subtelna siatka trójpodziału i linie prowadzące wzrok. Kompozycja nowoczesna, czytelna, profesjonalna, minimalistyczna, neutralne kolory z akcentem czerwonym lub niebieskim, styl kursowy. Zrób bez jakichkolwiek tekstów.",
+    "finalImagePrompt": "Edukacyjna plansza fotograficzna bez napisów, pokazująca tę samą osobę w miejskiej przestrzeni w kilku wariantach kadru. Widoczne różne plany zdjęciowe od planu ogólnego do zbliżenia, różne punkty widzenia: z góry, z poziomu oczu, z dołu, oraz subtelna siatka trójpodziału i linie prowadzące wzrok. Kompozycja nowoczesna, czytelna, profesjonalna, minimalistyczna, neutralne kolory z akcentem czerwonym lub niebieskim, styl kursowy. Zrób bez jakichkolwiek tekstów.",
+    "imageDescription": "Grafika zestawia najważniejsze decyzje kompozycyjne: co zmieścić w kadrze, z jakiej wysokości fotografować i jak blisko podejść do tematu. Pokazuje, że kompozycja, perspektywa i plan zdjęciowy razem budują znaczenie fotografii.",
+    "voiceoverScript": "Kompozycja porządkuje obraz i kieruje uwagę widza na to, co najważniejsze. O jakości kadru często decyduje nie to, co dodasz, ale to, co świadomie usuniesz. Zmiana punktu widzenia wpływa na proporcje, relacje przestrzenne i odbiór fotografowanego obiektu. Dobór planu zdjęciowego decyduje, czy pokazujesz kontekst, postać, emocję czy detal.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Kompozycja porządkuje obraz i kieruje uwagę widza na to, co najważniejsze. O jakości kadru często decyduje nie to, co dodasz, ale to, co świadomie usuniesz. Zmiana punktu widzenia wpływa na proporcje, relacje przestrzenne i odbiór fotografowanego obiektu. Dobór planu zdjęciowego decyduje, czy pokazujesz kontekst, postać, emocję czy detal.",
+    "slideText": "Świadomy kadr buduje przekaz\n• Kompozycja prowadzi wzrok odbiorcy\n• Perspektywa zmienia znaczenie i charakter zdjęcia\n• Plan zdjęciowy dobieraj do celu: kontekst, emocja, detal",
+    "keywords": [
+      "kompozycja kadru",
+      "perspektywa",
+      "plany zdjęciowe",
+      "trójpodział",
+      "kadrowanie"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-2-l-2-2-1775576982810.png?v=1775576982887",
+      "file": "s-2-l-2-2-1775576982810.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-2-l-2-2-1775577246796.mp3?v=1775577246798",
+      "file": "s-2-l-2-2-1775577246796.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-2-3",
+    "lessonTitle": "Lekcja 2.3: Światło, barwa i przestrzenie barwne",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Zaawansowana plansza edukacyjna bez napisów, przedstawiająca ten sam obiekt lub portret w trzech wariantach oświetlenia: światło przednie, boczne i tylne, z wyraźnym pokazaniem różnicy między światłem twardym i miękkim. Dodatkowo subtelne przejścia kolorystyczne pokazujące ciepły i chłodny balans bieli oraz graficzne symbole monitora, aparatu i wydruku sugerujące przestrzenie barwne sRGB i Adobe RGB. Estetyka profesjonalna, czyste tło, nowoczesny styl e-learningowy.",
+    "adminImagePrompt": "Zaawansowana plansza edukacyjna bez napisów, przedstawiająca ten sam obiekt lub portret w trzech wariantach oświetlenia: światło przednie, boczne i tylne, z wyraźnym pokazaniem różnicy między światłem twardym i miękkim. Dodatkowo subtelne przejścia kolorystyczne pokazujące ciepły i chłodny balans bieli oraz graficzne symbole monitora, aparatu i wydruku sugerujące przestrzenie barwne sRGB i Adobe RGB. Estetyka profesjonalna, czyste tło, nowoczesny styl e-learningowy. Zrób bez jakichkolwiek tekstów.",
+    "finalImagePrompt": "Zaawansowana plansza edukacyjna bez napisów, przedstawiająca ten sam obiekt lub portret w trzech wariantach oświetlenia: światło przednie, boczne i tylne, z wyraźnym pokazaniem różnicy między światłem twardym i miękkim. Dodatkowo subtelne przejścia kolorystyczne pokazujące ciepły i chłodny balans bieli oraz graficzne symbole monitora, aparatu i wydruku sugerujące przestrzenie barwne sRGB i Adobe RGB. Estetyka profesjonalna, czyste tło, nowoczesny styl e-learningowy. Zrób bez jakichkolwiek tekstów.",
+    "imageDescription": "Grafika zbiera w jednym obrazie najważniejsze elementy lekcji: kierunek i jakość światła, wpływ temperatury barwowej na wygląd zdjęcia oraz znaczenie przestrzeni barwnych w pracy od aparatu do publikacji.",
+    "voiceoverScript": "Światło decyduje o kształcie, fakturze, kontraście i nastroju fotografii. Jego kierunek, jakość, intensywność i barwa wpływają na to, jak odbiorca widzi scenę. Balans bieli pomaga poprawnie odczytać kolor światła, a przestrzenie barwne, takie jak sRGB i Adobe RGB, porządkują sposób zapisu, edycji i publikacji obrazu. Profesjonalna fotografia wymaga kontroli koloru na każdym etapie pracy.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Światło decyduje o kształcie, fakturze, kontraście i nastroju fotografii. Jego kierunek, jakość, intensywność i barwa wpływają na to, jak odbiorca widzi scenę. Balans bieli pomaga poprawnie odczytać kolor światła, a przestrzenie barwne, takie jak sRGB i Adobe RGB, porządkują sposób zapisu, edycji i publikacji obrazu. Profesjonalna fotografia wymaga kontroli koloru na każdym etapie pracy.",
+    "slideText": "Światło i kolor tworzą obraz\n• Kierunek i jakość światła zmieniają wygląd sceny\n• Balans bieli wpływa na naturalność barw\n• sRGB i Adobe RGB mają znaczenie w obróbce i publikacji",
+    "keywords": [
+      "światło w fotografii",
+      "balans bieli",
+      "temperatura barwowa",
+      "sRGB",
+      "Adobe RGB"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-2-l-2-3-1775577029852.png?v=1775577029856",
+      "file": "s-2-l-2-3-1775577029852.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-2-l-2-3-1775577252971.mp3?v=1775577252973",
+      "file": "s-2-l-2-3-1775577252971.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-2-4",
+    "lessonTitle": "Lekcja 2.4: Aparaty, obiektywy, lampy i urządzenia pomiarowe",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Profesjonalna plansza sprzętowa bez napisów, pokazująca spójny zestaw fotografa: bezlusterkowiec i lustrzanka, kilka obiektywów o różnych ogniskowych, reporterską lampę błyskową, studyjną lampę z softboxem, statyw fotograficzny, statyw oświetleniowy, blendę i światłomierz. Układ czytelny, jak nowoczesny flat lay połączony z małą sceną studyjną, z ikonami sugerującymi zastosowania: reportaż, portret, produkt, plener. Styl kursowy, estetyka premium, neutralne oświetlenie.",
+    "adminImagePrompt": "Profesjonalna plansza sprzętowa bez napisów, pokazująca spójny zestaw fotografa: bezlusterkowiec i lustrzanka, kilka obiektywów o różnych ogniskowych, reporterską lampę błyskową, studyjną lampę z softboxem, statyw fotograficzny, statyw oświetleniowy, blendę i światłomierz. Układ czytelny, jak nowoczesny flat lay połączony z małą sceną studyjną, z ikonami sugerującymi zastosowania: reportaż, portret, produkt, plener. Styl kursowy, estetyka premium, neutralne oświetlenie.Zrób bez jakichkolwiek tekstów.",
+    "finalImagePrompt": "Profesjonalna plansza sprzętowa bez napisów, pokazująca spójny zestaw fotografa: bezlusterkowiec i lustrzanka, kilka obiektywów o różnych ogniskowych, reporterską lampę błyskową, studyjną lampę z softboxem, statyw fotograficzny, statyw oświetleniowy, blendę i światłomierz. Układ czytelny, jak nowoczesny flat lay połączony z małą sceną studyjną, z ikonami sugerującymi zastosowania: reportaż, portret, produkt, plener. Styl kursowy, estetyka premium, neutralne oświetlenie.Zrób bez jakichkolwiek tekstów.",
+    "imageDescription": "Grafika pokazuje, że aparat, obiektyw, światło i akcesoria tworzą jeden system pracy. Podkreśla zależność między rodzajem zadania fotograficznego a doborem właściwego sprzętu i narzędzi pomiarowych.",
+    "voiceoverScript": "Sprzęt fotograficzny dobiera się do zadania, a nie odwrotnie. Aparat wpływa na komfort i możliwości pracy, obiektyw na sposób pokazania sceny, a lampy i modyfikatory na charakter światła. Statywy i urządzenia pomiarowe zwiększają precyzję, bezpieczeństwo i powtarzalność efektów. Świadomy fotograf myśli o sprzęcie jako o zestawie narzędzi dopasowanych do konkretnej realizacji.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Sprzęt fotograficzny dobiera się do zadania, a nie odwrotnie. Aparat wpływa na komfort i możliwości pracy, obiektyw na sposób pokazania sceny, a lampy i modyfikatory na charakter światła. Statywy i urządzenia pomiarowe zwiększają precyzję, bezpieczeństwo i powtarzalność efektów. Świadomy fotograf myśli o sprzęcie jako o zestawie narzędzi dopasowanych do konkretnej realizacji.",
+    "slideText": "Sprzęt dobieraj do celu zdjęcia\n• Aparat i system wpływają na ergonomię i jakość pracy\n• Obiektyw decyduje o kącie widzenia i charakterze obrazu\n• Lampy, statywy i światłomierz dają kontrolę i powtarzalność",
+    "keywords": [
+      "aparat fotograficzny",
+      "obiektyw",
+      "lampa błyskowa",
+      "softbox",
+      "światłomierz"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-2-l-2-4-1775577074517.png?v=1775577074522",
+      "file": "s-2-l-2-4-1775577074517.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-2-l-2-4-1775577258126.mp3?v=1775577258129",
+      "file": "s-2-l-2-4-1775577258126.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-2-5",
+    "lessonTitle": "Lekcja 2.5: Matryce, materiały fotograficzne, nośniki pamięci i dokumentacja techniczna",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Nowoczesna infografika bez napisów pokazująca pełny techniczny workflow fotografa: zbliżenie na matrycę aparatu, karta pamięci o wysokiej szybkości, dysk SSD, kopia zapasowa w chmurze, wydruk fotograficzny na różnych rodzajach papieru oraz instrukcja techniczna i oznaczenia na obiektywie i karcie. Wszystkie elementy połączone subtelnym przepływem od rejestracji obrazu do archiwizacji i wydruku. Estetyka profesjonalna, czysta, technologiczna, spójna kolorystyka grafitowo-niebieska.",
+    "adminImagePrompt": "Pełny techniczny workflow fotografa: zbliżenie na matrycę aparatu, karta pamięci o wysokiej szybkości, dysk SSD, kopia zapasowa w chmurze, wydruk fotograficzny na różnych rodzajach papieru oraz instrukcja techniczna i oznaczenia na obiektywie i karcie. Wszystkie elementy połączone subtelnym przepływem od rejestracji obrazu do archiwizacji i wydruku. Estetyka profesjonalna, czysta, technologiczna, spójna kolorystyka .Zrób bez jakichkolwiek tekstów.",
+    "finalImagePrompt": "Pełny techniczny workflow fotografa: zbliżenie na matrycę aparatu, karta pamięci o wysokiej szybkości, dysk SSD, kopia zapasowa w chmurze, wydruk fotograficzny na różnych rodzajach papieru oraz instrukcja techniczna i oznaczenia na obiektywie i karcie. Wszystkie elementy połączone subtelnym przepływem od rejestracji obrazu do archiwizacji i wydruku. Estetyka profesjonalna, czysta, technologiczna, spójna kolorystyka .Zrób bez jakichkolwiek tekstów.",
+    "imageDescription": "Grafika przedstawia fotografię jako proces techniczny: od właściwości matrycy, przez zapis na nośnikach, po wybór materiału do wydruku i korzystanie z dokumentacji. Akcentuje znaczenie jakości, bezpieczeństwa danych i rozumienia oznaczeń technicznych.",
+    "voiceoverScript": "Na jakość fotografii wpływa nie tylko moment wykonania zdjęcia, ale cały łańcuch techniczny pracy. Znaczenie mają właściwości matrycy, dobór materiałów do wydruku, szybkość i niezawodność nośników pamięci oraz poprawna archiwizacja plików. Równie ważna jest umiejętność czytania oznaczeń, parametrów i dokumentacji technicznej. To właśnie te kompetencje pozwalają pracować bezpiecznie, sprawnie i profesjonalnie.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Na jakość fotografii wpływa nie tylko moment wykonania zdjęcia, ale cały łańcuch techniczny pracy. Znaczenie mają właściwości matrycy, dobór materiałów do wydruku, szybkość i niezawodność nośników pamięci oraz poprawna archiwizacja plików. Równie ważna jest umiejętność czytania oznaczeń, parametrów i dokumentacji technicznej. To właśnie te kompetencje pozwalają pracować bezpiecznie, sprawnie i profesjonalnie.",
+    "slideText": "Fotografia to także proces techniczny\n• Matryca wpływa na możliwości rejestracji obrazu\n• Nośniki pamięci muszą być szybkie, zgodne i bezpieczne\n• Dokumentacja i oznaczenia pomagają dobierać sprzęt i materiały",
+    "keywords": [
+      "matryca",
+      "nośniki pamięci",
+      "papier fotograficzny",
+      "dokumentacja techniczna",
+      "archiwizacja zdjęć"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-2-l-2-5-1775577129125.png?v=1775577129131",
+      "file": "s-2-l-2-5-1775577129125.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-2-l-2-5-1775577263319.mp3?v=1775577263320",
+      "file": "s-2-l-2-5-1775577263319.mp3",
+      "error": ""
+    }
+  }
+]

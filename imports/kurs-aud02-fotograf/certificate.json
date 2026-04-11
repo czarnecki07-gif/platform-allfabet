@@ -1,0 +1,12 @@
+{
+  "title": "Certyfikat ukończenia kursu",
+  "courseTitle": "AUD.02. Rejestracja, obróbka i publikacja obrazu",
+  "passingPercent": 50,
+  "fields": [
+    "Imię i nazwisko",
+    "Nazwa kursu",
+    "Data",
+    "Numer certyfikatu",
+    "Wystawca"
+  ]
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "lessonId": "L-6-1",
+    "lessonTitle": "Lekcja 6.1: Przygotowanie plików do publikacji internetowej i galerii cyfrowej",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Nowoczesne stanowisko fotografa przygotowującego zdjęcia do publikacji online, monitor z widokiem eksportu pliku JPEG w sRGB, podgląd galerii internetowej z miniaturami, widoczne parametry obrazu w pikselach, suwak kompresji, uporządkowana siatka zdjęć portfolio, estetyka profesjonalna, czysty interfejs, realistyczny styl edukacyjny, jasne światło studyjne",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Nowoczesne stanowisko fotografa przygotowującego zdjęcia do publikacji online, monitor z widokiem eksportu pliku JPEG w sRGB, podgląd galerii internetowej z miniaturami, widoczne parametry obrazu w pikselach, suwak kompresji, uporządkowana siatka zdjęć portfolio, estetyka profesjonalna, czysty interfejs, realistyczny styl edukacyjny, jasne światło studyjne",
+    "imageDescription": "Grafika pokazuje cały proces przygotowania fotografii do internetu: wybór formatu, ustawienie wymiarów w pikselach, kompresję oraz budowę spójnej galerii cyfrowej z miniaturami i logiczną kolejnością zdjęć.",
+    "voiceoverScript": "Publikacja internetowa wymaga czegoś więcej niż tylko zapisania zdjęcia. Trzeba dobrać bezpieczny format, najczęściej JPEG w przestrzeni sRGB, ustawić właściwe wymiary w pikselach i taką kompresję, która zachowuje dobrą jakość przy szybkim ładowaniu. Równie ważna jest spójna galeria: jednolita estetyka, czytelne miniatury i przemyślana kolejność fotografii.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Publikacja internetowa wymaga czegoś więcej niż tylko zapisania zdjęcia. Trzeba dobrać bezpieczny format, najczęściej JPEG w przestrzeni sRGB, ustawić właściwe wymiary w pikselach i taką kompresję, która zachowuje dobrą jakość przy szybkim ładowaniu. Równie ważna jest spójna galeria: jednolita estetyka, czytelne miniatury i przemyślana kolejność fotografii.",
+    "slideText": "Publikacja online = JPEG sRGB, właściwe piksele, umiarkowana kompresja i spójna galeria.",
+    "keywords": [
+      "JPEG",
+      "sRGB",
+      "galeria cyfrowa",
+      "kompresja",
+      "publikacja online"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-6-l-6-1-1775595829631.png?v=1775595829715",
+      "file": "s-6-l-6-1-1775595829631.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-6-l-6-1-1775596301380.mp3?v=1775596301382",
+      "file": "s-6-l-6-1-1775596301380.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-6-2",
+    "lessonTitle": "Lekcja 6.2: Przygotowanie fotografii do druku i dobór materiałów eksploatacyjnych",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Profesjonalne stanowisko do druku fotograficznego, fotograf porównuje zdjęcie na skalibrowanym monitorze i świeżo wydrukowaną odbitkę, obok próbki papieru błyszczącego, matowego i satynowego, widoczne ustawienia drukarki i profil kolorystyczny, eleganckie studio, realistyczny styl, edukacyjna kompozycja, wysoka jakość detalu",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Profesjonalne stanowisko do druku fotograficznego, fotograf porównuje zdjęcie na skalibrowanym monitorze i świeżo wydrukowaną odbitkę, obok próbki papieru błyszczącego, matowego i satynowego, widoczne ustawienia drukarki i profil kolorystyczny, eleganckie studio, realistyczny styl, edukacyjna kompozycja, wysoka jakość detalu",
+    "imageDescription": "Ilustracja przedstawia kluczowe elementy przygotowania zdjęcia do druku: kontrolę rozdzielczości, wybór papieru, ustawienia drukarki i ocenę gotowej odbitki w zestawieniu z obrazem na monitorze.",
+    "voiceoverScript": "Druk fotograficzny zaczyna się od określenia finalnego formatu odbitki i przygotowania pliku o odpowiedniej rozdzielczości. Następnie dobiera się papier i atrament, bo to one wpływają na kontrast, kolor i odbicia światła. Ostatni etap to poprawne zarządzanie barwą oraz ocena wydruku w neutralnym oświetleniu.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Druk fotograficzny zaczyna się od określenia finalnego formatu odbitki i przygotowania pliku o odpowiedniej rozdzielczości. Następnie dobiera się papier i atrament, bo to one wpływają na kontrast, kolor i odbicia światła. Ostatni etap to poprawne zarządzanie barwą oraz ocena wydruku w neutralnym oświetleniu.",
+    "slideText": "Dobry wydruk wymaga: właściwego pliku, odpowiedniego papieru, poprawnych ustawień i kontroli odbitki.",
+    "keywords": [
+      "druk fotograficzny",
+      "papier",
+      "ppi",
+      "zarządzanie barwą",
+      "odbitka"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-6-l-6-2-1775595875064.png?v=1775595875067",
+      "file": "s-6-l-6-2-1775595875064.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-6-l-6-2-1775596328935.mp3?v=1775596328937",
+      "file": "s-6-l-6-2-1775596328935.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-6-3",
+    "lessonTitle": "Lekcja 6.3: Ekspozycja fotografii w przestrzeni wystawienniczej",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Galeria fotografii w trakcie przygotowania wystawy, kilka oprawionych zdjęć ustawionych na ścianie w przemyślanym układzie, kurator lub fotograf mierzy wysokość zawieszenia, delikatne oświetlenie punktowe bez refleksów, na podłodze plan rozmieszczenia prac, elegancka przestrzeń wystawiennicza, realistyczny styl, profesjonalny charakter",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Galeria fotografii w trakcie przygotowania wystawy, kilka oprawionych zdjęć ustawionych na ścianie w przemyślanym układzie, kurator lub fotograf mierzy wysokość zawieszenia, delikatne oświetlenie punktowe bez refleksów, na podłodze plan rozmieszczenia prac, elegancka przestrzeń wystawiennicza, realistyczny styl, profesjonalny charakter",
+    "imageDescription": "Grafika pokazuje, że wystawa fotografii to nie tylko same obrazy, ale także wybór systemu prezentacji, plan układu prac, odpowiednie oświetlenie i bezpieczny montaż.",
+    "voiceoverScript": "Siła fotografii na wystawie zależy od sposobu jej pokazania. Trzeba dobrać formę ekspozycji, zaplanować układ prac, zachować właściwe odstępy i wysokość zawieszenia, a także zadbać o światło, które nie powoduje refleksów. Profesjonalna ekspozycja łączy estetykę, narrację i ochronę wydruków.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Siła fotografii na wystawie zależy od sposobu jej pokazania. Trzeba dobrać formę ekspozycji, zaplanować układ prac, zachować właściwe odstępy i wysokość zawieszenia, a także zadbać o światło, które nie powoduje refleksów. Profesjonalna ekspozycja łączy estetykę, narrację i ochronę wydruków.",
+    "slideText": "Dobra wystawa = właściwa oprawa, przemyślany układ, dobre światło i bezpieczny montaż.",
+    "keywords": [
+      "wystawa",
+      "ekspozycja fotografii",
+      "oświetlenie",
+      "układ prac",
+      "montaż"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-6-l-6-3-1775595921240.png?v=1775595921318",
+      "file": "s-6-l-6-3-1775595921240.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-6-l-6-3-1775596333327.mp3?v=1775596333328",
+      "file": "s-6-l-6-3-1775596333327.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-6-4",
+    "lessonTitle": "Lekcja 6.4: Archiwizacja zdjęć, metadane i zabezpieczanie zasobów",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Uporządkowane archiwum fotograficzne, ekran komputera z logiczną strukturą folderów i uzupełnianiem metadanych zdjęcia, obok dysk zewnętrzny, chmura symbolicznie pokazana na monitorze, karty pamięci odłożone na bok, w tle bezkwasowe teczki z odbitkami i negatywami, czyste profesjonalne biurko, realistyczny styl edukacyjny",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Uporządkowane archiwum fotograficzne, ekran komputera z logiczną strukturą folderów i uzupełnianiem metadanych zdjęcia, obok dysk zewnętrzny, chmura symbolicznie pokazana na monitorze, karty pamięci odłożone na bok, w tle bezkwasowe teczki z odbitkami i negatywami, czyste profesjonalne biurko, realistyczny styl edukacyjny",
+    "imageDescription": "Ilustracja syntetycznie pokazuje nowoczesne archiwum fotograficzne: czytelne katalogi, metadane, kopie bezpieczeństwa na różnych nośnikach oraz fizyczne zabezpieczenie odbitek i negatywów.",
+    "voiceoverScript": "Dobre archiwum pozwala nie tylko przechować zdjęcia, ale też szybko je odnaleźć. Potrzebna jest spójna struktura folderów, czytelne nazwy plików i metadane opisujące autora, temat czy prawa do materiału. Bezpieczeństwo zapewniają kopie na różnych nośnikach oraz właściwe warunki przechowywania materiałów cyfrowych i tradycyjnych.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Dobre archiwum pozwala nie tylko przechować zdjęcia, ale też szybko je odnaleźć. Potrzebna jest spójna struktura folderów, czytelne nazwy plików i metadane opisujące autora, temat czy prawa do materiału. Bezpieczeństwo zapewniają kopie na różnych nośnikach oraz właściwe warunki przechowywania materiałów cyfrowych i tradycyjnych.",
+    "slideText": "Archiwizacja to porządek, metadane, kopie bezpieczeństwa i ochrona plików oraz odbitek.",
+    "keywords": [
+      "archiwizacja",
+      "metadane",
+      "backup",
+      "struktura folderów",
+      "zabezpieczanie zasobów"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-6-l-6-4-1775595965450.png?v=1775595965454",
+      "file": "s-6-l-6-4-1775595965450.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-6-l-6-4-1775596337323.mp3?v=1775596337403",
+      "file": "s-6-l-6-4-1775596337323.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-6-5",
+    "lessonTitle": "Lekcja 6.5: Obsługa klienta, etyka zawodowa i organizacja własnej pracy",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Fotograf przy biurku rozmawia z klientem i planuje zlecenie, na ekranie harmonogram projektu, lista ustaleń i etapy realizacji, atmosfera profesjonalna i partnerska, w tle aparat oraz notatki dotyczące praw do wizerunku i terminu oddania materiału, realistyczny styl biznesowo-edukacyjny, uporządkowana przestrzeń pracy",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Fotograf przy biurku rozmawia z klientem i planuje zlecenie, na ekranie harmonogram projektu, lista ustaleń i etapy realizacji, atmosfera profesjonalna i partnerska, w tle aparat oraz notatki dotyczące praw do wizerunku i terminu oddania materiału, realistyczny styl biznesowo-edukacyjny, uporządkowana przestrzeń pracy",
+    "imageDescription": "Grafika przedstawia zawodowy wymiar pracy fotografa: komunikację z klientem, planowanie etapów zlecenia, zarządzanie czasem oraz odpowiedzialne decyzje zgodne z etyką i zasadami prawa.",
+    "voiceoverScript": "Profesjonalizm fotografa widać nie tylko w jakości zdjęć, ale też w sposobie współpracy z ludźmi. Dobra komunikacja z klientem, jasne ustalenia i realistyczny harmonogram pomagają uniknąć problemów w realizacji. Całość dopełnia etyka zawodowa: uczciwość, szacunek dla praw autorskich, ochrona wizerunku i odpowiedzialność za materiał.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Profesjonalizm fotografa widać nie tylko w jakości zdjęć, ale też w sposobie współpracy z ludźmi. Dobra komunikacja z klientem, jasne ustalenia i realistyczny harmonogram pomagają uniknąć problemów w realizacji. Całość dopełnia etyka zawodowa: uczciwość, szacunek dla praw autorskich, ochrona wizerunku i odpowiedzialność za materiał.",
+    "slideText": "Profesjonalny fotograf: jasno komunikuje, dobrze planuje i działa etycznie.",
+    "keywords": [
+      "obsługa klienta",
+      "etyka zawodowa",
+      "harmonogram",
+      "ochrona wizerunku",
+      "organizacja pracy"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-6-l-6-5-1775596016359.png?v=1775596016365",
+      "file": "s-6-l-6-5-1775596016359.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-6-l-6-5-1775596341264.mp3?v=1775596341266",
+      "file": "s-6-l-6-5-1775596341264.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-6-6",
+    "lessonTitle": "Lekcja 6.6: Język obcy zawodowy w fotografii",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Fotograf pracuje ze sprzętem i komputerem, na ekranie anglojęzyczna instrukcja aparatu oraz prosty e-mail do klienta, w kadrze widoczne słowa: shutter speed, aperture, ISO, white balance, flash, gallery link, profesjonalne studio fotograficzne, edukacyjny charakter, realistyczny styl, przejrzysta kompozycja",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Fotograf pracuje ze sprzętem i komputerem, na ekranie anglojęzyczna instrukcja aparatu oraz prosty e-mail do klienta, w kadrze widoczne słowa: shutter speed, aperture, ISO, white balance, flash, gallery link, profesjonalne studio fotograficzne, edukacyjny charakter, realistyczny styl, przejrzysta kompozycja",
+    "imageDescription": "Ilustracja pokazuje praktyczne użycie języka obcego w fotografii: rozumienie terminów technicznych, korzystanie z instrukcji sprzętu oraz tworzenie prostych komunikatów dla klienta.",
+    "voiceoverScript": "Język obcy zawodowy pomaga fotografowi korzystać ze sprzętu, oprogramowania i dokumentacji. W praktyce najważniejsze jest rozumienie podstawowych pojęć technicznych oraz umiejętność napisania prostego, jasnego e-maila do klienta. Liczy się skuteczność komunikacji: krótko, uprzejmie i konkretnie.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Język obcy zawodowy pomaga fotografowi korzystać ze sprzętu, oprogramowania i dokumentacji. W praktyce najważniejsze jest rozumienie podstawowych pojęć technicznych oraz umiejętność napisania prostego, jasnego e-maila do klienta. Liczy się skuteczność komunikacji: krótko, uprzejmie i konkretnie.",
+    "slideText": "Język obcy w fotografii = słownictwo techniczne, instrukcje i prosta komunikacja z klientem.",
+    "keywords": [
+      "język obcy zawodowy",
+      "słownictwo fotograficzne",
+      "instrukcja sprzętu",
+      "e-mail do klienta",
+      "angielski w fotografii"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-6-l-6-6-1775596060079.png?v=1775596060083",
+      "file": "s-6-l-6-6-1775596060079.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-6-l-6-6-1775596344800.mp3?v=1775596344802",
+      "file": "s-6-l-6-6-1775596344800.mp3",
+      "error": ""
+    }
+  }
+]

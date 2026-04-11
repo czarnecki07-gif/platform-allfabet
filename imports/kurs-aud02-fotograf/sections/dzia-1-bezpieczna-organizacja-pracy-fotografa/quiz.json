@@ -1,0 +1,125 @@
+{
+  "title": "Quiz działowy — Dział 1: Bezpieczna organizacja pracy fotografa",
+  "questions": [
+    {
+      "question": "Podczas przygotowania sesji zauważasz, że statywy i tła częściowo zastawiają wyjście ewakuacyjne. Co należy zrobić?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zostawić ustawienie bez zmian, jeśli sesja potrwa krótko",
+        "b": "Przesunąć sprzęt tak, aby droga ewakuacyjna była całkowicie drożna",
+        "c": "Oznaczyć przeszkodę taśmą i kontynuować pracę",
+        "d": "Poprosić modela, by uważał podczas wychodzenia"
+      },
+      "correctAnswer": "b",
+      "explanation": "Drogi ewakuacyjne muszą być zawsze wolne. To podstawowy wymóg bezpieczeństwa i ochrony przeciwpożarowej."
+    },
+    {
+      "question": "Która instytucja w Polsce przede wszystkim nadzoruje warunki pracy i przestrzeganie przepisów prawa pracy?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Państwowa Inspekcja Pracy",
+        "b": "Państwowa Straż Pożarna",
+        "c": "Urząd Ochrony Konkurencji i Konsumentów",
+        "d": "Polski Czerwony Krzyż"
+      },
+      "correctAnswer": "a",
+      "explanation": "Państwowa Inspekcja Pracy kontroluje między innymi warunki pracy oraz przestrzeganie przepisów BHP i prawa pracy."
+    },
+    {
+      "question": "Fotograf ma rozpocząć pracę z lampą, która iskrzy i ma uszkodzony przewód. Jakie działanie jest zgodne z zasadami BHP?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Użyć lampy tylko przez kilka minut",
+        "b": "Naprawić przewód samodzielnie w trakcie sesji",
+        "c": "Odmówić pracy na uszkodzonym sprzęcie i zgłosić zagrożenie",
+        "d": "Włączyć lampę tylko przy obecności drugiej osoby"
+      },
+      "correctAnswer": "c",
+      "explanation": "Pracownik ma prawo odmówić wykonania pracy, jeśli warunki stwarzają bezpośrednie zagrożenie dla zdrowia lub życia."
+    },
+    {
+      "question": "Które ustawienie stanowiska komputerowego najlepiej odpowiada zasadom ergonomii?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Monitor z boku, aby było więcej miejsca na biurku",
+        "b": "Monitor na wysokości wzroku, krzesło dopasowane do sylwetki, sprzęt w zasięgu rąk",
+        "c": "Klawiatura wysoko nad blatem, aby ręce były uniesione",
+        "d": "Praca bez przerw, ale w wygodnym fotelu"
+      },
+      "correctAnswer": "b",
+      "explanation": "Ergonomia zakłada ustawienie monitora na wprost i na odpowiedniej wysokości, właściwe podparcie ciała oraz ograniczenie przeciążeń."
+    },
+    {
+      "question": "Który przykład przedstawia środek ochrony zbiorowej, a nie indywidualnej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Rękawice ochronne używane w ciemni",
+        "b": "Okulary ochronne do pracy z chemią",
+        "c": "Wentylacja i wyciąg w pomieszczeniu",
+        "d": "Obuwie antypoślizgowe"
+      },
+      "correctAnswer": "c",
+      "explanation": "Środki ochrony zbiorowej chronią więcej niż jedną osobę, na przykład wentylacja, osłony czy zabezpieczenia kabli."
+    },
+    {
+      "question": "W ciemni znajdujesz nieopisany pojemnik z bezbarwnym płynem. Co powinieneś zrobić?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Użyć go ostrożnie w małej ilości",
+        "b": "Wylać zawartość do zlewu, aby uniknąć pomyłki",
+        "c": "Odstawić pojemnik do szafki z chemią bez sprawdzania",
+        "d": "Nie używać go, dopóki substancja nie zostanie prawidłowo zidentyfikowana i oznaczona"
+      },
+      "correctAnswer": "d",
+      "explanation": "Nieopisane chemikalia stwarzają duże ryzyko pomyłki i wypadku. Substancje muszą być jednoznacznie oznaczone."
+    },
+    {
+      "question": "Po kilku godzinach pracy w słabo wentylowanej ciemni pojawiają się ból głowy i podrażnienie oczu. Co to najprawdopodobniej oznacza?",
+      "type": "single_choice",
+      "answers": {
+        "a": "To normalna reakcja na długą pracę i nie wymaga działania",
+        "b": "To objaw możliwego narażenia na opary chemiczne i sygnał do przerwania pracy",
+        "c": "To znak, że w pomieszczeniu jest za chłodno",
+        "d": "To wyłącznie skutek zmęczenia od patrzenia w monitor"
+      },
+      "correctAnswer": "b",
+      "explanation": "Ból głowy i podrażnienie oczu mogą świadczyć o narażeniu na szkodliwe opary. Trzeba zareagować od razu."
+    },
+    {
+      "question": "Jak należy postąpić ze zużytymi bateriami, odczynnikami fotograficznymi i uszkodzonym sprzętem elektronicznym?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyrzucić wszystko do jednego pojemnika na odpady zmieszane",
+        "b": "Przechowywać bezterminowo przy stanowisku pracy",
+        "c": "Segregować i przekazywać do odpowiednich pojemników lub punktów zbiórki",
+        "d": "Utylizować tylko wtedy, gdy nie ma już miejsca w pracowni"
+      },
+      "correctAnswer": "c",
+      "explanation": "Odpady niebezpieczne i elektroniczne wymagają oddzielnego postępowania zgodnie z zasadami ochrony środowiska."
+    },
+    {
+      "question": "Który znak bezpieczeństwa informuje o obowiązku wykonania określonego działania, na przykład założenia rękawic ochronnych?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Znak zakazu",
+        "b": "Znak ostrzegawczy",
+        "c": "Znak nakazu",
+        "d": "Znak ewakuacyjny"
+      },
+      "correctAnswer": "c",
+      "explanation": "Znaki nakazu wskazują, co należy zrobić, na przykład stosować środki ochrony indywidualnej."
+    },
+    {
+      "question": "Osoba po upadku jest nieprzytomna, ale oddycha prawidłowo. Jak należy postąpić?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Natychmiast rozpocząć RKO",
+        "b": "Posadzić ją i podać wodę",
+        "c": "Ułożyć ją w pozycji bezpiecznej i kontrolować oddech",
+        "d": "Zostawić ją w pozycji, w której została znaleziona, i czekać"
+      },
+      "correctAnswer": "c",
+      "explanation": "Jeśli osoba nieprzytomna oddycha prawidłowo, należy ułożyć ją w pozycji bezpiecznej i stale obserwować jej stan."
+    }
+  ]
+}

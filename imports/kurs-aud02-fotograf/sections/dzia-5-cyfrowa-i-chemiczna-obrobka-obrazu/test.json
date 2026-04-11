@@ -1,0 +1,287 @@
+{
+  "title": "Test działowy — Dział 5: Cyfrowa i chemiczna obróbka obrazu",
+  "totalQuestions": 20,
+  "passingPercent": 50,
+  "questions": [
+    {
+      "question": "Co najlepiej opisuje poprawnie przygotowane stanowisko do obróbki obrazu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zestaw przypadkowo dobranych urządzeń, które działają niezależnie od siebie",
+        "b": "System, w którym komputer, monitor, urządzenia peryferyjne i oprogramowanie współpracują w spójnym torze pracy",
+        "c": "Wyłącznie komputer z szybkim procesorem i dużą ilością pamięci RAM",
+        "d": "Stanowisko, na którym najważniejsze jest mocne oświetlenie pomieszczenia",
+        "e": "Układ pracy oparty tylko na ustawieniach domyślnych programu graficznego",
+        "f": "Stanowisko, które nie wymaga aktualnych sterowników, jeśli urządzenia się uruchamiają"
+      },
+      "correctAnswer": "b",
+      "explanation": "Stanowisko do obróbki obrazu powinno działać jako spójny system obejmujący sprzęt, oprogramowanie i warunki pracy."
+    },
+    {
+      "question": "W jakiej sytuacji wybór przestrzeni barwnej sRGB będzie najbezpieczniejszy?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Gdy przygotowujesz zdjęcia głównie do publikacji internetowej",
+        "b": "Gdy zawsze drukujesz wyłącznie na papierach artystycznych klasy premium",
+        "c": "Gdy profilujesz aparat średnioformatowy do reprodukcji dzieł sztuki",
+        "d": "Gdy pracujesz tylko z materiałem skanowanym w 16 bitach",
+        "e": "Gdy monitor nie obsługuje żadnych profili ICC",
+        "f": "Gdy chcesz automatycznie zwiększyć nasycenie wszystkich kolorów"
+      },
+      "correctAnswer": "a",
+      "explanation": "sRGB jest najczęściej bezpiecznym wyborem dla publikacji internetowej i typowego wyświetlania na różnych urządzeniach."
+    },
+    {
+      "question": "Czym różni się kalibracja urządzenia od jego profilowania?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Kalibracja zapisuje plik, a profilowanie drukuje wzornik kontrolny",
+        "b": "Kalibracja zmniejsza rozdzielczość, a profilowanie zwiększa kontrast",
+        "c": "Kalibracja ustawia urządzenie do przewidywalnej pracy, a profilowanie opisuje sposób odwzorowania barw",
+        "d": "Kalibracja dotyczy tylko drukarki, a profilowanie tylko monitora",
+        "e": "Kalibracja jest potrzebna wyłącznie w fotografii czarno-białej",
+        "f": "Nie ma między nimi praktycznej różnicy"
+      },
+      "correctAnswer": "c",
+      "explanation": "Kalibracja doprowadza urządzenie do określonego stanu pracy, a profilowanie zapisuje jego charakterystykę barwną."
+    },
+    {
+      "question": "Po wymianie monitora zdjęcia wydają się zbyt chłodne. Jaka powinna być pierwsza reakcja?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Natychmiast ocieplić wszystkie pliki w programie graficznym",
+        "b": "Zwiększyć nasycenie czerwieni we wszystkich zdjęciach",
+        "c": "Zmienić format zapisu z TIFF na JPEG",
+        "d": "Przeprowadzić kalibrację nowego monitora i dopiero potem ocenić materiał",
+        "e": "Wyłączyć zarządzanie kolorem w programie",
+        "f": "Przywrócić ustawienia fabryczne drukarki"
+      },
+      "correctAnswer": "d",
+      "explanation": "Najpierw należy sprawdzić wiarygodność wyświetlania, czyli skalibrować monitor, a nie korygować od razu pliki."
+    },
+    {
+      "question": "Który materiał jest materiałem transparentnym?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Odbitka papierowa",
+        "b": "Dokument tekstowy",
+        "c": "Ilustracja na kartonie",
+        "d": "Fotografia wydrukowana na płótnie",
+        "e": "Negatyw fotograficzny",
+        "f": "Plansza ekspozycyjna"
+      },
+      "correctAnswer": "e",
+      "explanation": "Materiał transparentny przepuszcza światło, jak negatyw lub slajd."
+    },
+    {
+      "question": "Jakie urządzenie najlepiej nadaje się do skanowania negatywów i slajdów?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Skaner płaski bez modułu do transparentów",
+        "b": "Drukarka atramentowa z podajnikiem ręcznym",
+        "c": "Skaner filmowy albo skaner z przystawką do transparentów",
+        "d": "Tablet graficzny z funkcją bezprzewodową",
+        "e": "Monitor z szerokim gamutem",
+        "f": "Projektor multimedialny"
+      },
+      "correctAnswer": "c",
+      "explanation": "Do transparentów potrzebny jest odpowiedni sposób podświetlenia, dlatego używa się skanerów filmowych lub modeli z modułem do filmu."
+    },
+    {
+      "question": "Dlaczego przed skanowaniem warto dokładnie oczyścić film lub odbitkę?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Aby zwiększyć fizyczny rozmiar obrazu",
+        "b": "Aby zmniejszyć głębię bitową pliku",
+        "c": "Aby ograniczyć ilość późniejszego retuszu i uniknąć artefaktów od kurzu oraz zabrudzeń",
+        "d": "Aby skaner automatycznie zapisał plik w JPEG",
+        "e": "Aby pominąć etap podglądu skanu",
+        "f": "Aby materiał stał się odporny na zarysowania"
+      },
+      "correctAnswer": "c",
+      "explanation": "Usunięcie kurzu i włókien przed skanowaniem zmniejsza potrzebę późniejszego retuszu i poprawia jakość pliku."
+    },
+    {
+      "question": "Który zestaw kontroli po skanowaniu jest najbardziej właściwy?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Sprawdzenie tylko rozmiaru pliku w megabajtach",
+        "b": "Ocena szczegółów, tonalności, ostrości, barwy, artefaktów oraz poprawności profilu i formatu zapisu",
+        "c": "Porównanie wyłącznie czasu skanowania z poprzednim plikiem",
+        "d": "Sprawdzenie, czy skan wygląda efektownie po mocnym wyostrzeniu",
+        "e": "Ocena tylko histogramu bez oglądania obrazu",
+        "f": "Wydruk próbny bez otwierania pliku na monitorze"
+      },
+      "correctAnswer": "b",
+      "explanation": "Jakość skanu ocenia się szeroko: pod kątem szczegółów, tonalności, koloru, artefaktów i poprawności technicznej pliku."
+    },
+    {
+      "question": "Jaki jest główny cel selekcji materiału po sesji zdjęciowej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Przypadkowe usunięcie połowy plików dla oszczędności miejsca",
+        "b": "Wybranie ujęć o największej wartości technicznej i komunikacyjnej do dalszego opracowania",
+        "c": "Natychmiastowe przekształcenie wszystkich plików do czerni i bieli",
+        "d": "Zmniejszenie rozdzielczości wszystkich zdjęć przed retuszem",
+        "e": "Nadpisanie oryginałów poprawionymi wersjami",
+        "f": "Wydruk każdej fotografii w formacie roboczym"
+      },
+      "correctAnswer": "b",
+      "explanation": "Selekcja pozwala skupić się na najlepszych zdjęciach i nie tracić czasu na opracowanie słabszych ujęć."
+    },
+    {
+      "question": "Dlaczego nie należy pracować bezpośrednio na jedynym pliku źródłowym?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Bo program graficzny nie otwiera plików źródłowych",
+        "b": "Bo plik źródłowy zawsze ma zbyt małą rozdzielczość",
+        "c": "Bo tylko kopie robocze można drukować",
+        "d": "Bo grozi to utratą oryginalnych danych i uniemożliwia powrót do wcześniejszej wersji",
+        "e": "Bo plik źródłowy nie może mieć profilu ICC",
+        "f": "Bo retusz działa tylko na plikach zapisanych jako PNG"
+      },
+      "correctAnswer": "d",
+      "explanation": "Bezpieczna praca wymaga ochrony oryginału przez kopie robocze lub edycję nieniszczącą."
+    },
+    {
+      "question": "Które narzędzie jest typowo używane do usuwania drobnych plam, rys i pyłu podczas retuszu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Histogram",
+        "b": "Pędzel korygujący lub stempel",
+        "c": "Korektor perspektywy",
+        "d": "Moduł eksportu do PDF",
+        "e": "Narzędzie kadrowania do proporcji 1:1",
+        "f": "Próbnik bieli w ustawieniach drukarki"
+      },
+      "correctAnswer": "b",
+      "explanation": "Do lokalnego retuszu niedoskonałości używa się m.in. pędzla korygującego, stempla lub łatki."
+    },
+    {
+      "question": "W której sytuacji retusz może stać się nieetyczną ingerencją w obraz?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Gdy usuwasz pyłek z matrycy na zdjęciu reportażowym",
+        "b": "Gdy prostujesz lekko przekrzywiony horyzont",
+        "c": "Gdy zapisujesz plik w formacie TIFF",
+        "d": "Gdy usuwasz z fotografii dokumentalnej istotny element sceny zmieniający jej znaczenie",
+        "e": "Gdy tworzysz kopię bezpieczeństwa przed obróbką",
+        "f": "Gdy korzystasz z warstw i masek"
+      },
+      "correctAnswer": "d",
+      "explanation": "W fotografii dokumentalnej nie wolno zmieniać znaczenia obrazu przez usuwanie istotnych elementów sceny."
+    },
+    {
+      "question": "Które narzędzie szczególnie pomaga ocenić, czy zdjęcie ma zachowane szczegóły w światłach i cieniach?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Licznik znaków w nazwie pliku",
+        "b": "Histogram",
+        "c": "Menedżer czcionek systemowych",
+        "d": "Podgląd miniatur w eksploratorze plików",
+        "e": "Moduł drukowania etykiet",
+        "f": "Tablica skrótów klawiaturowych"
+      },
+      "correctAnswer": "b",
+      "explanation": "Histogram pomaga ocenić rozkład tonalny obrazu i wykryć możliwą utratę szczegółów."
+    },
+    {
+      "question": "Na czym polega podstawowy cel korekcji barwnej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Na usuwaniu tylko szumu cyfrowego",
+        "b": "Na zwiększaniu wyłącznie kontrastu lokalnego",
+        "c": "Na przypadkowym ociepleniu każdego zdjęcia",
+        "d": "Na usuwaniu dominant i budowaniu zamierzonego charakteru kolorystycznego obrazu",
+        "e": "Na zmianie formatu pliku z RAW na JPEG",
+        "f": "Na automatycznym kadrowaniu serii zdjęć"
+      },
+      "correctAnswer": "d",
+      "explanation": "Korekcja barwna służy do kontrolowania balansu bieli, dominant, nasycenia i relacji kolorów zgodnie z celem zdjęcia."
+    },
+    {
+      "question": "Dlaczego zdjęcia produktowe i zdjęcia artystyczne mogą wymagać innego podejścia do korekcji barwnej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Bo tylko zdjęcia artystyczne można wyostrzać",
+        "b": "Bo zdjęcia produktowe zwykle wymagają wiernego odwzorowania barw, a artystyczne dopuszczają większą interpretację",
+        "c": "Bo tylko zdjęcia produktowe mają balans bieli",
+        "d": "Bo zdjęcia artystyczne nie mogą mieć profilu ICC",
+        "e": "Bo korekcja barwna nie ma znaczenia przy zdjęciach użytkowych",
+        "f": "Bo oba rodzaje fotografii zawsze obrabia się identycznie"
+      },
+      "correctAnswer": "b",
+      "explanation": "Fotografia produktowa wymaga zwykle wysokiej zgodności kolorystycznej, a fotografia artystyczna może być bardziej interpretacyjna."
+    },
+    {
+      "question": "Jaką główną korzyść daje synchronizacja ustawień lub przetwarzanie wsadowe przy dużej liczbie podobnych plików?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Całkowicie eliminuje potrzebę kontroli efektów",
+        "b": "Automatycznie naprawia wszystkie błędy ekspozycji z każdego zdjęcia",
+        "c": "Przyspiesza pracę i pomaga zachować spójność obróbki w serii",
+        "d": "Zwiększa fizyczną rozdzielczość zdjęć",
+        "e": "Powoduje zapis wyłącznie do formatu bezstratnego",
+        "f": "Zmienia każde zdjęcie w obraz czarno-biały"
+      },
+      "correctAnswer": "c",
+      "explanation": "Automatyzacja oszczędza czas i ujednolica obróbkę, ale nadal wymaga kontroli rezultatów."
+    },
+    {
+      "question": "Który roztwór w chemicznej obróbce fotograficznej ujawnia obraz utajony?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Utrwalacz",
+        "b": "Zwilżacz",
+        "c": "Przerywacz",
+        "d": "Wywoływacz",
+        "e": "Woda destylowana",
+        "f": "Lakier ochronny"
+      },
+      "correctAnswer": "d",
+      "explanation": "Wywoływacz odpowiada za ujawnienie obrazu utajonego na materiale światłoczułym."
+    },
+    {
+      "question": "Dlaczego w chemicznej obróbce materiałów fotograficznych tak ważne są czas i temperatura?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Bo wpływają na kontrast, gęstość i powtarzalność wyniku procesu",
+        "b": "Bo decydują wyłącznie o nazwie pliku końcowego",
+        "c": "Bo są istotne tylko przy suszeniu odbitek, nie przy wywoływaniu",
+        "d": "Bo zastępują potrzebę stosowania właściwych roztworów",
+        "e": "Bo mają znaczenie jedynie dla papieru błyszczącego",
+        "f": "Bo skracają działanie bezpiecznego oświetlenia"
+      },
+      "correctAnswer": "a",
+      "explanation": "Odchylenia czasu i temperatury zmieniają przebieg reakcji chemicznych, a więc jakość negatywu lub odbitki."
+    },
+    {
+      "question": "Co należy zrobić przed wykonaniem właściwej odbitki pod powiększalnikiem, aby dobrać odpowiednią ekspozycję?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zwiększyć temperaturę utrwalacza",
+        "b": "Wykonać pasek próbny z różnymi czasami naświetlania",
+        "c": "Wypłukać negatyw w samej wodzie przez 30 minut",
+        "d": "Obrócić obiektyw powiększalnika do góry nogami",
+        "e": "Wyłączyć bezpieczne oświetlenie na cały dzień",
+        "f": "Dodać do wywoływacza więcej wody bez pomiaru"
+      },
+      "correctAnswer": "b",
+      "explanation": "Pasek próbny pozwala porównać różne czasy ekspozycji i wybrać najlepszy przed wykonaniem finalnej odbitki."
+    },
+    {
+      "question": "Po serii odbitek jakość obrazu zaczyna się pogarszać mimo podobnych ustawień powiększalnika. Co należy sprawdzić w pierwszej kolejności?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Kolor obudowy powiększalnika",
+        "b": "Wyłącznie nazwę producenta papieru",
+        "c": "Świeżość roztworów, temperaturę procesu i czystość kuwet oraz sprzętu",
+        "d": "Czy plik został wcześniej zapisany jako JPEG",
+        "e": "Czy monitor w pracowni jest skalibrowany",
+        "f": "Czy obiektyw aparatu miał stabilizację obrazu"
+      },
+      "correctAnswer": "c",
+      "explanation": "Spadek jakości w ciemni często wynika ze zużytej chemii, niestabilnej temperatury lub zabrudzonego sprzętu."
+    }
+  ]
+}

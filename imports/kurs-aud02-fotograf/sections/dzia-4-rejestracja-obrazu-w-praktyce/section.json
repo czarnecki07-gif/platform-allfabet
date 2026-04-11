@@ -1,0 +1,1096 @@
+{
+  "sectionId": "S-4",
+  "sectionTitle": "Dział 4: Rejestracja obrazu w praktyce",
+  "status": "ready",
+  "outlineLessons": [
+    {
+      "lessonId": "L-4-1",
+      "lessonTitle": "Lekcja 4.1: Obsługa aparatu, obiektywu, statywów i lamp",
+      "goal": "Ustawiać tryby pracy aparatu i obiektywu, korzystać z funkcji automatyzujących oraz bezpiecznie obsługiwać statywy, lampy i modyfikatory światła."
+    },
+    {
+      "lessonId": "L-4-2",
+      "lessonTitle": "Lekcja 4.2: Zdjęcia plenerowe i fotografia architektury",
+      "goal": "Realizować zdjęcia w świetle zastanym i mieszanym, kontrolować perspektywę oraz dobierać parametry i sprzęt do fotografii krajobrazu i architektury."
+    },
+    {
+      "lessonId": "L-4-3",
+      "lessonTitle": "Lekcja 4.3: Portret studyjny, zdjęcia identyfikacyjne i praca z modelem",
+      "goal": "Wykonywać portrety i zdjęcia identyfikacyjne z użyciem odpowiednich schematów oświetlenia, ustawienia modela i wymagań formalnych."
+    },
+    {
+      "lessonId": "L-4-4",
+      "lessonTitle": "Lekcja 4.4: Reportaż fotograficzny i rejestracja wydarzeń",
+      "goal": "Fotografować dynamiczne sytuacje, przewidywać przebieg wydarzeń i rejestrować materiał reporterski zgodnie z zasadami narracji wizualnej."
+    },
+    {
+      "lessonId": "L-4-5",
+      "lessonTitle": "Lekcja 4.5: Fotografia produktowa, katalogowa, techniczna i bezcieniowa",
+      "goal": "Przygotowywać i wykonywać zdjęcia przedmiotów do katalogu, e-commerce i dokumentacji technicznej z zachowaniem powtarzalności i poprawności odwzorowania."
+    },
+    {
+      "lessonId": "L-4-6",
+      "lessonTitle": "Lekcja 4.6: Reprodukcja, makrofotografia, panorama oraz techniki specjalne",
+      "goal": "Wykonywać reprodukcje, zdjęcia makro, panoramy oraz fotografie specjalne, w tym z użyciem promieniowania UV i IR."
+    }
+  ],
+  "lessonsGenerated": true,
+  "mediaGenerated": true,
+  "imagesGenerated": true,
+  "audioGenerated": true,
+  "worksheetsGenerated": true,
+  "quizGenerated": true,
+  "testGenerated": true,
+  "reviewInProgress": false,
+  "ready": true,
+  "lessons": [
+    {
+      "id": "L-4-1",
+      "sectionId": "S-4",
+      "sectionTitle": "Dział 4: Rejestracja obrazu w praktyce",
+      "title": "Lekcja 4.1: Obsługa aparatu, obiektywu, statywów i lamp",
+      "goal": "Ustawiać tryby pracy aparatu i obiektywu, korzystać z funkcji automatyzujących oraz bezpiecznie obsługiwać statywy, lampy i modyfikatory światła.",
+      "lead": "W tej lekcji skupisz się na praktycznej obsłudze podstawowego zestawu fotografa. Nauczysz się nie tylko wybierać ustawienia aparatu i obiektywu, ale także pracować stabilnie, przewidywalnie i bezpiecznie z oświetleniem oraz akcesoriami.",
+      "intro": "Sprawna obsługa sprzętu fotograficznego to fundament dobrej pracy na planie zdjęciowym. Sam aparat nie gwarantuje poprawnego zdjęcia, jeśli nie potrafisz szybko ustawić ekspozycji, dobrać trybu autofokusa, kontrolować pracy obiektywu albo bezpiecznie rozstawić statywu i lamp. W praktyce liczy się nie tylko wiedza techniczna, ale też nawyki: kontrola stanu sprzętu, porządek na planie, przewidywanie ryzyka i umiejętność dopasowania narzędzi do zadania.",
+      "contentBlocks": [
+        {
+          "heading": "Tryby pracy aparatu i kontrola ekspozycji",
+          "body": "Najważniejsze tryby pracy aparatu to tryb manualny, preselekcja przysłony, preselekcja czasu oraz tryby automatyczne. W praktyce zawodowej najczęściej korzysta się z trybu manualnego albo półautomatycznego, ponieważ dają one pełną lub kontrolowaną ingerencję w ekspozycję. Musisz rozumieć zależność między czasem naświetlania, przysłoną i czułością ISO. Krótki czas zamraża ruch, dłuższy może go rozmyć. Otwarta przysłona zmniejsza głębię ostrości, a domknięta zwiększa zakres ostrości. ISO wpływa na jasność obrazu, ale zbyt wysokie może obniżać jakość zdjęcia przez szum. Przed wykonaniem serii zdjęć sprawdzaj histogram, ostrzeżenia o przepaleniach oraz balans bieli, aby uniknąć błędów trudnych do naprawienia już po sesji."
+        },
+        {
+          "heading": "Obsługa obiektywu i funkcji automatyzujących",
+          "body": "Obiektyw decyduje nie tylko o kącie widzenia, lecz także o charakterze obrazu. W praktyce musisz umieć ustawić ogniskową, przysłonę, tryb autofokusa oraz miejsce ustawienia ostrości. Do fotografii dynamicznej przyda się ciągły autofokus i zdjęcia seryjne, a do portretu pojedynczy punkt AF ustawiony na oko modela. Warto znać działanie stabilizacji obrazu, ograniczników zakresu ostrości i trybu ręcznego ostrzenia. Funkcje automatyzujące, takie jak Auto ISO, śledzenie obiektu, wykrywanie twarzy czy elektroniczna poziomica, pomagają pracować szybciej, ale nie zwalniają z myślenia. Korzystaj z nich świadomie, traktując je jako wsparcie, a nie zastępstwo dla własnej kontroli."
+        },
+        {
+          "heading": "Statywy fotograficzne i oświetleniowe w praktyce",
+          "body": "Statyw fotograficzny służy do stabilizacji aparatu, a statyw oświetleniowy do bezpiecznego ustawienia lamp i modyfikatorów. Zawsze zaczynaj od sprawdzenia blokad, stanu nóg i stabilności podłoża. Najgrubsze sekcje statywu wysuwaj jako pierwsze, a środek ciężkości utrzymuj możliwie nisko. Przy pracy z cięższym zestawem zadbaj o prawidłowe wyważenie aparatu na głowicy. W studiu i w plenerze zwracaj uwagę na przewody, nierówne podłoże oraz ryzyko przewrócenia sprzętu. Statywy oświetleniowe warto dociążać workami z obciążeniem, szczególnie gdy pracujesz z dużym softboxem, parasolką albo wietrzną pogodą."
+        },
+        {
+          "heading": "Lampy, modyfikatory i zasady bezpieczeństwa",
+          "body": "W fotografii spotkasz lampy błyskowe i światło ciągłe. Lampy błyskowe dają dużą moc i pozwalają precyzyjnie kontrolować światło, a światło ciągłe ułatwia ocenę efektu jeszcze przed wykonaniem zdjęcia. Musisz umieć ustawić moc lampy, kąt świecenia, synchronizację błysku i odległość od fotografowanego obiektu. Modyfikatory, takie jak softbox, parasolka, plaster miodu, wrota czy dyfuzor, zmieniają charakter światła: jego miękkość, kierunek, kontrast i rozproszenie. Sprzęt oświetleniowy wymaga ostrożności. Nie dotykaj gorących elementów, pilnuj przewodów zasilających, nie przeciążaj statywów i zawsze wyłączaj lampę przed zmianą niektórych akcesoriów. Bezpieczeństwo sprzętu i osób na planie jest tak samo ważne jak techniczna jakość zdjęcia."
+        }
+      ],
+      "practicalExamples": [
+        "Fotografujesz produkt na stole bezcieniowym i wybierasz tryb manualny: ustawiasz ISO 100, przysłonę f/11 dla dużej głębi ostrości i czas zgodny z synchronizacją lampy, aby uzyskać powtarzalne ujęcia.",
+        "Podczas portretu w naturalnym świetle używasz preselekcji przysłony, ustawiasz f/2.8 dla miękkiego tła, włączasz wykrywanie oka i kontrolujesz minimalny czas migawki przez Auto ISO.",
+        "Na planie studyjnym rozstawiasz lampę z dużym softboxem na statywie oświetleniowym, dociążasz podstawę workiem i ustawiasz jedną nogę statywu w kierunku lampy, aby ograniczyć ryzyko przewrócenia."
+      ],
+      "keyTakeaways": [
+        "Dobry fotograf świadomie dobiera tryb pracy aparatu do sytuacji, a nie działa przypadkowo.",
+        "Obiektyw, autofokus i funkcje automatyzujące trzeba traktować jako narzędzia wymagające kontroli.",
+        "Statywy muszą być ustawione stabilnie, logicznie i z uwzględnieniem obciążenia oraz warunków pracy.",
+        "Bezpieczna obsługa lamp i modyfikatorów jest obowiązkowym elementem profesjonalnej pracy na planie."
+      ],
+      "checkYourself": [
+        "Kiedy lepiej wybrać tryb manualny, a kiedy preselekcję przysłony?",
+        "Jakie ustawienia autofokusa sprawdzą się przy fotografowaniu ruchu, a jakie przy portrecie?",
+        "Dlaczego duży modyfikator światła wymaga szczególnej ostrożności przy ustawianiu na statywie?"
+      ],
+      "summary": "Po tej lekcji wiesz, jak praktycznie obsługiwać aparat, obiektyw, statywy i lampy. Rozumiesz zależności ekspozycji, potrafisz korzystać z funkcji automatyzujących w sposób świadomy oraz organizować stanowisko pracy tak, aby było jednocześnie skuteczne i bezpieczne.",
+      "adminExtraText": "",
+      "adminMissingTextPrompt": ""
+    },
+    {
+      "id": "L-4-2",
+      "sectionId": "S-4",
+      "sectionTitle": "Dział 4: Rejestracja obrazu w praktyce",
+      "title": "Lekcja 4.2: Zdjęcia plenerowe i fotografia architektury",
+      "goal": "Realizować zdjęcia w świetle zastanym i mieszanym, kontrolować perspektywę oraz dobierać parametry i sprzęt do fotografii krajobrazu i architektury.",
+      "lead": "Fotografia plenerowa wymaga szybkiego reagowania na światło, pogodę i przestrzeń. W tej lekcji nauczysz się planować pracę w terenie oraz kontrolować perspektywę i ekspozycję podczas fotografowania krajobrazu oraz architektury.",
+      "intro": "W plenerze warunki zmieniają się szybko i nie masz pełnej kontroli nad otoczeniem. To oznacza, że musisz umieć obserwować światło, przewidywać zmiany pogody, dobierać ogniskową i ustawiać aparat tak, by zachować czytelność obrazu. Szczególnym wyzwaniem jest fotografia architektury, gdzie łatwo o zniekształcenia perspektywy, przechyły pionów i nieczytelny kadr. Praktyka w tym obszarze polega na łączeniu wiedzy technicznej z umiejętnością patrzenia na przestrzeń.",
+      "contentBlocks": [
+        {
+          "heading": "Planowanie zdjęć w plenerze",
+          "body": "Dobre zdjęcie plenerowe bardzo często zaczyna się jeszcze przed wyjściem z aparatem. Sprawdź pogodę, kierunek światła, godzinę wschodu i zachodu słońca oraz charakter miejsca. Rano i wieczorem światło jest zwykle bardziej miękkie i plastyczne, co sprzyja krajobrazowi i architekturze. W południe kontrast może być bardzo silny, dlatego warto szukać cienia, używać filtrów lub planować ujęcia bardziej graficzne. Zwracaj uwagę na warunki atmosferyczne, bo mgła, deszcz lub zachmurzenie nie są przeszkodą, lecz mogą stać się ważnym elementem nastroju obrazu. W plenerze potrzebujesz też planu awaryjnego: zapasowej karty, baterii, osłony przeciwdeszczowej i podstawowego zestawu do czyszczenia optyki."
+        },
+        {
+          "heading": "Parametry i sprzęt do krajobrazu",
+          "body": "W fotografii krajobrazowej zwykle zależy Ci na dużej głębi ostrości, czytelnym planie pierwszym i dobrze uporządkowanej kompozycji. Często stosuje się przysłony z zakresu średnio domkniętego, na przykład f/8 do f/11, niskie ISO oraz statyw, gdy czas naświetlania staje się dłuższy. Szerokokątny obiektyw pozwala objąć rozległą scenę, ale wymaga ostrożnego budowania kompozycji, ponieważ łatwo wprowadzić chaos. Teleobiektyw z kolei dobrze sprawdza się do wycinania fragmentów pejzażu i porządkowania przestrzeni. Warto umieć korzystać z filtra polaryzacyjnego i filtrów szarych, jeśli sytuacja tego wymaga, ale zawsze zaczynaj od świadomej obserwacji światła, a dopiero potem sięgaj po dodatkowe narzędzia."
+        },
+        {
+          "heading": "Fotografia architektury i kontrola perspektywy",
+          "body": "Przy fotografowaniu budynków kluczowe jest pilnowanie pionów i geometrii. Gdy odchylasz aparat do góry, pionowe linie zaczynają się zbiegać, co może być efektem celowym, ale w fotografii dokumentacyjnej lub użytkowej zwykle jest niepożądane. Dlatego staraj się utrzymywać aparat możliwie równolegle do fotografowanej fasady i pracować z odpowiedniej odległości. Szeroki obiektyw bywa pomocny, ale zbyt szeroki może przesadnie deformować obraz na brzegach kadru. Zwracaj uwagę na linie prowadzące, symetrię, relację między bryłą budynku a otoczeniem oraz obecność elementów rozpraszających, takich jak znaki drogowe, samochody czy przypadkowe cienie. Jeśli nie możesz zmienić miejsca, szukaj lepszego kąta, wyższej lub niższej pozycji aparatu i prostszego kadru."
+        },
+        {
+          "heading": "Światło zastane i mieszane",
+          "body": "W plenerze możesz pracować w świetle naturalnym albo w świetle mieszanym, gdy łączysz światło zastane z lampą błyskową lub źródłem ciągłym. W takiej sytuacji musisz kontrolować nie tylko jasność, ale też temperaturę barwową. Światło dzienne, oświetlenie uliczne, wnętrza i błysk mogą dawać różne dominanty barwne. Dlatego warto fotografować w formacie RAW i świadomie ustawiać balans bieli. Przy doświetlaniu architektury lub detalu lampą pamiętaj, by sztuczne światło nie wyglądało przypadkowo. Powinno wspierać formę budynku albo wydobywać ważny fragment, a nie niszczyć naturalny charakter sceny. Twoim zadaniem jest uzyskać obraz spójny, czytelny i technicznie poprawny."
+        }
+      ],
+      "practicalExamples": [
+        "Fotografujesz krajobraz o wschodzie słońca, ustawiasz aparat na statywie, wybierasz ISO 100 i przysłonę f/11, a następnie komponujesz kadr tak, aby pierwszy plan prowadził wzrok w głąb sceny.",
+        "Robisz zdjęcie elewacji budynku i cofając się od obiektu starasz się utrzymać aparat prosto, aby ograniczyć zbieganie się pionów i zachować dokumentacyjny charakter ujęcia.",
+        "Wieczorem fotografujesz nowoczesny budynek z oświetleniem ulicznym i lekko doświetlasz pierwszy plan lampą błyskową, jednocześnie kontrolując balans bieli, aby uniknąć przypadkowych dominant kolorystycznych."
+      ],
+      "keyTakeaways": [
+        "Plener wymaga przygotowania logistycznego oraz świadomej obserwacji światła i pogody.",
+        "W krajobrazie ważne są głębia ostrości, porządek kompozycyjny i właściwy dobór ogniskowej.",
+        "W fotografii architektury kluczowe jest kontrolowanie perspektywy, pionów i geometrii kadru.",
+        "Przy świetle mieszanym musisz jednocześnie panować nad ekspozycją i temperaturą barwową."
+      ],
+      "checkYourself": [
+        "Jakie korzyści daje fotografowanie krajobrazu o złotej lub niebieskiej godzinie?",
+        "Dlaczego w fotografii architektury przechylenie aparatu może być problemem?",
+        "Na co zwrócisz uwagę, gdy łączysz światło dzienne z lampą błyskową?"
+      ],
+      "summary": "Po tej lekcji potrafisz lepiej planować pracę w plenerze, dobierać parametry do krajobrazu i architektury oraz kontrolować perspektywę i światło mieszane. Wiesz też, że dobra fotografia terenowa zaczyna się od obserwacji miejsca, a nie od przypadkowego naciskania spustu migawki.",
+      "adminExtraText": "",
+      "adminMissingTextPrompt": ""
+    },
+    {
+      "id": "L-4-3",
+      "sectionId": "S-4",
+      "sectionTitle": "Dział 4: Rejestracja obrazu w praktyce",
+      "title": "Lekcja 4.3: Portret studyjny, zdjęcia identyfikacyjne i praca z modelem",
+      "goal": "Wykonywać portrety i zdjęcia identyfikacyjne z użyciem odpowiednich schematów oświetlenia, ustawienia modela i wymagań formalnych.",
+      "lead": "Portret to nie tylko poprawna ekspozycja, ale także relacja z osobą fotografowaną. W tej lekcji połączysz technikę oświetlenia z pracą z modelem oraz poznasz zasady wykonywania zdjęć identyfikacyjnych.",
+      "intro": "Fotografia portretowa wymaga precyzji technicznej i komunikacyjnej. Musisz panować nad światłem, ostrością, kadrem i pozą, ale jednocześnie stworzyć warunki, w których model czuje się pewnie. Inaczej wygląda swobodny portret studyjny, a inaczej zdjęcie do dokumentu, gdzie obowiązują konkretne wymogi formalne. Profesjonalista potrafi płynnie przechodzić między tymi rodzajami pracy i dostosować sposób fotografowania do celu zdjęcia.",
+      "contentBlocks": [
+        {
+          "heading": "Praca z modelem i budowanie komfortu",
+          "body": "Dobra komunikacja z modelem wpływa bezpośrednio na jakość portretu. Zanim zaczniesz fotografować, wyjaśnij, jaki efekt chcesz uzyskać, gdzie ma patrzeć osoba fotografowana i jak będzie przebiegała sesja. Mów jasno, spokojnie i konkretnie. Zamiast ogólnego polecenia \"ustaw się lepiej\", podaj prostą wskazówkę, na przykład \"obróć lekko bark\", \"opuść podbródek\" albo \"spójrz minimalnie nad obiektyw\". Obserwuj napięcie mięśni twarzy, ustawienie dłoni, barków i głowy. Nawet niewielka zmiana pozycji może znacząco poprawić kształt twarzy i czytelność spojrzenia. W portrecie technika jest ważna, ale to Twoje prowadzenie modela często decyduje o naturalności zdjęcia."
+        },
+        {
+          "heading": "Schematy oświetlenia w portrecie studyjnym",
+          "body": "W portrecie studyjnym ogromne znaczenie ma kierunek, wysokość i miękkość światła. Najczęściej zaczyna się od jednego źródła głównego i stopniowo rozbudowuje schemat. Światło ustawione pod kątem do twarzy modela nadaje objętość i modeluje rysy. Softbox daje miękkie przejścia tonalne, a plaster miodu lub wrota pomagają zawęzić strumień światła i zapanować nad tłem. W zależności od ustawienia możesz uzyskać portret bardziej klasyczny, dramatyczny lub neutralny. Ważne jest oddzielenie modela od tła, kontrola cieni pod nosem i brodą oraz pilnowanie odbić w oczach. Zawsze oceniaj nie tylko jasność, ale też charakter światła i jego zgodność z zamierzonym efektem."
+        },
+        {
+          "heading": "Dobór parametrów i obiektywu do portretu",
+          "body": "Do portretu zwykle wybiera się ogniskowe, które nie deformują twarzy i pozwalają zachować wygodny dystans od modela. Zbyt szeroki obiektyw użyty z bliska może zniekształcić proporcje twarzy, dlatego częściej sprawdzają się ogniskowe standardowe i krótkie teleobiektywy. Ostrość ustawiaj precyzyjnie na oko bliższe aparatowi. Przysłona zależy od celu zdjęcia: przy portrecie artystycznym możesz użyć małej głębi ostrości, a przy zdjęciu oficjalnym lepiej zadbać o większą czytelność całej twarzy. ISO utrzymuj możliwie nisko, a czas dobieraj odpowiednio do rodzaju światła i sposobu synchronizacji z lampą. Najważniejsze jest to, aby parametry wspierały charakter portretu, a nie działały przypadkowo."
+        },
+        {
+          "heading": "Zdjęcia identyfikacyjne i wymagania formalne",
+          "body": "Zdjęcie identyfikacyjne nie służy artystycznej interpretacji, lecz poprawnej identyfikacji osoby. Oznacza to konieczność zachowania konkretnych wymagań dotyczących kadru, ustawienia głowy, wyrazu twarzy, tła, oświetlenia i ostrości. Twarz musi być czytelna, równomiernie oświetlona, bez mocnych cieni i bez przesłonięć. Tło powinno być neutralne, a perspektywa naturalna. Osoba fotografowana zwykle patrzy na wprost, a ujęcie musi odpowiadać aktualnym wymaganiom dla danego rodzaju dokumentu. Twoim zadaniem jest nie tylko wykonać technicznie poprawne zdjęcie, ale też dopilnować zgodności z formalnymi zasadami i przygotować powtarzalny, kontrolowany proces pracy."
+        }
+      ],
+      "practicalExamples": [
+        "Podczas portretu biznesowego ustawiasz duży softbox pod kątem około 45 stopni do modela, prosisz o lekkie odwrócenie barków i kontrolujesz, aby refleks w oczach wyglądał naturalnie.",
+        "Robiąc zdjęcie identyfikacyjne, ustawiasz aparat na wysokości oczu fotografowanej osoby, dbasz o neutralne tło, równomierne światło i kadr zgodny z wymaganiami dokumentu.",
+        "Przy fotografowaniu nieśmiałego modela najpierw prowadzisz krótką rozmowę, pokazujesz sposób ustawienia ciała i dopiero potem rozpoczynasz właściwą serię zdjęć, dzięki czemu mimika staje się bardziej swobodna."
+      ],
+      "keyTakeaways": [
+        "Portret wymaga jednocześnie kontroli technicznej i umiejętności komunikacji z osobą fotografowaną.",
+        "Schemat oświetlenia powinien modelować twarz zgodnie z zamierzonym efektem, a nie tylko oświetlać ją wystarczająco jasno.",
+        "Dobór ogniskowej, przysłony i punktu ostrości ma bezpośredni wpływ na proporcje twarzy i czytelność portretu.",
+        "Zdjęcie identyfikacyjne musi spełniać konkretne wymagania formalne i nie może być traktowane jak zwykły portret kreatywny."
+      ],
+      "checkYourself": [
+        "Dlaczego sposób komunikacji z modelem wpływa na jakość portretu?",
+        "Jakie cechy powinno mieć światło w poprawnym zdjęciu identyfikacyjnym?",
+        "Dlaczego zbyt szeroki obiektyw może być niekorzystny w portrecie wykonywanym z bliskiej odległości?"
+      ],
+      "summary": "Po tej lekcji potrafisz lepiej prowadzić modela, budować prosty i skuteczny schemat oświetlenia portretowego oraz wykonywać zdjęcia identyfikacyjne zgodnie z wymogami. Wiesz, że portret to połączenie relacji, obserwacji i świadomej kontroli technicznej.",
+      "adminExtraText": "",
+      "adminMissingTextPrompt": ""
+    },
+    {
+      "id": "L-4-4",
+      "sectionId": "S-4",
+      "sectionTitle": "Dział 4: Rejestracja obrazu w praktyce",
+      "title": "Lekcja 4.4: Reportaż fotograficzny i rejestracja wydarzeń",
+      "goal": "Fotografować dynamiczne sytuacje, przewidywać przebieg wydarzeń i rejestrować materiał reporterski zgodnie z zasadami narracji wizualnej.",
+      "lead": "W reportażu liczy się refleks, przewidywanie i umiejętność opowiadania historii obrazem. W tej lekcji nauczysz się pracować w dynamicznym środowisku i budować spójny materiał z wydarzenia.",
+      "intro": "Fotografia reporterska różni się od pracy studyjnej tym, że zwykle nie możesz zatrzymać sytuacji ani powtórzyć ujęcia. Musisz reagować szybko, poruszać się dyskretnie i rozumieć, co za chwilę może się wydarzyć. Ważne jest też myślenie seriami zdjęć, a nie tylko pojedynczym kadrem. Reportaż powinien pokazywać przebieg wydarzenia, emocje, detale i relacje między ludźmi. Twoim zadaniem jest nie tylko zarejestrować obraz, ale nadać mu czytelną strukturę wizualną.",
+      "contentBlocks": [
+        {
+          "heading": "Myślenie reportażowe i narracja wizualna",
+          "body": "Dobry reportaż nie składa się z przypadkowych zdjęć. Powinien zawierać kadry otwierające, ujęcia ogólne pokazujące miejsce, kadry średnie pokazujące działanie, zbliżenia emocji i detale budujące kontekst. Fotografując wydarzenie, myśl o tym, jak odbiorca odczyta całą historię. Szukaj momentów przejścia, reakcji ludzi, gestów, spojrzeń i sytuacji, które mają znaczenie. Zwracaj uwagę nie tylko na głównych bohaterów, lecz także na tło i drugi plan. To właśnie tam często pojawiają się elementy wzmacniające opowieść albo przeciwnie, psujące czytelność zdjęcia."
+        },
+        {
+          "heading": "Ustawienia aparatu do dynamicznych sytuacji",
+          "body": "W reportażu najważniejsza jest gotowość do działania. Ustaw aparat tak, aby reagował szybko i przewidywalnie. Często oznacza to pracę w trybie preselekcji czasu albo manualnym z Auto ISO, ciągły autofokus, zdjęcia seryjne i zapis w formacie RAW. Minimalny czas migawki dobieraj do dynamiki sceny. Jeśli wydarzenie odbywa się w słabym świetle, musisz świadomie pogodzić się z wyższym ISO, aby utrzymać ostrość ruchu. Przed rozpoczęciem pracy sprawdź ustawienia, punkt startowy ekspozycji, tryb pomiaru światła i działanie kart pamięci. Reportaż nie wybacza bałaganu technicznego."
+        },
+        {
+          "heading": "Praca podczas wydarzenia",
+          "body": "Podczas rejestracji wydarzenia musisz być jednocześnie uważny i niewidoczny. Poruszaj się tak, by nie przeszkadzać uczestnikom i nie zasłaniać innym widoku. Przewiduj kluczowe momenty, obserwuj osoby prowadzące wydarzenie, reakcje publiczności oraz zmiany oświetlenia. Jeśli możesz, poznaj wcześniej plan imprezy, układ sali i miejsca, z których uzyskasz najlepszy widok. W reportażu ogromne znaczenie ma powtarzalna gotowość: naładowane baterie, wolne karty, zapasowy sprzęt i uporządkowany sposób pracy. Dobre przygotowanie techniczne daje Ci swobodę koncentracji na treści zdjęcia."
+        },
+        {
+          "heading": "Etyka, selekcja wstępna i odpowiedzialność",
+          "body": "Fotograf reportażowy odpowiada za sposób przedstawienia rzeczywistości. Nie chodzi tylko o technikę, ale również o uczciwość wobec fotografowanych osób i charakteru wydarzenia. Nie ingeruj w przebieg sytuacji tylko po to, by uzyskać mocniejszy kadr, jeśli zlecenie ma charakter dokumentacyjny. Szanuj prywatność i zasady obowiązujące w danym miejscu. Już podczas fotografowania myśl o selekcji: unikaj niepotrzebnych powtórzeń i świadomie zbieraj materiał różnorodny, ale spójny. Dzięki temu później łatwiej zbudujesz logiczny zestaw zdjęć."
+        }
+      ],
+      "practicalExamples": [
+        "Podczas szkolnego wydarzenia fotografujesz najpierw ogólny plan sali, potem prelegenta, reakcje publiczności oraz detale, takie jak notatki i dekoracje, aby zbudować pełną opowieść.",
+        "Na koncercie ustawiasz aparat na ciągły autofokus, zdjęcia seryjne i krótki czas migawki, bo musisz reagować na szybki ruch artystów i zmienne światło sceniczne.",
+        "Przed rozpoczęciem uroczystości sprawdzasz plan wydarzenia, wybierasz dwa miejsca do fotografowania i przygotowujesz zapasową baterię, aby nie stracić ważnego momentu."
+      ],
+      "keyTakeaways": [
+        "Reportaż wymaga myślenia historią, a nie tylko pojedynczym atrakcyjnym kadrem.",
+        "Szybkie i świadome ustawienia aparatu są kluczowe przy dynamicznych sytuacjach.",
+        "Dobre przygotowanie do wydarzenia zwiększa szansę na uchwycenie najważniejszych momentów.",
+        "Fotograf reporterski ponosi odpowiedzialność za rzetelność obrazu i sposób pokazania ludzi oraz zdarzeń."
+      ],
+      "checkYourself": [
+        "Jakie rodzaje ujęć warto zebrać, aby reportaż był wizualnie kompletny?",
+        "Dlaczego w fotografii wydarzeń często używa się ciągłego autofokusa i zdjęć seryjnych?",
+        "Na czym polega odpowiedzialność fotografa podczas dokumentowania realnych sytuacji?"
+      ],
+      "summary": "Po tej lekcji rozumiesz, jak pracować podczas wydarzeń i budować materiał reporterski oparty na narracji wizualnej. Potrafisz dobrać ustawienia do dynamicznych scen, przewidywać rozwój sytuacji i działać w sposób sprawny, dyskretny oraz odpowiedzialny.",
+      "adminExtraText": "",
+      "adminMissingTextPrompt": ""
+    },
+    {
+      "id": "L-4-5",
+      "sectionId": "S-4",
+      "sectionTitle": "Dział 4: Rejestracja obrazu w praktyce",
+      "title": "Lekcja 4.5: Fotografia produktowa, katalogowa, techniczna i bezcieniowa",
+      "goal": "Przygotowywać i wykonywać zdjęcia przedmiotów do katalogu, e-commerce i dokumentacji technicznej z zachowaniem powtarzalności i poprawności odwzorowania.",
+      "lead": "W fotografii przedmiotów nie wystarczy estetyczne ujęcie. Liczy się także wierne odwzorowanie, powtarzalność i zgodność z celem zdjęcia. W tej lekcji nauczysz się organizować plan i kontrolować obraz w pracy produktowej oraz technicznej.",
+      "intro": "Fotografowanie przedmiotów stawia przed Tobą inne wymagania niż portret czy reportaż. Tutaj każdy detal ma znaczenie: ustawienie produktu, czystość powierzchni, odbicia, cień, tło, skala i zgodność kolorystyczna. Zdjęcie katalogowe ma dobrze sprzedawać produkt, zdjęcie e-commerce ma być czytelne i powtarzalne, a fotografia techniczna ma rzetelnie dokumentować obiekt. Dlatego w tej dziedzinie ogromne znaczenie ma precyzja i konsekwencja w organizacji pracy.",
+      "contentBlocks": [
+        {
+          "heading": "Przygotowanie planu i przedmiotu",
+          "body": "Zanim wykonasz pierwsze zdjęcie, przygotuj zarówno plan, jak i sam fotografowany obiekt. Produkt powinien być czysty, nieuszkodzony i ustawiony zgodnie z celem zdjęcia. Usuń kurz, odciski palców, zagniecenia i przypadkowe elementy opakowania. Zadbaj o tło, stabilne ustawienie przedmiotu i powtarzalny punkt widzenia aparatu. W fotografii katalogowej oraz e-commerce bardzo ważne jest zachowanie serii o podobnym kadrze, perspektywie i świetle. Dlatego warto oznaczyć pozycję aparatu, wysokość statywu, odległość produktu od tła i ustawienia lamp. Im lepiej przygotujesz proces, tym mniej problemów pojawi się później."
+        },
+        {
+          "heading": "Światło w fotografii produktowej i bezcieniowej",
+          "body": "Światło w fotografii przedmiotów powinno podkreślać formę, materiał i kolor. Produkty matowe, błyszczące, przezroczyste i metaliczne wymagają zupełnie innego podejścia. Stanowisko bezcieniowe pomaga uzyskać czyste tło i miękkie przejścia tonalne, ale nie zawsze jest najlepszym rozwiązaniem dla każdego przedmiotu. Czasem lepiej kontrolować światło za pomocą blend, ekranów odbijających, flag pochłaniających i precyzyjnie ustawionych modyfikatorów. W fotografii produktowej bardzo ważna jest obserwacja odbić. To, co widzisz na powierzchni przedmiotu, często nie jest samą lampą, lecz całym otoczeniem planu. Dlatego porządek na planie i świadome kształtowanie odbić są kluczowe."
+        },
+        {
+          "heading": "Parametry, powtarzalność i poprawne odwzorowanie",
+          "body": "W fotografii katalogowej i technicznej zwykle zależy Ci na dużej ostrości, stabilnej ekspozycji i spójności serii. Pracuj na statywie, utrzymuj niskie ISO i dobieraj przysłonę tak, aby cały przedmiot był czytelny. Uważaj jednak na zbyt mocne domykanie przysłony, które może obniżyć szczegółowość obrazu. Warto korzystać z wyzwalania zdalnego lub samowyzwalacza, aby ograniczyć drgania aparatu. Jeśli zależy Ci na wiernym odwzorowaniu koloru, używaj wzorników lub szarej karty i dbaj o jednorodne źródła światła. Powtarzalność jest równie ważna jak estetyka, bo zdjęcia w katalogu lub sklepie internetowym muszą wyglądać jak element jednej, logicznej serii."
+        },
+        {
+          "heading": "Fotografia techniczna i dokumentacyjna",
+          "body": "Fotografia techniczna służy przede wszystkim czytelnej dokumentacji. Oznacza to, że obraz ma pokazywać obiekt w sposób jednoznaczny, bez zbędnych efektów i bez wprowadzania odbiorcy w błąd. Zwracaj uwagę na neutralne tło, poprawną perspektywę, ostrość najważniejszych elementów i odpowiednią skalę ujęcia. Czasem trzeba pokazać cały przedmiot, a czasem detal uszkodzenia, konstrukcji lub oznaczenia. W takim przypadku ważne stają się oznaczenia kierunku światła, punkt widzenia aparatu i powtarzalność kolejnych kadrów. Twoim celem nie jest widowiskowość, lecz rzetelność obrazu."
+        }
+      ],
+      "practicalExamples": [
+        "Fotografujesz serię butów do sklepu internetowego i oznaczasz pozycję statywu oraz miejsca ustawienia produktu, aby każde zdjęcie miało identyczny kadr i perspektywę.",
+        "Przy zdjęciu zegarka z błyszczącą kopertą używasz dużych powierzchni rozpraszających światło i czarnych ekranów, aby kontrolować odbicia i podkreślić kształt przedmiotu.",
+        "Tworzysz dokumentację techniczną urządzenia i wykonujesz osobno ujęcie ogólne, zbliżenie tabliczki znamionowej oraz detal uszkodzonego elementu, zachowując neutralne oświetlenie i czytelny kadr."
+      ],
+      "keyTakeaways": [
+        "W fotografii przedmiotów przygotowanie planu i produktu jest równie ważne jak samo fotografowanie.",
+        "Światło trzeba dopasować do materiału, powierzchni i celu zdjęcia, szczególnie przy obiektach błyszczących lub transparentnych.",
+        "Powtarzalność parametrów, kadru i perspektywy jest kluczowa w katalogu oraz e-commerce.",
+        "Fotografia techniczna ma przede wszystkim dokumentować obiekt wiernie, jasno i bez zbędnych efektów."
+      ],
+      "checkYourself": [
+        "Dlaczego w fotografii produktowej tak ważne jest wcześniejsze przygotowanie przedmiotu i stanowiska?",
+        "Jakie trudności mogą pojawić się przy fotografowaniu powierzchni błyszczących?",
+        "Czym różni się cel zdjęcia katalogowego od zdjęcia technicznego?"
+      ],
+      "summary": "Po tej lekcji rozumiesz, jak organizować pracę przy fotografii produktowej, katalogowej, technicznej i bezcieniowej. Potrafisz zadbać o czystość planu, kontrolę światła, powtarzalność serii oraz poprawne odwzorowanie cech fotografowanego obiektu.",
+      "adminExtraText": "",
+      "adminMissingTextPrompt": ""
+    },
+    {
+      "id": "L-4-6",
+      "sectionId": "S-4",
+      "sectionTitle": "Dział 4: Rejestracja obrazu w praktyce",
+      "title": "Lekcja 4.6: Reprodukcja, makrofotografia, panorama oraz techniki specjalne",
+      "goal": "Wykonywać reprodukcje, zdjęcia makro, panoramy oraz fotografie specjalne, w tym z użyciem promieniowania UV i IR.",
+      "lead": "Niektóre zadania fotograficzne wymagają wyjątkowej precyzji i specjalnych procedur. W tej lekcji poznasz zasady pracy przy reprodukcji, makrofotografii, panoramie i technikach specjalnych.",
+      "intro": "Reprodukcja obrazu, fotografia makro, składanie panoram czy praca w zakresie UV i IR to obszary, w których drobne błędy techniczne mają bardzo duże znaczenie. Krzywy aparat, nierówne światło, minimalne przesunięcie punktu nodalnego albo niedokładne ustawienie ostrości mogą zniszczyć efekt pracy. Dlatego w tej lekcji skupisz się na dokładności, metodyce i świadomym korzystaniu ze specjalistycznego sprzętu.",
+      "contentBlocks": [
+        {
+          "heading": "Reprodukcja fotografii, dokumentów i dzieł płaskich",
+          "body": "Reprodukcja polega na jak najwierniejszym odwzorowaniu płaskiego obiektu, na przykład fotografii, grafiki, obrazu, mapy lub dokumentu. Kluczowe znaczenie ma ustawienie aparatu idealnie równolegle do powierzchni reprodukowanego obiektu. Nawet niewielkie odchylenie powoduje deformacje perspektywiczne i nierównomierną ostrość. Oświetlenie powinno być równomierne, zwykle ustawione symetrycznie po obu stronach, aby uniknąć refleksów i różnic jasności. W reprodukcji istotne są także kontrola koloru, ostrość na całej powierzchni oraz brak zbędnych cieni. To zadanie wymaga cierpliwości i dokładnej weryfikacji kadru przed wykonaniem zdjęcia."
+        },
+        {
+          "heading": "Makrofotografia i praca z małą głębią ostrości",
+          "body": "Makrofotografia pozwala rejestrować bardzo małe obiekty lub drobne detale w dużym powiększeniu. Wraz ze wzrostem skali odwzorowania gwałtownie maleje głębia ostrości, dlatego nawet przy domkniętej przysłonie ostry może być tylko bardzo wąski fragment obiektu. W praktyce potrzebujesz stabilnego statywu, precyzyjnego ustawienia ostrości i często dodatkowego oświetlenia. Możesz korzystać z obiektywów makro, pierścieni pośrednich albo mieszków. Każde poruszenie aparatu lub obiektu staje się w makro bardzo widoczne, dlatego ważne są spokojna praca, stabilizacja planu i kontrola drgań. W tej dziedzinie liczy się dokładność, a nie pośpiech."
+        },
+        {
+          "heading": "Panorama i łączenie wielu kadrów",
+          "body": "Panorama fotograficzna powstaje z kilku lub wielu zdjęć wykonanych tak, aby można je było później połączyć w jeden szeroki obraz. Aby uzyskać dobry materiał wyjściowy, musisz utrzymać stałą ekspozycję, balans bieli i ostrość we wszystkich kadrach. Aparat najlepiej umieścić na statywie, a obrót prowadzić w sposób kontrolowany, najlepiej z użyciem odpowiedniej głowicy panoramicznej. Ważne jest zachowanie zakładek między kolejnymi ujęciami, aby program miał z czego złożyć obraz. Trzeba też uważać na poruszające się elementy sceny oraz zmiany światła. Dobra panorama zaczyna się od starannego wykonania materiału, a nie dopiero od pracy przy komputerze."
+        },
+        {
+          "heading": "Techniki specjalne: UV i IR oraz zasady ostrożności",
+          "body": "Fotografia specjalna, w tym zdjęcia w promieniowaniu UV i IR, wymaga wiedzy o sprzęcie, filtrach, źródłach światła oraz ograniczeniach technicznych. Nie każdy aparat i obiektyw nadają się do takich zastosowań, dlatego przed pracą musisz znać możliwości swojego zestawu. Tego rodzaju zdjęcia wykorzystuje się między innymi w dokumentacji, badaniach materiałów, analizie powierzchni i zadaniach specjalistycznych. Niezwykle ważne są zasady bezpieczeństwa. Nie eksperymentuj z promieniowaniem bez wiedzy o jego źródle i oddziaływaniu. Stosuj odpowiednie procedury, unikaj przypadkowego narażenia oczu i skóry oraz pracuj zgodnie z zaleceniami dla konkretnego sprzętu i źródła promieniowania."
+        }
+      ],
+      "practicalExamples": [
+        "Reprodukujesz starą fotografię na stoliku reprodukcyjnym, ustawiasz aparat równolegle do odbitki i oświetlasz ją dwiema lampami ustawionymi symetrycznie, aby uniknąć cieni i odbić.",
+        "Fotografujesz owada w dużym powiększeniu, używasz statywu, obiektywu makro i dodatkowego światła, ponieważ przy dużej skali odwzorowania nawet minimalny ruch powoduje utratę ostrości.",
+        "Tworzysz panoramę wnętrza, ustawiasz ręcznie ekspozycję i balans bieli, wykonujesz serię nachodzących na siebie kadrów z tego samego punktu i dbasz o płynny obrót aparatu."
+      ],
+      "keyTakeaways": [
+        "Reprodukcja wymaga równoległego ustawienia aparatu, równomiernego światła i wiernego odwzorowania szczegółów.",
+        "Makrofotografia jest bardzo wrażliwa na drgania oraz małą głębię ostrości, dlatego wymaga precyzji i stabilizacji.",
+        "Panorama musi być wykonana w spójnych parametrach, z odpowiednimi zakładkami między kadrami.",
+        "Techniki UV i IR wymagają specjalistycznego podejścia oraz bezwzględnego przestrzegania zasad bezpieczeństwa."
+      ],
+      "checkYourself": [
+        "Dlaczego w reprodukcji tak ważne jest idealnie równoległe ustawienie aparatu względem obiektu?",
+        "Jakie problemy techniczne najczęściej pojawiają się w makrofotografii?",
+        "Co trzeba kontrolować podczas wykonywania panoramy, aby późniejsze łączenie kadrów było poprawne?"
+      ],
+      "summary": "Po tej lekcji znasz podstawowe zasady pracy przy reprodukcji, makrofotografii, panoramie i technikach specjalnych. Rozumiesz, że w tych obszarach największe znaczenie mają dokładność, stabilność, powtarzalność parametrów i świadome, bezpieczne korzystanie ze sprzętu.",
+      "adminExtraText": "",
+      "adminMissingTextPrompt": ""
+    }
+  ],
+  "media": [
+    {
+      "lessonId": "L-4-1",
+      "lessonTitle": "Lekcja 4.1: Obsługa aparatu, obiektywu, statywów i lamp",
+      "mediaType": "lesson_visual",
+      "imagePrompt": "Realistyczna edukacyjna scena fotograficzna w studiu: fotograf ustawia aparat na statywie, na ekranie aparatu widoczny histogram i parametry ekspozycji, obiektyw z zaznaczonym pierścieniem ogniskowej i AF/MF, obok statyw oświetleniowy z dużym softboxem dociążony workiem, uporządkowane przewody, wyraźnie pokazane bezpieczne ustawienie sprzętu. Styl nowoczesny, szkoleniowy, wysoka czytelność, neutralne tło, profesjonalne światło, bez napisów.",
+      "adminImagePrompt": "",
+      "finalImagePrompt": "Realistyczna edukacyjna scena fotograficzna w studiu: fotograf ustawia aparat na statywie, na ekranie aparatu widoczny histogram i parametry ekspozycji, obiektyw z zaznaczonym pierścieniem ogniskowej i AF/MF, obok statyw oświetleniowy z dużym softboxem dociążony workiem, uporządkowane przewody, wyraźnie pokazane bezpieczne ustawienie sprzętu. Styl nowoczesny, szkoleniowy, wysoka czytelność, neutralne tło, profesjonalne światło, bez napisów.",
+      "imageDescription": "Grafika pokazuje kompletny, poprawnie przygotowany zestaw fotograficzny: aparat, obiektyw, statywy i lampę z modyfikatorem. Najważniejszy przekaz lekcji to świadoma kontrola ekspozycji, korzystanie z funkcji aparatu oraz bezpieczna organizacja stanowiska pracy.",
+      "voiceoverScript": "W tej lekcji najważniejsze jest połączenie techniki z dobrymi nawykami pracy. Fotograf musi umieć szybko ustawić ekspozycję, świadomie korzystać z autofokusa i funkcji wspomagających, a jednocześnie stabilnie i bezpiecznie rozstawić statywy oraz oświetlenie. Profesjonalna obsługa sprzętu to nie tylko jakość zdjęcia, ale też przewidywalność i bezpieczeństwo na planie.",
+      "adminVoiceoverScript": "",
+      "finalVoiceoverScript": "W tej lekcji najważniejsze jest połączenie techniki z dobrymi nawykami pracy. Fotograf musi umieć szybko ustawić ekspozycję, świadomie korzystać z autofokusa i funkcji wspomagających, a jednocześnie stabilnie i bezpiecznie rozstawić statywy oraz oświetlenie. Profesjonalna obsługa sprzętu to nie tylko jakość zdjęcia, ale też przewidywalność i bezpieczeństwo na planie.",
+      "slideText": "Obsługa sprzętu = kontrola ekspozycji, świadome użycie obiektywu i bezpieczna praca ze statywami oraz lampami.",
+      "keywords": [
+        "aparat fotograficzny",
+        "ekspozycja",
+        "autofokus",
+        "statyw",
+        "oświetlenie studyjne"
+      ],
+      "adminNotes": "",
+      "customImages": [],
+      "generatedImage": {
+        "status": "ready",
+        "url": "/generated_media/s-4-l-4-1-1775578944530.png?v=1775578944547",
+        "file": "s-4-l-4-1-1775578944530.png",
+        "error": ""
+      },
+      "generatedAudio": {
+        "status": "ready",
+        "url": "/generated_audio/s-4-l-4-1-1775579281860.mp3?v=1775579281861",
+        "file": "s-4-l-4-1-1775579281860.mp3",
+        "error": ""
+      }
+    },
+    {
+      "lessonId": "L-4-2",
+      "lessonTitle": "Lekcja 4.2: Zdjęcia plenerowe i fotografia architektury",
+      "mediaType": "lesson_visual",
+      "imagePrompt": "Edukacyjna realistyczna ilustracja plenerowa o złotej godzinie: fotograf na statywie wykonuje zdjęcie nowoczesnego budynku i krajobrazu, aparat ustawiony prosto z zachowaniem pionów, w kadrze widoczne linie perspektywy, szerokokątny obiektyw, miękkie światło wschodu lub zachodu słońca, lekka mgła w tle, torba fotograficzna z filtrem polaryzacyjnym i zapasową baterią. Czysta kompozycja, szkoleniowy charakter, bez napisów.",
+      "adminImagePrompt": "",
+      "finalImagePrompt": "Edukacyjna realistyczna ilustracja plenerowa o złotej godzinie: fotograf na statywie wykonuje zdjęcie nowoczesnego budynku i krajobrazu, aparat ustawiony prosto z zachowaniem pionów, w kadrze widoczne linie perspektywy, szerokokątny obiektyw, miękkie światło wschodu lub zachodu słońca, lekka mgła w tle, torba fotograficzna z filtrem polaryzacyjnym i zapasową baterią. Czysta kompozycja, szkoleniowy charakter, bez napisów.",
+      "imageDescription": "Obraz łączy dwa główne obszary lekcji: fotografię plenerową i architekturę. Podkreśla planowanie pracy, obserwację światła, użycie statywu oraz kontrolę perspektywy i pionów przy fotografowaniu budynków.",
+      "voiceoverScript": "Dobre zdjęcie plenerowe zaczyna się od obserwacji miejsca, światła i pogody. W krajobrazie liczy się porządek kompozycji i dobór parametrów, a w architekturze dodatkowo kontrola geometrii oraz pionów. Gdy pojawia się światło mieszane, musisz panować jednocześnie nad ekspozycją i kolorem obrazu.",
+      "adminVoiceoverScript": "",
+      "finalVoiceoverScript": "Dobre zdjęcie plenerowe zaczyna się od obserwacji miejsca, światła i pogody. W krajobrazie liczy się porządek kompozycji i dobór parametrów, a w architekturze dodatkowo kontrola geometrii oraz pionów. Gdy pojawia się światło mieszane, musisz panować jednocześnie nad ekspozycją i kolorem obrazu.",
+      "slideText": "Plener i architektura wymagają planowania, kontroli perspektywy oraz świadomej pracy ze światłem zastanym i mieszanym.",
+      "keywords": [
+        "plener",
+        "architektura",
+        "perspektywa",
+        "złota godzina",
+        "światło mieszane"
+      ],
+      "adminNotes": "",
+      "customImages": [],
+      "generatedImage": {
+        "status": "ready",
+        "url": "/generated_media/s-4-l-4-2-1775578988647.png?v=1775578988651",
+        "file": "s-4-l-4-2-1775578988647.png",
+        "error": ""
+      },
+      "generatedAudio": {
+        "status": "ready",
+        "url": "/generated_audio/s-4-l-4-2-1775579285957.mp3?v=1775579285958",
+        "file": "s-4-l-4-2-1775579285957.mp3",
+        "error": ""
+      }
+    },
+    {
+      "lessonId": "L-4-3",
+      "lessonTitle": "Lekcja 4.3: Portret studyjny, zdjęcia identyfikacyjne i praca z modelem",
+      "mediaType": "lesson_visual",
+      "imagePrompt": "Realistyczna scena studyjna do kursu fotografii: fotograf rozmawia z modelem ustawionym na neutralnym tle, duży softbox pod kątem około 45 stopni modeluje twarz, aparat na wysokości oczu, wyraźny refleks w oczach, po prawej uproszczona druga aranżacja do zdjęcia identyfikacyjnego z równym oświetleniem i prostym kadrem. Profesjonalne studio, czysto, czytelnie, edukacyjnie, bez napisów.",
+      "adminImagePrompt": "",
+      "finalImagePrompt": "Realistyczna scena studyjna do kursu fotografii: fotograf rozmawia z modelem ustawionym na neutralnym tle, duży softbox pod kątem około 45 stopni modeluje twarz, aparat na wysokości oczu, wyraźny refleks w oczach, po prawej uproszczona druga aranżacja do zdjęcia identyfikacyjnego z równym oświetleniem i prostym kadrem. Profesjonalne studio, czysto, czytelnie, edukacyjnie, bez napisów.",
+      "imageDescription": "Grafika pokazuje dwa kluczowe zastosowania portretu: portret studyjny oraz zdjęcie identyfikacyjne. W centrum znajduje się relacja fotografa z modelem, poprawne ustawienie światła i dbałość o formalną poprawność kadru.",
+      "voiceoverScript": "Portret to połączenie światła, parametrów i komunikacji z człowiekiem. Fotograf musi prowadzić modela spokojnie i precyzyjnie, jednocześnie kontrolując kierunek światła, ostrość oraz proporcje twarzy. Przy zdjęciu identyfikacyjnym dochodzi jeszcze wymóg pełnej zgodności z zasadami formalnymi.",
+      "adminVoiceoverScript": "",
+      "finalVoiceoverScript": "Portret to połączenie światła, parametrów i komunikacji z człowiekiem. Fotograf musi prowadzić modela spokojnie i precyzyjnie, jednocześnie kontrolując kierunek światła, ostrość oraz proporcje twarzy. Przy zdjęciu identyfikacyjnym dochodzi jeszcze wymóg pełnej zgodności z zasadami formalnymi.",
+      "slideText": "Dobry portret wymaga światła, komunikacji i kontroli kadru; zdjęcie identyfikacyjne dodatkowo musi spełniać wymogi formalne.",
+      "keywords": [
+        "portret studyjny",
+        "model",
+        "softbox",
+        "zdjęcie identyfikacyjne",
+        "komunikacja"
+      ],
+      "adminNotes": "",
+      "customImages": [],
+      "generatedImage": {
+        "status": "ready",
+        "url": "/generated_media/s-4-l-4-3-1775579046152.png?v=1775579046174",
+        "file": "s-4-l-4-3-1775579046152.png",
+        "error": ""
+      },
+      "generatedAudio": {
+        "status": "ready",
+        "url": "/generated_audio/s-4-l-4-3-1775579290149.mp3?v=1775579290152",
+        "file": "s-4-l-4-3-1775579290149.mp3",
+        "error": ""
+      }
+    },
+    {
+      "lessonId": "L-4-4",
+      "lessonTitle": "Lekcja 4.4: Reportaż fotograficzny i rejestracja wydarzeń",
+      "mediaType": "lesson_visual",
+      "imagePrompt": "Dynamiczna realistyczna scena reportażowa podczas wydarzenia: fotograf z aparatem pracuje dyskretnie w tłumie, na pierwszym planie prelegent lub artysta, w tle reakcje publiczności, detale wydarzenia i różne plany kadru sugerujące narrację wizualną. Aparat ustawiony do szybkiej pracy, ciągły autofokus, zdjęcia seryjne, zmienne światło sceniczne. Styl edukacyjny, wysoka energia, czytelna kompozycja, bez napisów.",
+      "adminImagePrompt": "",
+      "finalImagePrompt": "Dynamiczna realistyczna scena reportażowa podczas wydarzenia: fotograf z aparatem pracuje dyskretnie w tłumie, na pierwszym planie prelegent lub artysta, w tle reakcje publiczności, detale wydarzenia i różne plany kadru sugerujące narrację wizualną. Aparat ustawiony do szybkiej pracy, ciągły autofokus, zdjęcia seryjne, zmienne światło sceniczne. Styl edukacyjny, wysoka energia, czytelna kompozycja, bez napisów.",
+      "imageDescription": "Ilustracja pokazuje istotę reportażu: rejestrowanie wydarzenia w sposób szybki, dyskretny i narracyjny. Ważne są nie tylko główni bohaterowie, ale też reakcje otoczenia, detale i logiczna sekwencja obrazów budujących historię.",
+      "voiceoverScript": "W reportażu nie wystarczy jedno efektowne zdjęcie. Trzeba przewidywać przebieg wydarzeń, zbierać różne rodzaje ujęć i pracować na ustawieniach, które pozwalają reagować natychmiast. Dobry materiał reporterski łączy refleks, przygotowanie techniczne i odpowiedzialność za sposób pokazania rzeczywistości.",
+      "adminVoiceoverScript": "",
+      "finalVoiceoverScript": "W reportażu nie wystarczy jedno efektowne zdjęcie. Trzeba przewidywać przebieg wydarzeń, zbierać różne rodzaje ujęć i pracować na ustawieniach, które pozwalają reagować natychmiast. Dobry materiał reporterski łączy refleks, przygotowanie techniczne i odpowiedzialność za sposób pokazania rzeczywistości.",
+      "slideText": "Reportaż to szybka reakcja, myślenie historią i świadome budowanie kompletnego materiału z wydarzenia.",
+      "keywords": [
+        "reportaż",
+        "wydarzenie",
+        "narracja wizualna",
+        "autofokus ciągły",
+        "selekcja ujęć"
+      ],
+      "adminNotes": "",
+      "customImages": [],
+      "generatedImage": {
+        "status": "ready",
+        "url": "/generated_media/s-4-l-4-4-1775579102377.png?v=1775579102389",
+        "file": "s-4-l-4-4-1775579102377.png",
+        "error": ""
+      },
+      "generatedAudio": {
+        "status": "ready",
+        "url": "/generated_audio/s-4-l-4-4-1775579294083.mp3?v=1775579294084",
+        "file": "s-4-l-4-4-1775579294083.mp3",
+        "error": ""
+      }
+    },
+    {
+      "lessonId": "L-4-5",
+      "lessonTitle": "Lekcja 4.5: Fotografia produktowa, katalogowa, techniczna i bezcieniowa",
+      "mediaType": "lesson_visual",
+      "imagePrompt": "Realistyczne stanowisko fotografii produktowej: aparat na statywie skierowany na starannie ustawiony produkt na stole bezcieniowym, miękkie oświetlenie z dwóch stron, blendy i czarne flagi kontrolujące odbicia, zaznaczone powtarzalne ustawienie planu, czyste tło, obok drugi produkt sfotografowany technicznie na neutralnym tle. Styl szkoleniowy, bardzo wysoka precyzja, bez napisów.",
+      "adminImagePrompt": "",
+      "finalImagePrompt": "Realistyczne stanowisko fotografii produktowej: aparat na statywie skierowany na starannie ustawiony produkt na stole bezcieniowym, miękkie oświetlenie z dwóch stron, blendy i czarne flagi kontrolujące odbicia, zaznaczone powtarzalne ustawienie planu, czyste tło, obok drugi produkt sfotografowany technicznie na neutralnym tle. Styl szkoleniowy, bardzo wysoka precyzja, bez napisów.",
+      "imageDescription": "Grafika przedstawia uporządkowane stanowisko do fotografii przedmiotów i pokazuje dwa cele pracy: estetyczne zdjęcie produktowe oraz wierną dokumentację techniczną. Nacisk położono na czystość planu, kontrolę odbić, powtarzalność ustawień i poprawne odwzorowanie produktu.",
+      "voiceoverScript": "W fotografii przedmiotów liczy się precyzja, a nie przypadek. Trzeba przygotować produkt i stanowisko, dopasować światło do materiału powierzchni oraz zadbać o powtarzalność kadru i ekspozycji. Zdjęcie katalogowe ma być spójne i atrakcyjne, a techniczne przede wszystkim rzetelne i czytelne.",
+      "adminVoiceoverScript": "",
+      "finalVoiceoverScript": "W fotografii przedmiotów liczy się precyzja, a nie przypadek. Trzeba przygotować produkt i stanowisko, dopasować światło do materiału powierzchni oraz zadbać o powtarzalność kadru i ekspozycji. Zdjęcie katalogowe ma być spójne i atrakcyjne, a techniczne przede wszystkim rzetelne i czytelne.",
+      "slideText": "Fotografia produktowa wymaga czystego planu, kontroli światła i odbić oraz pełnej powtarzalności serii.",
+      "keywords": [
+        "fotografia produktowa",
+        "stół bezcieniowy",
+        "odbicia",
+        "e-commerce",
+        "dokumentacja techniczna"
+      ],
+      "adminNotes": "",
+      "customImages": [],
+      "generatedImage": {
+        "status": "ready",
+        "url": "/generated_media/s-4-l-4-5-1775579150435.png?v=1775579150438",
+        "file": "s-4-l-4-5-1775579150435.png",
+        "error": ""
+      },
+      "generatedAudio": {
+        "status": "ready",
+        "url": "/generated_audio/s-4-l-4-5-1775579298649.mp3?v=1775579298651",
+        "file": "s-4-l-4-5-1775579298649.mp3",
+        "error": ""
+      }
+    },
+    {
+      "lessonId": "L-4-6",
+      "lessonTitle": "Lekcja 4.6: Reprodukcja, makrofotografia, panorama oraz techniki specjalne",
+      "mediaType": "lesson_visual",
+      "imagePrompt": "Zaawansowana edukacyjna kompozycja fotograficzna podzielona na cztery czytelne strefy: reprodukcja płaskiego dokumentu z aparatem ustawionym idealnie równolegle i symetrycznym światłem, makrofotografia owada na statywie z bardzo precyzyjnym ostrzeniem, panorama wykonywana z głowicą panoramiczną i serią nakładających się kadrów, oraz bezpieczna fotografia specjalna UV/IR z filtrem i kontrolowanym źródłem światła. Realistyczny styl szkoleniowy, wysoka dokładność, bez napisów.",
+      "adminImagePrompt": "",
+      "finalImagePrompt": "Zaawansowana edukacyjna kompozycja fotograficzna podzielona na cztery czytelne strefy: reprodukcja płaskiego dokumentu z aparatem ustawionym idealnie równolegle i symetrycznym światłem, makrofotografia owada na statywie z bardzo precyzyjnym ostrzeniem, panorama wykonywana z głowicą panoramiczną i serią nakładających się kadrów, oraz bezpieczna fotografia specjalna UV/IR z filtrem i kontrolowanym źródłem światła. Realistyczny styl szkoleniowy, wysoka dokładność, bez napisów.",
+      "imageDescription": "Ilustracja syntetyzuje cztery wymagające obszary fotografii technicznej i specjalistycznej. Wspólnym mianownikiem jest precyzja ustawienia aparatu, powtarzalność parametrów, stabilność planu oraz bezpieczeństwo pracy przy niestandardowych technikach.",
+      "voiceoverScript": "Reprodukcja, makro, panorama i techniki specjalne łączy jedno: każdy drobny błąd ma duże konsekwencje. Dlatego kluczowe są równoległość ustawienia, stabilizacja, spójne parametry i bardzo dokładna kontrola światła oraz ostrości. W przypadku UV i IR równie ważna jak technika jest bezwzględna ostrożność i znajomość procedur.",
+      "adminVoiceoverScript": "",
+      "finalVoiceoverScript": "Reprodukcja, makro, panorama i techniki specjalne łączy jedno: każdy drobny błąd ma duże konsekwencje. Dlatego kluczowe są równoległość ustawienia, stabilizacja, spójne parametry i bardzo dokładna kontrola światła oraz ostrości. W przypadku UV i IR równie ważna jak technika jest bezwzględna ostrożność i znajomość procedur.",
+      "slideText": "Fotografie specjalistyczne wymagają maksymalnej precyzji, stabilności oraz świadomej i bezpiecznej pracy ze sprzętem.",
+      "keywords": [
+        "reprodukcja",
+        "makrofotografia",
+        "panorama",
+        "UV",
+        "IR"
+      ],
+      "adminNotes": "",
+      "customImages": [],
+      "generatedImage": {
+        "status": "ready",
+        "url": "/generated_media/s-4-l-4-6-1775579196175.png?v=1775579196178",
+        "file": "s-4-l-4-6-1775579196175.png",
+        "error": ""
+      },
+      "generatedAudio": {
+        "status": "ready",
+        "url": "/generated_audio/s-4-l-4-6-1775579303078.mp3?v=1775579303162",
+        "file": "s-4-l-4-6-1775579303078.mp3",
+        "error": ""
+      }
+    }
+  ],
+  "worksheets": [
+    {
+      "lessonId": "L-4-1",
+      "lessonTitle": "Lekcja 4.1: Obsługa aparatu, obiektywu, statywów i lamp",
+      "worksheet": {
+        "title": "Karta pracy — Konfiguracja zestawu fotograficznego i bezpieczne stanowisko pracy",
+        "taskIntro": "Przygotuj aparat, obiektyw, statyw i lampę do trzech różnych zastosowań: portretu, zdjęcia produktu i ujęcia z ruchem. Celem jest świadome dobranie ustawień oraz bezpieczne zorganizowanie stanowiska.",
+        "instructions": [
+          "Przygotuj zestaw fotograficzny i zapisz ustawienia aparatu dla trzech sytuacji: portret, produkt, scena z ruchem. Dla każdej sytuacji określ tryb pracy, czas, przysłonę, ISO, tryb autofokusa oraz jedną funkcję automatyzującą, z której skorzystasz.",
+          "Rozstaw statyw fotograficzny i jeden statyw oświetleniowy z lampą lub modyfikatorem. Sprawdź blokady, stabilność podłoża, sposób prowadzenia przewodów i w razie potrzeby zastosuj dociążenie.",
+          "Wykonaj po jednym zdjęciu testowym dla każdej z trzech sytuacji i krótko oceń, czy ekspozycja, ostrość oraz organizacja stanowiska są poprawne i bezpieczne."
+        ],
+        "deliverables": [
+          "Tabela z ustawieniami dla 3 sytuacji zdjęciowych.",
+          "3 zdjęcia testowe: portret, produkt, ruch.",
+          "Krótka lista kontroli bezpieczeństwa stanowiska przed wykonaniem zdjęć."
+        ],
+        "successCriteria": [
+          "Dla każdej sytuacji ustawienia aparatu i obiektywu są logicznie dobrane do celu zdjęcia.",
+          "Stanowisko jest rozstawione stabilnie i bezpiecznie, z uwzględnieniem statywów, lamp oraz przewodów.",
+          "Zdjęcia testowe pokazują poprawną ostrość i ekspozycję lub zawierają trafnie opisaną korektę do wykonania."
+        ],
+        "estimatedMinutes": 35
+      }
+    },
+    {
+      "lessonId": "L-4-2",
+      "lessonTitle": "Lekcja 4.2: Zdjęcia plenerowe i fotografia architektury",
+      "worksheet": {
+        "title": "Karta pracy — Mini sesja plenerowa: krajobraz i architektura",
+        "taskIntro": "Wykonaj krótką serię zdjęć w terenie, pokazując dwa różne podejścia: krajobrazowe i architektoniczne. Skup się na planowaniu światła, kontroli perspektywy i świadomym doborze parametrów.",
+        "instructions": [
+          "Wybierz jedną lokalizację plenerową i zaplanuj 2 ujęcia krajobrazowe oraz 2 ujęcia architektoniczne. Zanim zaczniesz fotografować, zapisz godzinę, warunki pogodowe, kierunek światła i przewidywane trudności.",
+          "Wykonaj zdjęcia krajobrazowe z naciskiem na czytelny pierwszy plan, porządek kompozycji i dużą głębię ostrości. Następnie wykonaj zdjęcia architektury, pilnując pionów, geometrii i ograniczania zniekształceń perspektywy.",
+          "Po zakończeniu porównaj kadry i krótko opisz, jakie decyzje dotyczące ogniskowej, pozycji aparatu, ekspozycji i balansu bieli pomogły uzyskać lepszy efekt."
+        ],
+        "deliverables": [
+          "4 zdjęcia z pleneru: 2 krajobrazowe i 2 architektoniczne.",
+          "Notatka z planowania warunków pracy i użytych ustawień.",
+          "Krótka analiza jednego problemu technicznego oraz sposobu jego rozwiązania."
+        ],
+        "successCriteria": [
+          "Zdjęcia krajobrazowe mają czytelną kompozycję i parametry dobrane do pracy w plenerze.",
+          "Zdjęcia architektoniczne pokazują świadomą kontrolę pionów, perspektywy i kadru.",
+          "Autor potrafi wyjaśnić, dlaczego zastosował konkretne ustawienia i sposób pracy ze światłem."
+        ],
+        "estimatedMinutes": 45
+      }
+    },
+    {
+      "lessonId": "L-4-3",
+      "lessonTitle": "Lekcja 4.3: Portret studyjny, zdjęcia identyfikacyjne i praca z modelem",
+      "worksheet": {
+        "title": "Karta pracy — Portret studyjny i zdjęcie identyfikacyjne",
+        "taskIntro": "Przeprowadź krótką sesję z jedną osobą, wykonując dwa typy zdjęć: portret studyjny oraz zdjęcie identyfikacyjne. Zwróć uwagę zarówno na oświetlenie, jak i na sposób komunikacji z modelem.",
+        "instructions": [
+          "Przygotuj jedno proste ustawienie oświetlenia do portretu studyjnego i wykonaj 3 ujęcia tej samej osoby, stosując jasne, konkretne wskazówki dotyczące ustawienia głowy, barków i kierunku spojrzenia.",
+          "Następnie zmodyfikuj ustawienie tak, aby wykonać poprawne zdjęcie identyfikacyjne: neutralne tło, równomierne światło, naturalna perspektywa, czytelna twarz i zgodny kadr.",
+          "Po sesji zapisz, które polecenia dla modela okazały się najskuteczniejsze oraz jakie różnice techniczne wystąpiły między portretem a zdjęciem identyfikacyjnym."
+        ],
+        "deliverables": [
+          "3 portrety studyjne jednej osoby.",
+          "1 zdjęcie identyfikacyjne zgodne z podstawowymi wymaganiami formalnymi.",
+          "Krótka notatka o komunikacji z modelem i zastosowanym świetle."
+        ],
+        "successCriteria": [
+          "Portret studyjny pokazuje świadome modelowanie twarzy światłem i poprawne ustawienie ostrości.",
+          "Zdjęcie identyfikacyjne jest neutralne, czytelne i spełnia podstawowe wymagania formalne.",
+          "Opis pracy z modelem pokazuje, że fotograf świadomie prowadził osobę fotografowaną."
+        ],
+        "estimatedMinutes": 40
+      }
+    },
+    {
+      "lessonId": "L-4-4",
+      "lessonTitle": "Lekcja 4.4: Reportaż fotograficzny i rejestracja wydarzeń",
+      "worksheet": {
+        "title": "Karta pracy — Reportaż z krótkiego wydarzenia",
+        "taskIntro": "Zrealizuj mini reportaż z prawdziwego wydarzenia lub codziennej sytuacji zbiorowej, na przykład lekcji, spotkania, treningu, apelu lub warsztatów. Twoim celem jest zbudowanie spójnej historii obrazem.",
+        "instructions": [
+          "Przed fotografowaniem przygotuj plan: określ miejsce, przewidywane kluczowe momenty, dwa najlepsze punkty obserwacji oraz podstawowe ustawienia aparatu do pracy w ruchu.",
+          "W trakcie wydarzenia wykonaj serię zdjęć obejmującą: kadr otwierający, ujęcie ogólne, minimum dwa kadry średnie, minimum dwa zbliżenia emocji lub działania oraz jeden detal budujący kontekst.",
+          "Po zakończeniu wybierz 6 najlepszych zdjęć i ułóż je w logicznej kolejności, tak aby tworzyły czytelną narrację od początku do końca wydarzenia."
+        ],
+        "deliverables": [
+          "Zestaw 6 zdjęć tworzących mini reportaż.",
+          "Krótki plan pracy reporterskiej przygotowany przed wydarzeniem.",
+          "Jednozdaniowy opis roli każdego wybranego kadru w historii."
+        ],
+        "successCriteria": [
+          "Zestaw zdjęć zawiera różne typy ujęć potrzebne do zbudowania narracji wizualnej.",
+          "Kadry są technicznie poprawne na tyle, by czytelnie pokazywać ruch, emocje i kontekst wydarzenia.",
+          "Kolejność zdjęć tworzy spójną i zrozumiałą opowieść bez zbędnych powtórzeń."
+        ],
+        "estimatedMinutes": 50
+      }
+    },
+    {
+      "lessonId": "L-4-5",
+      "lessonTitle": "Lekcja 4.5: Fotografia produktowa, katalogowa, techniczna i bezcieniowa",
+      "worksheet": {
+        "title": "Karta pracy — Seria zdjęć produktu do katalogu i dokumentacji",
+        "taskIntro": "Przygotuj jedno stanowisko i wykonaj zdjęcia wybranego przedmiotu w dwóch celach: jako zdjęcie katalogowe oraz jako zdjęcie techniczne lub dokumentacyjne. Skup się na czystości planu, kontroli odbić i powtarzalności.",
+        "instructions": [
+          "Wybierz jeden przedmiot i przygotuj go do fotografowania: oczyść powierzchnię, ustaw neutralne lub bezcieniowe tło, oznacz pozycję aparatu i produktu oraz zapisz ustawienia startowe.",
+          "Wykonaj serię 3 zdjęć katalogowych tego samego przedmiotu, zachowując spójny kadr, perspektywę i ekspozycję. Jeśli przedmiot jest błyszczący, zastosuj proste ekrany rozpraszające lub pochłaniające odbicia.",
+          "Na końcu wykonaj 2 zdjęcia dokumentacyjne lub techniczne: jedno ogólne i jedno detalu, pokazujące obiekt w sposób możliwie neutralny i informacyjny."
+        ],
+        "deliverables": [
+          "3 zdjęcia katalogowe lub e-commerce tego samego produktu.",
+          "2 zdjęcia techniczne lub dokumentacyjne: ogólne i detal.",
+          "Krótka karta ustawień stanowiska i parametrów pracy."
+        ],
+        "successCriteria": [
+          "Seria katalogowa jest spójna pod względem kadru, perspektywy, światła i ekspozycji.",
+          "Przedmiot jest pokazany czysto i czytelnie, bez przypadkowych zabrudzeń, chaosu tła i niekontrolowanych odbić.",
+          "Zdjęcia techniczne mają charakter informacyjny i wiernie pokazują cechy obiektu."
+        ],
+        "estimatedMinutes": 45
+      }
+    },
+    {
+      "lessonId": "L-4-6",
+      "lessonTitle": "Lekcja 4.6: Reprodukcja, makrofotografia, panorama oraz techniki specjalne",
+      "worksheet": {
+        "title": "Karta pracy — Zadanie specjalistyczne: reprodukcja, makro lub panorama",
+        "taskIntro": "Wybierz jedno z trzech zadań specjalistycznych i wykonaj je z zachowaniem zasad precyzji oraz powtarzalności: reprodukcję płaskiego obiektu, zdjęcie makro albo prostą panoramę.",
+        "instructions": [
+          "Wybierz wariant pracy: A — reprodukcja dokumentu lub zdjęcia, B — makrofotografia małego obiektu, C — panorama z kilku kadrów. Przygotuj stanowisko tak, aby zminimalizować drgania, błędy ustawienia i zmienność parametrów.",
+          "Wykonaj materiał zgodnie z zasadami dla wybranego wariantu: w reprodukcji ustaw aparat równolegle i zadbaj o równomierne światło, w makro ustaw ostrość bardzo precyzyjnie i ustabilizuj plan, w panoramie zachowaj stałą ekspozycję, balans bieli i zakładki między kadrami.",
+          "Sprawdź efekt końcowy i zapisz, jaki był największy problem techniczny oraz jak go ograniczyłeś podczas realizacji zadania."
+        ],
+        "deliverables": [
+          "Efekt końcowy jednego wybranego zadania: reprodukcja, zdjęcie makro lub panorama.",
+          "2-3 zdjęcia lub ujęcia robocze pokazujące sposób wykonania albo kolejne etapy pracy.",
+          "Krótka notatka techniczna z opisem ustawień i napotkanych trudności."
+        ],
+        "successCriteria": [
+          "Wybrana technika została wykonana zgodnie z jej podstawowymi wymaganiami technicznymi.",
+          "Materiał pokazuje dbałość o stabilność, powtarzalność parametrów i kontrolę błędów.",
+          "Autor potrafi wskazać najważniejszy problem realizacyjny i opisać sposób jego rozwiązania."
+        ],
+        "estimatedMinutes": 50
+      }
+    }
+  ],
+  "sectionQuiz": {
+    "title": "Quiz działowy — Dział 4: Rejestracja obrazu w praktyce",
+    "questions": [
+      {
+        "question": "Fotografujesz serię produktów w studiu z użyciem lamp błyskowych i zależy Ci na maksymalnej powtarzalności ekspozycji. Który tryb pracy aparatu będzie najwłaściwszy?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Tryb manualny, bo pozwala utrzymać stałe parametry między ujęciami",
+          "b": "Tryb automatyczny, bo aparat sam dobierze najlepsze ustawienia",
+          "c": "Tryb sportowy, bo zwiększa ostrość zdjęć produktowych",
+          "d": "Tryb preselekcji czasu, bo zawsze daje najwierniejsze kolory"
+        },
+        "correctAnswer": "a",
+        "explanation": "W fotografii produktowej i studyjnej liczy się kontrola i powtarzalność, dlatego tryb manualny jest najbezpieczniejszym wyborem."
+      },
+      {
+        "question": "Podczas fotografowania dynamicznego wydarzenia chcesz zwiększyć szansę na uchwycenie ostrego momentu. Jakie ustawienie będzie najtrafniejsze?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Pojedynczy autofokus i pojedyncze zdjęcie",
+          "b": "Ciągły autofokus i zdjęcia seryjne",
+          "c": "Ręczne ostrzenie ustawione raz na nieskończoność",
+          "d": "Długi czas migawki i niskie ISO"
+        },
+        "correctAnswer": "b",
+        "explanation": "W reportażu i przy ruchu najlepiej sprawdzają się ciągły AF oraz zdjęcia seryjne, bo pomagają śledzić obiekt i wybrać najlepszy moment."
+      },
+      {
+        "question": "Fotografujesz elewację budynku i chcesz ograniczyć zbieganie się pionów. Co powinieneś zrobić przede wszystkim?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Przechylić aparat mocniej do góry, aby objąć cały budynek",
+          "b": "Użyć jak najszerszego obiektywu i podejść bliżej",
+          "c": "Utrzymać aparat możliwie równolegle do fasady i w razie potrzeby odejść dalej",
+          "d": "Włączyć lampę błyskową, aby wyrównać geometrię kadru"
+        },
+        "correctAnswer": "c",
+        "explanation": "W fotografii architektury przechylenie aparatu powoduje zbieganie pionów, dlatego lepiej zachować równoległość i zwiększyć dystans."
+      },
+      {
+        "question": "Który opis najlepiej odpowiada poprawnie wykonanemu zdjęciu identyfikacyjnemu?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Mocny światłocień, swobodna poza i artystyczne tło",
+          "b": "Szeroki kadr środowiskowy z naturalnym cieniem na twarzy",
+          "c": "Równomierne światło, neutralne tło, twarz czytelna i ustawiona zgodnie z wymogami",
+          "d": "Mała głębia ostrości i kreatywne przechylenie aparatu"
+        },
+        "correctAnswer": "c",
+        "explanation": "Zdjęcie identyfikacyjne ma służyć rozpoznaniu osoby, więc musi być neutralne, czytelne i zgodne z formalnymi wymaganiami."
+      },
+      {
+        "question": "Chcesz zbudować wizualnie kompletny reportaż z wydarzenia. Jakiego podejścia powinieneś się trzymać?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Wykonać wyłącznie efektowne zbliżenia twarzy",
+          "b": "Skupić się tylko na zdjęciach organizatorów",
+          "c": "Zebrać ujęcia ogólne, średnie, detale i emocje, aby opowiedzieć historię",
+          "d": "Fotografować wyłącznie scenę główną z jednego miejsca"
+        },
+        "correctAnswer": "c",
+        "explanation": "Dobry reportaż składa się z różnych typów kadrów, które razem budują czytelną narrację wizualną."
+      },
+      {
+        "question": "Fotografujesz błyszczący zegarek do katalogu. Co pomoże najlepiej zapanować nad niechcianymi odbiciami?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Silny bezpośredni błysk z przodu",
+          "b": "Duże powierzchnie rozpraszające światło i kontrola otoczenia planu",
+          "c": "Maksymalne podniesienie ISO, aby skrócić czas",
+          "d": "Fotografowanie z ręki bez przygotowania stanowiska"
+        },
+        "correctAnswer": "b",
+        "explanation": "Przy powierzchniach błyszczących kluczowe jest świadome kształtowanie odbić przez miękkie światło i uporządkowane otoczenie."
+      },
+      {
+        "question": "Jaki warunek jest kluczowy przy reprodukcji płaskiego obiektu, na przykład dokumentu lub grafiki?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Ustawienie aparatu pod wyraźnym kątem dla lepszej plastyki",
+          "b": "Maksymalnie otwarta przysłona dla rozmycia tła",
+          "c": "Idealnie równoległe ustawienie aparatu względem obiektu",
+          "d": "Silne światło tylko z jednej strony"
+        },
+        "correctAnswer": "c",
+        "explanation": "Równoległe ustawienie aparatu zapobiega deformacjom perspektywicznym i pomaga utrzymać równą ostrość całej powierzchni."
+      },
+      {
+        "question": "Wykonujesz panoramę z kilku kadrów przeznaczonych do późniejszego połączenia. Co musisz szczególnie zachować między zdjęciami?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Zmienne ISO i automatyczny balans bieli, aby każde zdjęcie było optymalne osobno",
+          "b": "Stałą ekspozycję, balans bieli, ostrość i odpowiednie zakładki między kadrami",
+          "c": "Różne ogniskowe, aby program miał więcej danych",
+          "d": "Losową kolejność kadrów, aby uniknąć powtarzalności"
+        },
+        "correctAnswer": "b",
+        "explanation": "Spójne parametry i nakładające się fragmenty zdjęć są podstawą poprawnego składania panoramy."
+      },
+      {
+        "question": "Dlaczego makrofotografia wymaga szczególnie stabilnej pracy i precyzyjnego ustawienia ostrości?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Bo w makro aparat automatycznie obniża rozdzielczość",
+          "b": "Bo przy dużym powiększeniu głębia ostrości jest bardzo mała, a drgania stają się wyraźne",
+          "c": "Bo w makro zawsze trzeba fotografować wyłącznie z lampą pierścieniową",
+          "d": "Bo obiekty makro są zbyt jasne dla standardowych ustawień"
+        },
+        "correctAnswer": "b",
+        "explanation": "W makrofotografii nawet minimalny ruch i niewielki błąd ostrości są bardzo widoczne z powodu dużej skali odwzorowania."
+      },
+      {
+        "question": "Fotografujesz wieczorną architekturę w świetle ulicznym i lekko doświetlasz scenę lampą. Na co powinieneś zwrócić szczególną uwagę?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Wyłącznie na to, by lampa była ustawiona na maksymalną moc",
+          "b": "Na temperaturę barwową i spójność światła zastanego z doświetleniem",
+          "c": "Na użycie najszerszej przysłony niezależnie od efektu",
+          "d": "Na to, by całkowicie wyeliminować światło zastane z kadru"
+        },
+        "correctAnswer": "b",
+        "explanation": "Przy świetle mieszanym trzeba kontrolować nie tylko jasność, ale też balans bieli i relację barwną między różnymi źródłami światła."
+      }
+    ]
+  },
+  "sectionTest": {
+    "title": "Test działowy — Dział 4: Rejestracja obrazu w praktyce",
+    "totalQuestions": 20,
+    "passingPercent": 50,
+    "questions": [
+      {
+        "question": "W jakiej sytuacji najczęściej warto wybrać tryb manualny aparatu?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Gdy chcesz, aby aparat sam dobierał wszystkie ustawienia bez kontroli użytkownika",
+          "b": "Gdy zależy Ci na pełnej, powtarzalnej kontroli ekspozycji, np. w studiu",
+          "c": "Wyłącznie podczas fotografowania nocnego z ręki",
+          "d": "Tylko przy użyciu obiektywu szerokokątnego",
+          "e": "Jedynie wtedy, gdy fotografujesz w formacie JPEG",
+          "f": "Wyłącznie przy zdjęciach seryjnych"
+        },
+        "correctAnswer": "b",
+        "explanation": "Tryb manualny daje pełną kontrolę nad czasem, przysłoną i ISO, co jest szczególnie ważne przy powtarzalnych warunkach pracy."
+      },
+      {
+        "question": "Jakie ustawienie autofokusa najlepiej sprawdza się przy fotografowaniu dynamicznej sceny, np. wydarzenia lub ruchu?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Ręczne ostrzenie ustawione raz na nieskończoność",
+          "b": "Pojedynczy autofokus z blokadą ostrości na stałe",
+          "c": "Ciągły autofokus wsparty zdjęciami seryjnymi",
+          "d": "Wyłączenie autofokusa i stabilizacji",
+          "e": "Autofokus tylko na centralny punkt bez możliwości zmiany",
+          "f": "Tryb makro niezależnie od sceny"
+        },
+        "correctAnswer": "c",
+        "explanation": "Ciągły AF śledzi poruszający się obiekt, a zdjęcia seryjne zwiększają szansę uchwycenia właściwego momentu."
+      },
+      {
+        "question": "Jaka zasada zwiększa bezpieczeństwo pracy ze statywem oświetleniowym i dużym softboxem?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Wysunięcie najcieńszych sekcji statywu jako pierwszych",
+          "b": "Ustawienie statywu na maksymalnej wysokości bez obciążenia",
+          "c": "Dociążenie podstawy i ustawienie jednej nogi w kierunku lampy",
+          "d": "Zawieszenie przewodów na wysokości przejścia",
+          "e": "Montaż największego modyfikatora przy poluzowanych blokadach",
+          "f": "Przesuwanie statywu z rozłożoną lampą po nierównym podłożu"
+        },
+        "correctAnswer": "c",
+        "explanation": "Obciążenie i właściwe ustawienie nóg zmniejszają ryzyko przewrócenia statywu z dużym modyfikatorem."
+      },
+      {
+        "question": "Które działanie jest zgodne z zasadami bezpieczeństwa przy pracy z lampami i modyfikatorami?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Zmiana akcesoriów bez wyłączania lampy, aby oszczędzić czas",
+          "b": "Dotykanie gorących elementów zaraz po zakończeniu pracy",
+          "c": "Przeciążanie statywu, jeśli potrzebujesz większej wysokości",
+          "d": "Ignorowanie przewodów zasilających, jeśli są poza kadrem",
+          "e": "Wyłączanie lampy przed zmianą niektórych akcesoriów",
+          "f": "Opieranie modyfikatora o ścianę podczas pracy"
+        },
+        "correctAnswer": "e",
+        "explanation": "Wyłączenie lampy przed zmianą akcesoriów ogranicza ryzyko uszkodzenia sprzętu i poparzenia."
+      },
+      {
+        "question": "Jaka jest typowa korzyść fotografowania krajobrazu o złotej godzinie?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Światło jest zwykle miększe i bardziej plastyczne",
+          "b": "Zawsze można fotografować bez statywu i bez kontroli ekspozycji",
+          "c": "Nie ma potrzeby obserwowania pogody",
+          "d": "Perspektywa obiektywu automatycznie się prostuje",
+          "e": "Wszystkie kolory stają się neutralnie szare",
+          "f": "Zmniejsza się ogniskowa obiektywu"
+        },
+        "correctAnswer": "a",
+        "explanation": "Rano i wieczorem światło bywa miękkie, ciepłe i korzystnie modeluje przestrzeń."
+      },
+      {
+        "question": "Dlaczego przechylenie aparatu do góry w fotografii architektury często jest problemem?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Powoduje automatyczne prześwietlenie nieba",
+          "b": "Zmniejsza nasycenie kolorów elewacji",
+          "c": "Sprawia, że pionowe linie budynku zaczynają się zbiegać",
+          "d": "Uniemożliwia zapis zdjęcia w formacie RAW",
+          "e": "Powoduje utratę działania autofokusa",
+          "f": "Zawsze skraca czas naświetlania"
+        },
+        "correctAnswer": "c",
+        "explanation": "Odchylenie aparatu zaburza geometrię i powoduje zbieganie się pionów, często niepożądane w fotografii użytkowej."
+      },
+      {
+        "question": "Na co szczególnie trzeba zwrócić uwagę przy łączeniu światła dziennego z lampą błyskową w plenerze?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Wyłącznie na ogniskową obiektywu",
+          "b": "Na temperaturę barwową i spójność balansu bieli",
+          "c": "Tylko na rodzaj paska do aparatu",
+          "d": "Na to, aby nie używać formatu RAW",
+          "e": "Wyłącznie na maksymalnie otwartą przysłonę",
+          "f": "Na ustawienie aparatu w trybie sport"
+        },
+        "correctAnswer": "b",
+        "explanation": "Światło mieszane może dawać różne dominanty barwne, dlatego trzeba kontrolować balans bieli i spójność kolorystyczną."
+      },
+      {
+        "question": "Dlaczego sposób komunikacji z modelem wpływa na jakość portretu?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Ponieważ zastępuje ustawienie ostrości",
+          "b": "Ponieważ eliminuje potrzebę stosowania światła",
+          "c": "Ponieważ pomaga uzyskać naturalniejszą postawę i mimikę",
+          "d": "Ponieważ zawsze skraca ogniskową obiektywu",
+          "e": "Ponieważ automatycznie poprawia balans bieli",
+          "f": "Ponieważ zwalnia z kontroli kadru"
+        },
+        "correctAnswer": "c",
+        "explanation": "Spokojne i konkretne prowadzenie modela zwiększa jego komfort, co przekłada się na bardziej naturalny portret."
+      },
+      {
+        "question": "Gdzie w klasycznym portrecie należy zwykle ustawić ostrość?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Na tle za modelem",
+          "b": "Na nosie, niezależnie od ujęcia",
+          "c": "Na uchu dalszym od aparatu",
+          "d": "Na oku bliższym aparatowi",
+          "e": "Na barku po stronie cienia",
+          "f": "Na włosach nad czołem"
+        },
+        "correctAnswer": "d",
+        "explanation": "W portrecie najważniejsza jest czytelność spojrzenia, dlatego ostrość zwykle ustawia się na bliższym oku."
+      },
+      {
+        "question": "Która cecha jest obowiązkowa w poprawnym zdjęciu identyfikacyjnym?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Silne światło boczne modelujące twarz dramatycznym cieniem",
+          "b": "Artystyczne rozmycie połowy twarzy",
+          "c": "Równomierne oświetlenie i czytelna twarz bez mocnych cieni",
+          "d": "Szerokokątny obiektyw użyty z bardzo bliska",
+          "e": "Dynamiczna poza i skręt głowy",
+          "f": "Wyrazista dominanta kolorystyczna tła"
+        },
+        "correctAnswer": "c",
+        "explanation": "Zdjęcie identyfikacyjne ma służyć rozpoznaniu osoby, więc twarz musi być równomiernie oświetlona i wyraźna."
+      },
+      {
+        "question": "Który zestaw najlepiej odpowiada zasadzie budowania kompletnego reportażu fotograficznego?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Wyłącznie zbliżenia twarzy uczestników",
+          "b": "Same zdjęcia szerokokątne miejsca wydarzenia",
+          "c": "Kadry otwierające, ujęcia ogólne, średnie, zbliżenia i detale",
+          "d": "Tylko zdjęcia wykonywane z jednego punktu",
+          "e": "Wyłącznie zdjęcia pozowane po zakończeniu wydarzenia",
+          "f": "Jedno najlepsze zdjęcie zamiast serii"
+        },
+        "correctAnswer": "c",
+        "explanation": "Spójny reportaż wymaga różnorodnych ujęć, które razem budują historię i kontekst wydarzenia."
+      },
+      {
+        "question": "Jakie ustawienie aparatu jest szczególnie przydatne podczas fotografowania dynamicznego wydarzenia w zmiennym świetle?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Manualny balans bieli, ale wyłącznie JPEG i pojedynczy AF",
+          "b": "Preselekcja czasu albo manualny z Auto ISO",
+          "c": "Wyłącznie tryb pełnej automatyki bez kontroli",
+          "d": "Makro i samowyzwalacz 10 s",
+          "e": "Długi czas migawki niezależnie od ruchu",
+          "f": "Stałe ISO 100 w każdej sytuacji"
+        },
+        "correctAnswer": "b",
+        "explanation": "W reportażu liczy się szybkość reakcji i kontrola ruchu, dlatego często używa się preselekcji czasu lub manuala z Auto ISO."
+      },
+      {
+        "question": "Na czym polega odpowiedzialność fotografa reportażowego przy zleceniu dokumentacyjnym?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Na inscenizowaniu scen, aby wyglądały bardziej efektownie",
+          "b": "Na ukrywaniu wszystkich trudnych momentów wydarzenia",
+          "c": "Na ingerowaniu w przebieg sytuacji dla lepszego kadru",
+          "d": "Na wiernym i uczciwym przedstawianiu rzeczywistości",
+          "e": "Na wykonywaniu wyłącznie zdjęć pionowych",
+          "f": "Na fotografowaniu tylko osób patrzących w obiektyw"
+        },
+        "correctAnswer": "d",
+        "explanation": "W reportażu dokumentacyjnym ważna jest rzetelność obrazu i szacunek wobec fotografowanych osób oraz wydarzenia."
+      },
+      {
+        "question": "Co należy zrobić przed rozpoczęciem fotografii produktowej, aby zwiększyć jakość i powtarzalność serii?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Celowo pozostawić kurz i odciski palców, aby zachować realizm",
+          "b": "Zmieniać kąt ustawienia aparatu przy każdym produkcie",
+          "c": "Przygotować plan i przedmiot: oczyścić produkt oraz ustalić stały punkt widzenia",
+          "d": "Fotografować wszystko z ręki bez oznaczania ustawień",
+          "e": "Zawsze używać maksymalnie otwartej przysłony",
+          "f": "Ustawić losowe tło dla każdego ujęcia"
+        },
+        "correctAnswer": "c",
+        "explanation": "W fotografii produktowej porządek na planie, czysty obiekt i stałe ustawienia są podstawą spójnej serii."
+      },
+      {
+        "question": "Jaka trudność jest szczególnie typowa przy fotografowaniu przedmiotów błyszczących?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Brak możliwości ustawienia ostrości na statywie",
+          "b": "Całkowity brak cieni w każdych warunkach",
+          "c": "Silna podatność na niekontrolowane odbicia otoczenia",
+          "d": "Niemożność pracy w formacie RAW",
+          "e": "Automatyczne zniekształcenie perspektywy przez obiektyw",
+          "f": "Brak wpływu modyfikatorów światła na obraz"
+        },
+        "correctAnswer": "c",
+        "explanation": "Na błyszczących powierzchniach odbija się całe otoczenie planu, dlatego trzeba świadomie kontrolować refleksy."
+      },
+      {
+        "question": "Czym przede wszystkim różni się fotografia techniczna od katalogowej?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Fotografia techniczna ma przede wszystkim rzetelnie dokumentować obiekt",
+          "b": "Fotografia techniczna zawsze wymaga portretowego tła",
+          "c": "Fotografia katalogowa nigdy nie musi być powtarzalna",
+          "d": "Fotografia techniczna służy wyłącznie do celów artystycznych",
+          "e": "Fotografia katalogowa nie pokazuje całego produktu",
+          "f": "Fotografia techniczna nie wymaga ostrości"
+        },
+        "correctAnswer": "a",
+        "explanation": "Zdjęcie techniczne ma wiernie i jednoznacznie pokazać obiekt, a nie przede wszystkim go atrakcyjnie zaprezentować."
+      },
+      {
+        "question": "Dlaczego w reprodukcji fotografii, dokumentów lub dzieł płaskich aparat musi być ustawiony idealnie równolegle do obiektu?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Aby zwiększyć nasycenie kolorów",
+          "b": "Aby uniknąć deformacji perspektywicznych i nierównej ostrości",
+          "c": "Aby uzyskać mocniejsze rozmycie tła",
+          "d": "Aby skrócić ogniskową obiektywu",
+          "e": "Aby móc zrezygnować z kontroli światła",
+          "f": "Aby aparat automatycznie wyostrzył wszystkie kadry"
+        },
+        "correctAnswer": "b",
+        "explanation": "Nawet małe odchylenie od równoległości może powodować zniekształcenia i spadek jakości odwzorowania płaskiego obiektu."
+      },
+      {
+        "question": "Jaki problem techniczny szczególnie często występuje w makrofotografii?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Zbyt duża głębia ostrości przy dużym powiększeniu",
+          "b": "Brak znaczenia drgań aparatu",
+          "c": "Gwałtownie malejąca głębia ostrości i duża wrażliwość na poruszenie",
+          "d": "Niemożność używania dodatkowego światła",
+          "e": "Brak potrzeby precyzyjnego ustawienia ostrości",
+          "f": "Automatyczne prostowanie perspektywy"
+        },
+        "correctAnswer": "c",
+        "explanation": "W makro ostry obszar jest bardzo mały, a każdy ruch aparatu lub obiektu staje się wyjątkowo widoczny."
+      },
+      {
+        "question": "Co trzeba zachować podczas wykonywania serii zdjęć do panoramy?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Losowo zmieniać ekspozycję między kadrami",
+          "b": "Zmieniać balans bieli przy każdym ujęciu",
+          "c": "Stałą ekspozycję, stały balans bieli i zakładki między kadrami",
+          "d": "Fotografować każdy fragment z innej odległości",
+          "e": "Przestawiać ostrość po każdym zdjęciu bez kontroli",
+          "f": "Wykonywać zdjęcia tylko pionowo i bez statywu"
+        },
+        "correctAnswer": "c",
+        "explanation": "Spójne parametry i nachodzenie kolejnych ujęć ułatwiają poprawne połączenie panoramy."
+      },
+      {
+        "question": "Jaka zasada jest najważniejsza przy pracy z technikami specjalnymi UV i IR?",
+        "type": "single_choice",
+        "answers": {
+          "a": "Można eksperymentować bez znajomości źródła promieniowania",
+          "b": "Najważniejsze jest używanie najkrótszej ogniskowej",
+          "c": "Nie trzeba sprawdzać zgodności aparatu i obiektywu",
+          "d": "Bezpieczeństwo oraz stosowanie procedur właściwych dla sprzętu i promieniowania",
+          "e": "Zawsze należy pracować bez filtrów",
+          "f": "Fotografowanie wyłącznie w pełnym automacie"
+        },
+        "correctAnswer": "d",
+        "explanation": "UV i IR wymagają wiedzy o sprzęcie oraz bezwzględnego przestrzegania zasad ochrony oczu, skóry i całego procesu pracy."
+      }
+    ]
+  },
+  "files": {
+    "sectionJson": "",
+    "lessonsJson": "",
+    "mediaJson": "",
+    "worksheetsJson": "",
+    "quizJson": "",
+    "testJson": ""
+  }
+}

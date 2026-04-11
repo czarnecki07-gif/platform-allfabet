@@ -1,0 +1,553 @@
+{
+  "title": "Egzamin końcowy — część teoretyczna",
+  "totalQuestions": 40,
+  "passingPercent": 50,
+  "questions": [
+    {
+      "question": "Który obowiązek należy przede wszystkim do pracodawcy w pracowni fotograficznej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zapewnienie bezpiecznych warunków pracy i szkolenia BHP",
+        "b": "Samodzielne retuszowanie wszystkich zdjęć pracownika",
+        "c": "Wybór prywatnego aparatu pracownika",
+        "d": "Publikowanie portfolio pracownika w sieci",
+        "e": "Przechowywanie prywatnych plików pracownika",
+        "f": "Decydowanie o stylu artystycznym każdego zdjęcia"
+      },
+      "correctAnswer": "a",
+      "explanation": "Pracodawca odpowiada za organizację bezpiecznego stanowiska pracy, szkolenie i informowanie o zagrożeniach."
+    },
+    {
+      "question": "Który przykład jest środkiem ochrony zbiorowej w fotografii?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Rękawice ochronne",
+        "b": "Okulary ochronne",
+        "c": "Wentylacja i wyciąg w ciemni",
+        "d": "Obuwie antypoślizgowe",
+        "e": "Fartuch roboczy",
+        "f": "Maska ochronna"
+      },
+      "correctAnswer": "c",
+      "explanation": "Środki ochrony zbiorowej chronią jednocześnie więcej niż jedną osobę, jak wentylacja lub wyciąg."
+    },
+    {
+      "question": "Co należy zrobić po zauważeniu nieopisanego pojemnika z bezbarwnym płynem w ciemni?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Użyć go ostrożnie w małej ilości",
+        "b": "Wylać zawartość do zlewu",
+        "c": "Dolać do innych odczynników, by sprawdzić reakcję",
+        "d": "Nie używać go do czasu prawidłowej identyfikacji i oznaczenia",
+        "e": "Przelać do mniejszej butelki bez etykiety",
+        "f": "Odstawić obok napojów pracowników"
+      },
+      "correctAnswer": "d",
+      "explanation": "Nieopisane chemikalia stwarzają ryzyko pomyłki i wypadku, dlatego nie wolno ich używać bez identyfikacji."
+    },
+    {
+      "question": "Jak należy postąpić z osobą nieprzytomną, która oddycha prawidłowo?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Natychmiast rozpocząć RKO",
+        "b": "Ułożyć w pozycji bezpiecznej i kontrolować oddech",
+        "c": "Posadzić i podać wodę",
+        "d": "Zostawić bez nadzoru do przyjazdu pomocy",
+        "e": "Polewać twarz zimną wodą",
+        "f": "Unieruchomić ręce i nogi taśmą"
+      },
+      "correctAnswer": "b",
+      "explanation": "Osobę nieprzytomną, ale oddychającą, należy ułożyć w pozycji bezpiecznej i obserwować jej stan."
+    },
+    {
+      "question": "Jaka kolejność analizy fotografii jest najbardziej profesjonalna?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Najpierw ocena, potem opis, na końcu funkcja",
+        "b": "Najpierw opis tego, co widać, potem analiza formy, na końcu funkcja zdjęcia",
+        "c": "Najpierw porównanie z innymi zdjęciami, potem sprzęt, na końcu temat",
+        "d": "Najpierw obróbka, potem treść, na końcu kadr",
+        "e": "Najpierw wybór najlepszego filtra, potem opis światła",
+        "f": "Najpierw cena zdjęcia, potem analiza estetyki"
+      },
+      "correctAnswer": "b",
+      "explanation": "Analiza fotografii powinna zaczynać się od opisu obrazu, następnie przechodzić do formy i kończyć się określeniem funkcji."
+    },
+    {
+      "question": "W jakiej sytuacji najlepiej zastosować plan ogólny?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Gdy chcesz pokazać detal biżuterii",
+        "b": "Gdy najważniejsza jest mimika twarzy",
+        "c": "Gdy chcesz pokazać relację bohatera z otoczeniem",
+        "d": "Gdy fotografujesz wyłącznie oczy modela",
+        "e": "Gdy zależy Ci na ukryciu miejsca wykonania zdjęcia",
+        "f": "Gdy chcesz zminimalizować tło do zera"
+      },
+      "correctAnswer": "c",
+      "explanation": "Plan ogólny służy do pokazania szerszego kontekstu miejsca i relacji postaci z otoczeniem."
+    },
+    {
+      "question": "Którą przestrzeń barwną najczęściej wybiera się do publikacji zdjęć w internecie?",
+      "type": "single_choice",
+      "answers": {
+        "a": "CMYK",
+        "b": "Adobe RGB",
+        "c": "sRGB",
+        "d": "RAW",
+        "e": "Lab",
+        "f": "Pantone"
+      },
+      "correctAnswer": "c",
+      "explanation": "sRGB jest standardem najbezpieczniejszym dla internetu i większości urządzeń użytkowników."
+    },
+    {
+      "question": "Dlaczego światłomierz jest szczególnie przydatny podczas pracy w studiu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Bo zmienia ogniskową obiektywu",
+        "b": "Bo dokładnie mierzy światło i ułatwia powtarzalną ekspozycję",
+        "c": "Bo zastępuje aparat przy kadrowaniu",
+        "d": "Bo automatycznie retuszuje zdjęcia",
+        "e": "Bo zwiększa rozdzielczość plików",
+        "f": "Bo eliminuje potrzebę ustawiania lamp"
+      },
+      "correctAnswer": "b",
+      "explanation": "Światłomierz pozwala precyzyjnie kontrolować ilość światła, co jest ważne przy pracy z lampami studyjnymi."
+    },
+    {
+      "question": "Która cecha nośnika pamięci jest szczególnie ważna przy zdjęciach seryjnych w formacie RAW?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Kolor obudowy",
+        "b": "Szybkość zapisu",
+        "c": "Długość nazwy producenta",
+        "d": "Materiał opakowania",
+        "e": "Wielkość etykiety",
+        "f": "Poziom połysku karty"
+      },
+      "correctAnswer": "b",
+      "explanation": "Przy zapisie dużej liczby plików RAW kluczowa jest szybkość zapisu karty pamięci."
+    },
+    {
+      "question": "Od czego należy zacząć analizę zlecenia fotograficznego?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Od wyboru najdroższego obiektywu",
+        "b": "Od ustalenia celu zdjęć i sposobu ich wykorzystania",
+        "c": "Od rozstawienia lamp",
+        "d": "Od wykonania testowego retuszu",
+        "e": "Od publikacji zapowiedzi sesji",
+        "f": "Od zamówienia wydruków"
+      },
+      "correctAnswer": "b",
+      "explanation": "Cel zdjęć i ich przeznaczenie wpływają na technikę, sprzęt, miejsce pracy i efekt końcowy."
+    },
+    {
+      "question": "Który podział listy sprzętu do sesji jest najbardziej logiczny?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Sprzęt tani, średni i drogi",
+        "b": "Sprzęt rejestrujący, stabilizacja, oświetlenie i wyposażenie planu",
+        "c": "Aparaty osobno, reszta bez podziału",
+        "d": "Rzeczy nowe i używane",
+        "e": "Sprzęt ciężki i lekki",
+        "f": "Rzeczy czarne i kolorowe"
+      },
+      "correctAnswer": "b",
+      "explanation": "Podział na główne grupy funkcjonalne ułatwia planowanie i ogranicza ryzyko pominięcia potrzebnych elementów."
+    },
+    {
+      "question": "Jaki jest główny cel szkicu planu zdjęciowego?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Stworzenie artystycznego rysunku do portfolio",
+        "b": "Ocena rozmieszczenia elementów sesji i wykonalności planu",
+        "c": "Zastąpienie ustawień aparatu",
+        "d": "Automatyczne dobranie mocy lamp",
+        "e": "Zapisanie nazw plików końcowych",
+        "f": "Zastąpienie zgody klienta"
+      },
+      "correctAnswer": "b",
+      "explanation": "Szkic planu zdjęciowego pozwala rozmieścić obiekt, aparat, lampy i tło w sposób logiczny i praktyczny."
+    },
+    {
+      "question": "Co należy zrobić przed rozpoczęciem fotografowania produktu na planie?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Pozostawić kurz i ślady palców do retuszu",
+        "b": "Przygotować obiekt wizualnie, oczyścić go i ustawić zgodnie z koncepcją",
+        "c": "Zrezygnować z ustawiania tła",
+        "d": "Zmienić kąt widzenia przy każdym ujęciu bez kontroli",
+        "e": "Wyłączyć wszystkie źródła światła",
+        "f": "Najpierw opublikować zdjęcie próbne"
+      },
+      "correctAnswer": "b",
+      "explanation": "Przygotowanie obiektu przed zdjęciami zmniejsza potrzebę retuszu i poprawia jakość materiału."
+    },
+    {
+      "question": "Co tworzy trójkąt ekspozycji?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Ogniskowa, balans bieli i format pliku",
+        "b": "Przysłona, czas naświetlania i ISO",
+        "c": "Histogram, autofocus i stabilizacja",
+        "d": "Kontrast, nasycenie i ostrość",
+        "e": "Temperatura barwowa, plan zdjęciowy i perspektywa",
+        "f": "Kompresja, rozdzielczość i profil ICC"
+      },
+      "correctAnswer": "b",
+      "explanation": "Ekspozycję budują trzy podstawowe parametry: przysłona, czas i czułość ISO."
+    },
+    {
+      "question": "Jakie ustawienie autofokusa najlepiej sprawdzi się przy fotografowaniu dynamicznej sceny?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Ręczne ostrzenie ustawione raz i bez kontroli",
+        "b": "Ciągły autofokus wsparty zdjęciami seryjnymi",
+        "c": "Wyłączony autofokus i samowyzwalacz",
+        "d": "Tylko tryb makro",
+        "e": "Stałe ustawienie na nieskończoność",
+        "f": "Pojedynczy punkt AF bez możliwości zmiany"
+      },
+      "correctAnswer": "b",
+      "explanation": "Ciągły AF i seria zdjęć zwiększają szansę na uchwycenie ostrego momentu w ruchu."
+    },
+    {
+      "question": "Co należy zrobić, aby ograniczyć zbieganie się pionów podczas fotografowania budynku?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Przechylić aparat mocniej do góry",
+        "b": "Podejść bardzo blisko z szerokim obiektywem",
+        "c": "Utrzymać aparat możliwie równolegle do fasady i zwiększyć dystans",
+        "d": "Włączyć lampę błyskową",
+        "e": "Zmniejszyć ISO do minimum",
+        "f": "Przełączyć aparat na tryb portretowy"
+      },
+      "correctAnswer": "c",
+      "explanation": "Równoległe ustawienie aparatu względem budynku pomaga ograniczyć deformacje perspektywiczne."
+    },
+    {
+      "question": "Która cecha jest obowiązkowa w poprawnym zdjęciu identyfikacyjnym?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Silny światłocień i dramatyczne cienie",
+        "b": "Równomierne oświetlenie twarzy i neutralne tło",
+        "c": "Kreatywne przechylenie aparatu",
+        "d": "Bardzo mała głębia ostrości",
+        "e": "Szerokokątny obiektyw z bliska",
+        "f": "Nietypowy kolorystycznie filtr"
+      },
+      "correctAnswer": "b",
+      "explanation": "Zdjęcie identyfikacyjne musi być czytelne, neutralne i zgodne z formalnymi wymaganiami."
+    },
+    {
+      "question": "Który zestaw ujęć najlepiej buduje kompletny reportaż fotograficzny?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyłącznie zbliżenia twarzy",
+        "b": "Tylko ujęcia szerokie miejsca",
+        "c": "Kadry otwierające, ogólne, średnie, zbliżenia i detale",
+        "d": "Wyłącznie zdjęcia pozowane",
+        "e": "Jedno najlepsze zdjęcie bez serii",
+        "f": "Tylko zdjęcia wykonane z jednego punktu"
+      },
+      "correctAnswer": "c",
+      "explanation": "Reportaż wymaga różnych planów i typów ujęć, które razem tworzą narrację wizualną."
+    },
+    {
+      "question": "Jaki problem jest szczególnie typowy przy fotografowaniu przedmiotów błyszczących?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Brak wpływu światła na obraz",
+        "b": "Niemożność ustawienia ostrości",
+        "c": "Niekontrolowane odbicia otoczenia na powierzchni obiektu",
+        "d": "Automatyczna utrata koloru",
+        "e": "Brak potrzeby przygotowania planu",
+        "f": "Całkowity brak cieni"
+      },
+      "correctAnswer": "c",
+      "explanation": "Na błyszczących powierzchniach odbija się otoczenie, dlatego trzeba świadomie kontrolować refleksy."
+    },
+    {
+      "question": "Co trzeba zachować podczas wykonywania panoramy z wielu kadrów?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Losową ekspozycję i zmienny balans bieli",
+        "b": "Stałą ekspozycję, stały balans bieli i zakładki między kadrami",
+        "c": "Różne ogniskowe dla każdego zdjęcia",
+        "d": "Zmianę ostrości po każdym kadrze bez kontroli",
+        "e": "Brak powtarzalności ustawień, by program miał więcej danych",
+        "f": "Obowiązkowo pionowy kadr tylko z ręki"
+      },
+      "correctAnswer": "b",
+      "explanation": "Panorama wymaga spójnych parametrów i nachodzących na siebie fragmentów kolejnych ujęć."
+    },
+    {
+      "question": "Na czym polega różnica między kalibracją a profilowaniem monitora?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Kalibracja zwiększa rozdzielczość, profilowanie jasność",
+        "b": "Kalibracja ustawia monitor do przewidywalnej pracy, a profilowanie opisuje jego odwzorowanie barw",
+        "c": "Kalibracja dotyczy tylko laptopów, a profilowanie tylko drukarek",
+        "d": "To dwa określenia tego samego procesu bez różnicy praktycznej",
+        "e": "Kalibracja działa tylko w fotografii czarno-białej",
+        "f": "Profilowanie służy wyłącznie do usuwania szumu"
+      },
+      "correctAnswer": "b",
+      "explanation": "Kalibracja ustawia urządzenie, a profilowanie tworzy jego opis barwny używany przez system zarządzania kolorem."
+    },
+    {
+      "question": "Jaki typ skanera jest najbardziej odpowiedni do digitalizacji negatywów i slajdów?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Drukarka atramentowa z podajnikiem",
+        "b": "Skaner filmowy albo skaner z przystawką do transparentów",
+        "c": "Tablet graficzny",
+        "d": "Projektor multimedialny",
+        "e": "Monitor szerokogamutowy",
+        "f": "Czytnik kart pamięci"
+      },
+      "correctAnswer": "b",
+      "explanation": "Negatywy i slajdy są materiałami transparentnymi, więc wymagają skanera z odpowiednim podświetleniem."
+    },
+    {
+      "question": "Dlaczego nie należy pracować bezpośrednio na jedynym pliku źródłowym?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Bo plik źródłowy nie może być otwierany w programie",
+        "b": "Bo grozi to utratą oryginału i utrudnia powrót do wcześniejszej wersji",
+        "c": "Bo plik źródłowy zawsze ma gorszą jakość niż kopia",
+        "d": "Bo tylko kopie można drukować",
+        "e": "Bo oryginał nie obsługuje warstw",
+        "f": "Bo edycja jest wtedy nielegalna"
+      },
+      "correctAnswer": "b",
+      "explanation": "Kopia robocza lub edycja nieniszcząca chronią materiał źródłowy przed utratą danych."
+    },
+    {
+      "question": "Które narzędzie szczególnie pomaga ocenić, czy zdjęcie ma zachowane szczegóły w światłach i cieniach?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Histogram",
+        "b": "Menedżer czcionek",
+        "c": "Czytnik kart pamięci",
+        "d": "Licznik klatek migawki",
+        "e": "Tabela skrótów klawiaturowych",
+        "f": "Przeglądarka internetowa"
+      },
+      "correctAnswer": "a",
+      "explanation": "Histogram pokazuje rozkład tonalny obrazu i pomaga ocenić utratę szczegółów."
+    },
+    {
+      "question": "Jaką funkcję pełni utrwalacz w chemicznej obróbce materiałów fotograficznych?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Ujawnia obraz utajony",
+        "b": "Zwiększa ogniskową obiektywu",
+        "c": "Stabilizuje obraz, usuwając niewywołane związki światłoczułe",
+        "d": "Służy do płukania kuwet",
+        "e": "Rozjaśnia papier fotograficzny",
+        "f": "Nadaje odbitce połysk"
+      },
+      "correctAnswer": "c",
+      "explanation": "Utrwalacz usuwa resztki substancji światłoczułych i stabilizuje gotowy obraz."
+    },
+    {
+      "question": "Przy publikacji online większe znaczenie ma przede wszystkim:",
+      "type": "single_choice",
+      "answers": {
+        "a": "wartość DPI zapisana w pliku",
+        "b": "wymiar obrazu w pikselach",
+        "c": "rodzaj papieru użytego do wydruku próbnego",
+        "d": "model drukarki fotograficznej",
+        "e": "temperatura pomieszczenia",
+        "f": "rodzaj lamp użytych podczas sesji"
+      },
+      "correctAnswer": "b",
+      "explanation": "W publikacji internetowej liczy się rozmiar obrazu wyrażony w pikselach, bo to on wpływa na wyświetlanie na ekranie."
+    },
+    {
+      "question": "Które stwierdzenie najlepiej opisuje papier błyszczący?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Tłumi kontrast i całkowicie eliminuje odbicia",
+        "b": "Nie ma wpływu na odbiór fotografii",
+        "c": "Może wzmacniać kontrast i nasycenie, ale bywa podatny na refleksy",
+        "d": "Nadaje się wyłącznie do zdjęć czarno-białych",
+        "e": "Nie wymaga ustawień drukarki",
+        "f": "Zawsze jest mniej trwały od matowego"
+      },
+      "correctAnswer": "c",
+      "explanation": "Papier błyszczący zwykle podkreśla kolory i kontrast, lecz łatwiej odbija światło."
+    },
+    {
+      "question": "Dlaczego przed montażem wystawy warto przygotować szkic rozmieszczenia prac?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Aby automatycznie wyostrzyć wydruki",
+        "b": "Aby ocenić narrację, odstępy i układ całej ekspozycji",
+        "c": "Aby zrezygnować z podpisów pod pracami",
+        "d": "Aby zmniejszyć koszty druku",
+        "e": "Aby zastąpić kontrolę oświetlenia",
+        "f": "Aby uniknąć doboru ram"
+      },
+      "correctAnswer": "b",
+      "explanation": "Szkic pomaga zaplanować kolejność i rozmieszczenie prac przed właściwym montażem."
+    },
+    {
+      "question": "Która praktyka archiwizacji jest najbardziej profesjonalna?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Przechowywanie wszystkich zdjęć wyłącznie na karcie pamięci",
+        "b": "Zapisywanie plików tylko w jednym folderze na pulpicie",
+        "c": "Tworzenie kopii bezpieczeństwa na więcej niż jednym nośniku",
+        "d": "Usuwanie RAW po eksporcie JPEG",
+        "e": "Nazywanie plików przypadkowymi skrótami",
+        "f": "Przetrzymywanie wszystkiego wyłącznie w telefonie"
+      },
+      "correctAnswer": "c",
+      "explanation": "Bezpieczna archiwizacja wymaga kopii zapasowych w więcej niż jednym miejscu."
+    },
+    {
+      "question": "Które informacje najlepiej nadają się do zapisania w metadanych pliku fotograficznego?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Autor, data, słowa kluczowe, opis i informacje o prawach",
+        "b": "Wyłącznie model butów fotografa",
+        "c": "Tylko numer biurka w pracowni",
+        "d": "Kolor torby na sprzęt",
+        "e": "Wyłącznie marka monitora",
+        "f": "Hasło do sieci Wi-Fi"
+      },
+      "correctAnswer": "a",
+      "explanation": "Metadane służą do opisu zdjęcia, wyszukiwania materiału i dokumentowania praw."
+    },
+    {
+      "question": "Co należy ustalić z klientem na początku współpracy fotograficznej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyłącznie markę aparatu, którym będzie wykonana sesja",
+        "b": "Potrzeby, zakres zlecenia, termin i sposób wykorzystania zdjęć",
+        "c": "Tylko liczbę filtrów w programie do obróbki",
+        "d": "Wyłącznie kolor tła strony internetowej",
+        "e": "Numer seryjny wszystkich obiektywów",
+        "f": "Rodzaj papieru do wizytówek klienta"
+      },
+      "correctAnswer": "b",
+      "explanation": "Jasne ustalenie celu, zakresu i terminu współpracy porządkuje całe zlecenie."
+    },
+    {
+      "question": "Które działanie jest zgodne z etyką zawodową fotografa?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Publikowanie zdjęć klienta bez uzgodnienia, jeśli są atrakcyjne",
+        "b": "Podpisywanie cudzych fotografii własnym nazwiskiem",
+        "c": "Dbanie o prawa autorskie, ochronę wizerunku i dotrzymywanie ustaleń",
+        "d": "Ukrywanie błędów przed klientem za wszelką cenę",
+        "e": "Przekazywanie poufnych materiałów znajomym",
+        "f": "Zmiana zakresu zlecenia bez informowania klienta"
+      },
+      "correctAnswer": "c",
+      "explanation": "Etyka zawodowa opiera się na uczciwości, odpowiedzialności i szacunku dla praw oraz ustaleń."
+    },
+    {
+      "question": "Które angielskie wyrażenie oznacza balans bieli?",
+      "type": "single_choice",
+      "answers": {
+        "a": "shutter speed",
+        "b": "white balance",
+        "c": "memory card",
+        "d": "light stand",
+        "e": "focal length",
+        "f": "recycle time"
+      },
+      "correctAnswer": "b",
+      "explanation": "„White balance” to angielska nazwa balansu bieli."
+    },
+    {
+      "question": "Jaka zasada jest najważniejsza przy prostym e-mailu do klienta w języku obcym?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Używanie jak najtrudniejszych słów branżowych",
+        "b": "Pisanie bardzo długich i złożonych zdań",
+        "c": "Jasność, uprzejmość i przekazanie najważniejszych informacji organizacyjnych",
+        "d": "Całkowita rezygnacja z form grzecznościowych",
+        "e": "Korzystanie wyłącznie ze skrótów technicznych",
+        "f": "Pomijanie terminu realizacji"
+      },
+      "correctAnswer": "c",
+      "explanation": "W praktycznej komunikacji zawodowej najważniejsze są prostota, uprzejmość i konkret."
+    },
+    {
+      "question": "Pracownik zauważa, że wyjście ewakuacyjne w studiu jest zastawione statywami i tłami. Jak powinien postąpić?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zostawić tak, jeśli sesja ma być krótka",
+        "b": "Przesunąć sprzęt i przywrócić pełną drożność drogi ewakuacyjnej",
+        "c": "Oznaczyć przeszkody taśmą i nic więcej nie robić",
+        "d": "Poprosić klientów, by uważali przy wychodzeniu",
+        "e": "Poczekać do końca sesji i wtedy zgłosić problem",
+        "f": "Zastawić wyjście dodatkowym tłem dla bezpieczeństwa"
+      },
+      "correctAnswer": "b",
+      "explanation": "Drogi ewakuacyjne muszą być zawsze wolne i nie mogą być zastawiane sprzętem."
+    },
+    {
+      "question": "Jakie ustawienie aparatu jest szczególnie praktyczne podczas reportażu w zmiennym świetle?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Tryb makro i samowyzwalacz",
+        "b": "Preselekcja czasu albo manualny z Auto ISO",
+        "c": "Pełna automatyka bez kontroli parametrów",
+        "d": "Stałe ISO 100 i bardzo długi czas",
+        "e": "Wyłącznie ręczne ostrzenie bez podglądu",
+        "f": "Tryb portretowy z blokadą lampy"
+      },
+      "correctAnswer": "b",
+      "explanation": "W reportażu liczy się szybka reakcja i kontrola ruchu, dlatego często używa się preselekcji czasu lub manuala z Auto ISO."
+    },
+    {
+      "question": "Jaki problem techniczny jest szczególnie typowy w makrofotografii?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zbyt duża głębia ostrości",
+        "b": "Brak wpływu drgań na obraz",
+        "c": "Bardzo mała głębia ostrości i duża wrażliwość na poruszenie",
+        "d": "Brak możliwości użycia statywu",
+        "e": "Niemożność stosowania dodatkowego światła",
+        "f": "Automatyczne prostowanie perspektywy"
+      },
+      "correctAnswer": "c",
+      "explanation": "Przy dużym powiększeniu nawet niewielkie drgania i mały błąd ostrości są bardzo widoczne."
+    },
+    {
+      "question": "Co najbardziej wzmacnia spójność galerii cyfrowej złożonej ze zdjęć jednego tematu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Przypadkowa kolejność zdjęć",
+        "b": "Mieszanie skrajnie różnych stylów obróbki bez uzasadnienia",
+        "c": "Podobna estetyka, konsekwentna obróbka i przemyślana sekwencja ujęć",
+        "d": "Zapis części plików w sRGB, a części w CMYK",
+        "e": "Dodanie jak największej liczby miniatur na jednej stronie",
+        "f": "Użycie różnych proporcji kadru w każdym zdjęciu bez celu"
+      },
+      "correctAnswer": "c",
+      "explanation": "Spójność galerii buduje konsekwencja wizualna i logiczna kolejność prezentacji."
+    },
+    {
+      "question": "Dlaczego karta pamięci nie powinna być traktowana jako archiwum długoterminowe?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Bo nie można z niej kopiować plików",
+        "b": "Bo służy głównie do zapisu i przenoszenia danych, a nie ich trwałego zabezpieczenia",
+        "c": "Bo zapisuje wyłącznie zdjęcia w niskiej jakości",
+        "d": "Bo nie współpracuje z komputerem",
+        "e": "Bo automatycznie usuwa metadane po tygodniu",
+        "f": "Bo wymusza zapis tylko do PNG"
+      },
+      "correctAnswer": "b",
+      "explanation": "Karta pamięci nie zastępuje archiwum i nie gwarantuje trwałego, bezpiecznego przechowywania danych."
+    }
+  ]
+}

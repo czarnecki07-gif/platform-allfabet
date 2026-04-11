@@ -1,0 +1,287 @@
+{
+  "title": "Test działowy — Dział 6: Publikacja, archiwizacja i komunikacja zawodowa",
+  "totalQuestions": 20,
+  "passingPercent": 50,
+  "questions": [
+    {
+      "question": "Jaki format pliku jest najczęściej wybierany do publikacji fotografii w internecie jako bezpieczny kompromis między jakością a rozmiarem?",
+      "type": "single_choice",
+      "answers": {
+        "a": "TIFF w Adobe RGB",
+        "b": "JPEG w sRGB",
+        "c": "RAW bez kompresji",
+        "d": "BMP w CMYK",
+        "e": "PSD z warstwami",
+        "f": "GIF w skali szarości"
+      },
+      "correctAnswer": "b",
+      "explanation": "Do publikacji online najczęściej stosuje się JPEG w przestrzeni barw sRGB."
+    },
+    {
+      "question": "Przy przygotowaniu zdjęcia do publikacji internetowej większe znaczenie ma przede wszystkim:",
+      "type": "single_choice",
+      "answers": {
+        "a": "wartość DPI wpisana w pliku",
+        "b": "rodzaj matrycy aparatu",
+        "c": "wymiar obrazu w pikselach",
+        "d": "liczba warstw w edytorze",
+        "e": "temperatura otoczenia podczas eksportu",
+        "f": "gramatura papieru"
+      },
+      "correctAnswer": "c",
+      "explanation": "W internecie kluczowe są rzeczywiste wymiary zdjęcia w pikselach, a nie samo DPI."
+    },
+    {
+      "question": "Który zestaw cech najlepiej opisuje spójną galerię cyfrową?",
+      "type": "single_choice",
+      "answers": {
+        "a": "losowa kolejność, różne style obróbki i przypadkowe proporcje",
+        "b": "maksymalna liczba zdjęć bez podziału na kategorie",
+        "c": "jednolita kolorystyka, przemyślana kolejność i podobny poziom obróbki",
+        "d": "wyłącznie pionowe kadry niezależnie od tematu",
+        "e": "brak miniatur i brak nazewnictwa plików",
+        "f": "stosowanie różnych przestrzeni barwnych w jednej serii"
+      },
+      "correctAnswer": "c",
+      "explanation": "Spójna galeria wymaga konsekwencji w obróbce, estetyce i kolejności prezentacji."
+    },
+    {
+      "question": "Przy publikacji zdjęć komercyjnych w internecie szczególnie trzeba pamiętać o:",
+      "type": "single_choice",
+      "answers": {
+        "a": "wyłącznie o zastosowaniu silnej kompresji",
+        "b": "konieczności usunięcia wszystkich metadanych",
+        "c": "zgodzie na publikację, prawie autorskim i ochronie wizerunku",
+        "d": "zapisywaniu plików tylko w formacie PNG",
+        "e": "ustawieniu 72 DPI niezależnie od zastosowania",
+        "f": "dodaniu losowych słów kluczowych"
+      },
+      "correctAnswer": "c",
+      "explanation": "Publikacja komercyjna musi być zgodna z prawem i uwzględniać zgody oraz prawa autorskie."
+    },
+    {
+      "question": "Jaka informacja jest niezbędna na początku przygotowania fotografii do druku?",
+      "type": "single_choice",
+      "answers": {
+        "a": "kolor obudowy drukarki",
+        "b": "docelowy format odbitki",
+        "c": "liczba obserwujących w mediach społecznościowych",
+        "d": "marka aparatu użytego do zdjęcia",
+        "e": "wersja systemu operacyjnego klienta",
+        "f": "godzina wykonania sesji"
+      },
+      "correctAnswer": "b",
+      "explanation": "Aby poprawnie przygotować plik do druku, trzeba znać finalny rozmiar wydruku."
+    },
+    {
+      "question": "Jaka rozdzielczość jest najczęściej przyjmowana dla wysokiej jakości odbitek fotograficznych w finalnym rozmiarze wydruku?",
+      "type": "single_choice",
+      "answers": {
+        "a": "24–30 ppi",
+        "b": "72–96 ppi",
+        "c": "120–150 ppi",
+        "d": "240–300 ppi",
+        "e": "600–1200 ppi zawsze obowiązkowo",
+        "f": "nie ma znaczenia żadna wartość"
+      },
+      "correctAnswer": "d",
+      "explanation": "Dla jakościowych odbitek zwykle przyjmuje się około 240–300 ppi."
+    },
+    {
+      "question": "Które stwierdzenie najlepiej opisuje papier błyszczący w porównaniu z matowym?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zawsze daje mniej nasycone kolory i nie odbija światła.",
+        "b": "Podkreśla kontrast i nasycenie, ale może powodować refleksy.",
+        "c": "Nadaje się wyłącznie do fotografii czarno-białej.",
+        "d": "Jest zawsze grubszy od każdego papieru matowego.",
+        "e": "Nie wymaga żadnych ustawień drukarki.",
+        "f": "Nie ma wpływu na odbiór fotografii."
+      },
+      "correctAnswer": "b",
+      "explanation": "Papier błyszczący zwykle wzmacnia kontrast i kolory, ale łatwo łapie odbicia."
+    },
+    {
+      "question": "Jaki błąd może wystąpić, gdy kolorem jednocześnie zarządza program graficzny i drukarka?",
+      "type": "single_choice",
+      "answers": {
+        "a": "automatyczne wyostrzenie obrazu",
+        "b": "podwójna korekcja barw",
+        "c": "zwiększenie gramatury papieru",
+        "d": "zmiana formatu odbitki na panoramę",
+        "e": "utrata wszystkich metadanych EXIF",
+        "f": "samoczynne zapisanie kopii RAW"
+      },
+      "correctAnswer": "b",
+      "explanation": "Podwójne zarządzanie kolorem może prowadzić do nieprzewidywalnych zmian barw na wydruku."
+    },
+    {
+      "question": "Od czego przede wszystkim zależy wybór systemu prezentacji fotografii na wystawie?",
+      "type": "single_choice",
+      "answers": {
+        "a": "wyłącznie od liczby pikseli zdjęcia",
+        "b": "od charakteru fotografii, miejsca ekspozycji i budżetu",
+        "c": "tylko od wieku autora zdjęć",
+        "d": "wyłącznie od pory dnia montażu",
+        "e": "od liczby obserwatorów wystawy w internecie",
+        "f": "tylko od rodzaju użytego aparatu"
+      },
+      "correctAnswer": "b",
+      "explanation": "Forma ekspozycji powinna być dobrana do zdjęć, przestrzeni oraz możliwości organizacyjnych."
+    },
+    {
+      "question": "Dlaczego warto przygotować szkic rozmieszczenia prac przed montażem wystawy?",
+      "type": "single_choice",
+      "answers": {
+        "a": "aby automatycznie poprawić ostrość wydruków",
+        "b": "aby ocenić narrację, odstępy i układ całości",
+        "c": "aby zmniejszyć rozdzielczość zdjęć",
+        "d": "aby uniknąć konieczności podpisywania prac",
+        "e": "aby zastąpić próbny wydruk",
+        "f": "aby dobrać balans bieli aparatu"
+      },
+      "correctAnswer": "b",
+      "explanation": "Szkic pomaga zaplanować kolejność, relacje między pracami i spójność wystawy."
+    },
+    {
+      "question": "Który problem może wynikać z nieodpowiedniego oświetlenia fotografii na wystawie?",
+      "type": "single_choice",
+      "answers": {
+        "a": "zwiększenie pojemności pliku JPEG",
+        "b": "powstanie refleksów i ryzyko przyspieszonego niszczenia pracy",
+        "c": "automatyczna zmiana kadru",
+        "d": "utrata zgodności z formatem RAW",
+        "e": "nadanie zdjęciu nowych metadanych",
+        "f": "samoczynne powiększenie obrazu"
+      },
+      "correctAnswer": "b",
+      "explanation": "Zbyt silne lub źle ustawione światło może przeszkadzać w odbiorze i szkodzić materiałowi."
+    },
+    {
+      "question": "Jak powinna wyglądać dobra struktura katalogów w archiwum fotograficznym?",
+      "type": "single_choice",
+      "answers": {
+        "a": "powinna być przypadkowa, aby utrudnić dostęp osobom trzecim",
+        "b": "powinna zmieniać się przy każdym zleceniu",
+        "c": "powinna być logiczna, czytelna i stosowana konsekwentnie",
+        "d": "powinna zawierać wyłącznie nazwy skrótowe bez dat",
+        "e": "powinna przechowywać wszystkie pliki w jednym folderze",
+        "f": "powinna opierać się tylko na kolorach etykiet"
+      },
+      "correctAnswer": "c",
+      "explanation": "Skuteczne archiwum wymaga stałej, zrozumiałej i powtarzalnej struktury folderów."
+    },
+    {
+      "question": "Który zestaw informacji najlepiej pasuje do metadanych pliku fotograficznego?",
+      "type": "single_choice",
+      "answers": {
+        "a": "autor, data, słowa kluczowe, opis i informacje o prawach",
+        "b": "tylko numer seryjny komputera",
+        "c": "wyłącznie rozmiar biurka fotografa",
+        "d": "kolor torby na sprzęt i marka butów autora",
+        "e": "jedynie nazwa przeglądarki internetowej",
+        "f": "hasło do sieci Wi-Fi studia"
+      },
+      "correctAnswer": "a",
+      "explanation": "Metadane służą do opisu, wyszukiwania i dokumentowania pochodzenia oraz praw do zdjęcia."
+    },
+    {
+      "question": "Dlaczego karta pamięci nie powinna być traktowana jako miejsce długoterminowej archiwizacji?",
+      "type": "single_choice",
+      "answers": {
+        "a": "bo nie da się z niej kopiować plików",
+        "b": "bo służy głównie do przenoszenia danych, a nie trwałego przechowywania",
+        "c": "bo zapisuje tylko pliki czarno-białe",
+        "d": "bo zawsze zmniejsza rozdzielczość zdjęć po miesiącu",
+        "e": "bo nie współpracuje z żadnym aparatem",
+        "f": "bo wymusza zapis wyłącznie do PNG"
+      },
+      "correctAnswer": "b",
+      "explanation": "Karta pamięci nie jest bezpiecznym archiwum długoterminowym i nie zastępuje kopii zapasowych."
+    },
+    {
+      "question": "Jak należy przechowywać odbitki i negatywy, aby ograniczyć ryzyko uszkodzeń?",
+      "type": "single_choice",
+      "answers": {
+        "a": "luzem na parapecie w pełnym słońcu",
+        "b": "w wilgotnej piwnicy bez opakowań",
+        "c": "w odpowiednich opakowaniach archiwalnych, z dala od światła i wilgoci",
+        "d": "pod ciężkimi książkami bez podpisów",
+        "e": "wyłącznie w plastikowej reklamówce",
+        "f": "na grzejniku dla utrzymania stałego ciepła"
+      },
+      "correctAnswer": "c",
+      "explanation": "Materiały fotograficzne trzeba chronić przed światłem, wilgocią, temperaturą i uszkodzeniami mechanicznymi."
+    },
+    {
+      "question": "Co powinno zostać ustalone z klientem już na początku współpracy?",
+      "type": "single_choice",
+      "answers": {
+        "a": "wyłącznie kolor tła strony internetowej fotografa",
+        "b": "potrzeby, zakres zlecenia, termin i sposób wykorzystania zdjęć",
+        "c": "jedynie model aparatu używanego przez fotografa",
+        "d": "liczba filtrów w programie do obróbki",
+        "e": "wyłącznie nazwa pliku końcowego",
+        "f": "rodzaj kawy podawanej podczas sesji"
+      },
+      "correctAnswer": "b",
+      "explanation": "Jasne ustalenia na początku ograniczają nieporozumienia i porządkują realizację zlecenia."
+    },
+    {
+      "question": "Dlaczego harmonogram pracy jest ważny nawet przy niewielkim projekcie fotograficznym?",
+      "type": "single_choice",
+      "answers": {
+        "a": "bo zastępuje umiejętności fotograficzne",
+        "b": "bo pozwala kontrolować etapy, terminy i zostawić bufor na poprawki",
+        "c": "bo automatycznie retuszuje zdjęcia",
+        "d": "bo eliminuje potrzebę kontaktu z klientem",
+        "e": "bo zwiększa rozdzielczość wydruków",
+        "f": "bo uniemożliwia pracę zespołową"
+      },
+      "correctAnswer": "b",
+      "explanation": "Plan pracy pomaga zapanować nad procesem i zmniejsza ryzyko opóźnień oraz chaosu."
+    },
+    {
+      "question": "Które działanie jest zgodne z etyką zawodową fotografa?",
+      "type": "single_choice",
+      "answers": {
+        "a": "publikowanie zdjęć klienta bez uzgodnienia, jeśli wyglądają dobrze",
+        "b": "podpisywanie cudzych fotografii własnym nazwiskiem",
+        "c": "dotrzymywanie ustaleń, poszanowanie praw autorskich i ochrona wizerunku",
+        "d": "ukrywanie błędów technicznych przed klientem za wszelką cenę",
+        "e": "przekazywanie poufnych materiałów osobom trzecim",
+        "f": "zmienianie warunków zlecenia bez informowania klienta"
+      },
+      "correctAnswer": "c",
+      "explanation": "Etyka zawodowa opiera się na uczciwości, odpowiedzialności i szacunku dla praw oraz ustaleń."
+    },
+    {
+      "question": "Jak należy postąpić, gdy podczas pracy zespołowej fotograf zauważy własny błąd?",
+      "type": "single_choice",
+      "answers": {
+        "a": "zignorować problem i czekać, aż ktoś inny go zauważy",
+        "b": "obwinić członka zespołu, który jest najbliżej",
+        "c": "zgłosić błąd i zaproponować rozwiązanie",
+        "d": "usunąć wszystkie pliki bez konsultacji",
+        "e": "zakończyć współpracę natychmiast",
+        "f": "opublikować niegotowy materiał, by zdążyć przed terminem"
+      },
+      "correctAnswer": "c",
+      "explanation": "Odpowiedzialność zawodowa oznacza zauważenie problemu, poinformowanie o nim i działanie naprawcze."
+    },
+    {
+      "question": "Które angielskie wyrażenie odnosi się do balansu bieli w fotografii?",
+      "type": "single_choice",
+      "answers": {
+        "a": "shutter speed",
+        "b": "white balance",
+        "c": "memory card",
+        "d": "light stand",
+        "e": "focal length",
+        "f": "recycle time"
+      },
+      "correctAnswer": "b",
+      "explanation": "„White balance” to angielska nazwa balansu bieli."
+    }
+  ]
+}

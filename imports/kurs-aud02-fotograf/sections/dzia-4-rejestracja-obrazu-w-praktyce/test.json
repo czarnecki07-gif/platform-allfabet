@@ -1,0 +1,287 @@
+{
+  "title": "Test działowy — Dział 4: Rejestracja obrazu w praktyce",
+  "totalQuestions": 20,
+  "passingPercent": 50,
+  "questions": [
+    {
+      "question": "W jakiej sytuacji najczęściej warto wybrać tryb manualny aparatu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Gdy chcesz, aby aparat sam dobierał wszystkie ustawienia bez kontroli użytkownika",
+        "b": "Gdy zależy Ci na pełnej, powtarzalnej kontroli ekspozycji, np. w studiu",
+        "c": "Wyłącznie podczas fotografowania nocnego z ręki",
+        "d": "Tylko przy użyciu obiektywu szerokokątnego",
+        "e": "Jedynie wtedy, gdy fotografujesz w formacie JPEG",
+        "f": "Wyłącznie przy zdjęciach seryjnych"
+      },
+      "correctAnswer": "b",
+      "explanation": "Tryb manualny daje pełną kontrolę nad czasem, przysłoną i ISO, co jest szczególnie ważne przy powtarzalnych warunkach pracy."
+    },
+    {
+      "question": "Jakie ustawienie autofokusa najlepiej sprawdza się przy fotografowaniu dynamicznej sceny, np. wydarzenia lub ruchu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Ręczne ostrzenie ustawione raz na nieskończoność",
+        "b": "Pojedynczy autofokus z blokadą ostrości na stałe",
+        "c": "Ciągły autofokus wsparty zdjęciami seryjnymi",
+        "d": "Wyłączenie autofokusa i stabilizacji",
+        "e": "Autofokus tylko na centralny punkt bez możliwości zmiany",
+        "f": "Tryb makro niezależnie od sceny"
+      },
+      "correctAnswer": "c",
+      "explanation": "Ciągły AF śledzi poruszający się obiekt, a zdjęcia seryjne zwiększają szansę uchwycenia właściwego momentu."
+    },
+    {
+      "question": "Jaka zasada zwiększa bezpieczeństwo pracy ze statywem oświetleniowym i dużym softboxem?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wysunięcie najcieńszych sekcji statywu jako pierwszych",
+        "b": "Ustawienie statywu na maksymalnej wysokości bez obciążenia",
+        "c": "Dociążenie podstawy i ustawienie jednej nogi w kierunku lampy",
+        "d": "Zawieszenie przewodów na wysokości przejścia",
+        "e": "Montaż największego modyfikatora przy poluzowanych blokadach",
+        "f": "Przesuwanie statywu z rozłożoną lampą po nierównym podłożu"
+      },
+      "correctAnswer": "c",
+      "explanation": "Obciążenie i właściwe ustawienie nóg zmniejszają ryzyko przewrócenia statywu z dużym modyfikatorem."
+    },
+    {
+      "question": "Które działanie jest zgodne z zasadami bezpieczeństwa przy pracy z lampami i modyfikatorami?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zmiana akcesoriów bez wyłączania lampy, aby oszczędzić czas",
+        "b": "Dotykanie gorących elementów zaraz po zakończeniu pracy",
+        "c": "Przeciążanie statywu, jeśli potrzebujesz większej wysokości",
+        "d": "Ignorowanie przewodów zasilających, jeśli są poza kadrem",
+        "e": "Wyłączanie lampy przed zmianą niektórych akcesoriów",
+        "f": "Opieranie modyfikatora o ścianę podczas pracy"
+      },
+      "correctAnswer": "e",
+      "explanation": "Wyłączenie lampy przed zmianą akcesoriów ogranicza ryzyko uszkodzenia sprzętu i poparzenia."
+    },
+    {
+      "question": "Jaka jest typowa korzyść fotografowania krajobrazu o złotej godzinie?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Światło jest zwykle miększe i bardziej plastyczne",
+        "b": "Zawsze można fotografować bez statywu i bez kontroli ekspozycji",
+        "c": "Nie ma potrzeby obserwowania pogody",
+        "d": "Perspektywa obiektywu automatycznie się prostuje",
+        "e": "Wszystkie kolory stają się neutralnie szare",
+        "f": "Zmniejsza się ogniskowa obiektywu"
+      },
+      "correctAnswer": "a",
+      "explanation": "Rano i wieczorem światło bywa miękkie, ciepłe i korzystnie modeluje przestrzeń."
+    },
+    {
+      "question": "Dlaczego przechylenie aparatu do góry w fotografii architektury często jest problemem?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Powoduje automatyczne prześwietlenie nieba",
+        "b": "Zmniejsza nasycenie kolorów elewacji",
+        "c": "Sprawia, że pionowe linie budynku zaczynają się zbiegać",
+        "d": "Uniemożliwia zapis zdjęcia w formacie RAW",
+        "e": "Powoduje utratę działania autofokusa",
+        "f": "Zawsze skraca czas naświetlania"
+      },
+      "correctAnswer": "c",
+      "explanation": "Odchylenie aparatu zaburza geometrię i powoduje zbieganie się pionów, często niepożądane w fotografii użytkowej."
+    },
+    {
+      "question": "Na co szczególnie trzeba zwrócić uwagę przy łączeniu światła dziennego z lampą błyskową w plenerze?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyłącznie na ogniskową obiektywu",
+        "b": "Na temperaturę barwową i spójność balansu bieli",
+        "c": "Tylko na rodzaj paska do aparatu",
+        "d": "Na to, aby nie używać formatu RAW",
+        "e": "Wyłącznie na maksymalnie otwartą przysłonę",
+        "f": "Na ustawienie aparatu w trybie sport"
+      },
+      "correctAnswer": "b",
+      "explanation": "Światło mieszane może dawać różne dominanty barwne, dlatego trzeba kontrolować balans bieli i spójność kolorystyczną."
+    },
+    {
+      "question": "Dlaczego sposób komunikacji z modelem wpływa na jakość portretu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Ponieważ zastępuje ustawienie ostrości",
+        "b": "Ponieważ eliminuje potrzebę stosowania światła",
+        "c": "Ponieważ pomaga uzyskać naturalniejszą postawę i mimikę",
+        "d": "Ponieważ zawsze skraca ogniskową obiektywu",
+        "e": "Ponieważ automatycznie poprawia balans bieli",
+        "f": "Ponieważ zwalnia z kontroli kadru"
+      },
+      "correctAnswer": "c",
+      "explanation": "Spokojne i konkretne prowadzenie modela zwiększa jego komfort, co przekłada się na bardziej naturalny portret."
+    },
+    {
+      "question": "Gdzie w klasycznym portrecie należy zwykle ustawić ostrość?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Na tle za modelem",
+        "b": "Na nosie, niezależnie od ujęcia",
+        "c": "Na uchu dalszym od aparatu",
+        "d": "Na oku bliższym aparatowi",
+        "e": "Na barku po stronie cienia",
+        "f": "Na włosach nad czołem"
+      },
+      "correctAnswer": "d",
+      "explanation": "W portrecie najważniejsza jest czytelność spojrzenia, dlatego ostrość zwykle ustawia się na bliższym oku."
+    },
+    {
+      "question": "Która cecha jest obowiązkowa w poprawnym zdjęciu identyfikacyjnym?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Silne światło boczne modelujące twarz dramatycznym cieniem",
+        "b": "Artystyczne rozmycie połowy twarzy",
+        "c": "Równomierne oświetlenie i czytelna twarz bez mocnych cieni",
+        "d": "Szerokokątny obiektyw użyty z bardzo bliska",
+        "e": "Dynamiczna poza i skręt głowy",
+        "f": "Wyrazista dominanta kolorystyczna tła"
+      },
+      "correctAnswer": "c",
+      "explanation": "Zdjęcie identyfikacyjne ma służyć rozpoznaniu osoby, więc twarz musi być równomiernie oświetlona i wyraźna."
+    },
+    {
+      "question": "Który zestaw najlepiej odpowiada zasadzie budowania kompletnego reportażu fotograficznego?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyłącznie zbliżenia twarzy uczestników",
+        "b": "Same zdjęcia szerokokątne miejsca wydarzenia",
+        "c": "Kadry otwierające, ujęcia ogólne, średnie, zbliżenia i detale",
+        "d": "Tylko zdjęcia wykonywane z jednego punktu",
+        "e": "Wyłącznie zdjęcia pozowane po zakończeniu wydarzenia",
+        "f": "Jedno najlepsze zdjęcie zamiast serii"
+      },
+      "correctAnswer": "c",
+      "explanation": "Spójny reportaż wymaga różnorodnych ujęć, które razem budują historię i kontekst wydarzenia."
+    },
+    {
+      "question": "Jakie ustawienie aparatu jest szczególnie przydatne podczas fotografowania dynamicznego wydarzenia w zmiennym świetle?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Manualny balans bieli, ale wyłącznie JPEG i pojedynczy AF",
+        "b": "Preselekcja czasu albo manualny z Auto ISO",
+        "c": "Wyłącznie tryb pełnej automatyki bez kontroli",
+        "d": "Makro i samowyzwalacz 10 s",
+        "e": "Długi czas migawki niezależnie od ruchu",
+        "f": "Stałe ISO 100 w każdej sytuacji"
+      },
+      "correctAnswer": "b",
+      "explanation": "W reportażu liczy się szybkość reakcji i kontrola ruchu, dlatego często używa się preselekcji czasu lub manuala z Auto ISO."
+    },
+    {
+      "question": "Na czym polega odpowiedzialność fotografa reportażowego przy zleceniu dokumentacyjnym?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Na inscenizowaniu scen, aby wyglądały bardziej efektownie",
+        "b": "Na ukrywaniu wszystkich trudnych momentów wydarzenia",
+        "c": "Na ingerowaniu w przebieg sytuacji dla lepszego kadru",
+        "d": "Na wiernym i uczciwym przedstawianiu rzeczywistości",
+        "e": "Na wykonywaniu wyłącznie zdjęć pionowych",
+        "f": "Na fotografowaniu tylko osób patrzących w obiektyw"
+      },
+      "correctAnswer": "d",
+      "explanation": "W reportażu dokumentacyjnym ważna jest rzetelność obrazu i szacunek wobec fotografowanych osób oraz wydarzenia."
+    },
+    {
+      "question": "Co należy zrobić przed rozpoczęciem fotografii produktowej, aby zwiększyć jakość i powtarzalność serii?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Celowo pozostawić kurz i odciski palców, aby zachować realizm",
+        "b": "Zmieniać kąt ustawienia aparatu przy każdym produkcie",
+        "c": "Przygotować plan i przedmiot: oczyścić produkt oraz ustalić stały punkt widzenia",
+        "d": "Fotografować wszystko z ręki bez oznaczania ustawień",
+        "e": "Zawsze używać maksymalnie otwartej przysłony",
+        "f": "Ustawić losowe tło dla każdego ujęcia"
+      },
+      "correctAnswer": "c",
+      "explanation": "W fotografii produktowej porządek na planie, czysty obiekt i stałe ustawienia są podstawą spójnej serii."
+    },
+    {
+      "question": "Jaka trudność jest szczególnie typowa przy fotografowaniu przedmiotów błyszczących?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Brak możliwości ustawienia ostrości na statywie",
+        "b": "Całkowity brak cieni w każdych warunkach",
+        "c": "Silna podatność na niekontrolowane odbicia otoczenia",
+        "d": "Niemożność pracy w formacie RAW",
+        "e": "Automatyczne zniekształcenie perspektywy przez obiektyw",
+        "f": "Brak wpływu modyfikatorów światła na obraz"
+      },
+      "correctAnswer": "c",
+      "explanation": "Na błyszczących powierzchniach odbija się całe otoczenie planu, dlatego trzeba świadomie kontrolować refleksy."
+    },
+    {
+      "question": "Czym przede wszystkim różni się fotografia techniczna od katalogowej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Fotografia techniczna ma przede wszystkim rzetelnie dokumentować obiekt",
+        "b": "Fotografia techniczna zawsze wymaga portretowego tła",
+        "c": "Fotografia katalogowa nigdy nie musi być powtarzalna",
+        "d": "Fotografia techniczna służy wyłącznie do celów artystycznych",
+        "e": "Fotografia katalogowa nie pokazuje całego produktu",
+        "f": "Fotografia techniczna nie wymaga ostrości"
+      },
+      "correctAnswer": "a",
+      "explanation": "Zdjęcie techniczne ma wiernie i jednoznacznie pokazać obiekt, a nie przede wszystkim go atrakcyjnie zaprezentować."
+    },
+    {
+      "question": "Dlaczego w reprodukcji fotografii, dokumentów lub dzieł płaskich aparat musi być ustawiony idealnie równolegle do obiektu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Aby zwiększyć nasycenie kolorów",
+        "b": "Aby uniknąć deformacji perspektywicznych i nierównej ostrości",
+        "c": "Aby uzyskać mocniejsze rozmycie tła",
+        "d": "Aby skrócić ogniskową obiektywu",
+        "e": "Aby móc zrezygnować z kontroli światła",
+        "f": "Aby aparat automatycznie wyostrzył wszystkie kadry"
+      },
+      "correctAnswer": "b",
+      "explanation": "Nawet małe odchylenie od równoległości może powodować zniekształcenia i spadek jakości odwzorowania płaskiego obiektu."
+    },
+    {
+      "question": "Jaki problem techniczny szczególnie często występuje w makrofotografii?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zbyt duża głębia ostrości przy dużym powiększeniu",
+        "b": "Brak znaczenia drgań aparatu",
+        "c": "Gwałtownie malejąca głębia ostrości i duża wrażliwość na poruszenie",
+        "d": "Niemożność używania dodatkowego światła",
+        "e": "Brak potrzeby precyzyjnego ustawienia ostrości",
+        "f": "Automatyczne prostowanie perspektywy"
+      },
+      "correctAnswer": "c",
+      "explanation": "W makro ostry obszar jest bardzo mały, a każdy ruch aparatu lub obiektu staje się wyjątkowo widoczny."
+    },
+    {
+      "question": "Co trzeba zachować podczas wykonywania serii zdjęć do panoramy?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Losowo zmieniać ekspozycję między kadrami",
+        "b": "Zmieniać balans bieli przy każdym ujęciu",
+        "c": "Stałą ekspozycję, stały balans bieli i zakładki między kadrami",
+        "d": "Fotografować każdy fragment z innej odległości",
+        "e": "Przestawiać ostrość po każdym zdjęciu bez kontroli",
+        "f": "Wykonywać zdjęcia tylko pionowo i bez statywu"
+      },
+      "correctAnswer": "c",
+      "explanation": "Spójne parametry i nachodzenie kolejnych ujęć ułatwiają poprawne połączenie panoramy."
+    },
+    {
+      "question": "Jaka zasada jest najważniejsza przy pracy z technikami specjalnymi UV i IR?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Można eksperymentować bez znajomości źródła promieniowania",
+        "b": "Najważniejsze jest używanie najkrótszej ogniskowej",
+        "c": "Nie trzeba sprawdzać zgodności aparatu i obiektywu",
+        "d": "Bezpieczeństwo oraz stosowanie procedur właściwych dla sprzętu i promieniowania",
+        "e": "Zawsze należy pracować bez filtrów",
+        "f": "Fotografowanie wyłącznie w pełnym automacie"
+      },
+      "correctAnswer": "d",
+      "explanation": "UV i IR wymagają wiedzy o sprzęcie oraz bezwzględnego przestrzegania zasad ochrony oczu, skóry i całego procesu pracy."
+    }
+  ]
+}

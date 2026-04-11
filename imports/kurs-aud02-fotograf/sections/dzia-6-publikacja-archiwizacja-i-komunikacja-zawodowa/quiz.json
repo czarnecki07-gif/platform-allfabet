@@ -1,0 +1,125 @@
+{
+  "title": "Quiz działowy — Dział 6: Publikacja, archiwizacja i komunikacja zawodowa",
+  "questions": [
+    {
+      "question": "Które rozwiązanie jest najbezpieczniejszym standardem przygotowania zdjęcia do publikacji internetowej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "TIFF w Adobe RGB bez kompresji",
+        "b": "JPEG w przestrzeni sRGB",
+        "c": "PNG w CMYK",
+        "d": "RAW z aparatu"
+      },
+      "correctAnswer": "b",
+      "explanation": "Do internetu najczęściej stosuje się JPEG w sRGB, bo daje dobrą zgodność i rozsądny rozmiar pliku."
+    },
+    {
+      "question": "Przy publikacji zdjęcia online większe znaczenie ma przede wszystkim:",
+      "type": "single_choice",
+      "answers": {
+        "a": "wartość DPI wpisana w pliku",
+        "b": "model aparatu użytego do wykonania zdjęcia",
+        "c": "wymiar obrazu w pikselach",
+        "d": "nazwa pliku bez polskich znaków"
+      },
+      "correctAnswer": "c",
+      "explanation": "W internecie liczy się realny rozmiar obrazu w pikselach, bo to on wpływa na wyświetlanie na ekranie."
+    },
+    {
+      "question": "Co najlepiej opisuje spójną galerię cyfrową?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Losowy układ zdjęć o różnych proporcjach i skrajnie różnej obróbce",
+        "b": "Duża liczba zdjęć bez podziału na kategorie, by pokazać wszystko",
+        "c": "Jednolita estetyka, przemyślana kolejność i podobny poziom obróbki",
+        "d": "Publikacja wyłącznie zdjęć w pionie"
+      },
+      "correctAnswer": "c",
+      "explanation": "Spójność galerii wynika z konsekwentnej estetyki, logicznej kolejności i podobnego charakteru obróbki."
+    },
+    {
+      "question": "Przygotowując fotografię do druku, należy najpierw ustalić:",
+      "type": "single_choice",
+      "answers": {
+        "a": "docelowy format odbitki",
+        "b": "liczbę obserwujących w mediach społecznościowych",
+        "c": "czy zdjęcie będzie zapisane w JPEG czy PNG do internetu",
+        "d": "kolor ramy w galerii internetowej"
+      },
+      "correctAnswer": "a",
+      "explanation": "Docelowy format wydruku decyduje o potrzebnej liczbie pikseli, proporcjach i sposobie przygotowania pliku."
+    },
+    {
+      "question": "Które stwierdzenie o papierze fotograficznym jest prawdziwe?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Papier matowy zawsze daje wyższe nasycenie niż błyszczący",
+        "b": "Papier błyszczący może wzmacniać kontrast, ale bywa podatny na odbicia światła",
+        "c": "Rodzaj papieru nie wpływa na odbiór zdjęcia",
+        "d": "Każdy papier pasuje do każdej drukarki bez sprawdzania specyfikacji"
+      },
+      "correctAnswer": "b",
+      "explanation": "Papier błyszczący zwykle podkreśla kontrast i barwy, ale może powodować refleksy."
+    },
+    {
+      "question": "Jaki błąd może wystąpić, gdy kolorem jednocześnie zarządza program graficzny i drukarka?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Podwójna korekcja barw i nieprzewidywalny efekt wydruku",
+        "b": "Automatyczne zwiększenie rozdzielczości zdjęcia",
+        "c": "Całkowity brak możliwości zapisania pliku",
+        "d": "Zamiana zdjęcia kolorowego na czarno-białe"
+      },
+      "correctAnswer": "a",
+      "explanation": "Jednoczesne zarządzanie kolorem przez dwa systemy może zniekształcić barwy i pogorszyć przewidywalność wydruku."
+    },
+    {
+      "question": "Dlaczego przed montażem wystawy warto przygotować szkic rozmieszczenia prac?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Aby zmniejszyć wagę wydruków",
+        "b": "Aby ocenić narrację, odstępy i układ całej ekspozycji",
+        "c": "Aby uniknąć konieczności podpisywania zdjęć",
+        "d": "Aby zastąpić próbny montaż gotowym projektem cyfrowym"
+      },
+      "correctAnswer": "b",
+      "explanation": "Szkic pomaga wcześniej sprawdzić, czy wystawa jest czytelna, spójna i dobrze rozplanowana w przestrzeni."
+    },
+    {
+      "question": "Która praktyka archiwizacji jest najbardziej profesjonalna?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Przechowywanie wszystkich zdjęć wyłącznie na karcie pamięci",
+        "b": "Zapisywanie tylko gotowych JPEG-ów bez plików źródłowych",
+        "c": "Tworzenie kopii bezpieczeństwa na więcej niż jednym nośniku",
+        "d": "Zmiana struktury folderów przy każdym zleceniu"
+      },
+      "correctAnswer": "c",
+      "explanation": "Kopie bezpieczeństwa na różnych nośnikach zmniejszają ryzyko utraty danych."
+    },
+    {
+      "question": "Które działanie najlepiej pokazuje profesjonalną komunikację z klientem na początku współpracy?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Natychmiastowe rozpoczęcie sesji bez ustaleń, aby oszczędzić czas",
+        "b": "Ustalenie zakresu zlecenia, terminu, sposobu wykorzystania zdjęć i oczekiwań klienta",
+        "c": "Przesłanie gotowego cennika bez zadawania pytań",
+        "d": "Ograniczenie kontaktu do jednego krótkiego komunikatu"
+      },
+      "correctAnswer": "b",
+      "explanation": "Jasne ustalenia na początku ograniczają ryzyko nieporozumień i budują zaufanie."
+    },
+    {
+      "question": "Jak najlepiej poradzić sobie z anglojęzyczną instrukcją sprzętu fotograficznego, jeśli nie rozumiesz każdego słowa?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zignorować instrukcję i działać metodą prób",
+        "b": "Tłumaczyć wyłącznie pierwsze zdanie każdego akapitu",
+        "c": "Szukać słów kluczowych i rozumieć ogólny sens komunikatu",
+        "d": "Korzystać tylko z instrukcji papierowych w języku polskim"
+      },
+      "correctAnswer": "c",
+      "explanation": "W praktyce najważniejsze jest uchwycenie znaczenia poleceń, ostrzeżeń i ustawień, nawet bez pełnego tłumaczenia."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "title": "Quiz działowy — Dział 2: Język fotografii, światło i sprzęt",
+  "questions": [
+    {
+      "question": "Który opis najlepiej pokazuje profesjonalne użycie języka fotografii?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Zdjęcie jest bardzo ładne i ma fajny klimat.",
+        "b": "Fotografia ma miękkie światło boczne, małą głębię ostrości i wyraźnie oddzielony pierwszy plan od tła.",
+        "c": "To zdjęcie po prostu dobrze wygląda na pierwszy rzut oka.",
+        "d": "Autor zrobił je ciekawie, ale trudno powiedzieć jak."
+      },
+      "correctAnswer": "b",
+      "explanation": "Profesjonalny opis używa precyzyjnych pojęć technicznych i estetycznych, a nie ogólnych ocen."
+    },
+    {
+      "question": "Jaka kolejność analizy fotografii jest najbardziej właściwa?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Najpierw ocena, potem funkcja, na końcu opis tego, co widać.",
+        "b": "Najpierw porównanie z innymi zdjęciami, potem ocena autora, na końcu temat.",
+        "c": "Najpierw opis tego, co widać, potem analiza formy, a następnie określenie funkcji zdjęcia.",
+        "d": "Najpierw wybór najlepszego fragmentu kadru, potem parametry techniczne, na końcu emocje."
+      },
+      "correctAnswer": "c",
+      "explanation": "Profesjonalna analiza zaczyna się od opisu obrazu, potem przechodzi do warstwy formalnej i dopiero na końcu do funkcji."
+    },
+    {
+      "question": "W jakiej sytuacji najlepiej sprawdzi się plan ogólny?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Gdy chcesz pokazać emocję na twarzy bohatera.",
+        "b": "Gdy chcesz pokazać relację postaci z otoczeniem i szerszy kontekst miejsca.",
+        "c": "Gdy chcesz wyizolować detal produktu.",
+        "d": "Gdy chcesz uzyskać maksymalnie płytką głębię ostrości."
+      },
+      "correctAnswer": "b",
+      "explanation": "Plan ogólny służy do pokazania przestrzeni, kontekstu i relacji bohatera z otoczeniem."
+    },
+    {
+      "question": "Co najczęściej daje zmiana punktu widzenia z poziomu oczu na ujęcie z dołu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Obiekt zwykle wydaje się mniej istotny i słabszy.",
+        "b": "Perspektywa przestaje mieć znaczenie dla odbioru zdjęcia.",
+        "c": "Obiekt może wyglądać na silniejszy, bardziej dominujący i ważniejszy.",
+        "d": "Kadr automatycznie staje się bardziej neutralny."
+      },
+      "correctAnswer": "c",
+      "explanation": "Ujęcie z dołu często wzmacnia wrażenie siły, dominacji i znaczenia fotografowanego obiektu."
+    },
+    {
+      "question": "Które stwierdzenie najlepiej opisuje wpływ kierunku światła na obraz?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Światło przednie zwykle spłaszcza formę, a boczne lepiej wydobywa fakturę.",
+        "b": "Światło tylne zawsze daje najbardziej naturalny portret.",
+        "c": "Kierunek światła nie ma znaczenia, jeśli zdjęcie jest dobrze naświetlone.",
+        "d": "Miękkość światła zależy wyłącznie od ustawienia ISO."
+      },
+      "correctAnswer": "a",
+      "explanation": "Światło przednie zmniejsza modelunek, a boczne podkreśla strukturę, fakturę i formę."
+    },
+    {
+      "question": "Dlaczego błędny balans bieli jest szczególnie problematyczny w fotografii produktowej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Bo zmniejsza pojemność karty pamięci.",
+        "b": "Bo może zafałszować kolor produktu i utrudnić jego wierną prezentację.",
+        "c": "Bo uniemożliwia ustawienie ostrości.",
+        "d": "Bo powoduje automatyczne zniekształcenia perspektywy."
+      },
+      "correctAnswer": "b",
+      "explanation": "W fotografii produktowej ważna jest poprawna prezentacja barwy, a zły balans bieli może pokazać produkt w nienaturalnym kolorze."
+    },
+    {
+      "question": "Którą przestrzeń barwną najczęściej wybiera się do publikacji zdjęć w internecie?",
+      "type": "single_choice",
+      "answers": {
+        "a": "CMYK",
+        "b": "Adobe RGB",
+        "c": "sRGB",
+        "d": "RAW"
+      },
+      "correctAnswer": "c",
+      "explanation": "sRGB jest najpowszechniejszym standardem dla internetu i urządzeń konsumenckich."
+    },
+    {
+      "question": "Jaki zestaw będzie najbardziej odpowiedni do fotografii reportażowej z wydarzenia?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Lekki aparat z szybkim autofokusem, uniwersalny obiektyw i mobilna lampa reporterska.",
+        "b": "Ciężki statyw studyjny, światłomierz i kilka dużych softboxów.",
+        "c": "Aparat ustawiony na stałe w studio z lampami błyskowymi dużej mocy.",
+        "d": "Wyłącznie obiektyw makro i stół bezcieniowy."
+      },
+      "correctAnswer": "a",
+      "explanation": "W reportażu liczą się mobilność, szybkość działania i możliwość reagowania na zmienną sytuację."
+    },
+    {
+      "question": "Dlaczego światłomierz jest szczególnie przydatny podczas pracy w studiu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Bo zastępuje aparat przy ustawianiu kadru.",
+        "b": "Bo automatycznie retuszuje zdjęcia po wykonaniu.",
+        "c": "Bo pozwala dokładniej kontrolować ilość światła i uzyskać powtarzalną ekspozycję.",
+        "d": "Bo zwiększa rozdzielczość plików RAW."
+      },
+      "correctAnswer": "c",
+      "explanation": "Światłomierz pomaga precyzyjnie mierzyć światło, co jest bardzo ważne przy stałych ustawieniach lamp studyjnych."
+    },
+    {
+      "question": "Na co należy zwrócić szczególną uwagę, wybierając kartę pamięci do zdjęć seryjnych w formacie RAW?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyłącznie na kolor obudowy karty.",
+        "b": "Przede wszystkim na szybkość zapisu, pojemność i zgodność ze sprzętem.",
+        "c": "Tylko na nazwę producenta aparatu.",
+        "d": "Jedynie na to, czy karta ma etui ochronne."
+      },
+      "correctAnswer": "b",
+      "explanation": "Przy zdjęciach seryjnych RAW ważna jest szybka karta o odpowiedniej pojemności i zgodności, aby nie spowalniać pracy aparatu."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "title": "Quiz działowy — Dział 5: Cyfrowa i chemiczna obróbka obrazu",
+  "questions": [
+    {
+      "question": "Dlaczego kalibracja monitora jest ważna przed rozpoczęciem obróbki zdjęć?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Ponieważ zwiększa fizyczną rozdzielczość monitora",
+        "b": "Ponieważ pozwala wiarygodnie oceniać jasność i barwy obrazu",
+        "c": "Ponieważ automatycznie poprawia ostrość wszystkich zdjęć",
+        "d": "Ponieważ zmniejsza rozmiar plików graficznych"
+      },
+      "correctAnswer": "b",
+      "explanation": "Bez kalibracji monitor może zafałszowywać kolory i jasność, co prowadzi do błędnych decyzji podczas edycji."
+    },
+    {
+      "question": "Które stwierdzenie najlepiej opisuje różnicę między kalibracją a profilowaniem urządzenia?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Kalibracja opisuje urządzenie, a profilowanie je naprawia",
+        "b": "Kalibracja służy wyłącznie drukarkom, a profilowanie tylko monitorom",
+        "c": "Kalibracja ustawia urządzenie do przewidywalnej pracy, a profilowanie opisuje jego odwzorowanie barw",
+        "d": "Kalibracja i profilowanie to dwa określenia tego samego procesu"
+      },
+      "correctAnswer": "c",
+      "explanation": "Kalibracja ustawia parametry pracy urządzenia, a profil ICC opisuje, jak to urządzenie odwzorowuje barwy."
+    },
+    {
+      "question": "Która sytuacja najlepiej uzasadnia wybór przestrzeni barwnej sRGB?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Przy publikacji zdjęć w internecie i pracy na standardowych urządzeniach",
+        "b": "Wyłącznie przy skanowaniu negatywów średnioformatowych",
+        "c": "Tylko wtedy, gdy planowany jest wydruk wystawowy wysokiej jakości",
+        "d": "Zawsze, gdy używa się tabletu graficznego"
+      },
+      "correctAnswer": "a",
+      "explanation": "sRGB jest bezpiecznym standardem dla publikacji internetowych i typowych ekranów odbiorców."
+    },
+    {
+      "question": "Dlaczego do skanowania negatywów i slajdów potrzebny jest inny sposób pracy niż do skanowania odbitek papierowych?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Bo negatywy zawsze skanuje się w trybie czarno-białym",
+        "b": "Bo materiały transparentne wymagają przechodzącego światła, a odbitki odbitego",
+        "c": "Bo odbitki papierowe nie wymagają żadnej rozdzielczości",
+        "d": "Bo slajdy można skanować tylko aparatem fotograficznym"
+      },
+      "correctAnswer": "b",
+      "explanation": "Transparenty przepuszczają światło, a materiały refleksyjne je odbijają, więc wymagają innego oświetlenia i często innego skanera."
+    },
+    {
+      "question": "Jakie działanie najbardziej ogranicza potrzebę późniejszego retuszu po skanowaniu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Maksymalne podbicie kontrastu już na etapie podglądu",
+        "b": "Automatyczne wyostrzenie ustawione na najwyższą wartość",
+        "c": "Dokładne oczyszczenie filmu lub odbitki przed skanowaniem",
+        "d": "Zapis wyłącznie do formatu JPEG"
+      },
+      "correctAnswer": "c",
+      "explanation": "Usunięcie kurzu, włókien i zabrudzeń przed skanowaniem zmniejsza liczbę defektów wymagających późniejszej ingerencji."
+    },
+    {
+      "question": "Jaki jest główny cel selekcji materiału po sesji zdjęciowej?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wybranie ujęć o największej wartości technicznej i estetycznej do dalszej pracy",
+        "b": "Usunięcie wszystkich zdjęć wykonanych w formacie RAW",
+        "c": "Automatyczne przygotowanie zdjęć do druku bez edycji",
+        "d": "Zamiana wszystkich plików na jeden wspólny format"
+      },
+      "correctAnswer": "a",
+      "explanation": "Selekcja pozwala skupić się na najlepszych ujęciach i nie tracić czasu na opracowywanie słabych kadrów."
+    },
+    {
+      "question": "Dlaczego nie należy pracować bezpośrednio na jedynym pliku źródłowym?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Ponieważ program graficzny nie otworzy oryginału drugi raz",
+        "b": "Ponieważ edycja na oryginale uniemożliwia wykonanie wydruku",
+        "c": "Ponieważ łatwo utracić pierwotną wersję i możliwość powrotu do wcześniejszych decyzji",
+        "d": "Ponieważ pliki źródłowe zawsze mają gorszą jakość niż kopie"
+      },
+      "correctAnswer": "c",
+      "explanation": "Kopie robocze i nieniszcząca edycja chronią materiał źródłowy i dają możliwość cofnięcia zmian."
+    },
+    {
+      "question": "Które działanie najlepiej opisuje świadomą korekcję tonalną zdjęcia?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Losowe zwiększenie jasności całego obrazu",
+        "b": "Dostosowanie relacji między światłami, cieniami i kontrastem tak, by poprawić czytelność obrazu",
+        "c": "Usunięcie wszystkich kolorów ze zdjęcia",
+        "d": "Zmniejszenie rozdzielczości przed publikacją"
+      },
+      "correctAnswer": "b",
+      "explanation": "Korekcja tonalna polega na świadomym kształtowaniu jasności i kontrastu, a nie na prostym rozjaśnieniu całego zdjęcia."
+    },
+    {
+      "question": "Jaka jest najważniejsza korzyść z używania presetów, synchronizacji ustawień i przetwarzania wsadowego?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Całkowite wyeliminowanie potrzeby kontroli jakości",
+        "b": "Przyspieszenie pracy i zachowanie spójności w serii podobnych zdjęć",
+        "c": "Automatyczne tworzenie kopii zapasowej na każdym urządzeniu",
+        "d": "Zwiększenie głębi bitowej wszystkich plików"
+      },
+      "correctAnswer": "b",
+      "explanation": "Automatyzacja pozwala szybciej obrabiać większe zestawy zdjęć i ujednolica ich wygląd, ale nadal wymaga kontroli."
+    },
+    {
+      "question": "Który zestaw poprawnie przedstawia podstawowe funkcje roztworów w chemicznej obróbce materiałów fotograficznych?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wywoływacz utrwala obraz, przerywacz suszy film, utrwalacz zwiększa kontrast",
+        "b": "Wywoływacz ujawnia obraz, przerywacz zatrzymuje wywoływanie, utrwalacz stabilizuje materiał",
+        "c": "Wywoływacz czyści film, przerywacz nadaje kolor, utrwalacz rozjaśnia odbitkę",
+        "d": "Wywoływacz chłodzi roztwór, przerywacz podgrzewa papier, utrwalacz usuwa kurz"
+      },
+      "correctAnswer": "b",
+      "explanation": "To podstawowy ciąg procesu chemicznego: ujawnienie obrazu, zatrzymanie działania wywoływacza i utrwalenie materiału."
+    }
+  ]
+}

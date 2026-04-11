@@ -1,0 +1,146 @@
+[
+  {
+    "lessonId": "L-4-1",
+    "lessonTitle": "Lekcja 4.1: Obsługa aparatu, obiektywu, statywów i lamp",
+    "worksheet": {
+      "title": "Karta pracy — Konfiguracja zestawu fotograficznego i bezpieczne stanowisko pracy",
+      "taskIntro": "Przygotuj aparat, obiektyw, statyw i lampę do trzech różnych zastosowań: portretu, zdjęcia produktu i ujęcia z ruchem. Celem jest świadome dobranie ustawień oraz bezpieczne zorganizowanie stanowiska.",
+      "instructions": [
+        "Przygotuj zestaw fotograficzny i zapisz ustawienia aparatu dla trzech sytuacji: portret, produkt, scena z ruchem. Dla każdej sytuacji określ tryb pracy, czas, przysłonę, ISO, tryb autofokusa oraz jedną funkcję automatyzującą, z której skorzystasz.",
+        "Rozstaw statyw fotograficzny i jeden statyw oświetleniowy z lampą lub modyfikatorem. Sprawdź blokady, stabilność podłoża, sposób prowadzenia przewodów i w razie potrzeby zastosuj dociążenie.",
+        "Wykonaj po jednym zdjęciu testowym dla każdej z trzech sytuacji i krótko oceń, czy ekspozycja, ostrość oraz organizacja stanowiska są poprawne i bezpieczne."
+      ],
+      "deliverables": [
+        "Tabela z ustawieniami dla 3 sytuacji zdjęciowych.",
+        "3 zdjęcia testowe: portret, produkt, ruch.",
+        "Krótka lista kontroli bezpieczeństwa stanowiska przed wykonaniem zdjęć."
+      ],
+      "successCriteria": [
+        "Dla każdej sytuacji ustawienia aparatu i obiektywu są logicznie dobrane do celu zdjęcia.",
+        "Stanowisko jest rozstawione stabilnie i bezpiecznie, z uwzględnieniem statywów, lamp oraz przewodów.",
+        "Zdjęcia testowe pokazują poprawną ostrość i ekspozycję lub zawierają trafnie opisaną korektę do wykonania."
+      ],
+      "estimatedMinutes": 35
+    }
+  },
+  {
+    "lessonId": "L-4-2",
+    "lessonTitle": "Lekcja 4.2: Zdjęcia plenerowe i fotografia architektury",
+    "worksheet": {
+      "title": "Karta pracy — Mini sesja plenerowa: krajobraz i architektura",
+      "taskIntro": "Wykonaj krótką serię zdjęć w terenie, pokazując dwa różne podejścia: krajobrazowe i architektoniczne. Skup się na planowaniu światła, kontroli perspektywy i świadomym doborze parametrów.",
+      "instructions": [
+        "Wybierz jedną lokalizację plenerową i zaplanuj 2 ujęcia krajobrazowe oraz 2 ujęcia architektoniczne. Zanim zaczniesz fotografować, zapisz godzinę, warunki pogodowe, kierunek światła i przewidywane trudności.",
+        "Wykonaj zdjęcia krajobrazowe z naciskiem na czytelny pierwszy plan, porządek kompozycji i dużą głębię ostrości. Następnie wykonaj zdjęcia architektury, pilnując pionów, geometrii i ograniczania zniekształceń perspektywy.",
+        "Po zakończeniu porównaj kadry i krótko opisz, jakie decyzje dotyczące ogniskowej, pozycji aparatu, ekspozycji i balansu bieli pomogły uzyskać lepszy efekt."
+      ],
+      "deliverables": [
+        "4 zdjęcia z pleneru: 2 krajobrazowe i 2 architektoniczne.",
+        "Notatka z planowania warunków pracy i użytych ustawień.",
+        "Krótka analiza jednego problemu technicznego oraz sposobu jego rozwiązania."
+      ],
+      "successCriteria": [
+        "Zdjęcia krajobrazowe mają czytelną kompozycję i parametry dobrane do pracy w plenerze.",
+        "Zdjęcia architektoniczne pokazują świadomą kontrolę pionów, perspektywy i kadru.",
+        "Autor potrafi wyjaśnić, dlaczego zastosował konkretne ustawienia i sposób pracy ze światłem."
+      ],
+      "estimatedMinutes": 45
+    }
+  },
+  {
+    "lessonId": "L-4-3",
+    "lessonTitle": "Lekcja 4.3: Portret studyjny, zdjęcia identyfikacyjne i praca z modelem",
+    "worksheet": {
+      "title": "Karta pracy — Portret studyjny i zdjęcie identyfikacyjne",
+      "taskIntro": "Przeprowadź krótką sesję z jedną osobą, wykonując dwa typy zdjęć: portret studyjny oraz zdjęcie identyfikacyjne. Zwróć uwagę zarówno na oświetlenie, jak i na sposób komunikacji z modelem.",
+      "instructions": [
+        "Przygotuj jedno proste ustawienie oświetlenia do portretu studyjnego i wykonaj 3 ujęcia tej samej osoby, stosując jasne, konkretne wskazówki dotyczące ustawienia głowy, barków i kierunku spojrzenia.",
+        "Następnie zmodyfikuj ustawienie tak, aby wykonać poprawne zdjęcie identyfikacyjne: neutralne tło, równomierne światło, naturalna perspektywa, czytelna twarz i zgodny kadr.",
+        "Po sesji zapisz, które polecenia dla modela okazały się najskuteczniejsze oraz jakie różnice techniczne wystąpiły między portretem a zdjęciem identyfikacyjnym."
+      ],
+      "deliverables": [
+        "3 portrety studyjne jednej osoby.",
+        "1 zdjęcie identyfikacyjne zgodne z podstawowymi wymaganiami formalnymi.",
+        "Krótka notatka o komunikacji z modelem i zastosowanym świetle."
+      ],
+      "successCriteria": [
+        "Portret studyjny pokazuje świadome modelowanie twarzy światłem i poprawne ustawienie ostrości.",
+        "Zdjęcie identyfikacyjne jest neutralne, czytelne i spełnia podstawowe wymagania formalne.",
+        "Opis pracy z modelem pokazuje, że fotograf świadomie prowadził osobę fotografowaną."
+      ],
+      "estimatedMinutes": 40
+    }
+  },
+  {
+    "lessonId": "L-4-4",
+    "lessonTitle": "Lekcja 4.4: Reportaż fotograficzny i rejestracja wydarzeń",
+    "worksheet": {
+      "title": "Karta pracy — Reportaż z krótkiego wydarzenia",
+      "taskIntro": "Zrealizuj mini reportaż z prawdziwego wydarzenia lub codziennej sytuacji zbiorowej, na przykład lekcji, spotkania, treningu, apelu lub warsztatów. Twoim celem jest zbudowanie spójnej historii obrazem.",
+      "instructions": [
+        "Przed fotografowaniem przygotuj plan: określ miejsce, przewidywane kluczowe momenty, dwa najlepsze punkty obserwacji oraz podstawowe ustawienia aparatu do pracy w ruchu.",
+        "W trakcie wydarzenia wykonaj serię zdjęć obejmującą: kadr otwierający, ujęcie ogólne, minimum dwa kadry średnie, minimum dwa zbliżenia emocji lub działania oraz jeden detal budujący kontekst.",
+        "Po zakończeniu wybierz 6 najlepszych zdjęć i ułóż je w logicznej kolejności, tak aby tworzyły czytelną narrację od początku do końca wydarzenia."
+      ],
+      "deliverables": [
+        "Zestaw 6 zdjęć tworzących mini reportaż.",
+        "Krótki plan pracy reporterskiej przygotowany przed wydarzeniem.",
+        "Jednozdaniowy opis roli każdego wybranego kadru w historii."
+      ],
+      "successCriteria": [
+        "Zestaw zdjęć zawiera różne typy ujęć potrzebne do zbudowania narracji wizualnej.",
+        "Kadry są technicznie poprawne na tyle, by czytelnie pokazywać ruch, emocje i kontekst wydarzenia.",
+        "Kolejność zdjęć tworzy spójną i zrozumiałą opowieść bez zbędnych powtórzeń."
+      ],
+      "estimatedMinutes": 50
+    }
+  },
+  {
+    "lessonId": "L-4-5",
+    "lessonTitle": "Lekcja 4.5: Fotografia produktowa, katalogowa, techniczna i bezcieniowa",
+    "worksheet": {
+      "title": "Karta pracy — Seria zdjęć produktu do katalogu i dokumentacji",
+      "taskIntro": "Przygotuj jedno stanowisko i wykonaj zdjęcia wybranego przedmiotu w dwóch celach: jako zdjęcie katalogowe oraz jako zdjęcie techniczne lub dokumentacyjne. Skup się na czystości planu, kontroli odbić i powtarzalności.",
+      "instructions": [
+        "Wybierz jeden przedmiot i przygotuj go do fotografowania: oczyść powierzchnię, ustaw neutralne lub bezcieniowe tło, oznacz pozycję aparatu i produktu oraz zapisz ustawienia startowe.",
+        "Wykonaj serię 3 zdjęć katalogowych tego samego przedmiotu, zachowując spójny kadr, perspektywę i ekspozycję. Jeśli przedmiot jest błyszczący, zastosuj proste ekrany rozpraszające lub pochłaniające odbicia.",
+        "Na końcu wykonaj 2 zdjęcia dokumentacyjne lub techniczne: jedno ogólne i jedno detalu, pokazujące obiekt w sposób możliwie neutralny i informacyjny."
+      ],
+      "deliverables": [
+        "3 zdjęcia katalogowe lub e-commerce tego samego produktu.",
+        "2 zdjęcia techniczne lub dokumentacyjne: ogólne i detal.",
+        "Krótka karta ustawień stanowiska i parametrów pracy."
+      ],
+      "successCriteria": [
+        "Seria katalogowa jest spójna pod względem kadru, perspektywy, światła i ekspozycji.",
+        "Przedmiot jest pokazany czysto i czytelnie, bez przypadkowych zabrudzeń, chaosu tła i niekontrolowanych odbić.",
+        "Zdjęcia techniczne mają charakter informacyjny i wiernie pokazują cechy obiektu."
+      ],
+      "estimatedMinutes": 45
+    }
+  },
+  {
+    "lessonId": "L-4-6",
+    "lessonTitle": "Lekcja 4.6: Reprodukcja, makrofotografia, panorama oraz techniki specjalne",
+    "worksheet": {
+      "title": "Karta pracy — Zadanie specjalistyczne: reprodukcja, makro lub panorama",
+      "taskIntro": "Wybierz jedno z trzech zadań specjalistycznych i wykonaj je z zachowaniem zasad precyzji oraz powtarzalności: reprodukcję płaskiego obiektu, zdjęcie makro albo prostą panoramę.",
+      "instructions": [
+        "Wybierz wariant pracy: A — reprodukcja dokumentu lub zdjęcia, B — makrofotografia małego obiektu, C — panorama z kilku kadrów. Przygotuj stanowisko tak, aby zminimalizować drgania, błędy ustawienia i zmienność parametrów.",
+        "Wykonaj materiał zgodnie z zasadami dla wybranego wariantu: w reprodukcji ustaw aparat równolegle i zadbaj o równomierne światło, w makro ustaw ostrość bardzo precyzyjnie i ustabilizuj plan, w panoramie zachowaj stałą ekspozycję, balans bieli i zakładki między kadrami.",
+        "Sprawdź efekt końcowy i zapisz, jaki był największy problem techniczny oraz jak go ograniczyłeś podczas realizacji zadania."
+      ],
+      "deliverables": [
+        "Efekt końcowy jednego wybranego zadania: reprodukcja, zdjęcie makro lub panorama.",
+        "2-3 zdjęcia lub ujęcia robocze pokazujące sposób wykonania albo kolejne etapy pracy.",
+        "Krótka notatka techniczna z opisem ustawień i napotkanych trudności."
+      ],
+      "successCriteria": [
+        "Wybrana technika została wykonana zgodnie z jej podstawowymi wymaganiami technicznymi.",
+        "Materiał pokazuje dbałość o stabilność, powtarzalność parametrów i kontrolę błędów.",
+        "Autor potrafi wskazać najważniejszy problem realizacyjny i opisać sposób jego rozwiązania."
+      ],
+      "estimatedMinutes": 50
+    }
+  }
+]

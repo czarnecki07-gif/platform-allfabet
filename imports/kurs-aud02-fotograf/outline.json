@@ -1,0 +1,193 @@
+[
+  {
+    "sectionId": "S-1",
+    "sectionTitle": "Dział 1: Bezpieczna organizacja pracy fotografa",
+    "lessons": [
+      {
+        "lessonId": "L-1-1",
+        "lessonTitle": "Lekcja 1.1: Przepisy BHP, ochrona przeciwpożarowa i ochrona środowiska w pracowni fotograficznej",
+        "goal": "Rozpoznawać obowiązujące przepisy, instytucje nadzoru, prawa i obowiązki pracownika oraz pracodawcy podczas wykonywania zadań fotograficznych."
+      },
+      {
+        "lessonId": "L-1-2",
+        "lessonTitle": "Lekcja 1.2: Ergonomia stanowiska, oznaczenia bezpieczeństwa i środki ochrony",
+        "goal": "Organizować stanowisko pracy zgodnie z zasadami ergonomii, dobierać środki ochrony indywidualnej i zbiorowej oraz poprawnie interpretować znaki informacyjne i ostrzegawcze."
+      },
+      {
+        "lessonId": "L-1-3",
+        "lessonTitle": "Lekcja 1.3: Czynniki szkodliwe, materiały chemiczne i zasady utylizacji",
+        "goal": "Identyfikować zagrożenia zdrowotne występujące w studio, pracowni cyfrowej i ciemni oraz stosować właściwe zasady postępowania z materiałami chemicznymi i odpadami."
+      },
+      {
+        "lessonId": "L-1-4",
+        "lessonTitle": "Lekcja 1.4: Pierwsza pomoc w wypadkach i nagłych stanach zagrożenia zdrowia",
+        "goal": "Ocenić stan poszkodowanego, zabezpieczyć miejsce zdarzenia, wezwać pomoc i wykonać podstawowe czynności ratunkowe, w tym RKO."
+      }
+    ]
+  },
+  {
+    "sectionId": "S-2",
+    "sectionTitle": "Dział 2: Język fotografii, światło i sprzęt",
+    "lessons": [
+      {
+        "lessonId": "L-2-1",
+        "lessonTitle": "Lekcja 2.1: Terminologia fotografii i analiza obrazu",
+        "goal": "Posługiwać się poprawną terminologią z zakresu fotografii, rejestracji, obróbki i publikacji obrazu oraz analizować fotografię pod względem estetyki i funkcji."
+      },
+      {
+        "lessonId": "L-2-2",
+        "lessonTitle": "Lekcja 2.2: Kompozycja kadru, perspektywa i plany zdjęciowe",
+        "goal": "Stosować zasady kompozycji, świadomie budować kadr i dobierać plany zdjęciowe do celu fotografii."
+      },
+      {
+        "lessonId": "L-2-3",
+        "lessonTitle": "Lekcja 2.3: Światło, barwa i przestrzenie barwne",
+        "goal": "Wyjaśniać wpływ światła i barwy na obraz fotograficzny oraz rozróżniać podstawowe przestrzenie barwne używane w rejestracji, obróbce i publikacji."
+      },
+      {
+        "lessonId": "L-2-4",
+        "lessonTitle": "Lekcja 2.4: Aparaty, obiektywy, lampy i urządzenia pomiarowe",
+        "goal": "Rozpoznawać sprzęt fotograficzny i oświetleniowy, określać jego zastosowanie oraz dobierać urządzenia do rodzaju realizowanego zdjęcia."
+      },
+      {
+        "lessonId": "L-2-5",
+        "lessonTitle": "Lekcja 2.5: Matryce, materiały fotograficzne, nośniki pamięci i dokumentacja techniczna",
+        "goal": "Porównywać właściwości matryc, materiałów fotograficznych, papierów i nośników pamięci oraz odczytywać oznaczenia techniczne, schematy i normy stosowane w fotografii."
+      }
+    ]
+  },
+  {
+    "sectionId": "S-3",
+    "sectionTitle": "Dział 3: Planowanie i organizacja planu zdjęciowego",
+    "lessons": [
+      {
+        "lessonId": "L-3-1",
+        "lessonTitle": "Lekcja 3.1: Analiza zlecenia i dobór techniki fotografowania",
+        "goal": "Określać cel sesji, rodzaj fotografii, oczekiwany efekt końcowy i technikę rejestracji adekwatną do tematu oraz warunków pracy."
+      },
+      {
+        "lessonId": "L-3-2",
+        "lessonTitle": "Lekcja 3.2: Dobór miejsca, sprzętu i materiałów do realizacji zdjęć",
+        "goal": "Przygotować listę sprzętu, akcesoriów i materiałów potrzebnych do wykonania sesji w studio, plenerze lub w obiekcie."
+      },
+      {
+        "lessonId": "L-3-3",
+        "lessonTitle": "Lekcja 3.3: Szkic planu zdjęciowego i schematy oświetlenia",
+        "goal": "Tworzyć czytelną dokumentację sesji, w tym szkic planu, schemat ustawienia lamp i zapotrzebowanie materiałowo-sprzętowe."
+      },
+      {
+        "lessonId": "L-3-4",
+        "lessonTitle": "Lekcja 3.4: Budowa sceny, montaż akcesoriów i przygotowanie obiektu",
+        "goal": "Ustawiać elementy sceny zgodnie z dokumentacją, montować akcesoria oraz przygotowywać fotografowany obiekt zgodnie z zasadami kompozycji i bezpieczeństwa."
+      },
+      {
+        "lessonId": "L-3-5",
+        "lessonTitle": "Lekcja 3.5: Pomiar światła, ekspozycja i ustawienia aparatu",
+        "goal": "Wykonywać pomiar oświetlenia, dobierać ekspozycję, ogniskową, ostrość i pozostałe parametry rejestracji obrazu do warunków zdjęciowych."
+      }
+    ]
+  },
+  {
+    "sectionId": "S-4",
+    "sectionTitle": "Dział 4: Rejestracja obrazu w praktyce",
+    "lessons": [
+      {
+        "lessonId": "L-4-1",
+        "lessonTitle": "Lekcja 4.1: Obsługa aparatu, obiektywu, statywów i lamp",
+        "goal": "Ustawiać tryby pracy aparatu i obiektywu, korzystać z funkcji automatyzujących oraz bezpiecznie obsługiwać statywy, lampy i modyfikatory światła."
+      },
+      {
+        "lessonId": "L-4-2",
+        "lessonTitle": "Lekcja 4.2: Zdjęcia plenerowe i fotografia architektury",
+        "goal": "Realizować zdjęcia w świetle zastanym i mieszanym, kontrolować perspektywę oraz dobierać parametry i sprzęt do fotografii krajobrazu i architektury."
+      },
+      {
+        "lessonId": "L-4-3",
+        "lessonTitle": "Lekcja 4.3: Portret studyjny, zdjęcia identyfikacyjne i praca z modelem",
+        "goal": "Wykonywać portrety i zdjęcia identyfikacyjne z użyciem odpowiednich schematów oświetlenia, ustawienia modela i wymagań formalnych."
+      },
+      {
+        "lessonId": "L-4-4",
+        "lessonTitle": "Lekcja 4.4: Reportaż fotograficzny i rejestracja wydarzeń",
+        "goal": "Fotografować dynamiczne sytuacje, przewidywać przebieg wydarzeń i rejestrować materiał reporterski zgodnie z zasadami narracji wizualnej."
+      },
+      {
+        "lessonId": "L-4-5",
+        "lessonTitle": "Lekcja 4.5: Fotografia produktowa, katalogowa, techniczna i bezcieniowa",
+        "goal": "Przygotowywać i wykonywać zdjęcia przedmiotów do katalogu, e-commerce i dokumentacji technicznej z zachowaniem powtarzalności i poprawności odwzorowania."
+      },
+      {
+        "lessonId": "L-4-6",
+        "lessonTitle": "Lekcja 4.6: Reprodukcja, makrofotografia, panorama oraz techniki specjalne",
+        "goal": "Wykonywać reprodukcje, zdjęcia makro, panoramy oraz fotografie specjalne, w tym z użyciem promieniowania UV i IR."
+      }
+    ]
+  },
+  {
+    "sectionId": "S-5",
+    "sectionTitle": "Dział 5: Cyfrowa i chemiczna obróbka obrazu",
+    "lessons": [
+      {
+        "lessonId": "L-5-1",
+        "lessonTitle": "Lekcja 5.1: Konfiguracja stanowiska do obróbki i zarządzanie barwą",
+        "goal": "Przygotować środowisko pracy programu graficznego, skonfigurować urządzenia peryferyjne oraz wykonać kalibrację i profilowanie stanowiska."
+      },
+      {
+        "lessonId": "L-5-2",
+        "lessonTitle": "Lekcja 5.2: Skanowanie materiałów transparentnych i refleksyjnych",
+        "goal": "Dobierać skaner i parametry skanowania, digitalizować negatywy, slajdy i odbitki oraz kontrolować jakość uzyskanego pliku."
+      },
+      {
+        "lessonId": "L-5-3",
+        "lessonTitle": "Lekcja 5.3: Selekcja materiału, kopie cyfrowe i retusz zdjęć",
+        "goal": "Wybierać materiał do opracowania, tworzyć kopie robocze i wykonywać retusz z użyciem narzędzi programu graficznego."
+      },
+      {
+        "lessonId": "L-5-4",
+        "lessonTitle": "Lekcja 5.4: Korekcja tonalna, korekcja barwna i automatyzacja pracy",
+        "goal": "Poprawiać kontrast, jasność, kolor i szczegółowość obrazu oraz stosować działania seryjne usprawniające obróbkę większych zestawów zdjęć."
+      },
+      {
+        "lessonId": "L-5-5",
+        "lessonTitle": "Lekcja 5.5: Kopiowanie analogowe i chemiczna obróbka materiałów fotograficznych",
+        "goal": "Przygotowywać roztwory, prowadzić negatywową i pozytywową obróbkę chemiczną, wykonywać odbitki oraz kontrolować parametry procesu i stan sprzętu."
+      }
+    ]
+  },
+  {
+    "sectionId": "S-6",
+    "sectionTitle": "Dział 6: Publikacja, archiwizacja i komunikacja zawodowa",
+    "lessons": [
+      {
+        "lessonId": "L-6-1",
+        "lessonTitle": "Lekcja 6.1: Przygotowanie plików do publikacji internetowej i galerii cyfrowej",
+        "goal": "Dobierać formaty, rozdzielczość, kompresję i sposób prezentacji zdjęć do publikacji online oraz tworzyć spójne galerie cyfrowe."
+      },
+      {
+        "lessonId": "L-6-2",
+        "lessonTitle": "Lekcja 6.2: Przygotowanie fotografii do druku i dobór materiałów eksploatacyjnych",
+        "goal": "Ustalać parametry pliku do wydruku, dobierać papier, atrament i ustawienia drukarki oraz kontrolować jakość odbitki fotograficznej."
+      },
+      {
+        "lessonId": "L-6-3",
+        "lessonTitle": "Lekcja 6.3: Ekspozycja fotografii w przestrzeni wystawienniczej",
+        "goal": "Dobierać system prezentacji, planować układ prac i przygotowywać fotografie do bezpiecznej i estetycznej ekspozycji."
+      },
+      {
+        "lessonId": "L-6-4",
+        "lessonTitle": "Lekcja 6.4: Archiwizacja zdjęć, metadane i zabezpieczanie zasobów",
+        "goal": "Tworzyć strukturę katalogów, uzupełniać metadane, dobierać nośniki pamięci oraz zabezpieczać obrazy cyfrowe i fotograficzne przed utratą i uszkodzeniem."
+      },
+      {
+        "lessonId": "L-6-5",
+        "lessonTitle": "Lekcja 6.5: Obsługa klienta, etyka zawodowa i organizacja własnej pracy",
+        "goal": "Prowadzić komunikację z klientem, planować realizację zlecenia, zarządzać czasem, współpracować w zespole i podejmować decyzje zgodnie z etyką zawodową."
+      },
+      {
+        "lessonId": "L-6-6",
+        "lessonTitle": "Lekcja 6.6: Język obcy zawodowy w fotografii",
+        "goal": "Stosować podstawowe słownictwo branżowe w rozmowie, instrukcji, e-mailu i dokumentacji dotyczącej sprzętu, procesu realizacji oraz obsługi klienta."
+      }
+    ]
+  }
+]

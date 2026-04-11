@@ -1,0 +1,163 @@
+[
+  {
+    "lessonId": "L-1-1",
+    "lessonTitle": "Lekcja 1.1: Przepisy BHP, ochrona przeciwpożarowa i ochrona środowiska w pracowni fotograficznej",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Nowoczesna pracownia fotograficzna podzielona na trzy strefy: studio z lampami i zabezpieczonymi kablami, ciemnia z oznaczonymi pojemnikami chemicznymi i wentylacją oraz stanowisko komputerowe z ergonomicznym układem. Widoczne znaki ewakuacyjne, gaśnica, apteczka, pojemniki do segregacji odpadów, instrukcje BHP na ścianie. Fotograf sprawdza porządek i bezpieczeństwo przed rozpoczęciem pracy. Styl realistyczny, edukacyjny, jasny, profesjonalny, wysoka czytelność detali, bez chaosu.",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Nowoczesna pracownia fotograficzna podzielona na trzy strefy: studio z lampami i zabezpieczonymi kablami, ciemnia z oznaczonymi pojemnikami chemicznymi i wentylacją oraz stanowisko komputerowe z ergonomicznym układem. Widoczne znaki ewakuacyjne, gaśnica, apteczka, pojemniki do segregacji odpadów, instrukcje BHP na ścianie. Fotograf sprawdza porządek i bezpieczeństwo przed rozpoczęciem pracy. Styl realistyczny, edukacyjny, jasny, profesjonalny, wysoka czytelność detali, bez chaosu.",
+    "imageDescription": "Ilustracja pokazuje, że bezpieczeństwo fotografa obejmuje jednocześnie BHP, ochronę przeciwpożarową i ochronę środowiska. W jednym kadrze widać bezpiecznie zorganizowane studio, ciemnię i pracownię cyfrową.",
+    "voiceoverScript": "Bezpieczna praca fotografa zaczyna się jeszcze przed wykonaniem pierwszego zdjęcia. Trzeba znać zasady BHP, ochrony przeciwpożarowej i ochrony środowiska oraz stosować je w praktyce. Oznacza to sprawny sprzęt, drożne wyjścia ewakuacyjne, zabezpieczone kable, właściwe oznaczenie chemikaliów i odpowiednią utylizację odpadów. Pracodawca odpowiada za organizację bezpiecznego stanowiska i szkolenie, a pracownik za przestrzeganie procedur i zgłaszanie zagrożeń. W fotografii przepisy nie są teorią. To konkretne działania, które chronią zdrowie, życie, sprzęt i otoczenie.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Bezpieczna praca fotografa zaczyna się jeszcze przed wykonaniem pierwszego zdjęcia. Trzeba znać zasady BHP, ochrony przeciwpożarowej i ochrony środowiska oraz stosować je w praktyce. Oznacza to sprawny sprzęt, drożne wyjścia ewakuacyjne, zabezpieczone kable, właściwe oznaczenie chemikaliów i odpowiednią utylizację odpadów. Pracodawca odpowiada za organizację bezpiecznego stanowiska i szkolenie, a pracownik za przestrzeganie procedur i zgłaszanie zagrożeń. W fotografii przepisy nie są teorią. To konkretne działania, które chronią zdrowie, życie, sprzęt i otoczenie.",
+    "slideText": "Bezpieczeństwo fotografa = BHP + PPOŻ + ochrona środowiska\n• sprawny sprzęt i porządek\n• drożne drogi ewakuacyjne\n• właściwe postępowanie z chemią i odpadami\n• prawa i obowiązki pracownika oraz pracodawcy",
+    "keywords": [
+      "BHP",
+      "ochrona przeciwpożarowa",
+      "ochrona środowiska",
+      "pracownia fotograficzna",
+      "obowiązki pracownika",
+      "obowiązki pracodawcy"
+    ],
+    "adminNotes": "",
+    "customImages": [
+      {
+        "id": "CI-1775574791663",
+        "url": "/custom_media/l-1-1-1-1-e-png-1775574791657.png?v=1775574791663",
+        "file": "l-1-1-1-1-e-png-1775574791657.png",
+        "caption": ""
+      }
+    ],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-1-l-1-1-1775573737211.png?v=1775573737214",
+      "file": "s-1-l-1-1-1775573737211.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-1-l-1-1-1775574943309.mp3?v=1775574943313",
+      "file": "s-1-l-1-1-1775574943309.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-1-2",
+    "lessonTitle": "Lekcja 1.2: Ergonomia stanowiska, oznaczenia bezpieczeństwa i środki ochrony",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Edukacyjna plansza w realistycznym stylu pokazująca dwa poprawnie zorganizowane stanowiska fotografa: po lewej ergonomiczne stanowisko komputerowe z monitorem na wysokości wzroku, prawidłowym krzesłem i uporządkowanym biurkiem, po prawej plan zdjęciowy ze stabilnymi statywami, zabezpieczonymi kablami i wolnym przejściem. W tle czytelne znaki bezpieczeństwa: ostrzegawczy, zakazu, nakazu i ewakuacyjny. Obok ułożone środki ochrony indywidualnej: rękawice, okulary, fartuch, obuwie antypoślizgowe. Kolory czytelne, układ infograficzny, profesjonalny, nowoczesny.",
+    "adminImagePrompt": "Edukacyjna plansza w realistycznym stylu pokazująca dwa poprawnie zorganizowane stanowiska fotografa: po lewej ergonomiczne stanowisko komputerowe z monitorem na wysokości wzroku, prawidłowym krzesłem i uporządkowanym biurkiem, po prawej plan zdjęciowy ze stabilnymi statywami, zabezpieczonymi kablami i wolnym przejściem. W tle czytelne znaki bezpieczeństwa: ostrzegawczy, zakazu, nakazu i ewakuacyjny. Obok ułożone środki ochrony indywidualnej: rękawice, okulary, fartuch, obuwie antypoślizgowe. Kolory czytelne, układ infograficzny, profesjonalny, nowoczesny.  Generuj obrazy z poprawną polszczyzną lub bez tekstów na nich. Dotychczasowy obrazek jest dobry, tylko popraw napisy: wysokość wzroku, krzesło prawidłowe, zabezpieczone kable, wolne przejście, obuwie antypoślizgowe",
+    "finalImagePrompt": "Edukacyjna plansza w realistycznym stylu pokazująca dwa poprawnie zorganizowane stanowiska fotografa: po lewej ergonomiczne stanowisko komputerowe z monitorem na wysokości wzroku, prawidłowym krzesłem i uporządkowanym biurkiem, po prawej plan zdjęciowy ze stabilnymi statywami, zabezpieczonymi kablami i wolnym przejściem. W tle czytelne znaki bezpieczeństwa: ostrzegawczy, zakazu, nakazu i ewakuacyjny. Obok ułożone środki ochrony indywidualnej: rękawice, okulary, fartuch, obuwie antypoślizgowe. Kolory czytelne, układ infograficzny, profesjonalny, nowoczesny.  Generuj obrazy z poprawną polszczyzną lub bez tekstów na nich. Dotychczasowy obrazek jest dobry, tylko popraw napisy: wysokość wzroku, krzesło prawidłowe, zabezpieczone kable, wolne przejście, obuwie antypoślizgowe",
+    "imageDescription": "Grafika podkreśla, że ergonomia, znaki bezpieczeństwa i środki ochrony tworzą razem bezpieczne i wygodne stanowisko pracy fotografa w studiu, ciemni i pracowni cyfrowej.",
+    "voiceoverScript": "Dobrze przygotowane stanowisko pracy ma chronić nie tylko sprzęt, ale także ciało fotografa. Ergonomia oznacza takie ustawienie monitora, krzesła, aparatu i akcesoriów, aby ograniczać zmęczenie, przeciążenia i ryzyko urazu. Na planie zdjęciowym ważne są stabilne statywy, zabezpieczone przewody i swobodna przestrzeń ruchu. Równie istotna jest umiejętność rozpoznawania znaków bezpieczeństwa, które informują o zagrożeniach, nakazach, zakazach i drogach ewakuacyjnych. Do konkretnych zadań trzeba też dobierać środki ochrony indywidualnej i zbiorowej. Bezpieczna praca to efekt świadomej organizacji, a nie przypadku.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Dobrze przygotowane stanowisko pracy ma chronić nie tylko sprzęt, ale także ciało fotografa. Ergonomia oznacza takie ustawienie monitora, krzesła, aparatu i akcesoriów, aby ograniczać zmęczenie, przeciążenia i ryzyko urazu. Na planie zdjęciowym ważne są stabilne statywy, zabezpieczone przewody i swobodna przestrzeń ruchu. Równie istotna jest umiejętność rozpoznawania znaków bezpieczeństwa, które informują o zagrożeniach, nakazach, zakazach i drogach ewakuacyjnych. Do konkretnych zadań trzeba też dobierać środki ochrony indywidualnej i zbiorowej. Bezpieczna praca to efekt świadomej organizacji, a nie przypadku.",
+    "slideText": "Ergonomiczne stanowisko = wygoda i bezpieczeństwo\n• poprawne ustawienie komputera i sprzętu\n• stabilne statywy i zabezpieczone kable\n• znajomość znaków bezpieczeństwa\n• dobór ochrony indywidualnej i zbiorowej",
+    "keywords": [
+      "ergonomia",
+      "znaki bezpieczeństwa",
+      "środki ochrony indywidualnej",
+      "środki ochrony zbiorowej",
+      "stanowisko komputerowe",
+      "plan zdjęciowy"
+    ],
+    "adminNotes": "",
+    "customImages": [
+      {
+        "id": "CI-1775574837701",
+        "url": "/custom_media/l-1-2-1-1-b-png-1775574837697.png?v=1775574837701",
+        "file": "l-1-2-1-1-b-png-1775574837697.png",
+        "caption": ""
+      }
+    ],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-1-l-1-2-1775573787489.png?v=1775573787492",
+      "file": "s-1-l-1-2-1775573787489.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-1-l-1-2-1775574952049.mp3?v=1775574952052",
+      "file": "s-1-l-1-2-1775574952049.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-1-3",
+    "lessonTitle": "Lekcja 1.3: Czynniki szkodliwe, materiały chemiczne i zasady utylizacji",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Realistyczna scena edukacyjna pokazująca zagrożenia w pracy fotografa w trzech strefach: studio z gorącymi lampami i kablami, pracownia cyfrowa z osobą siedzącą przy monitorze i zaznaczonym napięciem karku oraz nadgarstków, ciemnia z oznaczonymi butelkami chemicznymi, rękawicami i działającą wentylacją. Widoczne osobne pojemniki na odpady: chemikalia, baterie, elektroodpady, opakowania. Na ilustracji subtelne piktogramy ostrzegające przed oparami, podrażnieniem skóry, zmęczeniem wzroku i przeciążeniem. Styl czysty, profesjonalny, dydaktyczny.",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Realistyczna scena edukacyjna pokazująca zagrożenia w pracy fotografa w trzech strefach: studio z gorącymi lampami i kablami, pracownia cyfrowa z osobą siedzącą przy monitorze i zaznaczonym napięciem karku oraz nadgarstków, ciemnia z oznaczonymi butelkami chemicznymi, rękawicami i działającą wentylacją. Widoczne osobne pojemniki na odpady: chemikalia, baterie, elektroodpady, opakowania. Na ilustracji subtelne piktogramy ostrzegające przed oparami, podrażnieniem skóry, zmęczeniem wzroku i przeciążeniem. Styl czysty, profesjonalny, dydaktyczny.",
+    "imageDescription": "Obraz przedstawia najważniejsze czynniki szkodliwe w fotografii: fizyczne, chemiczne i organizacyjne, a także bezpieczne postępowanie z materiałami i odpadami.",
+    "voiceoverScript": "W pracy fotografa zagrożenia nie zawsze są spektakularne. Często działają powoli: przeciążają kręgosłup, męczą wzrok, podrażniają skórę i drogi oddechowe. W studiu są to między innymi gorące lampy, prąd i ryzyko urazów mechanicznych. W pracowni cyfrowej dominują długotrwałe obciążenia ciała. W ciemni szczególnej ostrożności wymagają chemikalia, które muszą być opisane, właściwie przechowywane i używane przy zachowaniu wentylacji oraz ochron osobistych. Równie ważna jest prawidłowa utylizacja odczynników, baterii i elektroodpadów. Profesjonalista rozpoznaje objawy zagrożenia wcześnie i reaguje, zanim problem się nasili.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "W pracy fotografa zagrożenia nie zawsze są spektakularne. Często działają powoli: przeciążają kręgosłup, męczą wzrok, podrażniają skórę i drogi oddechowe. W studiu są to między innymi gorące lampy, prąd i ryzyko urazów mechanicznych. W pracowni cyfrowej dominują długotrwałe obciążenia ciała. W ciemni szczególnej ostrożności wymagają chemikalia, które muszą być opisane, właściwie przechowywane i używane przy zachowaniu wentylacji oraz ochron osobistych. Równie ważna jest prawidłowa utylizacja odczynników, baterii i elektroodpadów. Profesjonalista rozpoznaje objawy zagrożenia wcześnie i reaguje, zanim problem się nasili.",
+    "slideText": "Czynniki szkodliwe w fotografii\n• fizyczne: prąd, temperatura, urazy\n• organizacyjne: przeciążenia, zła postawa\n• chemiczne: opary i kontakt z odczynnikami\n• odpady wymagają segregacji i właściwej utylizacji",
+    "keywords": [
+      "czynniki szkodliwe",
+      "chemikalia fotograficzne",
+      "wentylacja",
+      "utylizacja odpadów",
+      "ciemnia fotograficzna",
+      "ochrona zdrowia"
+    ],
+    "adminNotes": "",
+    "customImages": [
+      {
+        "id": "CI-1775574904775",
+        "url": "/custom_media/l-1-3-1-1-d-png-1775574904699.png?v=1775574904775",
+        "file": "l-1-3-1-1-d-png-1775574904699.png",
+        "caption": ""
+      }
+    ],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-1-l-1-3-1775573834258.png?v=1775573834262",
+      "file": "s-1-l-1-3-1775573834258.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-1-l-1-3-1775574961397.mp3?v=1775574961401",
+      "file": "s-1-l-1-3-1775574961397.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-1-4",
+    "lessonTitle": "Lekcja 1.4: Pierwsza pomoc w wypadkach i nagłych stanach zagrożenia zdrowia",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Realistyczna ilustracja szkoleniowa w studiu fotograficznym po niewielkim wypadku: jedna osoba zabezpiecza miejsce zdarzenia przy przewróconym statywie i kablu, druga dzwoni pod 112, a ratownik-kluczowy bohater ocenia oddech poszkodowanego leżącego na podłodze. W tle widoczna apteczka, gaśnica, oznaczenie wyjścia ewakuacyjnego. Dodatkowo małe czytelne wstawki pokazujące pozycję bezpieczną i uciski klatki piersiowej. Styl profesjonalny, edukacyjny, spokojny, bez drastyczności.",
+    "adminImagePrompt": "",
+    "finalImagePrompt": "Realistyczna ilustracja szkoleniowa w studiu fotograficznym po niewielkim wypadku: jedna osoba zabezpiecza miejsce zdarzenia przy przewróconym statywie i kablu, druga dzwoni pod 112, a ratownik-kluczowy bohater ocenia oddech poszkodowanego leżącego na podłodze. W tle widoczna apteczka, gaśnica, oznaczenie wyjścia ewakuacyjnego. Dodatkowo małe czytelne wstawki pokazujące pozycję bezpieczną i uciski klatki piersiowej. Styl profesjonalny, edukacyjny, spokojny, bez drastyczności.",
+    "imageDescription": "Grafika przedstawia podstawowy schemat działania w nagłym wypadku: zabezpieczenie miejsca, ocena stanu poszkodowanego, wezwanie pomocy i podjęcie pierwszych czynności ratunkowych.",
+    "voiceoverScript": "W nagłej sytuacji najważniejsze jest działanie według prostego schematu. Najpierw zadbaj o własne bezpieczeństwo i oceń miejsce zdarzenia. Dopiero potem podejdź do poszkodowanego, sprawdź reakcję i oddech. Jeśli osoba oddycha, ale jest nieprzytomna, ułóż ją w pozycji bezpiecznej i kontroluj stan. Jeśli nie oddycha prawidłowo, natychmiast wezwij pomoc pod numer 112 i rozpocznij RKO. W środowisku fotograficznym mogą zdarzyć się upadki, porażenia prądem, oparzenia i kontakt z chemikaliami, dlatego trzeba umieć reagować spokojnie, szybko i bezpiecznie do czasu przyjazdu służb.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "W nagłej sytuacji najważniejsze jest działanie według prostego schematu. Najpierw zadbaj o własne bezpieczeństwo i oceń miejsce zdarzenia. Dopiero potem podejdź do poszkodowanego, sprawdź reakcję i oddech. Jeśli osoba oddycha, ale jest nieprzytomna, ułóż ją w pozycji bezpiecznej i kontroluj stan. Jeśli nie oddycha prawidłowo, natychmiast wezwij pomoc pod numer 112 i rozpocznij RKO. W środowisku fotograficznym mogą zdarzyć się upadki, porażenia prądem, oparzenia i kontakt z chemikaliami, dlatego trzeba umieć reagować spokojnie, szybko i bezpiecznie do czasu przyjazdu służb.",
+    "slideText": "Pierwsza pomoc: 4 kroki działania\n1. Zabezpiecz miejsce i siebie\n2. Sprawdź reakcję i oddech\n3. Wezwij pomoc: 112\n4. Pozycja bezpieczna lub RKO",
+    "keywords": [
+      "pierwsza pomoc",
+      "RKO",
+      "pozycja bezpieczna",
+      "112",
+      "wypadek w studiu",
+      "ocena oddechu"
+    ],
+    "adminNotes": "",
+    "customImages": [],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-1-l-1-4-1775573881979.png?v=1775573882068",
+      "file": "s-1-l-1-4-1775573881979.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-1-l-1-4-1775574986053.mp3?v=1775574986056",
+      "file": "s-1-l-1-4-1775574986053.mp3",
+      "error": ""
+    }
+  }
+]

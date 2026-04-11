@@ -1,0 +1,125 @@
+{
+  "title": "Quiz działowy — Dział 3: Planowanie i organizacja planu zdjęciowego",
+  "questions": [
+    {
+      "question": "Od jakiego działania należy zacząć planowanie sesji fotograficznej na podstawie zlecenia?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Od ustawienia lamp i wyboru tła",
+        "b": "Od ustalenia celu zdjęć i sposobu ich wykorzystania",
+        "c": "Od wyboru najdroższego obiektywu",
+        "d": "Od natychmiastowego wykonania zdjęć próbnych"
+      },
+      "correctAnswer": "b",
+      "explanation": "Cel sesji decyduje o technice fotografowania, sprzęcie, miejscu pracy i oczekiwanym efekcie końcowym."
+    },
+    {
+      "question": "Która sytuacja najlepiej uzasadnia wybór fotografii studyjnej zamiast pleneru?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Gdy najważniejsza jest pełna kontrola nad światłem i tłem",
+        "b": "Gdy zależy nam wyłącznie na naturalnym otoczeniu",
+        "c": "Gdy chcemy pracować bez żadnych przygotowań",
+        "d": "Gdy sesja ma wyglądać przypadkowo i spontanicznie"
+      },
+      "correctAnswer": "a",
+      "explanation": "Studio wybiera się wtedy, gdy trzeba precyzyjnie kontrolować warunki oświetleniowe i tło."
+    },
+    {
+      "question": "Dlaczego ten sam obiekt można fotografować różnymi technikami w zależności od zlecenia?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Ponieważ każdy fotograf ma obowiązek stosować wszystkie techniki",
+        "b": "Ponieważ technika zależy głównie od koloru aparatu",
+        "c": "Ponieważ o wyborze techniki decydują cel zdjęcia, warunki pracy i oczekiwany efekt końcowy",
+        "d": "Ponieważ zawsze trzeba używać technik specjalnych"
+      },
+      "correctAnswer": "c",
+      "explanation": "Ten sam temat może pełnić różne funkcje, więc wymaga innego sposobu rejestracji i prezentacji."
+    },
+    {
+      "question": "Który zestaw najlepiej pokazuje logiczny podział listy sprzętu do sesji?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Sprzęt tani, drogi, nowy i stary",
+        "b": "Sprzęt rejestrujący, stabilizacja, oświetlenie i wyposażenie planu",
+        "c": "Aparaty osobno, wszystko inne razem",
+        "d": "Wyłącznie aparat i obiektyw, bo reszta zależy od improwizacji"
+      },
+      "correctAnswer": "b",
+      "explanation": "Tworzenie listy według grup ułatwia organizację i zmniejsza ryzyko pominięcia ważnych elementów."
+    },
+    {
+      "question": "Jaki jest główny cel szkicu planu zdjęciowego?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Pokazanie artystycznych umiejętności rysownika",
+        "b": "Zastąpienie próbnego ustawienia planu",
+        "c": "Ocena rozmieszczenia elementów sesji i ułatwienie organizacji pracy",
+        "d": "Udokumentowanie wyłącznie parametrów obiektywu"
+      },
+      "correctAnswer": "c",
+      "explanation": "Szkic pomaga zaplanować przestrzeń, rozstawienie sprzętu i komunikację z zespołem."
+    },
+    {
+      "question": "Co powinien zawierać czytelny schemat oświetlenia?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Wyłącznie liczbę lamp bez opisu ich roli",
+        "b": "Pozycję źródeł światła, kierunek świecenia i funkcję każdej lampy",
+        "c": "Tylko nazwę producenta lamp",
+        "d": "Jedynie godzinę rozpoczęcia sesji"
+      },
+      "correctAnswer": "b",
+      "explanation": "Dobry schemat pokazuje nie tylko gdzie stoją lampy, ale też jakie zadanie pełni każde źródło światła."
+    },
+    {
+      "question": "Dlaczego przygotowanie fotografowanego obiektu przed wykonaniem zdjęć jest tak ważne?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Bo pozwala ograniczyć widoczne błędy w kadrze i zmniejsza potrzebę retuszu",
+        "b": "Bo zastępuje ustawienie ostrości i ekspozycji",
+        "c": "Bo dzięki temu można zrezygnować z oświetlenia",
+        "d": "Bo obiekt zawsze wygląda lepiej z dużej odległości"
+      },
+      "correctAnswer": "a",
+      "explanation": "Kurz, odciski, zagniecenia czy bałagan w kadrze lepiej usunąć przed zdjęciem niż poprawiać później."
+    },
+    {
+      "question": "Które działanie najlepiej zwiększa bezpieczeństwo na planie zdjęciowym?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Ustawianie ciężkich lamp na niestabilnym podłożu",
+        "b": "Pozostawienie przewodów w przejściach, aby były pod ręką",
+        "c": "Dociążanie statywów i zabezpieczanie przewodów przed potknięciem",
+        "d": "Podłączanie wszystkich urządzeń do jednego przeciążonego gniazda"
+      },
+      "correctAnswer": "c",
+      "explanation": "Stabilny montaż sprzętu i zabezpieczenie przewodów to podstawowe zasady bezpiecznej organizacji planu."
+    },
+    {
+      "question": "Co oznacza świadome stosowanie trójkąta ekspozycji?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Ustawianie przysłony, czasu i ISO łącznie, zależnie od efektu i warunków",
+        "b": "Zmianę tylko jednego parametru bez wpływu na pozostałe",
+        "c": "Pracę zawsze na najwyższym ISO",
+        "d": "Wybór parametrów wyłącznie według automatyki aparatu"
+      },
+      "correctAnswer": "a",
+      "explanation": "Przysłona, czas i ISO wpływają na siebie wzajemnie, dlatego dobiera się je razem do konkretnego zadania."
+    },
+    {
+      "question": "Które stwierdzenie najlepiej opisuje znaczenie kontroli zdjęcia na planie po jego wykonaniu?",
+      "type": "single_choice",
+      "answers": {
+        "a": "Nie jest potrzebna, jeśli fotograf pracuje w RAW",
+        "b": "Służy tylko do sprawdzenia, czy karta pamięci działa",
+        "c": "Pozwala od razu wykryć problemy z ostrością, ekspozycją, kolorem i przepaleniami",
+        "d": "Jest ważna tylko przy fotografii reportażowej"
+      },
+      "correctAnswer": "c",
+      "explanation": "Szybka weryfikacja obrazu na planie umożliwia poprawienie błędów jeszcze podczas sesji."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "exportId": "export-1775649413585",
+  "createdAt": "2026-04-08T11:56:53.663Z",
+  "files": [
+    {
+      "name": "project.json",
+      "desc": "Konfiguracja kursu i dane wejściowe."
+    },
+    {
+      "name": "outline.json",
+      "desc": "Program kursu."
+    },
+    {
+      "name": "sections/dzia-1-bezpieczna-organizacja-pracy-fotografa/section.json",
+      "desc": "Dział 1: Bezpieczna organizacja pracy fotografa — dane działu"
+    },
+    {
+      "name": "sections/dzia-1-bezpieczna-organizacja-pracy-fotografa/lessons.json",
+      "desc": "Dział 1: Bezpieczna organizacja pracy fotografa — lekcje"
+    },
+    {
+      "name": "sections/dzia-1-bezpieczna-organizacja-pracy-fotografa/media.json",
+      "desc": "Dział 1: Bezpieczna organizacja pracy fotografa — multimedia"
+    },
+    {
+      "name": "sections/dzia-1-bezpieczna-organizacja-pracy-fotografa/worksheets.json",
+      "desc": "Dział 1: Bezpieczna organizacja pracy fotografa — karty pracy"
+    },
+    {
+      "name": "sections/dzia-1-bezpieczna-organizacja-pracy-fotografa/quiz.json",
+      "desc": "Dział 1: Bezpieczna organizacja pracy fotografa — quiz działowy"
+    },
+    {
+      "name": "sections/dzia-1-bezpieczna-organizacja-pracy-fotografa/test.json",
+      "desc": "Dział 1: Bezpieczna organizacja pracy fotografa — test działowy"
+    },
+    {
+      "name": "sections/dzia-2-jezyk-fotografii-swiat-o-i-sprzet/section.json",
+      "desc": "Dział 2: Język fotografii, światło i sprzęt — dane działu"
+    },
+    {
+      "name": "sections/dzia-2-jezyk-fotografii-swiat-o-i-sprzet/lessons.json",
+      "desc": "Dział 2: Język fotografii, światło i sprzęt — lekcje"
+    },
+    {
+      "name": "sections/dzia-2-jezyk-fotografii-swiat-o-i-sprzet/media.json",
+      "desc": "Dział 2: Język fotografii, światło i sprzęt — multimedia"
+    },
+    {
+      "name": "sections/dzia-2-jezyk-fotografii-swiat-o-i-sprzet/worksheets.json",
+      "desc": "Dział 2: Język fotografii, światło i sprzęt — karty pracy"
+    },
+    {
+      "name": "sections/dzia-2-jezyk-fotografii-swiat-o-i-sprzet/quiz.json",
+      "desc": "Dział 2: Język fotografii, światło i sprzęt — quiz działowy"
+    },
+    {
+      "name": "sections/dzia-2-jezyk-fotografii-swiat-o-i-sprzet/test.json",
+      "desc": "Dział 2: Język fotografii, światło i sprzęt — test działowy"
+    },
+    {
+      "name": "sections/dzia-3-planowanie-i-organizacja-planu-zdjeciowego/section.json",
+      "desc": "Dział 3: Planowanie i organizacja planu zdjęciowego — dane działu"
+    },
+    {
+      "name": "sections/dzia-3-planowanie-i-organizacja-planu-zdjeciowego/lessons.json",
+      "desc": "Dział 3: Planowanie i organizacja planu zdjęciowego — lekcje"
+    },
+    {
+      "name": "sections/dzia-3-planowanie-i-organizacja-planu-zdjeciowego/media.json",
+      "desc": "Dział 3: Planowanie i organizacja planu zdjęciowego — multimedia"
+    },
+    {
+      "name": "sections/dzia-3-planowanie-i-organizacja-planu-zdjeciowego/worksheets.json",
+      "desc": "Dział 3: Planowanie i organizacja planu zdjęciowego — karty pracy"
+    },
+    {
+      "name": "sections/dzia-3-planowanie-i-organizacja-planu-zdjeciowego/quiz.json",
+      "desc": "Dział 3: Planowanie i organizacja planu zdjęciowego — quiz działowy"
+    },
+    {
+      "name": "sections/dzia-3-planowanie-i-organizacja-planu-zdjeciowego/test.json",
+      "desc": "Dział 3: Planowanie i organizacja planu zdjęciowego — test działowy"
+    },
+    {
+      "name": "sections/dzia-4-rejestracja-obrazu-w-praktyce/section.json",
+      "desc": "Dział 4: Rejestracja obrazu w praktyce — dane działu"
+    },
+    {
+      "name": "sections/dzia-4-rejestracja-obrazu-w-praktyce/lessons.json",
+      "desc": "Dział 4: Rejestracja obrazu w praktyce — lekcje"
+    },
+    {
+      "name": "sections/dzia-4-rejestracja-obrazu-w-praktyce/media.json",
+      "desc": "Dział 4: Rejestracja obrazu w praktyce — multimedia"
+    },
+    {
+      "name": "sections/dzia-4-rejestracja-obrazu-w-praktyce/worksheets.json",
+      "desc": "Dział 4: Rejestracja obrazu w praktyce — karty pracy"
+    },
+    {
+      "name": "sections/dzia-4-rejestracja-obrazu-w-praktyce/quiz.json",
+      "desc": "Dział 4: Rejestracja obrazu w praktyce — quiz działowy"
+    },
+    {
+      "name": "sections/dzia-4-rejestracja-obrazu-w-praktyce/test.json",
+      "desc": "Dział 4: Rejestracja obrazu w praktyce — test działowy"
+    },
+    {
+      "name": "sections/dzia-5-cyfrowa-i-chemiczna-obrobka-obrazu/section.json",
+      "desc": "Dział 5: Cyfrowa i chemiczna obróbka obrazu — dane działu"
+    },
+    {
+      "name": "sections/dzia-5-cyfrowa-i-chemiczna-obrobka-obrazu/lessons.json",
+      "desc": "Dział 5: Cyfrowa i chemiczna obróbka obrazu — lekcje"
+    },
+    {
+      "name": "sections/dzia-5-cyfrowa-i-chemiczna-obrobka-obrazu/media.json",
+      "desc": "Dział 5: Cyfrowa i chemiczna obróbka obrazu — multimedia"
+    },
+    {
+      "name": "sections/dzia-5-cyfrowa-i-chemiczna-obrobka-obrazu/worksheets.json",
+      "desc": "Dział 5: Cyfrowa i chemiczna obróbka obrazu — karty pracy"
+    },
+    {
+      "name": "sections/dzia-5-cyfrowa-i-chemiczna-obrobka-obrazu/quiz.json",
+      "desc": "Dział 5: Cyfrowa i chemiczna obróbka obrazu — quiz działowy"
+    },
+    {
+      "name": "sections/dzia-5-cyfrowa-i-chemiczna-obrobka-obrazu/test.json",
+      "desc": "Dział 5: Cyfrowa i chemiczna obróbka obrazu — test działowy"
+    },
+    {
+      "name": "sections/dzia-6-publikacja-archiwizacja-i-komunikacja-zawodowa/section.json",
+      "desc": "Dział 6: Publikacja, archiwizacja i komunikacja zawodowa — dane działu"
+    },
+    {
+      "name": "sections/dzia-6-publikacja-archiwizacja-i-komunikacja-zawodowa/lessons.json",
+      "desc": "Dział 6: Publikacja, archiwizacja i komunikacja zawodowa — lekcje"
+    },
+    {
+      "name": "sections/dzia-6-publikacja-archiwizacja-i-komunikacja-zawodowa/media.json",
+      "desc": "Dział 6: Publikacja, archiwizacja i komunikacja zawodowa — multimedia"
+    },
+    {
+      "name": "sections/dzia-6-publikacja-archiwizacja-i-komunikacja-zawodowa/worksheets.json",
+      "desc": "Dział 6: Publikacja, archiwizacja i komunikacja zawodowa — karty pracy"
+    },
+    {
+      "name": "sections/dzia-6-publikacja-archiwizacja-i-komunikacja-zawodowa/quiz.json",
+      "desc": "Dział 6: Publikacja, archiwizacja i komunikacja zawodowa — quiz działowy"
+    },
+    {
+      "name": "sections/dzia-6-publikacja-archiwizacja-i-komunikacja-zawodowa/test.json",
+      "desc": "Dział 6: Publikacja, archiwizacja i komunikacja zawodowa — test działowy"
+    },
+    {
+      "name": "final-exam-theory.json",
+      "desc": "Egzamin końcowy teoretyczny"
+    },
+    {
+      "name": "final-exam-practical.json",
+      "desc": "Egzamin końcowy praktyczny"
+    },
+    {
+      "name": "certificate.json",
+      "desc": "Szablon certyfikatu"
+    }
+  ],
+  "hasFinalExam": true,
+  "hasFinalPracticalExam": true,
+  "hasCertificate": true
+}

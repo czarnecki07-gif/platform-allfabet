@@ -1,0 +1,146 @@
+[
+  {
+    "lessonId": "L-6-1",
+    "lessonTitle": "Lekcja 6.1: Przygotowanie plików do publikacji internetowej i galerii cyfrowej",
+    "worksheet": {
+      "title": "Karta pracy — Przygotowanie zdjęć do publikacji online i spójnej galerii",
+      "taskIntro": "Przygotuj mini-galerię internetową z 6–8 zdjęć. Twoim zadaniem jest dobrać parametry eksportu, uporządkować kolejność zdjęć i zaplanować spójną prezentację dla odbiorcy.",
+      "instructions": [
+        "Wybierz 6–8 fotografii z jednego tematu, np. portret, produkt, reportaż lub krajobraz, i ułóż je w logicznej kolejności prezentacji.",
+        "Wyeksportuj zdjęcia do publikacji internetowej w odpowiednim formacie i przestrzeni barw, dobierając rozsądne wymiary w pikselach oraz kompresję.",
+        "Przygotuj prosty plan galerii: nazwij pliki czytelnie, zapisz tytuł galerii i krótko uzasadnij, dlaczego wybrałeś taką kolejność oraz ustawienia eksportu."
+      ],
+      "deliverables": [
+        "Folder z wyeksportowanymi zdjęciami do internetu.",
+        "Lista parametrów eksportu dla galerii: format, przestrzeń barw, wymiary i poziom kompresji.",
+        "Krótki opis koncepcji galerii i kolejności zdjęć."
+      ],
+      "successCriteria": [
+        "Wszystkie zdjęcia są przygotowane w parametrach odpowiednich do publikacji online.",
+        "Galeria jest spójna wizualnie pod względem obróbki, kadru lub tematu.",
+        "Kolejność zdjęć jest przemyślana i wspiera czytelny odbiór serii."
+      ],
+      "estimatedMinutes": 30
+    }
+  },
+  {
+    "lessonId": "L-6-2",
+    "lessonTitle": "Lekcja 6.2: Przygotowanie fotografii do druku i dobór materiałów eksploatacyjnych",
+    "worksheet": {
+      "title": "Karta pracy — Przygotowanie pliku do wydruku i wybór papieru",
+      "taskIntro": "Przygotuj jedną fotografię do wydruku w wybranym formacie. Określ parametry pliku, dobierz papier i zaplanuj sposób kontroli jakości odbitki.",
+      "instructions": [
+        "Wybierz jedno zdjęcie i ustal docelowy format wydruku, np. A4, A3 lub inny, a następnie sprawdź, czy plik ma odpowiednią liczbę pikseli do tego rozmiaru.",
+        "Dobierz rodzaj papieru do charakteru fotografii i zapisz, dlaczego wybierasz papier matowy, błyszczący, satynowy lub półmatowy.",
+        "Przygotuj krótką checklistę kontroli wydruku obejmującą co najmniej: ostrość, jasność, kolory, przejścia tonalne i zgodność ustawień drukarki z papierem."
+      ],
+      "deliverables": [
+        "Opis przygotowanego pliku do druku z podanym formatem odbitki i rozdzielczością.",
+        "Uzasadniony wybór papieru do tej fotografii.",
+        "Checklistę oceny próbnego wydruku."
+      ],
+      "successCriteria": [
+        "Parametry pliku odpowiadają wybranemu formatowi wydruku.",
+        "Dobór papieru jest logiczny i powiązany z charakterem zdjęcia.",
+        "Checklistę można realnie wykorzystać do oceny jakości odbitki."
+      ],
+      "estimatedMinutes": 25
+    }
+  },
+  {
+    "lessonId": "L-6-3",
+    "lessonTitle": "Lekcja 6.3: Ekspozycja fotografii w przestrzeni wystawienniczej",
+    "worksheet": {
+      "title": "Karta pracy — Plan ekspozycji fotografii",
+      "taskIntro": "Zaplanuj małą wystawę z 5–7 fotografii w wybranej przestrzeni, np. szkolnym korytarzu, sali, galerii lub showroomie. Skup się na układzie prac, sposobie prezentacji i bezpieczeństwie montażu.",
+      "instructions": [
+        "Wybierz 5–7 zdjęć i zdecyduj, w jakim systemie będą prezentowane, np. w ramach, antyramach, na piance lub w passe-partout.",
+        "Narysuj prosty szkic ściany lub przestrzeni i rozmieść na nim fotografie, uwzględniając kolejność, odstępy między pracami oraz wysokość zawieszenia.",
+        "Sporządź krótką listę zasad montażu i ochrony prac, uwzględniając oświetlenie, transport, czystość wydruków i stabilność mocowań."
+      ],
+      "deliverables": [
+        "Szkic rozmieszczenia fotografii w przestrzeni wystawienniczej.",
+        "Opis wybranego systemu prezentacji.",
+        "Lista zasad bezpiecznego montażu i ekspozycji."
+      ],
+      "successCriteria": [
+        "Układ prac jest czytelny i tworzy spójną prezentację.",
+        "Wybrany system ekspozycji pasuje do miejsca i charakteru zdjęć.",
+        "Plan uwzględnia podstawowe zasady bezpieczeństwa i warunki oglądania."
+      ],
+      "estimatedMinutes": 30
+    }
+  },
+  {
+    "lessonId": "L-6-4",
+    "lessonTitle": "Lekcja 6.4: Archiwizacja zdjęć, metadane i zabezpieczanie zasobów",
+    "worksheet": {
+      "title": "Karta pracy — Organizacja archiwum fotograficznego",
+      "taskIntro": "Zaprojektuj prosty, ale profesjonalny system archiwizacji dla własnych zdjęć. Twoim zadaniem jest uporządkowanie plików, zaplanowanie metadanych i wskazanie sposobu tworzenia kopii bezpieczeństwa.",
+      "instructions": [
+        "Opracuj strukturę folderów dla minimum jednego typu realizacji, np. sesji portretowej, reportażu lub zdjęć produktowych, z podziałem na etapy pracy.",
+        "Przygotuj wzór nazewnictwa plików i wypisz zestaw metadanych, które będziesz uzupełniać, np. autor, data, słowa kluczowe, prawa autorskie.",
+        "Zaproponuj prosty plan zabezpieczenia materiału: gdzie będą zapisane pliki główne, gdzie kopia zapasowa i jak często będą wykonywane kopie."
+      ],
+      "deliverables": [
+        "Schemat struktury katalogów dla archiwum zdjęć.",
+        "Wzór nazwy pliku i lista metadanych do uzupełniania.",
+        "Krótki plan tworzenia kopii bezpieczeństwa."
+      ],
+      "successCriteria": [
+        "Struktura folderów jest logiczna, czytelna i możliwa do stosowania w praktyce.",
+        "Nazewnictwo plików i metadane ułatwiają późniejsze wyszukiwanie materiału.",
+        "Plan zabezpieczenia obejmuje więcej niż jedno miejsce przechowywania danych."
+      ],
+      "estimatedMinutes": 25
+    }
+  },
+  {
+    "lessonId": "L-6-5",
+    "lessonTitle": "Lekcja 6.5: Obsługa klienta, etyka zawodowa i organizacja własnej pracy",
+    "worksheet": {
+      "title": "Karta pracy — Plan obsługi klienta i organizacji zlecenia",
+      "taskIntro": "Przygotuj model działania dla prostego zlecenia fotograficznego. Masz ustalić najważniejsze informacje od klienta, rozpisać etapy pracy i wskazać zasady etycznego postępowania.",
+      "instructions": [
+        "Wybierz przykład zlecenia, np. sesja biznesowa, reportaż z wydarzenia lub zdjęcia produktowe, i sporządź listę pytań, które zadasz klientowi przed rozpoczęciem pracy.",
+        "Rozpisz harmonogram realizacji zlecenia od przygotowania do przekazania gotowych zdjęć, uwzględniając terminy pośrednie i zapas czasu na poprawki.",
+        "Wypisz trzy zasady etyczne ważne w tym zleceniu, np. ochrona wizerunku, poufność, uczciwe informowanie o zakresie retuszu lub prawach do publikacji."
+      ],
+      "deliverables": [
+        "Lista pytań do klienta przed realizacją zlecenia.",
+        "Prosty harmonogram pracy nad zleceniem.",
+        "Zestaw zasad etycznych dotyczących wybranego przypadku."
+      ],
+      "successCriteria": [
+        "Pytania do klienta pomagają jasno ustalić zakres i warunki współpracy.",
+        "Harmonogram obejmuje wszystkie główne etapy realizacji i jest realistyczny.",
+        "Zasady etyczne są dopasowane do sytuacji zawodowej fotografa."
+      ],
+      "estimatedMinutes": 30
+    }
+  },
+  {
+    "lessonId": "L-6-6",
+    "lessonTitle": "Lekcja 6.6: Język obcy zawodowy w fotografii",
+    "worksheet": {
+      "title": "Karta pracy — Język angielski zawodowy w praktyce fotografa",
+      "taskIntro": "Wykonaj krótkie zadanie językowe związane z codzienną pracą fotografa. Skup się na słownictwie branżowym, prostym e-mailu i komunikatach używanych podczas realizacji zdjęć.",
+      "instructions": [
+        "Przygotuj listę 12 podstawowych angielskich słów lub zwrotów związanych ze sprzętem i ustawieniami fotograficznymi, a obok zapisz ich polskie znaczenie.",
+        "Napisz krótki e-mail po angielsku do klienta, w którym potwierdzasz termin sesji, prosisz o inspiracje i informujesz o czasie oddania zdjęć.",
+        "Ułóż 6 prostych poleceń po angielsku, które możesz wydać modelowi lub osobie fotografowanej podczas sesji."
+      ],
+      "deliverables": [
+        "Lista 12 angielskich terminów branżowych z tłumaczeniem.",
+        "Krótki e-mail zawodowy w języku angielskim.",
+        "Zestaw 6 prostych poleceń używanych podczas sesji."
+      ],
+      "successCriteria": [
+        "Słownictwo jest poprawnie dobrane do pracy fotografa.",
+        "E-mail jest zrozumiały, uprzejmy i zawiera najważniejsze informacje organizacyjne.",
+        "Polecenia są krótkie, praktyczne i możliwe do użycia podczas zdjęć."
+      ],
+      "estimatedMinutes": 20
+    }
+  }
+]

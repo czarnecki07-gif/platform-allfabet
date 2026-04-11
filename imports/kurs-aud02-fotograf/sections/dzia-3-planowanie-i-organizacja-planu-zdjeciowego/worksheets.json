@@ -1,0 +1,122 @@
+[
+  {
+    "lessonId": "L-3-1",
+    "lessonTitle": "Lekcja 3.1: Analiza zlecenia i dobór techniki fotografowania",
+    "worksheet": {
+      "title": "Karta pracy — Analiza zlecenia fotograficznego",
+      "taskIntro": "Przeanalizuj przykładowe zlecenie fotograficzne i dobierz technikę pracy adekwatną do celu sesji, warunków oraz oczekiwanego efektu końcowego.",
+      "instructions": [
+        "Wybierz jeden temat sesji: portret biznesowy, zdjęcie produktu do sklepu internetowego albo reportaż z wydarzenia. Zapisz cel zdjęć, odbiorcę, miejsce publikacji i oczekiwany styl wizualny.",
+        "Przygotuj krótką analizę zlecenia, odpowiadając na pytania: co fotografujesz, po co, dla kogo, gdzie, kiedy, w jakich warunkach i ile zdjęć ma powstać.",
+        "Na podstawie analizy dobierz rodzaj fotografii i technikę rejestracji obrazu. Uzasadnij wybór miejsca pracy, sposobu oświetlenia i ogólnego podejścia do sesji."
+      ],
+      "deliverables": [
+        "Karta analizy zlecenia zawierająca minimum 6 kluczowych informacji o sesji.",
+        "Krótki opis dobranej techniki fotografowania z uzasadnieniem.",
+        "Lista 5 pytań, które zadałbyś klientowi przed sesją."
+      ],
+      "successCriteria": [
+        "Analiza jasno określa cel sesji, odbiorcę i sposób wykorzystania zdjęć.",
+        "Dobór techniki fotografowania wynika z warunków pracy i efektu końcowego.",
+        "Uzasadnienie pokazuje logiczne powiązanie między zleceniem a decyzjami fotograficznymi."
+      ],
+      "estimatedMinutes": 25
+    }
+  },
+  {
+    "lessonId": "L-3-2",
+    "lessonTitle": "Lekcja 3.2: Dobór miejsca, sprzętu i materiałów do realizacji zdjęć",
+    "worksheet": {
+      "title": "Karta pracy — Lista sprzętu i wybór miejsca sesji",
+      "taskIntro": "Zaplanuj realną sesję zdjęciową i przygotuj kompletną listę miejsca, sprzętu, akcesoriów oraz materiałów potrzebnych do jej wykonania.",
+      "instructions": [
+        "Wybierz rodzaj sesji: studio, plener albo zdjęcia w obiekcie. Opisz krótko lokalizację i wskaż jej najważniejsze warunki techniczne oraz organizacyjne.",
+        "Przygotuj listę sprzętu w 4 grupach: rejestracja obrazu, stabilizacja, oświetlenie, wyposażenie planu. Dodaj także elementy zapasowe.",
+        "Uzupełnij listę o materiały i akcesoria pomocnicze potrzebne do konkretnej sesji, a następnie zaznacz, które elementy musisz sprawdzić przed wyjazdem lub wejściem na plan."
+      ],
+      "deliverables": [
+        "Opis wybranego miejsca realizacji z minimum 4 informacjami organizacyjno-technicznymi.",
+        "Lista sprzętu i akcesoriów podzielona na kategorie.",
+        "Krótka lista kontrolna przed sesją zawierająca co najmniej 8 punktów."
+      ],
+      "successCriteria": [
+        "Wybrane miejsce jest uzasadnione charakterem sesji i warunkami pracy.",
+        "Lista obejmuje nie tylko aparat i obiektywy, ale także światło, zasilanie, nośniki i akcesoria pomocnicze.",
+        "Lista kontrolna ogranicza ryzyko braków sprzętowych i problemów organizacyjnych."
+      ],
+      "estimatedMinutes": 30
+    }
+  },
+  {
+    "lessonId": "L-3-3",
+    "lessonTitle": "Lekcja 3.3: Szkic planu zdjęciowego i schematy oświetlenia",
+    "worksheet": {
+      "title": "Karta pracy — Szkic planu zdjęciowego i schemat światła",
+      "taskIntro": "Przygotuj prostą dokumentację wybranej sesji: szkic planu zdjęciowego, schemat oświetlenia oraz zestawienie potrzebnych elementów.",
+      "instructions": [
+        "Wybierz jedną sytuację zdjęciową: portret, produkt albo wnętrze. Narysuj prosty szkic planu z góry, zaznaczając położenie aparatu, fotografowanego obiektu, tła, lamp i przestrzeni roboczej.",
+        "Na osobnym schemacie opisz każde źródło światła: pozycję, kierunek świecenia, funkcję oraz użyty modyfikator lub odbłyśnik.",
+        "Dołącz krótką dokumentację sesji: nazwę zlecenia, miejsce, przewidywany czas pracy oraz listę sprzętu i materiałów potrzebnych do realizacji."
+      ],
+      "deliverables": [
+        "Szkic planu zdjęciowego z podpisanymi elementami.",
+        "Schemat oświetlenia z opisem funkcji każdej lampy lub odbijanego światła.",
+        "Zestawienie materiałowo-sprzętowe do wybranej sesji."
+      ],
+      "successCriteria": [
+        "Szkic jest czytelny i pokazuje logiczne rozmieszczenie elementów planu.",
+        "Schemat światła zawiera pozycję źródeł oraz ich funkcję w budowaniu obrazu.",
+        "Dokumentacja umożliwia przygotowanie i odtworzenie sesji w podobnych warunkach."
+      ],
+      "estimatedMinutes": 30
+    }
+  },
+  {
+    "lessonId": "L-3-4",
+    "lessonTitle": "Lekcja 3.4: Budowa sceny, montaż akcesoriów i przygotowanie obiektu",
+    "worksheet": {
+      "title": "Karta pracy — Przygotowanie sceny zdjęciowej",
+      "taskIntro": "Zorganizuj mały plan zdjęciowy według własnego pomysłu lub wcześniej przygotowanego szkicu. Skup się na poprawnym ustawieniu elementów sceny, montażu akcesoriów i przygotowaniu obiektu do zdjęcia.",
+      "instructions": [
+        "Przygotuj prostą scenę do zdjęcia produktu, portretu lub fragmentu wnętrza. Ustaw tło, miejsce dla obiektu lub modela oraz pozycję aparatu zgodnie z założoną kompozycją.",
+        "Zamontuj potrzebne akcesoria, takie jak statyw, lampa, blenda, tło lub stolik. Sprawdź stabilność ustawień i zabezpiecz przewody oraz cięższe elementy.",
+        "Przygotuj fotografowany obiekt do zdjęcia: usuń zabrudzenia, popraw detale, uporządkuj kadr i oceń, czy w scenie nie ma elementów rozpraszających uwagę."
+      ],
+      "deliverables": [
+        "Zdjęcie lub krótki opis gotowej sceny przed wykonaniem fotografii.",
+        "Lista wykonanych czynności przygotowawczych i zabezpieczających.",
+        "Krótka notatka: co poprawiono w obiekcie lub przestrzeni przed rozpoczęciem zdjęć."
+      ],
+      "successCriteria": [
+        "Scena została zbudowana etapami i zachowuje porządek kompozycyjny.",
+        "Akcesoria są zamontowane stabilnie, a organizacja planu uwzględnia bezpieczeństwo pracy.",
+        "Obiekt jest przygotowany estetycznie i nie zawiera oczywistych błędów widocznych w kadrze."
+      ],
+      "estimatedMinutes": 25
+    }
+  },
+  {
+    "lessonId": "L-3-5",
+    "lessonTitle": "Lekcja 3.5: Pomiar światła, ekspozycja i ustawienia aparatu",
+    "worksheet": {
+      "title": "Karta pracy — Dobór ekspozycji i ustawień aparatu",
+      "taskIntro": "Wykonaj serię próbnych zdjęć tego samego obiektu w wybranych warunkach oświetleniowych i świadomie dobierz ustawienia aparatu do celu fotografii.",
+      "instructions": [
+        "Wybierz prosty temat zdjęcia, na przykład portret, produkt lub fragment wnętrza. Oceń rodzaj światła, jego kierunek, natężenie i charakter, a następnie zapisz warunki pracy.",
+        "Ustaw aparat i wykonaj co najmniej 3 zdjęcia próbne, zmieniając parametry ekspozycji lub ogniskową. Zanotuj dla każdego ujęcia: przysłonę, czas, ISO, ogniskową i sposób ustawienia ostrości.",
+        "Porównaj efekty i wybierz najlepsze ustawienie. Krótko uzasadnij, dlaczego ta kombinacja parametrów najlepiej odpowiada tematowi oraz warunkom zdjęciowym."
+      ],
+      "deliverables": [
+        "Tabela z minimum 3 zestawami ustawień aparatu.",
+        "Wybrane zdjęcie końcowe lub wskazanie najlepszego ujęcia z krótkim uzasadnieniem.",
+        "Krótka notatka z oceny światła i kontroli efektu technicznego."
+      ],
+      "successCriteria": [
+        "Parametry ekspozycji zostały dobrane świadomie i zapisane w uporządkowany sposób.",
+        "Uczeń potrafi wyjaśnić wpływ przysłony, czasu, ISO, ogniskowej i ostrości na efekt zdjęcia.",
+        "Wybór najlepszego ujęcia wynika z analizy światła oraz jakości technicznej obrazu."
+      ],
+      "estimatedMinutes": 30
+    }
+  }
+]

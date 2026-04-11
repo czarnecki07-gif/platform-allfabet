@@ -1,0 +1,122 @@
+[
+  {
+    "lessonId": "L-5-1",
+    "lessonTitle": "Lekcja 5.1: Konfiguracja stanowiska do obróbki i zarządzanie barwą",
+    "worksheet": {
+      "title": "Karta pracy — konfiguracja stanowiska i podstawy zarządzania barwą",
+      "taskIntro": "Przygotuj własne stanowisko do obróbki obrazu albo opisz stanowisko szkolne. Twoim zadaniem jest sprawdzenie elementów toru pracy, ustawienie podstawowych parametrów programu graficznego i wykonanie krótkiej kontroli zgodności barwnej.",
+      "instructions": [
+        "Sprawdź stanowisko pracy: komputer, monitor, urządzenia peryferyjne, sterowniki, oświetlenie miejsca pracy i wygodę ustawienia ekranu. Zapisz, co działa poprawnie, a co wymaga poprawy.",
+        "W programie graficznym ustaw przestrzeń roboczą odpowiednią do wybranego celu pracy, na przykład sRGB do publikacji internetowej albo Adobe RGB do dalszej obróbki i wydruku, jeśli stanowisko to umożliwia. Włącz ostrzeżenia dotyczące profili ICC i zapisz własny układ paneli.",
+        "Wyświetl obraz testowy lub dowolne zdjęcie zawierające neutralne szarości, skórę i nasycone kolory. Oceń, czy obraz wygląda naturalnie, i zapisz krótką notatkę, jakie ustawienia stanowiska lub programu wpływają na wiarygodność oceny kolorów."
+      ],
+      "deliverables": [
+        "Lista kontrolna stanowiska z zaznaczeniem elementów poprawnych i wymagających korekty.",
+        "Zrzut ekranu lub opis ustawień programu graficznego dotyczących przestrzeni roboczej i zarządzania barwą.",
+        "Krótka notatka z oceny obrazu testowego i wnioskami dotyczącymi zgodności barwnej."
+      ],
+      "successCriteria": [
+        "Stanowisko zostało ocenione jako spójny tor pracy, a nie tylko zbiór urządzeń.",
+        "Ustawienia programu graficznego są dobrane do konkretnego celu publikacji lub obróbki.",
+        "Uczeń potrafi wskazać, jakie czynniki wpływają na zgodność barwną między ekranem a efektem końcowym."
+      ],
+      "estimatedMinutes": 25
+    }
+  },
+  {
+    "lessonId": "L-5-2",
+    "lessonTitle": "Lekcja 5.2: Skanowanie materiałów transparentnych i refleksyjnych",
+    "worksheet": {
+      "title": "Karta pracy — dobór parametrów i kontrola jakości skanu",
+      "taskIntro": "Wykonaj plan skanowania dla jednego materiału transparentnego lub refleksyjnego i oceń jakość uzyskanego pliku albo przykładowego skanu. Skup się na świadomym doborze urządzenia, parametrów i sposobu kontroli efektu.",
+      "instructions": [
+        "Wybierz jeden materiał do digitalizacji: negatyw, slajd albo odbitkę papierową. Określ, czy jest to materiał transparentny czy refleksyjny, oraz wskaż, jaki typ skanera będzie do niego odpowiedni.",
+        "Przygotuj materiał do skanowania: opisz sposób czyszczenia, ułożenia na skanerze oraz ustaw parametry skanowania, takie jak rozdzielczość, tryb barwny i format zapisu, zgodnie z celem użycia pliku.",
+        "Po wykonaniu skanu lub analizie gotowego pliku oceń szczegółowość, tonalność, ostrość, ewentualne zabrudzenia i poprawność barwy. Zapisz, czy plik nadaje się do archiwizacji, dalszej obróbki lub publikacji."
+      ],
+      "deliverables": [
+        "Karta doboru skanera i parametrów skanowania dla wybranego materiału.",
+        "Krótki opis przygotowania materiału przed skanowaniem.",
+        "Ocena jakości pliku po skanowaniu z wnioskiem o jego przydatności."
+      ],
+      "successCriteria": [
+        "Uczeń poprawnie rozróżnia materiał transparentny i refleksyjny oraz dobiera odpowiedni sposób skanowania.",
+        "Parametry skanowania są uzasadnione celem wykorzystania pliku.",
+        "Ocena jakości pliku uwzględnia szczegóły, tonalność, barwę i obecność artefaktów."
+      ],
+      "estimatedMinutes": 30
+    }
+  },
+  {
+    "lessonId": "L-5-3",
+    "lessonTitle": "Lekcja 5.3: Selekcja materiału, kopie cyfrowe i retusz zdjęć",
+    "worksheet": {
+      "title": "Karta pracy — selekcja zdjęć i bezpieczny retusz",
+      "taskIntro": "Pracujesz jak osoba przygotowująca materiał do opracowania po sesji zdjęciowej. Wybierz najlepsze ujęcia, zaplanuj bezpieczną organizację plików i wykonaj prosty retusz na kopii roboczej.",
+      "instructions": [
+        "Przejrzyj zestaw minimum 6 zdjęć lub przykładowych plików i wybierz 2 najlepsze ujęcia do dalszej obróbki. Uzasadnij wybór, odnosząc się do ostrości, ekspozycji, kompozycji i przydatności zdjęcia.",
+        "Dla wybranego zdjęcia zaplanuj bezpieczny sposób pracy: utwórz kopię roboczą albo opisz, jak zastosujesz edycję nieniszczącą z użyciem warstw, masek lub osobnej wersji pliku.",
+        "Wykonaj prosty retusz techniczny, na przykład usuń kurz, drobną rysę, paproch z matrycy albo niewielkie zabrudzenie tła. Zapisz, czego celowo nie poprawiałeś, aby nie przekroczyć granicy uzasadnionej ingerencji."
+      ],
+      "deliverables": [
+        "Lista wybranych zdjęć z krótkim uzasadnieniem selekcji.",
+        "Opis lub zrzut pokazujący utworzenie kopii roboczej albo zastosowanie pracy nieniszczącej.",
+        "Plik przed i po retuszu albo opis wykonanych poprawek."
+      ],
+      "successCriteria": [
+        "Selekcja zdjęć opiera się na jasno podanych kryteriach technicznych i estetycznych.",
+        "Praca została zabezpieczona przez użycie kopii roboczej lub metod nieniszczących.",
+        "Retusz usuwa konkretną niedoskonałość techniczną i nie zniekształca treści obrazu."
+      ],
+      "estimatedMinutes": 30
+    }
+  },
+  {
+    "lessonId": "L-5-4",
+    "lessonTitle": "Lekcja 5.4: Korekcja tonalna, korekcja barwna i automatyzacja pracy",
+    "worksheet": {
+      "title": "Karta pracy — korekcja obrazu i zastosowanie ustawień seryjnych",
+      "taskIntro": "Wykonaj podstawową korekcję tonalną i barwną jednego zdjęcia, a następnie zaplanuj lub zastosuj automatyzację dla małej serii podobnych plików. Zadanie ma pokazać, że potrafisz połączyć jakość z wydajnością pracy.",
+      "instructions": [
+        "Wybierz zdjęcie wymagające poprawy jasności, kontrastu lub koloru. Wykonaj korekcję tonalną z użyciem histogramu, poziomów albo krzywych oraz opisz, co było głównym problemem obrazu.",
+        "Popraw balans bieli lub dominantę barwną oraz oceń, czy kolory po korekcji są bardziej naturalne albo zgodne z zamierzonym efektem. Jeśli to potrzebne, zastosuj delikatne wyostrzenie lub redukcję szumu.",
+        "Jeżeli masz serię podobnych zdjęć, skopiuj ustawienia na co najmniej 2 dodatkowe pliki albo opisz krok po kroku, jak użyłbyś presetów, synchronizacji ustawień lub przetwarzania wsadowego przy większym zleceniu."
+      ],
+      "deliverables": [
+        "Plik lub opis korekcji tonalnej i barwnej zdjęcia wzorcowego.",
+        "Krótka notatka wyjaśniająca, jakie zmiany poprawiły czytelność i kolor obrazu.",
+        "Przykład zastosowania ustawień seryjnych lub plan automatyzacji dla podobnych zdjęć."
+      ],
+      "successCriteria": [
+        "Korekcja tonalna poprawia czytelność obrazu bez utraty ważnych szczegółów.",
+        "Korekcja barwna jest uzasadniona i zgodna z przeznaczeniem zdjęcia.",
+        "Uczeń potrafi zastosować lub zaplanować automatyzację pracy przy zachowaniu kontroli nad efektem."
+      ],
+      "estimatedMinutes": 35
+    }
+  },
+  {
+    "lessonId": "L-5-5",
+    "lessonTitle": "Lekcja 5.5: Kopiowanie analogowe i chemiczna obróbka materiałów fotograficznych",
+    "worksheet": {
+      "title": "Karta pracy — plan chemicznej obróbki i kontroli procesu w ciemni",
+      "taskIntro": "Przygotuj praktyczny plan pracy w ciemni dla obróbki filmu lub wykonania odbitki analogowej. Zadanie polega na uporządkowaniu kolejności działań, zasad bezpieczeństwa i sposobu kontroli parametrów procesu.",
+      "instructions": [
+        "Sporządź listę wyposażenia stanowiska ciemniowego potrzebnego do wybranego procesu: obróbki negatywu albo wykonania odbitki. Uwzględnij środki ochrony, naczynia, sprzęt pomiarowy i elementy porządkujące stanowisko.",
+        "Opisz kolejność kąpieli chemicznych i ich funkcje, na przykład wywoływacz, przerywacz i utrwalacz. Dla każdego etapu zapisz, jakie parametry muszą być kontrolowane, zwłaszcza czas i temperatura.",
+        "Przygotuj krótką kartę kontroli procesu: co sprawdzisz, jeśli pojawią się problemy, takie jak plamy, nierówne wywołanie, zbyt ciemna odbitka albo spadek jakości po kilku próbach."
+      ],
+      "deliverables": [
+        "Lista wyposażenia i zasad przygotowania stanowiska w ciemni.",
+        "Schemat procesu chemicznego z opisem funkcji roztworów i kontrolowanych parametrów.",
+        "Karta diagnostyczna problemów z propozycjami sprawdzenia przyczyn."
+      ],
+      "successCriteria": [
+        "Plan pracy uwzględnia bezpieczeństwo, porządek stanowiska i ochronę środowiska.",
+        "Kolejność procesu chemicznego oraz funkcje roztworów są opisane poprawnie.",
+        "Uczeń potrafi wskazać, jakie parametry i elementy sprzętu należy sprawdzić przy pogorszeniu jakości negatywu lub odbitki."
+      ],
+      "estimatedMinutes": 25
+    }
+  }
+]

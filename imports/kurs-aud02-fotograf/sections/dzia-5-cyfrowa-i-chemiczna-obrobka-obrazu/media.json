@@ -1,0 +1,207 @@
+[
+  {
+    "lessonId": "L-5-1",
+    "lessonTitle": "Lekcja 5.1: Konfiguracja stanowiska do obróbki i zarządzanie barwą",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Realistyczna scena profesjonalnego stanowiska do obróbki fotografii: skalibrowany monitor z wyświetlonym zdjęciem i wykresem barwnym, kolorymetr przyłożony do ekranu, tablet graficzny, drukarka fotograficzna, wzornik barwny, neutralne oświetlenie studia, uporządkowane biurko, subtelne oznaczenia ICC, sRGB i Adobe RGB, estetyka edukacyjna, wysoka szczegółowość, nowoczesny styl.",
+    "adminImagePrompt": "Realistyczna scena profesjonalnego stanowiska do obróbki fotografii: skalibrowany monitor z wyświetlonym zdjęciem i wykresem barwnym, kolorymetr przyłożony do ekranu, tablet graficzny, drukarka fotograficzna, wzornik barwny, neutralne oświetlenie studia, uporządkowane biurko, estetyka edukacyjna, wysoka szczegółowość, nowoczesny styl.  Całkowicie bez tekstów.",
+    "finalImagePrompt": "Realistyczna scena profesjonalnego stanowiska do obróbki fotografii: skalibrowany monitor z wyświetlonym zdjęciem i wykresem barwnym, kolorymetr przyłożony do ekranu, tablet graficzny, drukarka fotograficzna, wzornik barwny, neutralne oświetlenie studia, uporządkowane biurko, estetyka edukacyjna, wysoka szczegółowość, nowoczesny styl.  Całkowicie bez tekstów.",
+    "imageDescription": "Grafika pokazuje kompletne, dobrze przygotowane stanowisko do obróbki obrazu jako spójny system: monitor, urządzenia peryferyjne, kontrolę oświetlenia i elementy zarządzania barwą.",
+    "voiceoverScript": "Podstawą wiarygodnej obróbki zdjęć jest poprawnie przygotowane stanowisko pracy. Monitor musi być skalibrowany, urządzenia powinny działać z właściwymi profilami, a przestrzeń robocza programu musi odpowiadać celowi publikacji. Dopiero wtedy obraz oceniany na ekranie może być spójny z wydrukiem i publikacją w sieci.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Podstawą wiarygodnej obróbki zdjęć jest poprawnie przygotowane stanowisko pracy. Monitor musi być skalibrowany, urządzenia powinny działać z właściwymi profilami, a przestrzeń robocza programu musi odpowiadać celowi publikacji. Dopiero wtedy obraz oceniany na ekranie może być spójny z wydrukiem i publikacją w sieci.",
+    "slideText": "Stanowisko do obróbki = sprzęt + oprogramowanie + światło + profile barwne",
+    "keywords": [
+      "kalibracja monitora",
+      "profil ICC",
+      "zarządzanie barwą",
+      "stanowisko graficzne",
+      "przestrzeń barwna"
+    ],
+    "adminNotes": "",
+    "customImages": [
+      {
+        "id": "CI-1775592198954",
+        "url": "/custom_media/l-5-1-kalibracja-png-1775592198950.png?v=1775592198954",
+        "file": "l-5-1-kalibracja-png-1775592198950.png",
+        "caption": ""
+      }
+    ],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-5-l-5-1-1775594974036.png?v=1775594974055",
+      "file": "s-5-l-5-1-1775594974036.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-5-l-5-1-1775595337648.mp3?v=1775595337655",
+      "file": "s-5-l-5-1-1775595337648.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-5-2",
+    "lessonTitle": "Lekcja 5.2: Skanowanie materiałów transparentnych i refleksyjnych",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Edukacyjna infografika realistyczna pokazująca dwa typy skanowania obok siebie: po lewej skanowanie negatywu i slajdu w skanerze z podświetleniem, po prawej skanowanie papierowej odbitki na skanerze płaskim, widoczne światło przechodzące i odbite, uchwyty do filmu, czyszczone materiały, ekran z podglądem skanu i ustawieniami rozdzielczości, głębi bitowej i formatu TIFF, czysty profesjonalny styl.",
+    "adminImagePrompt": "Edukacyjna infografika realistyczna pokazująca dwa typy skanowania obok siebie: po lewej skanowanie negatywu i slajdu w skanerze z podświetleniem, po prawej skanowanie papierowej odbitki na skanerze płaskim, widoczne światło przechodzące i odbite, uchwyty do filmu, czyszczone materiały, ekran z podglądem skanu i ustawieniami rozdzielczości, głębi bitowej i formatu TIFF, czysty profesjonalny styl. Całkowicie bez tekstów.",
+    "finalImagePrompt": "Edukacyjna infografika realistyczna pokazująca dwa typy skanowania obok siebie: po lewej skanowanie negatywu i slajdu w skanerze z podświetleniem, po prawej skanowanie papierowej odbitki na skanerze płaskim, widoczne światło przechodzące i odbite, uchwyty do filmu, czyszczone materiały, ekran z podglądem skanu i ustawieniami rozdzielczości, głębi bitowej i formatu TIFF, czysty profesjonalny styl. Całkowicie bez tekstów.",
+    "imageDescription": "Obraz porównuje skanowanie materiałów transparentnych i refleksyjnych, podkreślając różnice w oświetleniu, typie urządzenia i przygotowaniu materiału.",
+    "voiceoverScript": "Skanowanie wymaga dopasowania metody do rodzaju materiału. Negatywy i slajdy potrzebują skanera z podświetleniem, a odbitki papierowe skanuje się światłem odbitym. O jakości pliku decydują nie tylko ustawienia techniczne, lecz także czystość materiału i kontrola efektu po skanowaniu.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Skanowanie wymaga dopasowania metody do rodzaju materiału. Negatywy i slajdy potrzebują skanera z podświetleniem, a odbitki papierowe skanuje się światłem odbitym. O jakości pliku decydują nie tylko ustawienia techniczne, lecz także czystość materiału i kontrola efektu po skanowaniu.",
+    "slideText": "Transparenty przepuszczają światło, odbitki je odbijają — dlatego wymagają innego skanowania",
+    "keywords": [
+      "skanowanie negatywów",
+      "slajdy",
+      "odbitki papierowe",
+      "rozdzielczość optyczna",
+      "digitalizacja"
+    ],
+    "adminNotes": "",
+    "customImages": [
+      {
+        "id": "CI-1775591468781",
+        "url": "/custom_media/l-5-2-skanowanie-png-1775591468742.png?v=1775591468781",
+        "file": "l-5-2-skanowanie-png-1775591468742.png",
+        "caption": ""
+      }
+    ],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-5-l-5-2-1775595019980.png?v=1775595019987",
+      "file": "s-5-l-5-2-1775595019980.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-5-l-5-2-1775595341299.mp3?v=1775595341385",
+      "file": "s-5-l-5-2-1775595341299.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-5-3",
+    "lessonTitle": "Lekcja 5.3: Selekcja materiału, kopie cyfrowe i retusz zdjęć",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Nowoczesna scena pracy fotografa przy komputerze: siatka miniaturek zdjęć z oznaczeniami gwiazdek i flag, wybrane kadry wyróżnione, obok kopia robocza pliku na warstwach, powiększony fragment fotografii retuszowany pędzlem korygującym i stemplem, wyraźne rozróżnienie między oryginałem a wersją edytowaną, profesjonalny interfejs programu graficznego, estetyka szkoleniowa, wysoka czytelność.",
+    "adminImagePrompt": "Nowoczesna scena pracy fotografa przy komputerze: siatka miniaturek zdjęć z oznaczeniami gwiazdek i flag, wybrane kadry wyróżnione, obok kopia robocza pliku na warstwach, powiększony fragment fotografii retuszowany pędzlem korygującym i stemplem, wyraźne rozróżnienie między oryginałem a wersją edytowaną, profesjonalny interfejs programu graficznego, estetyka szkoleniowa, wysoka czytelność. Całkowicie bez tekstów.",
+    "finalImagePrompt": "Nowoczesna scena pracy fotografa przy komputerze: siatka miniaturek zdjęć z oznaczeniami gwiazdek i flag, wybrane kadry wyróżnione, obok kopia robocza pliku na warstwach, powiększony fragment fotografii retuszowany pędzlem korygującym i stemplem, wyraźne rozróżnienie między oryginałem a wersją edytowaną, profesjonalny interfejs programu graficznego, estetyka szkoleniowa, wysoka czytelność. Całkowicie bez tekstów.",
+    "imageDescription": "Grafika przedstawia trzy etapy pracy: wybór najlepszych ujęć, zabezpieczenie oryginałów przez kopie robocze oraz kontrolowany retusz wybranych fragmentów zdjęcia.",
+    "voiceoverScript": "Skuteczna obróbka zaczyna się od selekcji materiału. Najpierw wybierasz zdjęcia o największej wartości, potem zabezpieczasz oryginały i dopiero na kopiach roboczych wykonujesz retusz. Profesjonalny retusz usuwa niedoskonałości, ale nie powinien niszczyć naturalnego wyglądu ani zmieniać sensu obrazu.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Skuteczna obróbka zaczyna się od selekcji materiału. Najpierw wybierasz zdjęcia o największej wartości, potem zabezpieczasz oryginały i dopiero na kopiach roboczych wykonujesz retusz. Profesjonalny retusz usuwa niedoskonałości, ale nie powinien niszczyć naturalnego wyglądu ani zmieniać sensu obrazu.",
+    "slideText": "Selekcja → kopia robocza → retusz kontrolowany i nieniszczący",
+    "keywords": [
+      "selekcja zdjęć",
+      "kopie robocze",
+      "retusz",
+      "edycja nieniszcząca",
+      "etyka obróbki"
+    ],
+    "adminNotes": "",
+    "customImages": [
+      {
+        "id": "CI-1775591608591",
+        "url": "/custom_media/l-5-3-przy-komputerze-png-1775591608580.png?v=1775591608591",
+        "file": "l-5-3-przy-komputerze-png-1775591608580.png",
+        "caption": ""
+      }
+    ],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-5-l-5-3-1775595065789.png?v=1775595065794",
+      "file": "s-5-l-5-3-1775595065789.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-5-l-5-3-1775595345227.mp3?v=1775595345294",
+      "file": "s-5-l-5-3-1775595345227.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-5-4",
+    "lessonTitle": "Lekcja 5.4: Korekcja tonalna, korekcja barwna i automatyzacja pracy",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Przejrzysta edukacyjna kompozycja przedstawiająca ekran programu do obróbki zdjęć: histogram, krzywe tonalne, suwaki balansu bieli i nasycenia, porównanie zdjęcia przed i po korekcji, seria podobnych miniaturek z zastosowaną synchronizacją ustawień i przetwarzaniem wsadowym, nowoczesny profesjonalny styl, duża czytelność, realistyczny interfejs bez logotypów.",
+    "adminImagePrompt": "Przejrzysta edukacyjna kompozycja przedstawiająca ekran programu do obróbki zdjęć: histogram, krzywe tonalne, suwaki balansu bieli i nasycenia, porównanie zdjęcia przed i po korekcji, seria podobnych miniaturek z zastosowaną synchronizacją ustawień i przetwarzaniem wsadowym, nowoczesny profesjonalny styl, duża czytelność, realistyczny interfejs bez logotypów.. Całkowicie bez tekstów.",
+    "finalImagePrompt": "Przejrzysta edukacyjna kompozycja przedstawiająca ekran programu do obróbki zdjęć: histogram, krzywe tonalne, suwaki balansu bieli i nasycenia, porównanie zdjęcia przed i po korekcji, seria podobnych miniaturek z zastosowaną synchronizacją ustawień i przetwarzaniem wsadowym, nowoczesny profesjonalny styl, duża czytelność, realistyczny interfejs bez logotypów.. Całkowicie bez tekstów.",
+    "imageDescription": "Obraz pokazuje połączenie precyzyjnej korekcji obrazu z wydajną pracą seryjną: tonalność, kolor, szczegółowość i automatyzację ustawień dla wielu plików.",
+    "voiceoverScript": "Korekcja tonalna porządkuje jasność i kontrast, a korekcja barwna usuwa dominanty i buduje właściwy charakter zdjęcia. Po dopracowaniu obrazu trzeba jeszcze kontrolować ostrość i detal. Gdy obrabiasz wiele podobnych plików, automatyzacja przyspiesza pracę, ale każdy rezultat nadal wymaga sprawdzenia.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Korekcja tonalna porządkuje jasność i kontrast, a korekcja barwna usuwa dominanty i buduje właściwy charakter zdjęcia. Po dopracowaniu obrazu trzeba jeszcze kontrolować ostrość i detal. Gdy obrabiasz wiele podobnych plików, automatyzacja przyspiesza pracę, ale każdy rezultat nadal wymaga sprawdzenia.",
+    "slideText": "Dobra obróbka łączy precyzyjną korekcję z rozsądną automatyzacją",
+    "keywords": [
+      "korekcja tonalna",
+      "korekcja barwna",
+      "histogram",
+      "wyostrzanie",
+      "automatyzacja obróbki"
+    ],
+    "adminNotes": "",
+    "customImages": [
+      {
+        "id": "CI-1775591833540",
+        "url": "/custom_media/l-5-4-korekcja-zdjecia-png-1775591833524.png?v=1775591833540",
+        "file": "l-5-4-korekcja-zdjecia-png-1775591833524.png",
+        "caption": ""
+      }
+    ],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-5-l-5-4-1775595108447.png?v=1775595108539",
+      "file": "s-5-l-5-4-1775595108447.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-5-l-5-4-1775595349720.mp3?v=1775595349807",
+      "file": "s-5-l-5-4-1775595349720.mp3",
+      "error": ""
+    }
+  },
+  {
+    "lessonId": "L-5-5",
+    "lessonTitle": "Lekcja 5.5: Kopiowanie analogowe i chemiczna obróbka materiałów fotograficznych",
+    "mediaType": "lesson_visual",
+    "imagePrompt": "Realistyczna ciemnia fotograficzna w czerwonym świetle bezpieczeństwa: koreks z filmem, opisane butelki z wywoływaczem, przerywaczem i utrwalaczem, termometr, menzurki, kuwety z papierem fotograficznym, powiększalnik nad stołem, fotograf w rękawicach wykonujący odbitkę, czyste i uporządkowane stanowisko, nacisk na bezpieczeństwo, proces i rzemiosło analogowe, wysoka szczegółowość.",
+    "adminImagePrompt": "Realistyczna ciemnia fotograficzna w czerwonym świetle bezpieczeństwa: koreks z filmem, opisane butelki z wywoływaczem, przerywaczem i utrwalaczem, termometr, menzurki, kuwety z papierem fotograficznym, powiększalnik nad stołem, fotograf w rękawicach wykonujący odbitkę, czyste i uporządkowane stanowisko, nacisk na bezpieczeństwo, proces i rzemiosło analogowe, wysoka szczegółowość. Tylko na kuwetach teksty: WYWOŁYWACZ, PRZERYWACZ, UTRWALACZ. Poza tym bez tekstów.",
+    "finalImagePrompt": "Realistyczna ciemnia fotograficzna w czerwonym świetle bezpieczeństwa: koreks z filmem, opisane butelki z wywoływaczem, przerywaczem i utrwalaczem, termometr, menzurki, kuwety z papierem fotograficznym, powiększalnik nad stołem, fotograf w rękawicach wykonujący odbitkę, czyste i uporządkowane stanowisko, nacisk na bezpieczeństwo, proces i rzemiosło analogowe, wysoka szczegółowość. Tylko na kuwetach teksty: WYWOŁYWACZ, PRZERYWACZ, UTRWALACZ. Poza tym bez tekstów.",
+    "imageDescription": "Grafika przedstawia klasyczny proces pracy w ciemni: przygotowanie chemii, obróbkę filmu, wykonanie odbitki i kontrolę parametrów w bezpiecznym, uporządkowanym środowisku.",
+    "voiceoverScript": "Chemiczna obróbka materiałów fotograficznych wymaga dokładności, porządku i przestrzegania zasad bezpieczeństwa. O wyniku decydują właściwe roztwory, ich proporcje, temperatura oraz czas działania. Zarówno wywołanie filmu, jak i wykonanie odbitki muszą przebiegać według kontrolowanej kolejności.",
+    "adminVoiceoverScript": "",
+    "finalVoiceoverScript": "Chemiczna obróbka materiałów fotograficznych wymaga dokładności, porządku i przestrzegania zasad bezpieczeństwa. O wyniku decydują właściwe roztwory, ich proporcje, temperatura oraz czas działania. Zarówno wywołanie filmu, jak i wykonanie odbitki muszą przebiegać według kontrolowanej kolejności.",
+    "slideText": "Ciemnia fotograficzna: bezpieczeństwo, chemia, czas, temperatura i kontrola procesu",
+    "keywords": [
+      "ciemnia fotograficzna",
+      "wywoływacz",
+      "utrwalacz",
+      "koreks",
+      "odbitka analogowa"
+    ],
+    "adminNotes": "",
+    "customImages": [
+      {
+        "id": "CI-1775591947797",
+        "url": "/custom_media/l-5-5-ciemnia-png-1775591947795.png?v=1775591947797",
+        "file": "l-5-5-ciemnia-png-1775591947795.png",
+        "caption": ""
+      }
+    ],
+    "generatedImage": {
+      "status": "ready",
+      "url": "/generated_media/s-5-l-5-5-1775595155831.png?v=1775595155838",
+      "file": "s-5-l-5-5-1775595155831.png",
+      "error": ""
+    },
+    "generatedAudio": {
+      "status": "ready",
+      "url": "/generated_audio/s-5-l-5-5-1775595353516.mp3?v=1775595353517",
+      "file": "s-5-l-5-5-1775595353516.mp3",
+      "error": ""
+    }
+  }
+]
