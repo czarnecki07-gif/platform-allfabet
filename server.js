@@ -1,6 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import fs from 'node:fs/promises';
+import path from 'node:path';
 import { query, testDbConnection } from './db.js';
 
 dotenv.config();
@@ -12,6 +14,7 @@ app.use(cors({
   origin: process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',').map(x => x.trim()) : true
 }));
 app.use(express.json({ limit: '25mb' }));
+
 // 🔐 PROSTE ZABEZPIECZENIE (Basic Auth)
 app.use((req, res, next) => {
   const auth = req.headers.authorization;
@@ -73,6 +76,7 @@ function renderHtmlPage(title, body) {
           --accent:#78a8ff;
           --ok:#7ad7a6;
           --warn:#ffd36e;
+          --danger:#ff9d7a;
         }
         *{box-sizing:border-box}
         body{
@@ -111,6 +115,10 @@ function renderHtmlPage(title, body) {
           color:white;
           font-weight:700;
           cursor:pointer;
+          text-decoration:none;
+          display:inline-flex;
+          align-items:center;
+          justify-content:center;
         }
         .btn.secondary{
           background:var(--panel-2);
@@ -182,7 +190,7 @@ function renderHtmlPage(title, body) {
         }
         .status.draft{color:var(--warn)}
         .status.review{color:#8ec5ff}
-        .status.needs_fix{color:#ff9d7a}
+        .status.needs_fix{color:var(--danger)}
         .status.approved{color:#95f0b8}
         .status.published{color:#7ad7a6}
         .status.archived{color:#a5a5a5}
@@ -193,6 +201,14 @@ function renderHtmlPage(title, body) {
         a.link:hover{
           text-decoration:underline;
         }
+        .notice{
+          margin-bottom:18px;
+          padding:14px 16px;
+          border:1px solid var(--line);
+          border-radius:14px;
+          background:rgba(255,255,255,.03);
+          color:var(--muted);
+        }
       </style>
     </head>
     <body>
@@ -200,6 +216,144 @@ function renderHtmlPage(title, body) {
     </body>
   </html>
   `;
+}
+
+async function importProjectObject(project, { status = 'draft', skipIfExists = false } = {}) {
+  if (!project || typeof project !== 'object') {
+    throw new Error('Brakuje obiektu project.');
+  }
+
+  const title = String(project?.course?.title || '').trim();
+  if (!title) {
+    throw new Error('Projekt nie zawiera nazwy kursu.');
+  }
+
+  const courseId = String(project?.meta?.projectId || `course_${Date.now()}`);
+  const slugBase = String(project?.course?.courseCode || title).trim();
+  const slug = slugify(slugBase);
+  const language = String(project?.course?.language || 'pl').trim() || 'pl';
+  const courseCode = String(project?.course?.courseCode || '').trim();
+
+  const existing = await query(
+    'SELECT id, course_id, slug, title, course_code, language, status, version, created_at, updated_at FROM courses WHERE slug = $1 OR course_id = $2 ORDER BY version ASC',
+    [slug, courseId]
+  );
+
+  if (skipIfExists && existing.rows.length) {
+    return {
+      skipped: true,
+      reason: 'Kurs już istnieje w bazie.',
+      course: existing.rows[existing.rows.length - 1]
+    };
+  }
+
+  const version = buildNextVersionRows(existing.rows, courseId);
+
+  const insert = await query(`
+    INSERT INTO courses (
+      course_id,
+      slug,
+      title,
+      course_code,
+      language,
+      status,
+      version,
+      source_project_json,
+      outline_json,
+      sections_json,
+      final_exam_json,
+      final_practical_exam_json,
+      certificate_json,
+      export_package_json,
+      files_json
+    )
+    VALUES (
+      $1,$2,$3,$4,$5,$6,$7,$8::jsonb,$9::jsonb,$10::jsonb,$11::jsonb,$12::jsonb,$13::jsonb,$14::jsonb,$15::jsonb
+    )
+    RETURNING id, course_id, slug, title, course_code, language, status, version, created_at, updated_at
+  `, [
+    courseId,
+    slug,
+    title,
+    courseCode,
+    language,
+    sanitizeStatus(String(status)),
+    version,
+    JSON.stringify(project),
+    JSON.stringify(project?.outline || []),
+    JSON.stringify(project?.sections || []),
+    JSON.stringify(project?.finalExam || null),
+    JSON.stringify(project?.finalPracticalExam || null),
+    JSON.stringify(project?.certificate || null),
+    JSON.stringify(project?.exportPackage || null),
+    JSON.stringify(project?.files || [])
+  ]);
+
+  return {
+    skipped: false,
+    reason: null,
+    course: insert.rows[0]
+  };
+}
+
+async function importProjectsFromImportsDir() {
+  const importsDir = path.join(process.cwd(), 'imports');
+  const imported = [];
+  const skipped = [];
+
+  let entries;
+  try {
+    entries = await fs.readdir(importsDir, { withFileTypes: true });
+  } catch (error) {
+    if (error && error.code === 'ENOENT') {
+      return {
+        imported,
+        skipped,
+        message: 'Folder imports nie istnieje.'
+      };
+    }
+    throw error;
+  }
+
+  for (const entry of entries) {
+    if (!entry.isDirectory()) continue;
+
+    const projectJsonPath = path.join(importsDir, entry.name, 'project.json');
+
+    try {
+      const raw = await fs.readFile(projectJsonPath, 'utf8');
+      const project = JSON.parse(raw);
+
+      const result = await importProjectObject(project, {
+        status: 'draft',
+        skipIfExists: true
+      });
+
+      if (result.skipped) {
+        skipped.push({
+          folder: entry.name,
+          reason: result.reason,
+          course: result.course
+        });
+      } else {
+        imported.push({
+          folder: entry.name,
+          course: result.course
+        });
+      }
+    } catch (error) {
+      skipped.push({
+        folder: entry.name,
+        reason: `Nie udało się odczytać lub zaimportować project.json: ${error.message}`
+      });
+    }
+  }
+
+  return {
+    imported,
+    skipped,
+    message: 'Import z folderu imports zakończony.'
+  };
 }
 
 app.get('/api/health', async (req, res) => {
@@ -276,77 +430,43 @@ app.get('/api/courses/:id', async (req, res) => {
 app.post('/api/courses/import', async (req, res) => {
   try {
     const { project, status = 'draft' } = req.body || {};
-
-    if (!project || typeof project !== 'object') {
-      return res.status(400).json({ error: 'Brakuje obiektu project.' });
-    }
-
-    const title = String(project?.course?.title || '').trim();
-    if (!title) {
-      return res.status(400).json({ error: 'Projekt nie zawiera nazwy kursu.' });
-    }
-
-    const courseId = String(project?.meta?.projectId || `course_${Date.now()}`);
-    const slugBase = String(project?.course?.courseCode || title).trim();
-    const slug = slugify(slugBase);
-    const language = String(project?.course?.language || 'pl').trim() || 'pl';
-    const courseCode = String(project?.course?.courseCode || '').trim();
-
-    const existing = await query(
-      'SELECT id, course_id, version FROM courses WHERE slug = $1 OR course_id = $2 ORDER BY version ASC',
-      [slug, courseId]
-    );
-
-    const version = buildNextVersionRows(existing.rows, courseId);
-
-    const insert = await query(`
-      INSERT INTO courses (
-        course_id,
-        slug,
-        title,
-        course_code,
-        language,
-        status,
-        version,
-        source_project_json,
-        outline_json,
-        sections_json,
-        final_exam_json,
-        final_practical_exam_json,
-        certificate_json,
-        export_package_json,
-        files_json
-      )
-      VALUES (
-        $1,$2,$3,$4,$5,$6,$7,$8::jsonb,$9::jsonb,$10::jsonb,$11::jsonb,$12::jsonb,$13::jsonb,$14::jsonb,$15::jsonb
-      )
-      RETURNING id, course_id, slug, title, course_code, language, status, version, created_at, updated_at
-    `, [
-      courseId,
-      slug,
-      title,
-      courseCode,
-      language,
-      sanitizeStatus(String(status)),
-      version,
-      JSON.stringify(project),
-      JSON.stringify(project?.outline || []),
-      JSON.stringify(project?.sections || []),
-      JSON.stringify(project?.finalExam || null),
-      JSON.stringify(project?.finalPracticalExam || null),
-      JSON.stringify(project?.certificate || null),
-      JSON.stringify(project?.exportPackage || null),
-      JSON.stringify(project?.files || [])
-    ]);
+    const result = await importProjectObject(project, {
+      status,
+      skipIfExists: false
+    });
 
     return res.status(201).json({
       message: 'Kurs został zaimportowany.',
-      course: insert.rows[0]
+      course: result.course
     });
   } catch (error) {
     console.error('import course error:', error);
     return res.status(500).json({
-      error: 'Nie udało się zaimportować kursu.'
+      error: error.message || 'Nie udało się zaimportować kursu.'
+    });
+  }
+});
+
+app.post('/api/import', async (req, res) => {
+  try {
+    const result = await importProjectsFromImportsDir();
+    return res.json(result);
+  } catch (error) {
+    console.error('imports dir import error:', error);
+    return res.status(500).json({
+      error: 'Nie udało się zaimportować kursów z folderu imports.'
+    });
+  }
+});
+
+app.get('/api/import', async (req, res) => {
+  try {
+    const result = await importProjectsFromImportsDir();
+    return res.json(result);
+  } catch (error) {
+    console.error('imports dir import error:', error);
+    return res.status(500).json({
+      error: 'Nie udało się zaimportować kursów z folderu imports.'
     });
   }
 });
@@ -391,6 +511,13 @@ app.get('/', async (req, res) => {
       ORDER BY updated_at DESC, id DESC
     `);
 
+    const notice = `
+      <div class="notice">
+        Import kursów z folderu <strong>imports</strong>: 
+        <a class="link" href="/api/import">uruchom import</a>
+      </div>
+    `;
+
     const cards = result.rows.length
       ? `
         <div class="grid">
@@ -432,6 +559,7 @@ app.get('/', async (req, res) => {
           <a href="/api/health" class="btn secondary">Health</a>
         </div>
 
+        ${notice}
         ${cards}
       </div>
     `);
