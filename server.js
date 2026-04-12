@@ -525,7 +525,7 @@ app.patch('/api/courses/:id/status', async (req, res) => {
   }
 });
 
-app.get('/', async (req, res) => {
+app.get('/', requireAuth, async (req, res) => {
   try {
     const result = await query(`
       SELECT id, course_id, slug, title, course_code, language, status, version, created_at, updated_at
