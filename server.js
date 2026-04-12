@@ -445,7 +445,26 @@ app.get('/api/my-courses', requireAuth, async (req, res) => {
     res.status(500).json({ error: 'Błąd pobierania kursów użytkownika' });
   }
 });
+app.get('/api/course-feedback/:courseId', requireAdmin, async (req, res) => {
+  try {
+    const courseId = Number(req.params.courseId);
 
+    const result = await query(`
+      SELECT cf.*, u.email
+      FROM course_feedback cf
+      JOIN users u ON u.id = cf.user_id
+      WHERE cf.course_id = $1
+      ORDER BY cf.created_at DESC
+    `, [courseId]);
+
+    res.json({
+      feedback: result.rows
+    });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: 'Błąd pobierania uwag' });
+  }
+});
 app.get('/api/courses/:id', async (req, res) => {
   try {
     const id = Number(req.params.id);
