@@ -616,6 +616,31 @@ app.post('/api/register', async (req, res) => {
     res.status(500).json({ error: 'Błąd rejestracji' });
   }
 });
+app.post('/api/enroll', requireAdmin, async (req, res) => {
+  try {
+    const { user_id, course_id } = req.body;
+
+    if (!user_id || !course_id) {
+      return res.status(400).json({ error: 'user_id i course_id wymagane' });
+    }
+
+    const result = await query(
+      `INSERT INTO enrollments (user_id, course_id)
+       VALUES ($1, $2)
+       ON CONFLICT (user_id, course_id) DO NOTHING
+       RETURNING *`,
+      [user_id, course_id]
+    );
+
+    res.json({
+      message: 'Użytkownik przypisany do kursu',
+      enrollment: result.rows[0] || null
+    });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: 'Błąd przypisania' });
+  }
+});
 app.get('/login', (req, res) => {
   res.send(`
     <html>
