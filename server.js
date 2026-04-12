@@ -638,6 +638,15 @@ app.post('/api/login', async (req, res) => {
     res.status(500).json({ error: 'Błąd logowania' });
   }
 });
+app.get('/api/me', (req, res) => {
+  if (!req.session.user) {
+    return res.status(401).json({ error: 'Brak autoryzacji' });
+  }
+
+  return res.json({
+    user: req.session.user
+  });
+});
 app.listen(port, () => {
   console.log(`PLATFORM START: http://localhost:${port}`);
 });
