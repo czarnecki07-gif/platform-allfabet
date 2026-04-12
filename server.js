@@ -643,7 +643,7 @@ app.post('/api/login', async (req, res) => {
     res.status(500).json({ error: 'Błąd logowania' });
   }
 });
-app.get('/api/me', (req, res) => {
+app.get('/api/me', requireAuth, (req, res) => {
   if (!req.session.user) {
     return res.status(401).json({ error: 'Brak autoryzacji' });
   }
