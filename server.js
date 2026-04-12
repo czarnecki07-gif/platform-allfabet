@@ -29,7 +29,12 @@ function requireAuth(req, res, next) {
   }
   next();
 }
-
+function requireAdmin(req, res, next) {
+  if (!req.session.user || req.session.user.role !== 'admin') {
+    return res.status(403).json({ error: 'Brak dostępu (admin only)' });
+  }
+  next();
+}
 /*
 // 🔐 PROSTE ZABEZPIECZENIE (Basic Auth)
 app.use((req, res, next) => {
@@ -390,7 +395,7 @@ app.get('/api/health', async (req, res) => {
   }
 });
 
-app.get('/api/courses', requireAuth, async (req, res) => {
+app.get('/api/courses', requireAdmin, async (req, res) => {
   try {
     const status = req.query.status ? sanitizeStatus(String(req.query.status)) : null;
 
