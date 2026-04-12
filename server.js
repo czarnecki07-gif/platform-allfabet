@@ -18,16 +18,17 @@ app.use(cors({
 app.use(express.json({ limit: '25mb' }));
 
 app.use(session({
+  secret: 'supersecret123',
+  resave: false,
+  saveUninitialized: false
+}));
+
 function requireAuth(req, res, next) {
   if (!req.session.user) {
     return res.status(401).json({ error: 'Brak autoryzacji' });
   }
   next();
 }
-  secret: 'supersecret123',
-  resave: false,
-  saveUninitialized: false
-}));
 
 /*
 // 🔐 PROSTE ZABEZPIECZENIE (Basic Auth)
