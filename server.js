@@ -572,10 +572,12 @@ app.get('/', requireAdmin, async (req, res) => {
 
     const html = renderHtmlPage('Platforma kursów', `
       <div class="wrap">
-        <h1>Platforma kursów</h1>
-        <p class="sub">Centralna biblioteka kursów. Tu będą później: panel admina treści, panel testera i panel użytkownika.</p>
 
+        <h1>Platforma kursów</h1>
+<p>Zalogowany jako: ${req.session.user.email} (${req.session.user.role})</p>
+<p class="sub">Centralna biblioteka kursów. Tu będą później: panel admina treści, panel testera i panel użytkownika.</p>
  <div class="toolbar">
+
   <button class="btn" onclick="window.location.reload()">Odśwież listę</button>
   <a href="/api/courses" class="btn secondary">API kursów</a>
   <a href="/api/health" class="btn secondary">Health</a>
