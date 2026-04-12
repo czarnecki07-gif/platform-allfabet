@@ -16,7 +16,14 @@ app.use(cors({
   origin: process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',').map(x => x.trim()) : true
 }));
 app.use(express.json({ limit: '25mb' }));
+
 app.use(session({
+function requireAuth(req, res, next) {
+  if (!req.session.user) {
+    return res.status(401).json({ error: 'Brak autoryzacji' });
+  }
+  next();
+}
   secret: 'supersecret123',
   resave: false,
   saveUninitialized: false
@@ -382,7 +389,7 @@ app.get('/api/health', async (req, res) => {
   }
 });
 
-app.get('/api/courses', async (req, res) => {
+app.get('/api/courses', requireAuth, async (req, res) => {
   try {
     const status = req.query.status ? sanitizeStatus(String(req.query.status)) : null;
 
