@@ -613,7 +613,54 @@ app.post('/api/register', async (req, res) => {
     res.status(500).json({ error: 'Błąd rejestracji' });
   }
 });
+app.get('/login', (req, res) => {
+  res.send(`
+    <html>
+      <body style="font-family: Arial; padding: 40px;">
+        <h2>Logowanie admina</h2>
+        <form method="POST" action="/login">
+          <div>
+            <input name="email" placeholder="email" />
+          </div>
+          <div>
+            <input name="password" type="password" placeholder="hasło" />
+          </div>
+          <button type="submit">Zaloguj</button>
+        </form>
+      </body>
+    </html>
+  `);
+});
 
+app.post('/login', express.urlencoded({ extended: true }), async (req, res) => {
+  try {
+    const { email, password } = req.body;
+
+    const result = await query('SELECT * FROM users WHERE email = $1', [email]);
+
+    if (!result.rows.length) {
+      return res.send('Brak użytkownika');
+    }
+
+    const user = result.rows[0];
+    const ok = await bcrypt.compare(password, user.password_hash);
+
+    if (!ok) {
+      return res.send('Złe hasło');
+    }
+
+    req.session.user = {
+      id: user.id,
+      email: user.email,
+      role: user.role
+    };
+
+    res.redirect('/');
+  } catch (err) {
+    console.error(err);
+    res.send('Błąd logowania');
+  }
+});
 app.post('/api/login', async (req, res) => {
   try {
     const { email, password } = req.body;
