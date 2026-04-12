@@ -28,3 +28,17 @@ CREATE TABLE IF NOT EXISTS users (
   role TEXT NOT NULL DEFAULT 'student',
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+CREATE TABLE IF NOT EXISTS enrollments (
+  id BIGSERIAL PRIMARY KEY,
+  user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  course_id BIGINT NOT NULL REFERENCES courses(id) ON DELETE CASCADE,
+  access_type TEXT NOT NULL DEFAULT 'manual',
+  source TEXT NOT NULL DEFAULT 'direct',
+  affiliate_code TEXT,
+  organization_name TEXT,
+  valid_from TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  valid_to TIMESTAMPTZ,
+  status TEXT NOT NULL DEFAULT 'active',
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  UNIQUE(user_id, course_id)
+);
