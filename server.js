@@ -565,6 +565,33 @@ app.patch('/api/courses/:id/status', async (req, res) => {
   }
 });
 
+app.get('/admin/courses/:id/status/:status', requireAdmin, async (req, res) => {
+  try {
+    const id = Number(req.params.id);
+    const nextStatus = sanitizeStatus(String(req.params.status || ''));
+
+    if (!Number.isInteger(id)) {
+      return res.status(400).send('Nieprawidłowe ID kursu.');
+    }
+
+    const result = await query(`
+      UPDATE courses
+      SET status = $2, updated_at = NOW()
+      WHERE id = $1
+      RETURNING id
+    `, [id, nextStatus]);
+
+    if (!result.rows.length) {
+      return res.status(404).send('Nie znaleziono kursu.');
+    }
+
+    return res.redirect('/');
+  } catch (error) {
+    console.error('admin status change error:', error);
+    return res.status(500).send('Błąd zmiany statusu.');
+  }
+});
+
 app.get('/', requireAdmin, async (req, res) => {
   try {
     const result = await query(`
@@ -630,34 +657,21 @@ fetch('/api/course-feedback/${course.id}')
   <span>Akcje admina</span>
   <div style="display:flex; gap:8px; flex-wrap:wrap;">
     
- <button class="btn secondary"
-onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'review'})}).then(r=>r.json()).then(()=>location.reload()).catch(()=>alert('err'))">
-Do testera
-</button>
+    <a class="btn secondary" href="/admin/courses/${course.id}/status/review">
+      Do testera
+    </a>
 
-    <button class="btn secondary"
-      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'approved'})})
-      .then(r=>r.json())
-      .then(()=>window.location.reload())
-      .catch(()=>alert('błąd'))">
+    <a class="btn secondary" href="/admin/courses/${course.id}/status/approved">
       Zatwierdź
-    </button>
+    </a>
 
-    <button class="btn secondary"
-      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'published'})})
-      .then(r=>r.json())
-      .then(()=>window.location.reload())
-      .catch(()=>alert('błąd'))">
+    <a class="btn secondary" href="/admin/courses/${course.id}/status/published">
       Opublikuj
-    </button>
+    </a>
 
-    <button class="btn secondary"
-      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'archived'})})
-      .then(r=>r.json())
-      .then(()=>window.location.reload())
-      .catch(()=>alert('błąd'))">
+    <a class="btn secondary" href="/admin/courses/${course.id}/status/archived">
       Wycofaj
-    </button>
+    </a>
 
   </div>
 </div>
