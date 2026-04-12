@@ -656,8 +656,7 @@ fetch('/api/course-feedback/${course.id}')
         </div>
 
         ${notice}
-        ${cards}
-      </div>
+      ${cards}
 
       <script>
         function updateCourseStatus(courseId, status) {
@@ -681,6 +680,8 @@ fetch('/api/course-feedback/${course.id}')
           });
         }
       </script>
+
+    </div>
     `);
 
     return res.send(html);
