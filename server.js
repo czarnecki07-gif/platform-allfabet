@@ -430,7 +430,7 @@ app.get('/api/my-courses', requireAuth, async (req, res) => {
     const userId = req.session.user.id;
 
     const result = await query(`
-      SELECT c.*
+      SELECT c.id, c.title, c.slug, c.course_code, c.language, c.status, c.version, c.updated_at
       FROM courses c
       JOIN enrollments e ON e.course_id = c.id
       WHERE e.user_id = $1 AND e.status = 'active'
