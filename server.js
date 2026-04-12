@@ -626,15 +626,32 @@ fetch('/api/course-feedback/${course.id}')
     <a class="link" href="/api/courses/${course.id}" target="_blank" rel="noopener">Zobacz JSON kursu</a>
   </div>
 
-  <div class="row">
-    <span>Akcje admina</span>
-    <div style="display:flex; gap:8px; flex-wrap:wrap;">
-      <button class="btn secondary" onclick="updateCourseStatus(${course.id}, 'review')">Do testera</button>
-      <button class="btn secondary" onclick="updateCourseStatus(${course.id}, 'approved')">Zatwierdź</button>
-      <button class="btn secondary" onclick="updateCourseStatus(${course.id}, 'published')">Opublikuj</button>
-      <button class="btn secondary" onclick="updateCourseStatus(${course.id}, 'archived')">Wycofaj</button>
-    </div>
+<div class="row">
+  <span>Akcje admina</span>
+  <div style="display:flex; gap:8px; flex-wrap:wrap;">
+    
+    <button class="btn secondary"
+      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'review'})}).then(()=>location.reload())">
+      Do testera
+    </button>
+
+    <button class="btn secondary"
+      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'approved'})}).then(()=>location.reload())">
+      Zatwierdź
+    </button>
+
+    <button class="btn secondary"
+      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'published'})}).then(()=>location.reload())">
+      Opublikuj
+    </button>
+
+    <button class="btn secondary"
+      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'archived'})}).then(()=>location.reload())">
+      Wycofaj
+    </button>
+
   </div>
+</div>
 </div>
           `).join('')}
         </div>
@@ -774,31 +791,7 @@ app.get('/login', (req, res) => {
           </div>
           <button type="submit">Zaloguj</button>
         </form>
-<script>
-function updateCourseStatus(courseId, status) {
-  fetch('/api/courses/' + courseId + '/status', {
-  method: 'PATCH',
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  credentials: 'include',
-  body: JSON.stringify({ status })
-})
-    method: 'PATCH',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({ status })
-  })
-  .then(res => res.json())
-  .then(() => {
-    location.reload();
-  })
-  .catch(() => {
-    alert('Błąd zmiany statusu');
-  });
-}
-</script>
+
 <script>
 function updateCourseStatus(courseId, status) {
   fetch('/api/courses/' + courseId + '/status', {
