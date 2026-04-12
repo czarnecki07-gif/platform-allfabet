@@ -753,6 +753,13 @@ app.get('/login', (req, res) => {
 <script>
 function updateCourseStatus(courseId, status) {
   fetch('/api/courses/' + courseId + '/status', {
+  method: 'PATCH',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  credentials: 'include',
+  body: JSON.stringify({ status })
+})
     method: 'PATCH',
     headers: {
       'Content-Type': 'application/json'
