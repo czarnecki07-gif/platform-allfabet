@@ -590,15 +590,37 @@ app.get('/', requireAdmin, async (req, res) => {
                 <span class="status ${course.status}">${course.status}</span>
               </div>
               <div class="title">${course.title}</div>
-              <div class="meta">
-                <div><strong>Code:</strong> ${course.course_code || 'brak'}</div>
-                <div><strong>Slug:</strong> ${course.slug}</div>
-                <div><strong>Język:</strong> ${course.language}</div>
-                <div><strong>Wersja:</strong> ${course.version}</div>
-                <div><strong>Utworzono:</strong> ${new Date(course.created_at).toLocaleString('pl-PL')}</div>
-                <div><strong>Aktualizacja:</strong> ${new Date(course.updated_at).toLocaleString('pl-PL')}</div>
-              </div>
-              <div class="meta" style="margin-top:16px;">
+             <div class="meta">
+  <div><strong>Code:</strong> ${course.course_code || 'brak'}</div>
+  <div><strong>Slug:</strong> ${course.slug}</div>
+  <div><strong>Język:</strong> ${course.language}</div>
+  <div><strong>Wersja:</strong> ${course.version}</div>
+  <div><strong>Utworzono:</strong> ${new Date(course.created_at).toLocaleString('pl-PL')}</div>
+  <div><strong>Aktualizacja:</strong> ${new Date(course.updated_at).toLocaleString('pl-PL')}</div>
+</div>
+
+<div style="margin-top:10px; color:#ff6b6b; font-size:14px;">
+  <strong>Uwagi testera:</strong><br/>
+  <span id="feedback-${course.id}">ładowanie...</span>
+</div>
+
+<script>
+fetch('/api/course-feedback/${course.id}')
+  .then(res => res.json())
+  .then(data => {
+    const el = document.getElementById('feedback-${course.id}');
+    if (!data.feedback.length) {
+      el.innerText = 'brak uwag';
+    } else {
+      el.innerText = data.feedback.map(f => f.comment).join(' | ');
+    }
+  })
+  .catch(() => {
+    document.getElementById('feedback-${course.id}').innerText = 'błąd ładowania';
+  });
+</script>
+
+<div class="meta" style="margin-top:16px;">
                 <div class="row">
                   <span>API</span>
                   <a class="link" href="/api/courses/${course.id}" target="_blank" rel="noopener">Zobacz JSON kursu</a>
