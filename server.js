@@ -645,19 +645,42 @@ fetch('/api/course-feedback/${course.id}')
       <div class="wrap">
 
         <h1>Platforma kursów</h1>
-<p>Zalogowany jako: ${req.session.user.email} (${req.session.user.role})</p>
-<p class="sub">Centralna biblioteka kursów. Tu będą później: panel admina treści, panel testera i panel użytkownika.</p>
- <div class="toolbar">
+        <p>Zalogowany jako: ${req.session.user.email} (${req.session.user.role})</p>
+        <p class="sub">Centralna biblioteka kursów. Tu będą później: panel admina treści, panel testera i panel użytkownika.</p>
 
-  <button class="btn" onclick="window.location.reload()">Odśwież listę</button>
-  <a href="/api/courses" class="btn secondary">API kursów</a>
-  <a href="/api/health" class="btn secondary">Health</a>
-  <a href="/logout" class="btn secondary">Wyloguj</a>
-</div>
+        <div class="toolbar">
+          <button class="btn" onclick="window.location.reload()">Odśwież listę</button>
+          <a href="/api/courses" class="btn secondary">API kursów</a>
+          <a href="/api/health" class="btn secondary">Health</a>
+          <a href="/logout" class="btn secondary">Wyloguj</a>
+        </div>
 
         ${notice}
         ${cards}
       </div>
+
+      <script>
+        function updateCourseStatus(courseId, status) {
+          fetch('/api/courses/' + courseId + '/status', {
+            method: 'PATCH',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            credentials: 'include',
+            body: JSON.stringify({ status })
+          })
+          .then(async (res) => {
+            const data = await res.json();
+            if (!res.ok) {
+              throw new Error(data.error || 'Błąd zmiany statusu');
+            }
+            location.reload();
+          })
+          .catch((err) => {
+            alert(err.message || 'Błąd zmiany statusu');
+          });
+        }
+      </script>
     `);
 
     return res.send(html);
