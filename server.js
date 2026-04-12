@@ -631,24 +631,39 @@ fetch('/api/course-feedback/${course.id}')
   <div style="display:flex; gap:8px; flex-wrap:wrap;">
     
     <button class="btn secondary"
-      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'review'})}).then(()=>location.reload())">
+      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'review'})})
+      .then(r=>r.json())
+      .then(()=>window.location.reload())
+      .catch(()=>alert('błąd'))">
       Do testera
     </button>
 
     <button class="btn secondary"
-      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'approved'})}).then(()=>location.reload())">
+      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'approved'})})
+      .then(r=>r.json())
+      .then(()=>window.location.reload())
+      .catch(()=>alert('błąd'))">
       Zatwierdź
     </button>
 
     <button class="btn secondary"
-      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'published'})}).then(()=>location.reload())">
+      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'published'})})
+      .then(r=>r.json())
+      .then(()=>window.location.reload())
+      .catch(()=>alert('błąd'))">
       Opublikuj
     </button>
 
     <button class="btn secondary"
-      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'archived'})}).then(()=>location.reload())">
+      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'archived'})})
+      .then(r=>r.json())
+      .then(()=>window.location.reload())
+      .catch(()=>alert('błąd'))">
       Wycofaj
     </button>
+
+  </div>
+</div>
 
   </div>
 </div>
