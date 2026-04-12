@@ -630,13 +630,10 @@ fetch('/api/course-feedback/${course.id}')
   <span>Akcje admina</span>
   <div style="display:flex; gap:8px; flex-wrap:wrap;">
     
-    <button class="btn secondary"
-      onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'review'})})
-      .then(r=>r.json())
-      .then(()=>window.location.reload())
-      .catch(()=>alert('błąd'))">
-      Do testera
-    </button>
+ <button class="btn secondary"
+onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'review'})}).then(r=>r.json()).then(()=>location.reload()).catch(()=>alert('err'))">
+Do testera
+</button>
 
     <button class="btn secondary"
       onclick="fetch('/api/courses/${course.id}/status',{method:'PATCH',headers:{'Content-Type':'application/json'},credentials:'include',body:JSON.stringify({status:'approved'})})
