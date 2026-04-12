@@ -1,4 +1,6 @@
 import express from 'express';
+import bcrypt from 'bcryptjs';
+import session from 'express-session';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import fs from 'node:fs/promises';
@@ -14,7 +16,13 @@ app.use(cors({
   origin: process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',').map(x => x.trim()) : true
 }));
 app.use(express.json({ limit: '25mb' }));
+app.use(session({
+  secret: 'supersecret123',
+  resave: false,
+  saveUninitialized: false
+}));
 
+/*
 // 🔐 PROSTE ZABEZPIECZENIE (Basic Auth)
 app.use((req, res, next) => {
   const auth = req.headers.authorization;
@@ -36,6 +44,7 @@ app.use((req, res, next) => {
 
   return res.status(403).send('Forbidden');
 });
+*/
 
 function slugify(text) {
   return String(text || '')
@@ -570,7 +579,57 @@ app.get('/', async (req, res) => {
     return res.status(500).send('Błąd renderowania strony głównej.');
   }
 });
+app.post('/api/register', async (req, res) => {
+  try {
+    const { email, password, role = 'student' } = req.body;
 
+    if (!email || !password) {
+      return res.status(400).json({ error: 'Email i hasło wymagane.' });
+    }
+
+    const hash = await bcrypt.hash(password, 10);
+
+    const result = await query(
+      'INSERT INTO users (email, password_hash, role) VALUES ($1, $2, $3) RETURNING id, email, role',
+      [email, hash, role]
+    );
+
+    res.json({ user: result.rows[0] });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: 'Błąd rejestracji' });
+  }
+});
+
+app.post('/api/login', async (req, res) => {
+  try {
+    const { email, password } = req.body;
+
+    const result = await query('SELECT * FROM users WHERE email = $1', [email]);
+
+    if (!result.rows.length) {
+      return res.status(400).json({ error: 'Nie ma takiego użytkownika' });
+    }
+
+    const user = result.rows[0];
+    const ok = await bcrypt.compare(password, user.password_hash);
+
+    if (!ok) {
+      return res.status(400).json({ error: 'Złe hasło' });
+    }
+
+    req.session.user = {
+      id: user.id,
+      email: user.email,
+      role: user.role
+    };
+
+    res.json({ message: 'Zalogowano', user: req.session.user });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: 'Błąd logowania' });
+  }
+});
 app.listen(port, () => {
   console.log(`PLATFORM START: http://localhost:${port}`);
 });
