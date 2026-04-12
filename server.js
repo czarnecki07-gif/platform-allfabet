@@ -425,6 +425,27 @@ app.get('/api/courses', requireAdmin, async (req, res) => {
   }
 });
 
+app.get('/api/my-courses', requireAuth, async (req, res) => {
+  try {
+    const userId = req.session.user.id;
+
+    const result = await query(`
+      SELECT c.*
+      FROM courses c
+      JOIN enrollments e ON e.course_id = c.id
+      WHERE e.user_id = $1 AND e.status = 'active'
+      ORDER BY c.updated_at DESC
+    `, [userId]);
+
+    res.json({
+      courses: result.rows
+    });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: 'Błąd pobierania kursów użytkownika' });
+  }
+});
+
 app.get('/api/courses/:id', async (req, res) => {
   try {
     const id = Number(req.params.id);
