@@ -775,6 +775,25 @@ function updateCourseStatus(courseId, status) {
   });
 }
 </script>
+<script>
+function updateCourseStatus(courseId, status) {
+  fetch('/api/courses/' + courseId + '/status', {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    credentials: 'include',
+    body: JSON.stringify({ status })
+  })
+  .then(res => res.json())
+  .then(() => {
+    location.reload();
+  })
+  .catch(() => {
+    alert('Błąd zmiany statusu');
+  });
+}
+</script>
       </body>
     </html>
   `);
