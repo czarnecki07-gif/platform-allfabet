@@ -637,6 +637,30 @@ app.post('/api/register', async (req, res) => {
     res.status(500).json({ error: 'Błąd rejestracji' });
   }
 });
+app.post('/api/feedback', requireAuth, async (req, res) => {
+  try {
+    const { course_id, comment } = req.body;
+
+    if (!course_id || !comment) {
+      return res.status(400).json({ error: 'course_id i comment są wymagane' });
+    }
+
+    const result = await query(
+      `INSERT INTO course_feedback (course_id, user_id, comment)
+       VALUES ($1, $2, $3)
+       RETURNING *`,
+      [course_id, req.session.user.id, comment]
+    );
+
+    res.json({
+      message: 'Uwaga została dodana',
+      feedback: result.rows[0]
+    });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: 'Błąd dodawania uwagi' });
+  }
+});
 app.post('/api/enroll', requireAdmin, async (req, res) => {
   try {
     const { user_id, course_id } = req.body;
