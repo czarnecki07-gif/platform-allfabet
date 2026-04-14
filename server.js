@@ -906,6 +906,10 @@ app.post('/login', async (req, res) => {
       return res.redirect('/');
     }
 
+    if (user.role === 'tester') {
+      return res.redirect('/panel-testera');
+    }
+
     return res.redirect('/moje-kursy');
   } catch (err) {
     console.error(err);
@@ -1077,6 +1081,70 @@ app.get('/moje-kursy', requireAuth, async (req, res) => {
   } catch (error) {
     console.error('student page error:', error);
     return res.status(500).send('Błąd renderowania panelu kursanta.');
+  }
+});
+
+app.get('/panel-testera', requireAuth, async (req, res) => {
+  try {
+    if (req.session.user.role !== 'tester') {
+      return res.redirect('/');
+    }
+
+    const result = await query(`
+      SELECT id, title, course_code, status, updated_at
+      FROM courses
+      WHERE status = 'review'
+      ORDER BY updated_at DESC
+    `);
+
+    const cards = result.rows.length
+      ? `
+        <div class="grid">
+          ${result.rows.map(course => `
+            <div class="card">
+              <div class="topbar">
+                <span class="label">ID: ${course.id}</span>
+                <span class="status ${course.status}">${course.status}</span>
+              </div>
+
+              <div class="title">${course.title}</div>
+
+              <div class="meta">
+                <div><strong>Code:</strong> ${course.course_code || 'brak'}</div>
+                <div><strong>Ostatnia zmiana:</strong> ${new Date(course.updated_at).toLocaleString('pl-PL')}</div>
+              </div>
+
+              <div style="margin-top:16px;">
+                <form method="POST" action="/api/feedback">
+                  <input type="hidden" name="course_id" value="${course.id}" />
+                  <textarea name="comment" placeholder="Dodaj uwagę..." style="width:100%; padding:10px; border-radius:8px; margin-bottom:8px;"></textarea>
+                  <button class="btn secondary" type="submit">Dodaj uwagę</button>
+                </form>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `
+      : `<div class="empty">Brak kursów do sprawdzenia.</div>`;
+
+    const html = renderHtmlPage('Panel testera', `
+      <div class="wrap">
+        <h1>Panel testera</h1>
+        <p class="sub">Kursy do sprawdzenia i zgłoszenia uwag.</p>
+
+        <div class="toolbar">
+          <button class="btn" onclick="window.location.reload()">Odśwież</button>
+          <a href="/logout" class="btn secondary">Wyloguj</a>
+        </div>
+
+        ${cards}
+      </div>
+    `);
+
+    return res.send(html);
+  } catch (error) {
+    console.error('tester panel error:', error);
+    return res.status(500).send('Błąd panelu testera');
   }
 });
 
