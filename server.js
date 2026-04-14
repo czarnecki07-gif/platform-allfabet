@@ -565,10 +565,10 @@ app.patch('/api/courses/:id/status', async (req, res) => {
   }
 });
 
-app.get('/admin/courses/:id/status/:status', requireAdmin, async (req, res) => {
+app.post('/admin/courses/:id/status', requireAdmin, express.urlencoded({ extended: true }), async (req, res) => {
   try {
     const id = Number(req.params.id);
-    const nextStatus = sanitizeStatus(String(req.params.status || ''));
+    const nextStatus = sanitizeStatus(String(req.body?.status || ''));
 
     if (!Number.isInteger(id)) {
       return res.status(400).send('Nieprawidłowe ID kursu.');
@@ -656,22 +656,26 @@ fetch('/api/course-feedback/${course.id}')
 <div class="row">
   <span>Akcje admina</span>
   <div style="display:flex; gap:8px; flex-wrap:wrap;">
-    
-    <a class="btn secondary" href="/admin/courses/${course.id}/status/review">
-      Do testera
-    </a>
 
-    <a class="btn secondary" href="/admin/courses/${course.id}/status/approved">
-      Zatwierdź
-    </a>
+    <form method="POST" action="/admin/courses/${course.id}/status">
+      <input type="hidden" name="status" value="review" />
+      <button class="btn secondary" type="submit">Do testera</button>
+    </form>
 
-    <a class="btn secondary" href="/admin/courses/${course.id}/status/published">
-      Opublikuj
-    </a>
+    <form method="POST" action="/admin/courses/${course.id}/status">
+      <input type="hidden" name="status" value="approved" />
+      <button class="btn secondary" type="submit">Zatwierdź</button>
+    </form>
 
-    <a class="btn secondary" href="/admin/courses/${course.id}/status/archived">
-      Wycofaj
-    </a>
+    <form method="POST" action="/admin/courses/${course.id}/status">
+      <input type="hidden" name="status" value="published" />
+      <button class="btn secondary" type="submit">Opublikuj</button>
+    </form>
+
+    <form method="POST" action="/admin/courses/${course.id}/status">
+      <input type="hidden" name="status" value="archived" />
+      <button class="btn secondary" type="submit">Wycofaj</button>
+    </form>
 
   </div>
 </div>
