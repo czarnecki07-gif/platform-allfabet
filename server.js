@@ -86,6 +86,7 @@ function renderHtmlPage(title, body) {
           --muted:#9fb0d0;
           --line:rgba(255,255,255,.10);
           --accent:#78a8ff;
+          --accent-2:#9a7cff;
           --ok:#7ad7a6;
           --warn:#ffd36e;
           --danger:#ff7f7f;
@@ -94,7 +95,10 @@ function renderHtmlPage(title, body) {
         body{
           margin:0;
           font-family:Inter,Arial,sans-serif;
-          background:linear-gradient(180deg,#0a0f1d,#10182b);
+          background:
+            radial-gradient(circle at top left, rgba(120,168,255,.16), transparent 30%),
+            radial-gradient(circle at top right, rgba(154,124,255,.14), transparent 26%),
+            linear-gradient(180deg,#0a0f1d,#10182b);
           color:var(--text);
         }
         .wrap{
@@ -106,6 +110,10 @@ function renderHtmlPage(title, body) {
           margin:0 0 8px;
           font-size:32px;
           line-height:1.15;
+        }
+        h2{
+          margin:0 0 12px;
+          font-size:22px;
         }
         .sub{
           margin:0 0 24px;
@@ -270,6 +278,168 @@ function renderHtmlPage(title, body) {
           border:1px solid var(--line);
           background:#0f1728;
           color:var(--text);
+        }
+        .hero{
+          display:grid;
+          grid-template-columns:1.25fr .75fr;
+          gap:18px;
+          margin-bottom:24px;
+        }
+        .hero-card{
+          background:linear-gradient(135deg, rgba(120,168,255,.18), rgba(154,124,255,.14));
+          border:1px solid var(--line);
+          border-radius:24px;
+          padding:24px;
+          box-shadow:0 18px 40px rgba(0,0,0,.18);
+        }
+        .hero-kicker{
+          display:inline-block;
+          margin-bottom:12px;
+          padding:6px 10px;
+          border-radius:999px;
+          font-size:12px;
+          border:1px solid rgba(255,255,255,.14);
+          color:#d6e5ff;
+          background:rgba(255,255,255,.05);
+        }
+        .hero-title{
+          margin:0 0 10px;
+          font-size:34px;
+          line-height:1.12;
+        }
+        .hero-desc{
+          margin:0;
+          color:#d2def7;
+          line-height:1.6;
+        }
+        .stats{
+          display:grid;
+          grid-template-columns:repeat(3, 1fr);
+          gap:12px;
+          margin-top:18px;
+        }
+        .stat{
+          background:rgba(255,255,255,.04);
+          border:1px solid var(--line);
+          border-radius:18px;
+          padding:14px;
+        }
+        .stat-value{
+          font-size:28px;
+          font-weight:800;
+          margin-bottom:4px;
+        }
+        .stat-label{
+          color:var(--muted);
+          font-size:13px;
+        }
+        .course-card{
+          position:relative;
+          overflow:hidden;
+          border-radius:22px;
+          border:1px solid var(--line);
+          background:
+            linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01)),
+            rgba(18,26,43,.94);
+          padding:20px;
+          box-shadow:0 18px 40px rgba(0,0,0,.18);
+        }
+        .course-card::before{
+          content:'';
+          position:absolute;
+          inset:0;
+          background:linear-gradient(135deg, rgba(120,168,255,.08), transparent 35%, rgba(154,124,255,.07));
+          pointer-events:none;
+        }
+        .course-top{
+          position:relative;
+          display:flex;
+          justify-content:space-between;
+          gap:14px;
+          align-items:flex-start;
+          margin-bottom:18px;
+        }
+        .course-code{
+          display:inline-flex;
+          padding:6px 10px;
+          border-radius:999px;
+          background:rgba(255,255,255,.05);
+          border:1px solid var(--line);
+          color:#d9e6ff;
+          font-size:12px;
+        }
+        .course-status{
+          display:inline-flex;
+          padding:6px 10px;
+          border-radius:999px;
+          background:rgba(122,215,166,.10);
+          border:1px solid rgba(122,215,166,.22);
+          color:#9ff0bd;
+          font-size:12px;
+          font-weight:700;
+          text-transform:uppercase;
+        }
+        .course-name{
+          position:relative;
+          margin:0 0 10px;
+          font-size:22px;
+          line-height:1.22;
+        }
+        .course-desc{
+          position:relative;
+          margin:0 0 16px;
+          color:var(--muted);
+          line-height:1.6;
+          min-height:48px;
+        }
+        .progress-wrap{
+          position:relative;
+          margin-bottom:16px;
+        }
+        .progress-label{
+          display:flex;
+          justify-content:space-between;
+          margin-bottom:8px;
+          color:#dbe7ff;
+          font-size:13px;
+        }
+        .progress-bar{
+          width:100%;
+          height:12px;
+          border-radius:999px;
+          background:rgba(255,255,255,.08);
+          overflow:hidden;
+          border:1px solid rgba(255,255,255,.05);
+        }
+        .progress-bar > span{
+          display:block;
+          height:100%;
+          border-radius:999px;
+          background:linear-gradient(90deg, var(--accent), var(--accent-2));
+        }
+        .course-meta{
+          position:relative;
+          display:grid;
+          grid-template-columns:repeat(2, minmax(0, 1fr));
+          gap:10px;
+          margin-bottom:16px;
+          color:var(--muted);
+          font-size:13px;
+        }
+        .course-actions{
+          position:relative;
+          display:flex;
+          gap:10px;
+          flex-wrap:wrap;
+        }
+        .ghost{
+          background:transparent;
+          border:1px solid var(--line);
+        }
+        @media (max-width: 900px){
+          .hero{
+            grid-template-columns:1fr;
+          }
         }
       </style>
     </head>
@@ -696,9 +866,10 @@ app.post('/api/register', async (req, res) => {
 });
 
 app.get('/login', (req, res) => {
-  res.send(renderHtmlPage('Logowanie admina', `
+  res.send(renderHtmlPage('Logowanie', `
     <div class="login-wrap">
-      <h2>Logowanie admina</h2>
+      <h2>Logowanie</h2>
+      <p class="sub">Zaloguj się do platformy kursów.</p>
       <form method="POST" action="/login">
         <input class="field" name="email" placeholder="email" />
         <input class="field" name="password" type="password" placeholder="hasło" />
@@ -731,7 +902,11 @@ app.post('/login', async (req, res) => {
       role: user.role
     };
 
-    return res.redirect('/');
+    if (user.role === 'admin') {
+      return res.redirect('/');
+    }
+
+    return res.redirect('/moje-kursy');
   } catch (err) {
     console.error(err);
     return res.send('Błąd logowania');
@@ -778,6 +953,131 @@ app.get('/logout', (req, res) => {
   req.session.destroy(() => {
     res.redirect('/login');
   });
+});
+
+app.get('/moje-kursy', requireAuth, async (req, res) => {
+  try {
+    const userId = req.session.user.id;
+
+    const result = await query(`
+      SELECT
+        c.id,
+        c.title,
+        c.slug,
+        c.course_code,
+        c.language,
+        c.status,
+        c.version,
+        c.updated_at,
+        e.access_type,
+        e.source,
+        e.status AS enrollment_status,
+        e.valid_from,
+        e.valid_to
+      FROM courses c
+      JOIN enrollments e ON e.course_id = c.id
+      WHERE e.user_id = $1 AND e.status = 'active'
+      ORDER BY c.updated_at DESC, c.id DESC
+    `, [userId]);
+
+    const totalCourses = result.rows.length;
+    const activeCourses = result.rows.filter(row => row.enrollment_status === 'active').length;
+    const publishedCourses = result.rows.filter(row => row.status === 'published').length;
+
+    const cards = result.rows.length
+      ? `
+        <div class="grid">
+          ${result.rows.map((course, index) => {
+            const fakeProgress = Math.min(95, 18 + (index * 17));
+            return `
+              <div class="course-card">
+                <div class="course-top">
+                  <span class="course-code">${escapeHtml(course.course_code || 'Kurs online')}</span>
+                  <span class="course-status">${escapeHtml(course.status)}</span>
+                </div>
+
+                <h2 class="course-name">${escapeHtml(course.title)}</h2>
+                <p class="course-desc">
+                  Twoje miejsce nauki. Tutaj zobaczysz postęp, wejdziesz do lekcji i wrócisz do ostatnio przerwanego materiału.
+                </p>
+
+                <div class="progress-wrap">
+                  <div class="progress-label">
+                    <span>Postęp kursu</span>
+                    <strong>${fakeProgress}%</strong>
+                  </div>
+                  <div class="progress-bar">
+                    <span style="width:${fakeProgress}%"></span>
+                  </div>
+                </div>
+
+                <div class="course-meta">
+                  <div><strong>Język:</strong> ${escapeHtml(course.language)}</div>
+                  <div><strong>Wersja:</strong> ${escapeHtml(course.version)}</div>
+                  <div><strong>Dostęp:</strong> ${escapeHtml(course.access_type)}</div>
+                  <div><strong>Źródło:</strong> ${escapeHtml(course.source)}</div>
+                </div>
+
+                <div class="course-actions">
+                  <a href="/api/my-courses" class="btn">Kontynuuj kurs</a>
+                  <a href="/logout" class="btn secondary ghost">Wyloguj</a>
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      `
+      : `<div class="empty">Nie masz jeszcze przypisanych kursów.</div>`;
+
+    const html = renderHtmlPage('Moje kursy', `
+      <div class="wrap">
+        <div class="hero">
+          <div class="hero-card">
+            <span class="hero-kicker">Panel kursanta</span>
+            <h1 class="hero-title">Witaj, ${escapeHtml(req.session.user.email)}</h1>
+            <p class="hero-desc">
+              Tutaj znajdziesz wszystkie swoje kursy, szybko wrócisz do nauki i zobaczysz postęp bez chaosu.
+            </p>
+
+            <div class="stats">
+              <div class="stat">
+                <div class="stat-value">${totalCourses}</div>
+                <div class="stat-label">Wszystkie kursy</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value">${activeCourses}</div>
+                <div class="stat-label">Aktywne dostępy</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value">${publishedCourses}</div>
+                <div class="stat-label">Opublikowane</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <span class="hero-kicker">Szybkie akcje</span>
+            <h2 style="margin:0 0 10px;">Twoja nauka</h2>
+            <p class="hero-desc" style="margin-bottom:18px;">
+              Z tego miejsca przejdziesz do kursów, sprawdzisz aktywne dostępy i wrócisz do ostatniej lekcji.
+            </p>
+            <div class="toolbar" style="margin-bottom:0;">
+              <button class="btn" onclick="window.location.reload()">Odśwież panel</button>
+              <a href="/api/my-courses" class="btn secondary">API moich kursów</a>
+              <a href="/logout" class="btn secondary">Wyloguj</a>
+            </div>
+          </div>
+        </div>
+
+        ${cards}
+      </div>
+    `);
+
+    return res.send(html);
+  } catch (error) {
+    console.error('student page error:', error);
+    return res.status(500).send('Błąd renderowania panelu kursanta.');
+  }
 });
 
 app.get('/', requireAdmin, async (req, res) => {
