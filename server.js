@@ -807,10 +807,8 @@ app.post('/api/feedback', requireAuth, async (req, res) => {
       [course_id, req.session.user.id, comment]
     );
 
-    return res.json({
-      message: 'Uwaga została dodana',
-      feedback: result.rows[0]
-    });
+   return res.redirect('/panel-testera');
+
   } catch (err) {
     console.error(err);
     return res.status(500).json({ error: 'Błąd dodawania uwagi' });
