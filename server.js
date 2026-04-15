@@ -1110,26 +1110,42 @@ app.get('/kurs/:id', requireAuth, async (req, res) => {
     const sections = Array.isArray(course.sections_json) ? course.sections_json : [];
 
     const sectionsHtml = sections.length
-      ? `
-        <div class="grid">
-          ${sections.map((section, index) => `
-            <div class="card">
-              <div class="label">Sekcja ${index + 1}</div>
-         <div class="title">
-  ${escapeHtml(
-    section?.media?.[0]?.lessonTitle || `Sekcja ${index + 1}`
-  )}
-</div>
+  ? `
+    <div class="grid">
+      ${sections.map((section, index) => {
+        const lessons = section?.media || [];
 
-<div class="meta">
-  <div><strong>Lekcja:</strong> ${escapeHtml(section?.media?.[0]?.lessonId || 'brak')}</div>
-  <div><strong>Typ:</strong> ${escapeHtml(section?.media?.[0]?.mediaType || 'brak')}</div>
-</div>
-</div>
-`).join('')}
-</div>
-      `
-      : `<div class="empty">Ten kurs nie ma jeszcze widocznych sekcji.</div>`;
+        return `
+          <div class="card">
+            <div class="label">Sekcja ${index + 1}</div>
+
+            <div class="title">
+              ${escapeHtml(
+                lessons?.[0]?.lessonTitle || `Sekcja ${index + 1}`
+              )}
+            </div>
+
+            <div class="meta" style="margin-bottom:10px;">
+              <div><strong>Liczba lekcji:</strong> ${lessons.length}</div>
+            </div>
+
+            <div style="margin-top:10px; display:flex; flex-direction:column; gap:6px;">
+              ${lessons.map((lesson, i) => `
+                <div style="padding:8px; border:1px solid rgba(255,255,255,.1); border-radius:8px;">
+                  <strong>${escapeHtml(lesson.lessonId || `L-${i + 1}`)}</strong><br/>
+                  <span style="color:#9fb0d0;">
+                    ${escapeHtml(lesson.lessonTitle || 'Brak tytułu')}
+                  </span>
+                </div>
+              `).join('')}
+            </div>
+
+          </div>
+        `;
+      }).join('')}
+    </div>
+  `
+  : `<div class="empty">Ten kurs nie ma jeszcze widocznych sekcji.</div>`;
 
     const html = renderHtmlPage(course.title || 'Widok kursu', `
       <div class="wrap">
