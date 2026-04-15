@@ -1111,52 +1111,100 @@ app.get('/kurs/:id', requireAuth, async (req, res) => {
 
     const sectionsHtml = sections.length
   ? `
-    <div class="grid">
+    <div style="display:flex; flex-direction:column; gap:18px;">
       ${sections.map((section, index) => {
         const lessons = section?.media || [];
+        const sectionTitle = lessons?.[0]?.lessonTitle || `Sekcja ${index + 1}`;
 
         return `
-          <div class="card">
-            <div class="label">Sekcja ${index + 1}</div>
+          <div style="
+            background:rgba(18,26,43,.92);
+            border:1px solid rgba(255,255,255,.08);
+            border-radius:22px;
+            padding:22px;
+            box-shadow:0 18px 40px rgba(0,0,0,.16);
+          ">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:14px; flex-wrap:wrap; margin-bottom:14px;">
+              <div>
+                <div style="
+                  display:inline-block;
+                  padding:6px 12px;
+                  border-radius:999px;
+                  background:rgba(120,168,255,.10);
+                  border:1px solid rgba(120,168,255,.18);
+                  color:#d9e7ff;
+                  font-size:12px;
+                  margin-bottom:10px;
+                ">
+                  Moduł ${index + 1}
+                </div>
 
-            <div class="title">
-              ${escapeHtml(
-                lessons?.[0]?.lessonTitle || `Sekcja ${index + 1}`
-              )}
+                <div style="font-size:24px; font-weight:800; line-height:1.25; margin-bottom:8px;">
+                  ${escapeHtml(sectionTitle)}
+                </div>
+
+                <div style="color:#9fb0d0; font-size:14px;">
+                  ${lessons.length} lekcji w tym module
+                </div>
+              </div>
+
+              <div style="
+                min-width:120px;
+                text-align:right;
+                color:#9fb0d0;
+                font-size:13px;
+              ">
+                <div>Gotowe do nauki</div>
+              </div>
             </div>
 
-            <div class="meta" style="margin-bottom:10px;">
-              <div><strong>Liczba lekcji:</strong> ${lessons.length}</div>
-            </div>
-
-            <div style="margin-top:10px; display:flex; flex-direction:column; gap:6px;">
+            <div style="display:flex; flex-direction:column; gap:10px;">
               ${lessons.map((lesson, i) => `
-               <div style="
-  padding:12px;
-  border:1px solid rgba(255,255,255,.08);
-  border-radius:12px;
-  background:rgba(255,255,255,.03);
-  cursor:pointer;
-  transition:all .2s ease;
-"
-onmouseover="this.style.background='rgba(120,168,255,.08)'"
-onmouseout="this.style.background='rgba(255,255,255,.03)'"
->
-                  <strong>${escapeHtml(lesson.lessonId || `L-${i + 1}`)}</strong><br/>
-                  <span style="color:#9fb0d0;">
-                    ${escapeHtml(lesson.lessonTitle || 'Brak tytułu')}
-                  </span>
+                <div style="
+                  padding:14px 16px;
+                  border:1px solid rgba(255,255,255,.08);
+                  border-radius:16px;
+                  background:rgba(255,255,255,.03);
+                ">
+                  <div style="display:flex; justify-content:space-between; gap:14px; align-items:flex-start; flex-wrap:wrap;">
+                    <div>
+                      <div style="
+                        font-size:12px;
+                        color:#9fb0d0;
+                        margin-bottom:6px;
+                        text-transform:uppercase;
+                        letter-spacing:.04em;
+                      ">
+                        ${escapeHtml(lesson.lessonId || `L-${i + 1}`)}
+                      </div>
+
+                      <div style="
+                        font-size:17px;
+                        font-weight:700;
+                        line-height:1.35;
+                        margin-bottom:6px;
+                      ">
+                        ${escapeHtml(lesson.lessonTitle || 'Brak tytułu lekcji')}
+                      </div>
+
+                      <div style="color:#9fb0d0; font-size:14px;">
+                        Typ: ${escapeHtml(lesson.mediaType || 'lesson')}
+                      </div>
+                    </div>
+
+                    <div>
+                      <a href="#" class="btn secondary small">Rozpocznij</a>
+                    </div>
+                  </div>
                 </div>
               `).join('')}
             </div>
-
           </div>
         `;
       }).join('')}
     </div>
   `
   : `<div class="empty">Ten kurs nie ma jeszcze widocznych sekcji.</div>`;
-
     const html = renderHtmlPage(course.title || 'Widok kursu', `
       <div class="wrap">
         <div class="hero">
