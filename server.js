@@ -82,6 +82,7 @@ function renderHtmlPage(title, body) {
           --bg:#0b1020;
           --panel:#121a2b;
           --panel-2:#182338;
+          --panel-3:#1d2a44;
           --text:#eef4ff;
           --muted:#9fb0d0;
           --line:rgba(255,255,255,.10);
@@ -90,8 +91,12 @@ function renderHtmlPage(title, body) {
           --ok:#7ad7a6;
           --warn:#ffd36e;
           --danger:#ff7f7f;
+          --cardGlow:rgba(120,168,255,.14);
         }
         *{box-sizing:border-box}
+        html, body{
+          min-height:100%;
+        }
         body{
           margin:0;
           font-family:Inter,Arial,sans-serif;
@@ -102,7 +107,7 @@ function renderHtmlPage(title, body) {
           color:var(--text);
         }
         .wrap{
-          max-width:1200px;
+          max-width:1240px;
           margin:0 auto;
           padding:32px 20px 80px;
         }
@@ -143,6 +148,10 @@ function renderHtmlPage(title, body) {
         }
         .btn.secondary{
           background:var(--panel-2);
+          border:1px solid var(--line);
+        }
+        .btn.ghost{
+          background:transparent;
           border:1px solid var(--line);
         }
         .btn.small{
@@ -432,13 +441,178 @@ function renderHtmlPage(title, body) {
           gap:10px;
           flex-wrap:wrap;
         }
-        .ghost{
-          background:transparent;
-          border:1px solid var(--line);
+
+        .module-stack{
+          display:flex;
+          flex-direction:column;
+          gap:18px;
         }
-        @media (max-width: 900px){
+        .module-card{
+          background:linear-gradient(180deg, rgba(18,26,43,.96), rgba(15,22,36,.96));
+          border:1px solid var(--line);
+          border-radius:26px;
+          overflow:hidden;
+          box-shadow:0 20px 44px rgba(0,0,0,.18);
+        }
+        .module-head{
+          display:flex;
+          justify-content:space-between;
+          align-items:flex-start;
+          gap:16px;
+          padding:22px 22px 16px;
+          border-bottom:1px solid rgba(255,255,255,.06);
+          background:
+            radial-gradient(circle at top left, rgba(120,168,255,.14), transparent 40%),
+            linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0));
+        }
+        .module-badge{
+          display:inline-flex;
+          padding:7px 12px;
+          border-radius:999px;
+          background:rgba(120,168,255,.12);
+          border:1px solid rgba(120,168,255,.20);
+          color:#dbe8ff;
+          font-size:12px;
+          margin-bottom:10px;
+        }
+        .module-title{
+          font-size:26px;
+          font-weight:800;
+          line-height:1.24;
+          margin:0 0 8px;
+        }
+        .module-sub{
+          color:var(--muted);
+          font-size:14px;
+        }
+        .module-progress{
+          min-width:180px;
+        }
+        .module-progress-bar{
+          height:12px;
+          border-radius:999px;
+          background:rgba(255,255,255,.08);
+          overflow:hidden;
+          border:1px solid rgba(255,255,255,.06);
+          margin-top:8px;
+        }
+        .module-progress-bar > span{
+          display:block;
+          height:100%;
+          background:linear-gradient(90deg, #78a8ff, #9a7cff);
+          border-radius:999px;
+        }
+
+        .lesson-list{
+          display:flex;
+          flex-direction:column;
+          gap:14px;
+          padding:18px 22px 22px;
+        }
+        .lesson-card{
+          display:grid;
+          grid-template-columns:200px 1fr auto;
+          gap:16px;
+          align-items:stretch;
+          border:1px solid rgba(255,255,255,.08);
+          border-radius:20px;
+          background:rgba(255,255,255,.03);
+          overflow:hidden;
+          transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+        }
+        .lesson-card:hover{
+          transform:translateY(-2px);
+          box-shadow:0 16px 30px rgba(0,0,0,.14);
+          border-color:rgba(120,168,255,.22);
+        }
+        .lesson-thumb{
+          min-height:140px;
+          background:
+            linear-gradient(135deg, rgba(120,168,255,.18), rgba(154,124,255,.18)),
+            rgba(255,255,255,.03);
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          overflow:hidden;
+        }
+        .lesson-thumb img{
+          width:100%;
+          height:100%;
+          object-fit:cover;
+          display:block;
+        }
+        .lesson-thumb-fallback{
+          color:#dbe6ff;
+          font-size:13px;
+          text-align:center;
+          padding:18px;
+          line-height:1.5;
+        }
+        .lesson-body{
+          padding:16px 0 16px 0;
+          display:flex;
+          flex-direction:column;
+          justify-content:center;
+        }
+        .lesson-id{
+          font-size:12px;
+          text-transform:uppercase;
+          letter-spacing:.05em;
+          color:#9fb0d0;
+          margin-bottom:8px;
+        }
+        .lesson-title{
+          font-size:18px;
+          font-weight:800;
+          line-height:1.36;
+          margin-bottom:8px;
+        }
+        .lesson-type{
+          color:var(--muted);
+          font-size:14px;
+          margin-bottom:12px;
+        }
+        .lesson-hint{
+          color:#d7e4ff;
+          font-size:13px;
+          opacity:.88;
+        }
+        .lesson-action{
+          padding:16px;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+        }
+        .start-pill{
+          display:inline-flex;
+          align-items:center;
+          gap:8px;
+          padding:10px 14px;
+          border-radius:999px;
+          background:rgba(120,168,255,.12);
+          border:1px solid rgba(120,168,255,.22);
+          color:#eef4ff;
+          font-weight:700;
+          text-decoration:none;
+          white-space:nowrap;
+        }
+
+        @media (max-width: 980px){
           .hero{
             grid-template-columns:1fr;
+          }
+          .lesson-card{
+            grid-template-columns:1fr;
+          }
+          .lesson-body{
+            padding:0 16px 4px;
+          }
+          .lesson-action{
+            justify-content:flex-start;
+            padding:0 16px 16px;
+          }
+          .lesson-thumb{
+            min-height:180px;
           }
         }
       </style>
@@ -448,6 +622,16 @@ function renderHtmlPage(title, body) {
     </body>
   </html>
   `;
+}
+
+function getLessonThumbnailUrl(lesson) {
+  const customUrl = lesson?.customImages?.[0]?.url;
+  if (customUrl) return customUrl;
+
+  const generatedUrl = lesson?.generatedImage?.url;
+  if (generatedUrl) return generatedUrl;
+
+  return '';
 }
 
 async function importProjectObject(project, { status = 'draft', skipIfExists = false } = {}) {
@@ -807,8 +991,14 @@ app.post('/api/feedback', requireAuth, async (req, res) => {
       [course_id, req.session.user.id, comment]
     );
 
-   return res.redirect('/panel-testera');
+    if (req.session.user.role === 'tester') {
+      return res.redirect('/panel-testera');
+    }
 
+    return res.json({
+      message: 'Uwaga została dodana',
+      feedback: result.rows[0]
+    });
   } catch (err) {
     console.error(err);
     return res.status(500).json({ error: 'Błąd dodawania uwagi' });
@@ -1109,102 +1299,82 @@ app.get('/kurs/:id', requireAuth, async (req, res) => {
     const course = accessResult.rows[0];
     const sections = Array.isArray(course.sections_json) ? course.sections_json : [];
 
+    const totalLessons = sections.reduce((sum, section) => {
+      const lessons = Array.isArray(section?.media) ? section.media.length : 0;
+      return sum + lessons;
+    }, 0);
+
+    const fakeCourseProgress = Math.min(92, Math.max(14, totalLessons * 3));
+
     const sectionsHtml = sections.length
-  ? `
-    <div style="display:flex; flex-direction:column; gap:18px;">
-      ${sections.map((section, index) => {
-        const lessons = section?.media || [];
-        const sectionTitle = lessons?.[0]?.lessonTitle || `Sekcja ${index + 1}`;
+      ? `
+        <div class="module-stack">
+          ${sections.map((section, index) => {
+            const lessons = Array.isArray(section?.media) ? section.media : [];
+            const sectionTitle = lessons?.[0]?.lessonTitle || `Sekcja ${index + 1}`;
+            const moduleProgress = Math.min(96, 24 + (index * 11));
 
-        return `
-          <div style="
-            background:rgba(18,26,43,.92);
-            border:1px solid rgba(255,255,255,.08);
-            border-radius:22px;
-            padding:22px;
-            box-shadow:0 18px 40px rgba(0,0,0,.16);
-          ">
-            <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:14px; flex-wrap:wrap; margin-bottom:14px;">
-              <div>
-                <div style="
-                  display:inline-block;
-                  padding:6px 12px;
-                  border-radius:999px;
-                  background:rgba(120,168,255,.10);
-                  border:1px solid rgba(120,168,255,.18);
-                  color:#d9e7ff;
-                  font-size:12px;
-                  margin-bottom:10px;
-                ">
-                  Moduł ${index + 1}
-                </div>
+            return `
+              <div class="module-card">
+                <div class="module-head">
+                  <div>
+                    <div class="module-badge">Moduł ${index + 1}</div>
+                    <div class="module-title">${escapeHtml(sectionTitle)}</div>
+                    <div class="module-sub">${lessons.length} lekcji w tym module</div>
+                  </div>
 
-                <div style="font-size:24px; font-weight:800; line-height:1.25; margin-bottom:8px;">
-                  ${escapeHtml(sectionTitle)}
-                </div>
-
-                <div style="color:#9fb0d0; font-size:14px;">
-                  ${lessons.length} lekcji w tym module
-                </div>
-              </div>
-
-              <div style="
-                min-width:120px;
-                text-align:right;
-                color:#9fb0d0;
-                font-size:13px;
-              ">
-                <div>Gotowe do nauki</div>
-              </div>
-            </div>
-
-            <div style="display:flex; flex-direction:column; gap:10px;">
-              ${lessons.map((lesson, i) => `
-                <div style="
-                  padding:14px 16px;
-                  border:1px solid rgba(255,255,255,.08);
-                  border-radius:16px;
-                  background:rgba(255,255,255,.03);
-                ">
-                  <div style="display:flex; justify-content:space-between; gap:14px; align-items:flex-start; flex-wrap:wrap;">
-                    <div>
-                      <div style="
-                        font-size:12px;
-                        color:#9fb0d0;
-                        margin-bottom:6px;
-                        text-transform:uppercase;
-                        letter-spacing:.04em;
-                      ">
-                        ${escapeHtml(lesson.lessonId || `L-${i + 1}`)}
-                      </div>
-
-                      <div style="
-                        font-size:17px;
-                        font-weight:700;
-                        line-height:1.35;
-                        margin-bottom:6px;
-                      ">
-                        ${escapeHtml(lesson.lessonTitle || 'Brak tytułu lekcji')}
-                      </div>
-
-                      <div style="color:#9fb0d0; font-size:14px;">
-                        Typ: ${escapeHtml(lesson.mediaType || 'lesson')}
-                      </div>
-                    </div>
-
-                    <div>
-                      <a href="#" class="btn secondary small">Rozpocznij</a>
+                  <div class="module-progress">
+                    <div class="module-sub" style="text-align:right;">Postęp modułu: ${moduleProgress}%</div>
+                    <div class="module-progress-bar">
+                      <span style="width:${moduleProgress}%"></span>
                     </div>
                   </div>
                 </div>
-              `).join('')}
-            </div>
-          </div>
-        `;
-      }).join('')}
-    </div>
-  `
-  : `<div class="empty">Ten kurs nie ma jeszcze widocznych sekcji.</div>`;
+
+                <div class="lesson-list">
+                  ${lessons.map((lesson, i) => {
+                    const thumbUrl = getLessonThumbnailUrl(lesson);
+
+                    const thumbHtml = thumbUrl
+                      ? `
+                        <div class="lesson-thumb">
+                          <img src="${escapeHtml(thumbUrl)}" alt="${escapeHtml(lesson.lessonTitle || 'Miniatura lekcji')}" />
+                        </div>
+                      `
+                      : `
+                        <div class="lesson-thumb">
+                          <div class="lesson-thumb-fallback">
+                            Miniatura lekcji<br/>
+                            będzie tu widoczna
+                          </div>
+                        </div>
+                      `;
+
+                    return `
+                      <div class="lesson-card">
+                        ${thumbHtml}
+
+                        <div class="lesson-body">
+                          <div class="lesson-id">${escapeHtml(lesson.lessonId || `L-${i + 1}`)}</div>
+                          <div class="lesson-title">${escapeHtml(lesson.lessonTitle || 'Brak tytułu lekcji')}</div>
+                          <div class="lesson-type">Typ: ${escapeHtml(lesson.mediaType || 'lesson')}</div>
+                          <div class="lesson-hint">Kliknij, aby rozpocząć lub wrócić do tej lekcji.</div>
+                        </div>
+
+                        <div class="lesson-action">
+                          <a href="#" class="start-pill">▶ Rozpocznij</a>
+                        </div>
+                      </div>
+                    `;
+                  }).join('')}
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      `
+      : `<div class="empty">Ten kurs nie ma jeszcze widocznych sekcji.</div>`;
+
     const html = renderHtmlPage(course.title || 'Widok kursu', `
       <div class="wrap">
         <div class="hero">
@@ -1212,7 +1382,7 @@ app.get('/kurs/:id', requireAuth, async (req, res) => {
             <span class="hero-kicker">Widok kursu</span>
             <h1 class="hero-title">${escapeHtml(course.title || 'Kurs')}</h1>
             <p class="hero-desc">
-              Tutaj zaczniemy budować docelowy widok nauki: moduły, lekcje, postęp, nawigację i interaktywne elementy kursu.
+              Tu zaczyna się nauka. Moduły są ułożone tak, żeby prowadzić kursanta lekcja po lekcji, a miniatury pomagają szybciej wejść w materiał i zmniejszają wrażenie „suchej listy”.
             </p>
 
             <div class="stats">
@@ -1221,21 +1391,31 @@ app.get('/kurs/:id', requireAuth, async (req, res) => {
                 <div class="stat-label">Sekcje</div>
               </div>
               <div class="stat">
-                <div class="stat-value">${escapeHtml(course.language || 'pl')}</div>
-                <div class="stat-label">Język</div>
+                <div class="stat-value">${totalLessons}</div>
+                <div class="stat-label">Lekcje</div>
               </div>
               <div class="stat">
-                <div class="stat-value">${escapeHtml(course.status || 'draft')}</div>
-                <div class="stat-label">Status</div>
+                <div class="stat-value">${fakeCourseProgress}%</div>
+                <div class="stat-label">Postęp kursu</div>
+              </div>
+            </div>
+
+            <div class="progress-wrap" style="margin-top:18px;">
+              <div class="progress-label">
+                <span>Twój postęp</span>
+                <strong>${fakeCourseProgress}%</strong>
+              </div>
+              <div class="progress-bar">
+                <span style="width:${fakeCourseProgress}%"></span>
               </div>
             </div>
           </div>
 
           <div class="hero-card">
             <span class="hero-kicker">Szybkie akcje</span>
-            <h2 style="margin:0 0 10px;">Nawigacja</h2>
+            <h2 style="margin:0 0 10px;">Nawigacja kursu</h2>
             <p class="hero-desc" style="margin-bottom:18px;">
-              To jest pierwszy widok wejścia do kursu. W następnym kroku zrobimy układ bardziej edukacyjny: lewy spis treści i środek z treścią lekcji.
+              W następnym kroku możemy zrobić jeszcze bardziej edukacyjny układ: lewy spis treści, środek z lekcją i prawą kolumnę z pomocami, zadaniami i testami.
             </p>
             <div class="toolbar" style="margin-bottom:0;">
               <a href="/moje-kursy" class="btn">Wróć do moich kursów</a>
@@ -1316,10 +1496,10 @@ app.get('/panel-testera', requireAuth, async (req, res) => {
                   <span class="status ${course.status}">${course.status}</span>
                 </div>
 
-                <div class="title">${course.title}</div>
+                <div class="title">${escapeHtml(course.title)}</div>
 
                 <div class="meta">
-                  <div><strong>Code:</strong> ${course.course_code || 'brak'}</div>
+                  <div><strong>Code:</strong> ${escapeHtml(course.course_code || 'brak')}</div>
                   <div><strong>Ostatnia zmiana:</strong> ${new Date(course.updated_at).toLocaleString('pl-PL')}</div>
                 </div>
 
@@ -1367,6 +1547,7 @@ app.get('/panel-testera', requireAuth, async (req, res) => {
     return res.status(500).send('Błąd panelu testera');
   }
 });
+
 app.get('/', requireAdmin, async (req, res) => {
   try {
     const coursesResult = await query(`
