@@ -1131,7 +1131,17 @@ app.get('/kurs/:id', requireAuth, async (req, res) => {
 
             <div style="margin-top:10px; display:flex; flex-direction:column; gap:6px;">
               ${lessons.map((lesson, i) => `
-                <div style="padding:8px; border:1px solid rgba(255,255,255,.1); border-radius:8px;">
+               <div style="
+  padding:12px;
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:12px;
+  background:rgba(255,255,255,.03);
+  cursor:pointer;
+  transition:all .2s ease;
+"
+onmouseover="this.style.background='rgba(120,168,255,.08)'"
+onmouseout="this.style.background='rgba(255,255,255,.03)'"
+>
                   <strong>${escapeHtml(lesson.lessonId || `L-${i + 1}`)}</strong><br/>
                   <span style="color:#9fb0d0;">
                     ${escapeHtml(lesson.lessonTitle || 'Brak tytułu')}
