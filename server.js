@@ -1021,7 +1021,7 @@ app.get('/moje-kursy', requireAuth, async (req, res) => {
                 </div>
 
                 <div class="course-actions">
-                  <a href="/api/my-courses" class="btn">Kontynuuj kurs</a>
+                  <a href="/kurs/${course.id}" class="btn">Kontynuuj kurs</a>
                   <a href="/logout" class="btn secondary ghost">Wyloguj</a>
                 </div>
               </div>
