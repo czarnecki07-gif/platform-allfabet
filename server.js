@@ -1082,6 +1082,100 @@ app.get('/moje-kursy', requireAuth, async (req, res) => {
   }
 });
 
+app.get('/kurs/:id', requireAuth, async (req, res) => {
+  try {
+    const courseId = Number(req.params.id);
+
+    if (!Number.isInteger(courseId)) {
+      return res.status(400).send('Nieprawidłowe ID kursu.');
+    }
+
+    const userId = req.session.user.id;
+
+    const accessResult = await query(`
+      SELECT c.*
+      FROM courses c
+      JOIN enrollments e ON e.course_id = c.id
+      WHERE c.id = $1
+        AND e.user_id = $2
+        AND e.status = 'active'
+      LIMIT 1
+    `, [courseId, userId]);
+
+    if (!accessResult.rows.length) {
+      return res.status(403).send('Nie masz dostępu do tego kursu.');
+    }
+
+    const course = accessResult.rows[0];
+    const sections = Array.isArray(course.sections_json) ? course.sections_json : [];
+
+    const sectionsHtml = sections.length
+      ? `
+        <div class="grid">
+          ${sections.map((section, index) => `
+            <div class="card">
+              <div class="label">Sekcja ${index + 1}</div>
+              <div class="title">${escapeHtml(section?.title || `Sekcja ${index + 1}`)}</div>
+              <div class="meta">
+                <div><strong>ID:</strong> ${escapeHtml(section?.id || 'brak')}</div>
+                <div><strong>Slug:</strong> ${escapeHtml(section?.slug || 'brak')}</div>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `
+      : `<div class="empty">Ten kurs nie ma jeszcze widocznych sekcji.</div>`;
+
+    const html = renderHtmlPage(course.title || 'Widok kursu', `
+      <div class="wrap">
+        <div class="hero">
+          <div class="hero-card">
+            <span class="hero-kicker">Widok kursu</span>
+            <h1 class="hero-title">${escapeHtml(course.title || 'Kurs')}</h1>
+            <p class="hero-desc">
+              Tutaj zaczniemy budować docelowy widok nauki: moduły, lekcje, postęp, nawigację i interaktywne elementy kursu.
+            </p>
+
+            <div class="stats">
+              <div class="stat">
+                <div class="stat-value">${sections.length}</div>
+                <div class="stat-label">Sekcje</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value">${escapeHtml(course.language || 'pl')}</div>
+                <div class="stat-label">Język</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value">${escapeHtml(course.status || 'draft')}</div>
+                <div class="stat-label">Status</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <span class="hero-kicker">Szybkie akcje</span>
+            <h2 style="margin:0 0 10px;">Nawigacja</h2>
+            <p class="hero-desc" style="margin-bottom:18px;">
+              To jest pierwszy widok wejścia do kursu. W następnym kroku zrobimy układ bardziej edukacyjny: lewy spis treści i środek z treścią lekcji.
+            </p>
+            <div class="toolbar" style="margin-bottom:0;">
+              <a href="/moje-kursy" class="btn">Wróć do moich kursów</a>
+              <a href="/logout" class="btn secondary">Wyloguj</a>
+            </div>
+          </div>
+        </div>
+
+        ${sectionsHtml}
+      </div>
+    `);
+
+    return res.send(html);
+  } catch (error) {
+    console.error('course view error:', error);
+    return res.status(500).send('Błąd widoku kursu.');
+  }
+});
+
 app.get('/panel-testera', requireAuth, async (req, res) => {
   try {
     if (req.session.user.role !== 'tester') {
