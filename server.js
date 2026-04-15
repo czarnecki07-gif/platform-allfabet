@@ -1115,14 +1115,19 @@ app.get('/kurs/:id', requireAuth, async (req, res) => {
           ${sections.map((section, index) => `
             <div class="card">
               <div class="label">Sekcja ${index + 1}</div>
-              <div class="title">${escapeHtml(section?.title || `Sekcja ${index + 1}`)}</div>
-              <div class="meta">
-                <div><strong>ID:</strong> ${escapeHtml(section?.id || 'brak')}</div>
-                <div><strong>Slug:</strong> ${escapeHtml(section?.slug || 'brak')}</div>
-              </div>
-            </div>
-          `).join('')}
-        </div>
+         <div class="title">
+  ${escapeHtml(
+    section?.media?.[0]?.lessonTitle || `Sekcja ${index + 1}`
+  )}
+</div>
+
+<div class="meta">
+  <div><strong>Lekcja:</strong> ${escapeHtml(section?.media?.[0]?.lessonId || 'brak')}</div>
+  <div><strong>Typ:</strong> ${escapeHtml(section?.media?.[0]?.mediaType || 'brak')}</div>
+</div>
+</div>
+`).join('')}
+</div>
       `
       : `<div class="empty">Ten kurs nie ma jeszcze widocznych sekcji.</div>`;
 
