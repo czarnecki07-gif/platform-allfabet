@@ -1088,45 +1088,84 @@ app.get('/panel-testera', requireAuth, async (req, res) => {
       return res.redirect('/');
     }
 
-    const result = await query(`
+    const coursesResult = await query(`
       SELECT id, title, course_code, status, updated_at
       FROM courses
       WHERE status = 'review'
       ORDER BY updated_at DESC
     `);
 
-    const cards = result.rows.length
+    const feedbackResult = await query(`
+      SELECT course_id, comment, created_at
+      FROM course_feedback
+      WHERE user_id = $1
+      ORDER BY created_at DESC
+    `, [req.session.user.id]);
+
+    const feedbackByCourseId = new Map();
+    for (const row of feedbackResult.rows) {
+      const key = String(row.course_id);
+      if (!feedbackByCourseId.has(key)) {
+        feedbackByCourseId.set(key, []);
+      }
+      feedbackByCourseId.get(key).push(row);
+    }
+
+    const cards = coursesResult.rows.length
       ? `
         <div class="grid">
-          ${result.rows.map(course => `
-            <div class="card">
-              <div class="topbar">
-                <span class="label">ID: ${course.id}</span>
-                <span class="status ${course.status}">${course.status}</span>
-              </div>
+          ${coursesResult.rows.map(course => {
+            const items = feedbackByCourseId.get(String(course.id)) || [];
 
-              <div class="title">${course.title}</div>
+            const myFeedbackHtml = items.length
+              ? `
+                <div class="feedback-box" style="margin-top:12px;">
+                  <div class="feedback-title">Twoje zapisane uwagi:</div>
+                  ${items.map(item => `
+                    <div class="feedback-item">
+                      • ${escapeHtml(item.comment)}<br/>
+                      <small>${new Date(item.created_at).toLocaleString('pl-PL')}</small>
+                    </div>
+                  `).join('')}
+                </div>
+              `
+              : `
+                <div class="feedback-box" style="margin-top:12px;">
+                  <div class="feedback-title">Twoje zapisane uwagi:</div>
+                  <div class="feedback-item">Brak zapisanych uwag do tego kursu.</div>
+                </div>
+              `;
 
-              <div class="meta">
-                <div><strong>Code:</strong> ${course.course_code || 'brak'}</div>
-                <div><strong>Ostatnia zmiana:</strong> ${new Date(course.updated_at).toLocaleString('pl-PL')}</div>
-              </div>
-
-              <div style="margin-top:16px;">
-
-                <div style="margin-bottom:10px; font-size:13px; color:#9fb0d0;">
-                  Po dodaniu uwagi pojawi się ona w panelu admina.
+            return `
+              <div class="card">
+                <div class="topbar">
+                  <span class="label">ID: ${course.id}</span>
+                  <span class="status ${course.status}">${course.status}</span>
                 </div>
 
-                <form method="POST" action="/api/feedback">
-                  <input type="hidden" name="course_id" value="${course.id}" />
-                  <textarea name="comment" placeholder="Dodaj uwagę..." style="width:100%; padding:10px; border-radius:8px; margin-bottom:8px;"></textarea>
-                  <button class="btn secondary" type="submit">Dodaj uwagę</button>
-                </form>
+                <div class="title">${course.title}</div>
 
+                <div class="meta">
+                  <div><strong>Code:</strong> ${course.course_code || 'brak'}</div>
+                  <div><strong>Ostatnia zmiana:</strong> ${new Date(course.updated_at).toLocaleString('pl-PL')}</div>
+                </div>
+
+                <div style="margin-top:16px;">
+                  <div style="margin-bottom:10px; font-size:13px; color:#9fb0d0;">
+                    Po dodaniu uwagi zobaczysz ją poniżej.
+                  </div>
+
+                  <form method="POST" action="/api/feedback">
+                    <input type="hidden" name="course_id" value="${course.id}" />
+                    <textarea name="comment" placeholder="Dodaj uwagę..." style="width:100%; padding:10px; border-radius:8px; margin-bottom:8px;"></textarea>
+                    <button class="btn secondary" type="submit">Dodaj uwagę</button>
+                  </form>
+
+                  ${myFeedbackHtml}
+                </div>
               </div>
-            </div>
-          `).join('')}
+            `;
+          }).join('')}
         </div>
       `
       : `<div class="empty">Brak kursów do sprawdzenia.</div>`;
