@@ -69,6 +69,16 @@ function escapeHtml(value) {
     .replaceAll("'", '&#039;');
 }
 
+function getLessonThumbnailUrl(lesson) {
+  const customUrl = lesson?.customImages?.[0]?.url;
+  if (customUrl) return customUrl;
+
+  const generatedUrl = lesson?.generatedImage?.url;
+  if (generatedUrl) return generatedUrl;
+
+  return '';
+}
+
 function renderHtmlPage(title, body) {
   return `
   <!doctype html>
@@ -79,42 +89,40 @@ function renderHtmlPage(title, body) {
       <title>${escapeHtml(title)}</title>
       <style>
         :root{
-          --bg:#0b1020;
-          --panel:#121a2b;
-          --panel-2:#182338;
-          --panel-3:#1d2a44;
+          --bg:#07111f;
+          --panel:#101b2d;
+          --panel-2:#16243a;
+          --panel-3:#1c3152;
           --text:#eef4ff;
-          --muted:#9fb0d0;
+          --muted:#9db0d1;
           --line:rgba(255,255,255,.10);
-          --accent:#78a8ff;
-          --accent-2:#9a7cff;
+          --accent:#6ea8ff;
+          --accent-2:#9b7cff;
           --ok:#7ad7a6;
           --warn:#ffd36e;
           --danger:#ff7f7f;
-          --cardGlow:rgba(120,168,255,.14);
+          --shadow:0 18px 44px rgba(0,0,0,.24);
         }
         *{box-sizing:border-box}
-        html, body{
-          min-height:100%;
-        }
+        html, body{min-height:100%}
         body{
           margin:0;
           font-family:Inter,Arial,sans-serif;
-          background:
-            radial-gradient(circle at top left, rgba(120,168,255,.16), transparent 30%),
-            radial-gradient(circle at top right, rgba(154,124,255,.14), transparent 26%),
-            linear-gradient(180deg,#0a0f1d,#10182b);
           color:var(--text);
+          background:
+            radial-gradient(circle at 10% 0%, rgba(110,168,255,.18), transparent 28%),
+            radial-gradient(circle at 90% 0%, rgba(155,124,255,.16), transparent 24%),
+            linear-gradient(180deg, #08111e, #0d1728 48%, #111c2e 100%);
         }
         .wrap{
-          max-width:1240px;
+          max-width:1280px;
           margin:0 auto;
           padding:32px 20px 80px;
         }
         h1{
           margin:0 0 8px;
-          font-size:32px;
-          line-height:1.15;
+          font-size:34px;
+          line-height:1.12;
         }
         h2{
           margin:0 0 12px;
@@ -124,6 +132,7 @@ function renderHtmlPage(title, body) {
           margin:0 0 24px;
           color:var(--muted);
           font-size:15px;
+          line-height:1.55;
         }
         .toolbar{
           display:flex;
@@ -135,9 +144,9 @@ function renderHtmlPage(title, body) {
         .btn{
           appearance:none;
           border:none;
-          border-radius:12px;
+          border-radius:14px;
           padding:12px 16px;
-          background:var(--accent);
+          background:linear-gradient(135deg, var(--accent), var(--accent-2));
           color:white;
           font-weight:700;
           cursor:pointer;
@@ -145,30 +154,34 @@ function renderHtmlPage(title, body) {
           display:inline-flex;
           align-items:center;
           justify-content:center;
+          box-shadow:0 10px 24px rgba(110,168,255,.18);
         }
         .btn.secondary{
           background:var(--panel-2);
           border:1px solid var(--line);
+          box-shadow:none;
         }
         .btn.ghost{
           background:transparent;
           border:1px solid var(--line);
+          box-shadow:none;
         }
         .btn.small{
           padding:8px 12px;
           font-size:13px;
+          border-radius:12px;
         }
         .grid{
           display:grid;
           grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-          gap:16px;
+          gap:18px;
         }
         .card{
-          background:rgba(18,26,43,.92);
+          background:rgba(16,27,45,.96);
           border:1px solid var(--line);
-          border-radius:18px;
-          padding:18px;
-          box-shadow:0 10px 30px rgba(0,0,0,.22);
+          border-radius:22px;
+          padding:20px;
+          box-shadow:var(--shadow);
         }
         .label{
           display:inline-flex;
@@ -184,7 +197,7 @@ function renderHtmlPage(title, body) {
         .title{
           margin:14px 0 8px;
           font-size:20px;
-          line-height:1.25;
+          line-height:1.3;
         }
         .meta{
           display:grid;
@@ -205,7 +218,7 @@ function renderHtmlPage(title, body) {
         .empty{
           padding:28px;
           border:1px dashed var(--line);
-          border-radius:16px;
+          border-radius:18px;
           color:var(--muted);
           text-align:center;
           background:rgba(255,255,255,.02);
@@ -216,7 +229,7 @@ function renderHtmlPage(title, body) {
           align-items:flex-start;
           gap:16px;
           flex-wrap:wrap;
-          margin-bottom:22px;
+          margin-bottom:20px;
         }
         .status{
           font-weight:700;
@@ -246,10 +259,10 @@ function renderHtmlPage(title, body) {
           color:var(--muted);
         }
         .feedback-box{
-          margin-top:12px;
-          padding:12px;
+          margin-top:14px;
+          padding:14px;
           border:1px solid rgba(255,107,107,.35);
-          border-radius:12px;
+          border-radius:14px;
           background:rgba(255,107,107,.08);
           color:#ffb3b3;
           font-size:14px;
@@ -260,46 +273,50 @@ function renderHtmlPage(title, body) {
           color:#ff8d8d;
         }
         .feedback-item{
-          margin-bottom:6px;
+          margin-bottom:8px;
+          line-height:1.5;
         }
         .actions{
           display:flex;
           gap:8px;
           flex-wrap:wrap;
         }
-        .inline-form{
-          margin:0;
-        }
+        .inline-form{margin:0}
         .login-wrap{
-          max-width:420px;
-          margin:60px auto;
-          background:rgba(18,26,43,.92);
+          max-width:430px;
+          margin:64px auto;
+          background:rgba(16,27,45,.96);
           border:1px solid var(--line);
-          border-radius:18px;
-          padding:24px;
-          box-shadow:0 10px 30px rgba(0,0,0,.22);
+          border-radius:22px;
+          padding:26px;
+          box-shadow:var(--shadow);
         }
         .field{
           width:100%;
           margin-bottom:12px;
-          padding:12px 14px;
-          border-radius:12px;
+          padding:13px 14px;
+          border-radius:14px;
           border:1px solid var(--line);
-          background:#0f1728;
+          background:#0d1727;
           color:var(--text);
         }
+
         .hero{
           display:grid;
-          grid-template-columns:1.25fr .75fr;
+          grid-template-columns:1.3fr .7fr;
           gap:18px;
-          margin-bottom:24px;
+          margin-bottom:26px;
         }
         .hero-card{
-          background:linear-gradient(135deg, rgba(120,168,255,.18), rgba(154,124,255,.14));
+          background:
+            radial-gradient(circle at top left, rgba(110,168,255,.18), transparent 34%),
+            radial-gradient(circle at top right, rgba(155,124,255,.14), transparent 28%),
+            linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01)),
+            rgba(16,27,45,.96);
           border:1px solid var(--line);
-          border-radius:24px;
-          padding:24px;
-          box-shadow:0 18px 40px rgba(0,0,0,.18);
+          border-radius:28px;
+          padding:26px;
+          box-shadow:var(--shadow);
         }
         .hero-kicker{
           display:inline-block;
@@ -313,13 +330,13 @@ function renderHtmlPage(title, body) {
         }
         .hero-title{
           margin:0 0 10px;
-          font-size:34px;
-          line-height:1.12;
+          font-size:36px;
+          line-height:1.08;
         }
         .hero-desc{
           margin:0;
           color:#d2def7;
-          line-height:1.6;
+          line-height:1.65;
         }
         .stats{
           display:grid;
@@ -342,26 +359,20 @@ function renderHtmlPage(title, body) {
           color:var(--muted);
           font-size:13px;
         }
+
         .course-card{
           position:relative;
           overflow:hidden;
-          border-radius:22px;
+          border-radius:24px;
           border:1px solid var(--line);
           background:
+            radial-gradient(circle at top left, rgba(110,168,255,.12), transparent 30%),
             linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01)),
-            rgba(18,26,43,.94);
-          padding:20px;
-          box-shadow:0 18px 40px rgba(0,0,0,.18);
-        }
-        .course-card::before{
-          content:'';
-          position:absolute;
-          inset:0;
-          background:linear-gradient(135deg, rgba(120,168,255,.08), transparent 35%, rgba(154,124,255,.07));
-          pointer-events:none;
+            rgba(16,27,45,.96);
+          padding:22px;
+          box-shadow:var(--shadow);
         }
         .course-top{
-          position:relative;
           display:flex;
           justify-content:space-between;
           gap:14px;
@@ -389,20 +400,17 @@ function renderHtmlPage(title, body) {
           text-transform:uppercase;
         }
         .course-name{
-          position:relative;
           margin:0 0 10px;
-          font-size:22px;
+          font-size:24px;
           line-height:1.22;
         }
         .course-desc{
-          position:relative;
           margin:0 0 16px;
           color:var(--muted);
           line-height:1.6;
           min-height:48px;
         }
         .progress-wrap{
-          position:relative;
           margin-bottom:16px;
         }
         .progress-label{
@@ -427,7 +435,6 @@ function renderHtmlPage(title, body) {
           background:linear-gradient(90deg, var(--accent), var(--accent-2));
         }
         .course-meta{
-          position:relative;
           display:grid;
           grid-template-columns:repeat(2, minmax(0, 1fr));
           gap:10px;
@@ -436,7 +443,6 @@ function renderHtmlPage(title, body) {
           font-size:13px;
         }
         .course-actions{
-          position:relative;
           display:flex;
           gap:10px;
           flex-wrap:wrap;
@@ -445,48 +451,49 @@ function renderHtmlPage(title, body) {
         .module-stack{
           display:flex;
           flex-direction:column;
-          gap:18px;
+          gap:22px;
         }
         .module-card{
-          background:linear-gradient(180deg, rgba(18,26,43,.96), rgba(15,22,36,.96));
+          background:
+            radial-gradient(circle at top left, rgba(110,168,255,.10), transparent 28%),
+            linear-gradient(180deg, rgba(255,255,255,.025), rgba(255,255,255,.01)),
+            rgba(16,27,45,.96);
           border:1px solid var(--line);
-          border-radius:26px;
+          border-radius:28px;
           overflow:hidden;
-          box-shadow:0 20px 44px rgba(0,0,0,.18);
+          box-shadow:var(--shadow);
         }
         .module-head{
           display:flex;
           justify-content:space-between;
           align-items:flex-start;
-          gap:16px;
-          padding:22px 22px 16px;
+          gap:18px;
+          padding:24px 24px 18px;
           border-bottom:1px solid rgba(255,255,255,.06);
-          background:
-            radial-gradient(circle at top left, rgba(120,168,255,.14), transparent 40%),
-            linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0));
         }
         .module-badge{
           display:inline-flex;
           padding:7px 12px;
           border-radius:999px;
-          background:rgba(120,168,255,.12);
-          border:1px solid rgba(120,168,255,.20);
+          background:rgba(110,168,255,.12);
+          border:1px solid rgba(110,168,255,.20);
           color:#dbe8ff;
           font-size:12px;
-          margin-bottom:10px;
+          margin-bottom:12px;
         }
         .module-title{
           font-size:26px;
           font-weight:800;
-          line-height:1.24;
+          line-height:1.25;
           margin:0 0 8px;
         }
         .module-sub{
           color:var(--muted);
           font-size:14px;
+          line-height:1.5;
         }
         .module-progress{
-          min-width:180px;
+          min-width:190px;
         }
         .module-progress-bar{
           height:12px;
@@ -506,34 +513,37 @@ function renderHtmlPage(title, body) {
         .lesson-list{
           display:flex;
           flex-direction:column;
-          gap:14px;
-          padding:18px 22px 22px;
+          gap:16px;
+          padding:20px 24px 24px;
         }
         .lesson-card{
           display:grid;
-          grid-template-columns:200px 1fr auto;
-          gap:16px;
+          grid-template-columns:220px 1fr auto;
+          gap:18px;
           align-items:stretch;
           border:1px solid rgba(255,255,255,.08);
-          border-radius:20px;
-          background:rgba(255,255,255,.03);
+          border-radius:22px;
+          background:rgba(255,255,255,.035);
           overflow:hidden;
-          transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+          transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease, background .18s ease;
         }
         .lesson-card:hover{
           transform:translateY(-2px);
           box-shadow:0 16px 30px rgba(0,0,0,.14);
-          border-color:rgba(120,168,255,.22);
+          border-color:rgba(110,168,255,.24);
+          background:rgba(255,255,255,.045);
         }
         .lesson-thumb{
-          min-height:140px;
+          min-height:158px;
           background:
-            linear-gradient(135deg, rgba(120,168,255,.18), rgba(154,124,255,.18)),
+            radial-gradient(circle at top left, rgba(110,168,255,.24), transparent 42%),
+            linear-gradient(135deg, rgba(110,168,255,.16), rgba(155,124,255,.16)),
             rgba(255,255,255,.03);
           display:flex;
           align-items:center;
           justify-content:center;
           overflow:hidden;
+          border-right:1px solid rgba(255,255,255,.06);
         }
         .lesson-thumb img{
           width:100%;
@@ -546,10 +556,10 @@ function renderHtmlPage(title, body) {
           font-size:13px;
           text-align:center;
           padding:18px;
-          line-height:1.5;
+          line-height:1.6;
         }
         .lesson-body{
-          padding:16px 0 16px 0;
+          padding:18px 0;
           display:flex;
           flex-direction:column;
           justify-content:center;
@@ -562,7 +572,7 @@ function renderHtmlPage(title, body) {
           margin-bottom:8px;
         }
         .lesson-title{
-          font-size:18px;
+          font-size:19px;
           font-weight:800;
           line-height:1.36;
           margin-bottom:8px;
@@ -575,10 +585,11 @@ function renderHtmlPage(title, body) {
         .lesson-hint{
           color:#d7e4ff;
           font-size:13px;
-          opacity:.88;
+          opacity:.92;
+          line-height:1.5;
         }
         .lesson-action{
-          padding:16px;
+          padding:18px;
           display:flex;
           align-items:center;
           justify-content:center;
@@ -587,10 +598,10 @@ function renderHtmlPage(title, body) {
           display:inline-flex;
           align-items:center;
           gap:8px;
-          padding:10px 14px;
+          padding:11px 15px;
           border-radius:999px;
-          background:rgba(120,168,255,.12);
-          border:1px solid rgba(120,168,255,.22);
+          background:rgba(110,168,255,.12);
+          border:1px solid rgba(110,168,255,.22);
           color:#eef4ff;
           font-weight:700;
           text-decoration:none;
@@ -604,6 +615,11 @@ function renderHtmlPage(title, body) {
           .lesson-card{
             grid-template-columns:1fr;
           }
+          .lesson-thumb{
+            min-height:190px;
+            border-right:none;
+            border-bottom:1px solid rgba(255,255,255,.06);
+          }
           .lesson-body{
             padding:0 16px 4px;
           }
@@ -611,8 +627,14 @@ function renderHtmlPage(title, body) {
             justify-content:flex-start;
             padding:0 16px 16px;
           }
-          .lesson-thumb{
-            min-height:180px;
+        }
+
+        @media (max-width: 720px){
+          .stats{
+            grid-template-columns:1fr;
+          }
+          .course-meta{
+            grid-template-columns:1fr;
           }
         }
       </style>
@@ -622,16 +644,6 @@ function renderHtmlPage(title, body) {
     </body>
   </html>
   `;
-}
-
-function getLessonThumbnailUrl(lesson) {
-  const customUrl = lesson?.customImages?.[0]?.url;
-  if (customUrl) return customUrl;
-
-  const generatedUrl = lesson?.generatedImage?.url;
-  if (generatedUrl) return generatedUrl;
-
-  return '';
 }
 
 async function importProjectObject(project, { status = 'draft', skipIfExists = false } = {}) {
@@ -1344,8 +1356,8 @@ app.get('/kurs/:id', requireAuth, async (req, res) => {
                       : `
                         <div class="lesson-thumb">
                           <div class="lesson-thumb-fallback">
-                            Miniatura lekcji<br/>
-                            będzie tu widoczna
+                            Tu może być własna miniatura lekcji<br/>
+                            ustawiona przez admina
                           </div>
                         </div>
                       `;
@@ -1358,7 +1370,7 @@ app.get('/kurs/:id', requireAuth, async (req, res) => {
                           <div class="lesson-id">${escapeHtml(lesson.lessonId || `L-${i + 1}`)}</div>
                           <div class="lesson-title">${escapeHtml(lesson.lessonTitle || 'Brak tytułu lekcji')}</div>
                           <div class="lesson-type">Typ: ${escapeHtml(lesson.mediaType || 'lesson')}</div>
-                          <div class="lesson-hint">Kliknij, aby rozpocząć lub wrócić do tej lekcji.</div>
+                          <div class="lesson-hint">Kliknij, aby rozpocząć albo wrócić do tej lekcji.</div>
                         </div>
 
                         <div class="lesson-action">
@@ -1382,7 +1394,7 @@ app.get('/kurs/:id', requireAuth, async (req, res) => {
             <span class="hero-kicker">Widok kursu</span>
             <h1 class="hero-title">${escapeHtml(course.title || 'Kurs')}</h1>
             <p class="hero-desc">
-              Tu zaczyna się nauka. Moduły są ułożone tak, żeby prowadzić kursanta lekcja po lekcji, a miniatury pomagają szybciej wejść w materiał i zmniejszają wrażenie „suchej listy”.
+              Tu zaczyna się nauka. Moduły prowadzą krok po kroku, a lekcje są pokazane jak elementy realnej platformy edukacyjnej, nie jak sucha lista danych.
             </p>
 
             <div class="stats">
@@ -1415,7 +1427,7 @@ app.get('/kurs/:id', requireAuth, async (req, res) => {
             <span class="hero-kicker">Szybkie akcje</span>
             <h2 style="margin:0 0 10px;">Nawigacja kursu</h2>
             <p class="hero-desc" style="margin-bottom:18px;">
-              W następnym kroku możemy zrobić jeszcze bardziej edukacyjny układ: lewy spis treści, środek z lekcją i prawą kolumnę z pomocami, zadaniami i testami.
+              Później w tym miejscu możemy dodać: ostatnią otwartą lekcję, zdane działy, plan nauki, certyfikat i rekomendowane następne kroki.
             </p>
             <div class="toolbar" style="margin-bottom:0;">
               <a href="/moje-kursy" class="btn">Wróć do moich kursów</a>
