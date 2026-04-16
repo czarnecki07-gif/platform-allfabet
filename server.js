@@ -1310,6 +1310,7 @@ app.get('/kurs/:id', requireAuth, async (req, res) => {
 
     const course = accessResult.rows[0];
     const sections = Array.isArray(course.sections_json) ? course.sections_json : [];
+const outline = Array.isArray(course.outline_json) ? course.outline_json : [];
 
     const totalLessons = sections.reduce((sum, section) => {
       const lessons = Array.isArray(section?.media) ? section.media.length : 0;
@@ -1318,74 +1319,82 @@ app.get('/kurs/:id', requireAuth, async (req, res) => {
 
     const fakeCourseProgress = Math.min(92, Math.max(14, totalLessons * 3));
 
-    const sectionsHtml = sections.length
-      ? `
-        <div class="module-stack">
-          ${sections.map((section, index) => {
-            const lessons = Array.isArray(section?.media) ? section.media : [];
-            const sectionTitle = lessons?.[0]?.lessonTitle || `Sekcja ${index + 1}`;
-            const moduleProgress = Math.min(96, 24 + (index * 11));
+const sectionsHtml = sections.length
+  ? `
+    <div class="module-stack">
+      ${sections.map((section, index) => {
+        const lessons = Array.isArray(section?.media) ? section.media : [];
+        const outlineItem = outline[index] || {};
+        const sectionTitle =
+          outlineItem?.title
+          || section?.title
+          || section?.name
+          || section?.sectionTitle
+          || `Moduł ${index + 1}`;
 
-            return `
-              <div class="module-card">
-                <div class="module-head">
-                  <div>
-                    <div class="module-badge">Moduł ${index + 1}</div>
-                    <div class="module-title">${escapeHtml(sectionTitle)}</div>
-                    <div class="module-sub">${lessons.length} lekcji w tym module</div>
-                  </div>
+        const moduleProgress = Math.min(96, 24 + (index * 11));
 
-                  <div class="module-progress">
-                    <div class="module-sub" style="text-align:right;">Postęp modułu: ${moduleProgress}%</div>
-                    <div class="module-progress-bar">
-                      <span style="width:${moduleProgress}%"></span>
-                    </div>
-                  </div>
-                </div>
+        return `
+          <div class="module-card">
+            <div class="module-head">
+              <div>
+                <div class="module-badge">Moduł ${index + 1}</div>
+                <div class="module-title">${escapeHtml(sectionTitle)}</div>
+                <div class="module-sub">${lessons.length} lekcji w tym module</div>
+              </div>
 
-                <div class="lesson-list">
-                  ${lessons.map((lesson, i) => {
-                    const thumbUrl = getLessonThumbnailUrl(lesson);
-
-                    const thumbHtml = thumbUrl
-                      ? `
-                        <div class="lesson-thumb">
-                          <img src="${escapeHtml(thumbUrl)}" alt="${escapeHtml(lesson.lessonTitle || 'Miniatura lekcji')}" />
-                        </div>
-                      `
-                      : `
-                        <div class="lesson-thumb">
-                          <div class="lesson-thumb-fallback">
-                            Tu może być własna miniatura lekcji<br/>
-                            ustawiona przez admina
-                          </div>
-                        </div>
-                      `;
-
-                    return `
-                      <div class="lesson-card">
-                        ${thumbHtml}
-
-                        <div class="lesson-body">
-                          <div class="lesson-id">${escapeHtml(lesson.lessonId || `L-${i + 1}`)}</div>
-                          <div class="lesson-title">${escapeHtml(lesson.lessonTitle || 'Brak tytułu lekcji')}</div>
-                          <div class="lesson-type">Typ: ${escapeHtml(lesson.mediaType || 'lesson')}</div>
-                          <div class="lesson-hint">Kliknij, aby rozpocząć albo wrócić do tej lekcji.</div>
-                        </div>
-
-                        <div class="lesson-action">
-                          <a href="#" class="start-pill">▶ Rozpocznij</a>
-                        </div>
-                      </div>
-                    `;
-                  }).join('')}
+              <div class="module-progress">
+                <div class="module-sub" style="text-align:right;">Postęp modułu: demo</div>
+                <div class="module-progress-bar">
+                  <span style="width:${moduleProgress}%"></span>
                 </div>
               </div>
-            `;
-          }).join('')}
-        </div>
-      `
-      : `<div class="empty">Ten kurs nie ma jeszcze widocznych sekcji.</div>`;
+            </div>
+
+            <div class="lesson-list">
+              ${lessons.map((lesson, i) => {
+                const thumbUrl = getLessonThumbnailUrl(lesson);
+
+                const thumbHtml = thumbUrl
+                  ? `
+                    <div class="lesson-thumb">
+                      <img src="${escapeHtml(thumbUrl)}" alt="${escapeHtml(lesson.lessonTitle || 'Miniatura lekcji')}" />
+                    </div>
+                  `
+                  : `
+                    <div class="lesson-thumb">
+                      <div class="lesson-thumb-fallback">
+                        <div style="font-size:42px; margin-bottom:10px;">📘</div>
+                        <div style="font-weight:700; margin-bottom:6px;">Miniatura lekcji</div>
+                        <div>Tu później może być obraz ustawiony przez admina</div>
+                      </div>
+                    </div>
+                  `;
+
+                return `
+                  <div class="lesson-card">
+                    ${thumbHtml}
+
+                    <div class="lesson-body">
+                      <div class="lesson-id">${escapeHtml(lesson.lessonId || `L-${i + 1}`)}</div>
+                      <div class="lesson-title">${escapeHtml(lesson.lessonTitle || 'Brak tytułu lekcji')}</div>
+                      <div class="lesson-type">Typ: ${escapeHtml(lesson.mediaType || 'lesson')}</div>
+                      <div class="lesson-hint">Kliknij, aby rozpocząć albo wrócić do tej lekcji.</div>
+                    </div>
+
+                    <div class="lesson-action">
+                      <a href="#" class="start-pill">▶ Rozpocznij</a>
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        `;
+      }).join('')}
+    </div>
+  `
+  : `<div class="empty">Ten kurs nie ma jeszcze widocznych sekcji.</div>`;
 
     const html = renderHtmlPage(course.title || 'Widok kursu', `
       <div class="wrap">
