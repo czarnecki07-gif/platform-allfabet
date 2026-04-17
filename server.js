@@ -1358,14 +1358,13 @@ const sectionsHtml = sections.length
            <div class="lesson-list">
 
   <div style="font-weight:800; font-size:18px; margin-bottom:10px;">
-    📘 Lekcje
+ Lekcje
   </div>
 
   ${lessons.map((lesson, i) => {
     const thumbHtml = `
       <div class="lesson-thumb">
         <div class="lesson-thumb-fallback">
-          <div style="font-size:36px; margin-bottom:6px;">📘</div>
           <div>${escapeHtml(lesson.lessonTitle || 'Lekcja')}</div>
         </div>
       </div>
@@ -1383,20 +1382,41 @@ const sectionsHtml = sections.length
         </div>
 
         <div class="lesson-action">
-          <a href="#" class="start-pill">▶ Otwórz</a>
+          <a href="#" class="start-pill">Otwórz</a>
         </div>
       </div>
     `;
   }).join('')}
 
   <div style="font-weight:800; font-size:18px; margin:20px 0 10px;">
-    🧪 Sprawdzenie
+    Materiały
   </div>
 
   <div class="lesson-card">
     <div class="lesson-thumb">
       <div class="lesson-thumb-fallback">
-        <div style="font-size:36px;">📝</div>
+        <div>Karty pracy</div>
+      </div>
+    </div>
+
+    <div class="lesson-body">
+      <div class="lesson-title">Karty pracy</div>
+      <div class="lesson-hint">Materiały do ćwiczeń do tego modułu</div>
+    </div>
+
+    <div class="lesson-action">
+      <a href="#" class="start-pill">Otwórz</a>
+    </div>
+  </div>
+
+  <div style="font-weight:800; font-size:18px; margin:20px 0 10px;">
+    Sprawdzenie
+  </div>
+
+  <div class="lesson-card">
+    <div class="lesson-thumb">
+      <div class="lesson-thumb-fallback">
+        <div>Quiz działowy</div>
       </div>
     </div>
 
@@ -1406,14 +1426,14 @@ const sectionsHtml = sections.length
     </div>
 
     <div class="lesson-action">
-      <a href="#" class="start-pill">▶ Rozpocznij</a>
+      <a href="#" class="start-pill">Rozpocznij</a>
     </div>
   </div>
 
   <div class="lesson-card">
     <div class="lesson-thumb">
       <div class="lesson-thumb-fallback">
-        <div style="font-size:36px;">📊</div>
+        <div>Test działowy</div>
       </div>
     </div>
 
@@ -1423,28 +1443,7 @@ const sectionsHtml = sections.length
     </div>
 
     <div class="lesson-action">
-      <a href="#" class="start-pill">▶ Rozpocznij</a>
-    </div>
-  </div>
-
-  <div style="font-weight:800; font-size:18px; margin:20px 0 10px;">
-    🧰 Materiały
-  </div>
-
-  <div class="lesson-card">
-    <div class="lesson-thumb">
-      <div class="lesson-thumb-fallback">
-        <div style="font-size:36px;">📄</div>
-      </div>
-    </div>
-
-    <div class="lesson-body">
-      <div class="lesson-title">Karty pracy</div>
-      <div class="lesson-hint">Materiały do ćwiczeń</div>
-    </div>
-
-    <div class="lesson-action">
-      <a href="#" class="start-pill">▶ Otwórz</a>
+      <a href="#" class="start-pill">Rozpocznij</a>
     </div>
   </div>
 
