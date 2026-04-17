@@ -1359,7 +1359,7 @@ const sectionsHtml = sections.length
               ${lessons.map((lesson, i) => {
                 const thumbUrl = getLessonThumbnailUrl(lesson);
 
-              const thumbHtml = `
+const thumbHtml = `
   <div class="lesson-thumb">
     ${thumbUrl ? `
       <img
@@ -1381,8 +1381,6 @@ const sectionsHtml = sections.length
     `}
   </div>
 `;
-`
-
                 return `
                   <div class="lesson-card">
                     ${thumbHtml}
