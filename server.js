@@ -1355,21 +1355,20 @@ const sectionsHtml = sections.length
               ${lessons.map((lesson, i) => {
                 const thumbUrl = getLessonThumbnailUrl(lesson);
 
-                const thumbHtml = thumbUrl
-                  ? `
-                    <div class="lesson-thumb">
-                      <img src="${escapeHtml(thumbUrl)}" alt="${escapeHtml(lesson.lessonTitle || 'Miniatura lekcji')}" />
-                    </div>
-                  `
-                  : `
-                    <div class="lesson-thumb">
-                      <div class="lesson-thumb-fallback">
-                        <div style="font-size:42px; margin-bottom:10px;">📘</div>
-                        <div style="font-weight:700; margin-bottom:6px;">Miniatura lekcji</div>
-                        <div>Tu później może być obraz ustawiony przez admina</div>
-                      </div>
-                    </div>
-                  `;
+               const thumbHtml = `
+  <div class="lesson-thumb">
+    ${thumbUrl
+      ? `<img src="${escapeHtml(thumbUrl)}" alt="${escapeHtml(lesson.lessonTitle || 'Miniatura lekcji')}" />`
+      : `
+        <div class="lesson-thumb-fallback">
+          <div style="font-size:42px; margin-bottom:10px;">📘</div>
+          <div style="font-weight:700; margin-bottom:6px;">Lekcja multimedialna</div>
+          <div>${escapeHtml(lesson.lessonTitle || 'Materiał kursowy')}</div>
+        </div>
+      `
+    }
+  </div>
+`;
 
                 return `
                   <div class="lesson-card">
@@ -1403,7 +1402,7 @@ const sectionsHtml = sections.length
             <span class="hero-kicker">Widok kursu</span>
             <h1 class="hero-title">${escapeHtml(course.title || 'Kurs')}</h1>
             <p class="hero-desc">
-              Tu zaczyna się nauka. Moduły prowadzą krok po kroku, a lekcje są pokazane jak elementy realnej platformy edukacyjnej, nie jak sucha lista danych.
+              Tu zaczyna się nauka. Wybierz moduł i przejdź do lekcji w swoim tempie.ucha lista danych.
             </p>
 
             <div class="stats">
@@ -1436,7 +1435,7 @@ const sectionsHtml = sections.length
             <span class="hero-kicker">Szybkie akcje</span>
             <h2 style="margin:0 0 10px;">Nawigacja kursu</h2>
             <p class="hero-desc" style="margin-bottom:18px;">
-              Później w tym miejscu możemy dodać: ostatnią otwartą lekcję, zdane działy, plan nauki, certyfikat i rekomendowane następne kroki.
+Wróć do swoich kursów albo przejdź dalej do wybranego materiału.
             </p>
             <div class="toolbar" style="margin-bottom:0;">
               <a href="/moje-kursy" class="btn">Wróć do moich kursów</a>
