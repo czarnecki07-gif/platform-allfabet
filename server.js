@@ -1381,33 +1381,18 @@ Lekcje
           <div class="lesson-hint">Wejdź do lekcji</div>
         </div>
 
-        <div class="lesson-action">
-          <a href="#" class="start-pill">Otwórz</a>
-        </div>
+      <div class="lesson-action">
+  <a href="#" class="start-pill">Otwórz</a>
+
+  <div style="margin-top:8px;">
+    <a href="#" class="start-pill" style="background:transparent; border:1px solid rgba(255,255,255,.2);">
+      Karta pracy
+    </a>
+  </div>
+</div>
       </div>
     `;
   }).join('')}
-
-  <div style="font-weight:800; font-size:18px; margin:20px 0 10px;">
-    Materiały
-  </div>
-
-  <div class="lesson-card">
-    <div class="lesson-thumb">
-      <div class="lesson-thumb-fallback">
-        <div>Karty pracy</div>
-      </div>
-    </div>
-
-    <div class="lesson-body">
-      <div class="lesson-title">Karty pracy</div>
-      <div class="lesson-hint">Materiały do ćwiczeń do tego modułu</div>
-    </div>
-
-    <div class="lesson-action">
-      <a href="#" class="start-pill">Otwórz</a>
-    </div>
-  </div>
 
   <div style="font-weight:800; font-size:18px; margin:20px 0 10px;">
     Sprawdzenie
