@@ -1362,17 +1362,25 @@ const sectionsHtml = sections.length
                const thumbHtml = `
   <div class="lesson-thumb">
     ${thumbUrl
-      ? `<img src="${escapeHtml(thumbUrl)}" alt="${escapeHtml(lesson.lessonTitle || 'Miniatura lekcji')}" />`
-      : `
-        <div class="lesson-thumb-fallback">
-          <div style="font-size:42px; margin-bottom:10px;">📘</div>
-          <div style="font-weight:700; margin-bottom:6px;">Lekcja multimedialna</div>
-          <div>${escapeHtml(lesson.lessonTitle || 'Materiał kursowy')}</div>
-        </div>
-      `
-    }
+? `
+  <img 
+    src="${escapeHtml(thumbUrl)}" 
+    alt="${escapeHtml(lesson.lessonTitle || 'Miniatura lekcji')}"
+    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+  />
+  <div class="lesson-thumb-fallback" style="display:none;">
+    <div style="font-size:42px; margin-bottom:10px;">📘</div>
+    <div style="font-weight:700; margin-bottom:6px;">Lekcja</div>
+    <div>${escapeHtml(lesson.lessonTitle || 'Materiał kursowy')}</div>
   </div>
-`;
+`
+: `
+  <div class="lesson-thumb-fallback">
+    <div style="font-size:42px; margin-bottom:10px;">📘</div>
+    <div style="font-weight:700; margin-bottom:6px;">Lekcja multimedialna</div>
+    <div>${escapeHtml(lesson.lessonTitle || 'Materiał kursowy')}</div>
+  </div>
+`
 
                 return `
                   <div class="lesson-card">
