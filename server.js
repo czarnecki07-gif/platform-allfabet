@@ -1355,50 +1355,100 @@ const sectionsHtml = sections.length
               </div>
             </div>
 
-            <div class="lesson-list">
-              ${lessons.map((lesson, i) => {
-                const thumbUrl = getLessonThumbnailUrl(lesson);
+           <div class="lesson-list">
 
-const thumbHtml = `
-  <div class="lesson-thumb">
-    ${thumbUrl ? `
-      <img
-        src="${escapeHtml(thumbUrl)}"
-        alt="${escapeHtml(lesson.lessonTitle || 'Miniatura lekcji')}"
-        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-      />
-      <div class="lesson-thumb-fallback" style="display:none;">
-        <div style="font-size:42px; margin-bottom:10px;">📘</div>
-        <div style="font-weight:700; margin-bottom:6px;">Lekcja</div>
-        <div>${escapeHtml(lesson.lessonTitle || 'Materiał kursowy')}</div>
-      </div>
-    ` : `
-      <div class="lesson-thumb-fallback">
-        <div style="font-size:42px; margin-bottom:10px;">📘</div>
-        <div style="font-weight:700; margin-bottom:6px;">Lekcja multimedialna</div>
-        <div>${escapeHtml(lesson.lessonTitle || 'Materiał kursowy')}</div>
-      </div>
-    `}
+  <div style="font-weight:800; font-size:18px; margin-bottom:10px;">
+    📘 Lekcje
   </div>
-`;
-                return `
-                  <div class="lesson-card">
-                    ${thumbHtml}
 
-                    <div class="lesson-body">
-                      <div class="lesson-id">${escapeHtml(lesson.lessonId || `L-${i + 1}`)}</div>
-                      <div class="lesson-title">${escapeHtml(lesson.lessonTitle || 'Brak tytułu lekcji')}</div>
-                      <div class="lesson-type">Typ: ${escapeHtml(lesson.mediaType || 'lesson')}</div>
-                      <div class="lesson-hint">Kliknij, aby rozpocząć albo wrócić do tej lekcji.</div>
-                    </div>
+  ${lessons.map((lesson, i) => {
+    const thumbHtml = `
+      <div class="lesson-thumb">
+        <div class="lesson-thumb-fallback">
+          <div style="font-size:36px; margin-bottom:6px;">📘</div>
+          <div>${escapeHtml(lesson.lessonTitle || 'Lekcja')}</div>
+        </div>
+      </div>
+    `;
 
-                    <div class="lesson-action">
-                      <a href="#" class="start-pill">▶ Rozpocznij</a>
-                    </div>
-                  </div>
-                `;
-              }).join('')}
-            </div>
+    return `
+      <div class="lesson-card">
+        ${thumbHtml}
+
+        <div class="lesson-body">
+          <div class="lesson-id">${escapeHtml(lesson.lessonId || `L-${i + 1}`)}</div>
+          <div class="lesson-title">${escapeHtml(lesson.lessonTitle || 'Brak tytułu')}</div>
+          <div class="lesson-type">Typ: ${escapeHtml(lesson.mediaType || 'lesson')}</div>
+          <div class="lesson-hint">Wejdź do lekcji</div>
+        </div>
+
+        <div class="lesson-action">
+          <a href="#" class="start-pill">▶ Otwórz</a>
+        </div>
+      </div>
+    `;
+  }).join('')}
+
+  <div style="font-weight:800; font-size:18px; margin:20px 0 10px;">
+    🧪 Sprawdzenie
+  </div>
+
+  <div class="lesson-card">
+    <div class="lesson-thumb">
+      <div class="lesson-thumb-fallback">
+        <div style="font-size:36px;">📝</div>
+      </div>
+    </div>
+
+    <div class="lesson-body">
+      <div class="lesson-title">Quiz działowy</div>
+      <div class="lesson-hint">Sprawdź wiedzę po lekcjach</div>
+    </div>
+
+    <div class="lesson-action">
+      <a href="#" class="start-pill">▶ Rozpocznij</a>
+    </div>
+  </div>
+
+  <div class="lesson-card">
+    <div class="lesson-thumb">
+      <div class="lesson-thumb-fallback">
+        <div style="font-size:36px;">📊</div>
+      </div>
+    </div>
+
+    <div class="lesson-body">
+      <div class="lesson-title">Test działowy</div>
+      <div class="lesson-hint">Zaliczenie modułu</div>
+    </div>
+
+    <div class="lesson-action">
+      <a href="#" class="start-pill">▶ Rozpocznij</a>
+    </div>
+  </div>
+
+  <div style="font-weight:800; font-size:18px; margin:20px 0 10px;">
+    🧰 Materiały
+  </div>
+
+  <div class="lesson-card">
+    <div class="lesson-thumb">
+      <div class="lesson-thumb-fallback">
+        <div style="font-size:36px;">📄</div>
+      </div>
+    </div>
+
+    <div class="lesson-body">
+      <div class="lesson-title">Karty pracy</div>
+      <div class="lesson-hint">Materiały do ćwiczeń</div>
+    </div>
+
+    <div class="lesson-action">
+      <a href="#" class="start-pill">▶ Otwórz</a>
+    </div>
+  </div>
+
+</div>
           </div>
         `;
       }).join('')}
