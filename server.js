@@ -533,18 +533,16 @@ function renderHtmlPage(title, body) {
           border-color:rgba(110,168,255,.24);
           background:rgba(255,255,255,.045);
         }
-        .lesson-thumb{
-          min-height:158px;
-          background:
-            radial-gradient(circle at top left, rgba(110,168,255,.24), transparent 42%),
-            linear-gradient(135deg, rgba(110,168,255,.16), rgba(155,124,255,.16)),
-            rgba(255,255,255,.03);
-          display:flex;
-          align-items:center;
-          justify-content:center;
-          overflow:hidden;
-          border-right:1px solid rgba(255,255,255,.06);
-        }
+       .lesson-thumb{
+  min-height:160px;
+  background:#1f2f4a;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  border-right:1px solid rgba(255,255,255,.08);
+  border-radius:12px;
+}
         .lesson-thumb img{
           width:100%;
           height:100%;
@@ -552,12 +550,12 @@ function renderHtmlPage(title, body) {
           display:block;
         }
         .lesson-thumb-fallback{
-          color:#dbe6ff;
-          font-size:13px;
-          text-align:center;
-          padding:18px;
-          line-height:1.6;
-        }
+  color:white;
+  font-size:14px;
+  text-align:center;
+  padding:18px;
+  line-height:1.6;
+}
         .lesson-body{
           padding:18px 0;
           display:flex;
@@ -1336,12 +1334,18 @@ const sectionsHtml = sections.length
 
         return `
           <div class="module-card">
-            <div class="module-head">
-              <div>
-                <div class="module-badge">Moduł ${index + 1}</div>
-                <div class="module-title">${escapeHtml(sectionTitle)}</div>
-                <div class="module-sub">${lessons.length} lekcji w tym module</div>
-              </div>
+  <div class="module-head">
+    <div>
+      <div class="module-badge">Moduł ${index + 1}</div>
+      <div class="module-title">${escapeHtml(sectionTitle)}</div>
+      <div class="module-sub">
+        ${lessons.length} ${
+          lessons.length === 1 ? 'lekcja' :
+          lessons.length >= 2 && lessons.length <= 4 ? 'lekcje' :
+          'lekcji'
+        }
+      </div>
+    </div>
 
               <div class="module-progress">
                 <div class="module-sub" style="text-align:right;">Postęp modułu: demo</div>
