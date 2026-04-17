@@ -1500,6 +1500,70 @@ Wróć do swoich kursów albo przejdź dalej do wybranego materiału.
   }
 });
 
+app.get('/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAuth, async (req, res) => {
+  try {
+    const courseId = Number(req.params.courseId);
+    const sectionIndex = Number(req.params.sectionIndex);
+    const lessonIndex = Number(req.params.lessonIndex);
+
+    const result = await query('SELECT * FROM courses WHERE id = $1', [courseId]);
+    if (!result.rows.length) {
+      return res.status(404).send('Nie znaleziono kursu');
+    }
+
+    const course = result.rows[0];
+    const sections = Array.isArray(course.sections_json) ? course.sections_json : [];
+
+    const section = sections[sectionIndex];
+    if (!section) {
+      return res.status(404).send('Nie znaleziono sekcji');
+    }
+
+    const lessons = Array.isArray(section.media) ? section.media : [];
+    const lesson = lessons[lessonIndex];
+
+    if (!lesson) {
+      return res.status(404).send('Nie znaleziono lekcji');
+    }
+
+    const html = renderHtmlPage(lesson.lessonTitle || 'Lekcja', `
+      <div class="wrap">
+        <div class="hero">
+          <div class="hero-card">
+            <span class="hero-kicker">Lekcja</span>
+            <h1 class="hero-title">${escapeHtml(lesson.lessonTitle || 'Lekcja')}</h1>
+            <p class="hero-desc">
+              ${escapeHtml(lesson.slideText || '')}
+            </p>
+          </div>
+
+          <div class="hero-card">
+            <span class="hero-kicker">Nawigacja</span>
+            <h2 style="margin:0 0 10px;">Przejście</h2>
+            <div class="toolbar">
+              <a href="/kurs/${courseId}" class="btn">Wróć do kursu</a>
+              <a href="/moje-kursy" class="btn secondary">Moje kursy</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:20px;">
+          <div class="label">Treść lekcji</div>
+          <div class="title">${escapeHtml(lesson.lessonTitle)}</div>
+          <div style="margin-top:12px; line-height:1.7;">
+            ${escapeHtml(lesson.slideText || 'Brak treści')}
+          </div>
+        </div>
+      </div>
+    `);
+
+    return res.send(html);
+  } catch (error) {
+    console.error('lesson view error:', error);
+    return res.status(500).send('Błąd widoku lekcji.');
+  }
+});
+
 app.get('/panel-testera', requireAuth, async (req, res) => {
   try {
     if (req.session.user.role !== 'tester') {
