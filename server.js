@@ -1358,7 +1358,7 @@ const sectionsHtml = sections.length
            <div class="lesson-list">
 
   <div style="font-weight:800; font-size:18px; margin-bottom:10px;">
- Lekcje
+Lekcje
   </div>
 
   ${lessons.map((lesson, i) => {
