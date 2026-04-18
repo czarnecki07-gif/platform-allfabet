@@ -1382,7 +1382,7 @@ Lekcje
         </div>
 
       <div class="lesson-action">
-  <a href="#" class="start-pill">Otwórz</a>
+<a href="/lekcja/${course.id}/${index}/${i}" class="start-pill">Otwórz</a>
 
   <div style="margin-top:8px;">
     <a href="#" class="start-pill" style="background:transparent; border:1px solid rgba(255,255,255,.2);">
