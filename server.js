@@ -1534,36 +1534,53 @@ app.get('/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAuth, async (req,
       lesson.adminNotes
     ].filter(Boolean).join('\n\n');
 
-    const html = renderHtmlPage(lesson.lessonTitle || 'Lekcja', `
-      <div class="wrap">
-        <div class="hero">
-          <div class="hero-card">
-            <span class="hero-kicker">Lekcja</span>
-            <h1 class="hero-title">${escapeHtml(lesson.lessonTitle || 'Lekcja')}</h1>
-            <p class="hero-desc">
-              ${escapeHtml(lessonText || '')}
-            </p>
-          </div>
+    const imageUrl =
+  lesson?.customImages?.[0]?.url ||
+  lesson?.generatedImage?.url;
 
-          <div class="hero-card">
-            <span class="hero-kicker">Nawigacja</span>
-            <h2 style="margin:0 0 10px;">Przejście</h2>
-            <div class="toolbar">
-              <a href="/kurs/${courseId}" class="btn">Wróć do kursu</a>
-              <a href="/moje-kursy" class="btn secondary">Moje kursy</a>
-            </div>
-          </div>
-        </div>
+const audioUrl = lesson?.generatedAudio?.url;
 
-        <div class="card" style="margin-top:20px;">
-          <div class="label">Treść lekcji</div>
-          <div class="title">${escapeHtml(lesson.lessonTitle)}</div>
-          <div style="margin-top:12px; line-height:1.7; white-space:pre-line;">
-            ${escapeHtml(lessonText || 'Brak treści lekcji')}
-          </div>
+const html = renderHtmlPage(lesson.lessonTitle || 'Lekcja', `
+  <div class="wrap">
+
+    <div class="hero">
+      <div class="hero-card">
+        <span class="hero-kicker">Lekcja</span>
+        <h1 class="hero-title">${escapeHtml(lesson.lessonTitle || 'Lekcja')}</h1>
+      </div>
+
+      <div class="hero-card">
+        <span class="hero-kicker">Nawigacja</span>
+        <div class="toolbar">
+          <a href="/kurs/${courseId}" class="btn">Wróć do kursu</a>
+          <a href="/moje-kursy" class="btn secondary">Moje kursy</a>
         </div>
       </div>
-    `);
+    </div>
+
+    ${imageUrl ? `
+      <div class="card" style="margin-top:20px;">
+        <img src="${imageUrl}" style="width:100%; border-radius:12px;" />
+      </div>
+    ` : ''}
+
+    ${audioUrl ? `
+      <div class="card" style="margin-top:20px;">
+        <audio controls style="width:100%;">
+          <source src="${audioUrl}" type="audio/mpeg">
+        </audio>
+      </div>
+    ` : ''}
+
+    <div class="card" style="margin-top:20px;">
+      <div class="label">Treść lekcji</div>
+      <div style="white-space:pre-line; line-height:1.7;">
+        ${escapeHtml(lesson.slideText || 'Brak treści')}
+      </div>
+    </div>
+
+  </div>
+`);
 
     return res.send(html);
   } catch (error) {
