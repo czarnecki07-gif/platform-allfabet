@@ -1526,6 +1526,14 @@ app.get('/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAuth, async (req,
       return res.status(404).send('Nie znaleziono lekcji');
     }
 
+    const lessonText = [
+      lesson.slideText,
+      Array.isArray(lesson.keywords) && lesson.keywords.length
+        ? `Słowa kluczowe: ${lesson.keywords.join(', ')}`
+        : '',
+      lesson.adminNotes
+    ].filter(Boolean).join('\n\n');
+
     const html = renderHtmlPage(lesson.lessonTitle || 'Lekcja', `
       <div class="wrap">
         <div class="hero">
@@ -1533,7 +1541,7 @@ app.get('/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAuth, async (req,
             <span class="hero-kicker">Lekcja</span>
             <h1 class="hero-title">${escapeHtml(lesson.lessonTitle || 'Lekcja')}</h1>
             <p class="hero-desc">
-              ${escapeHtml(lesson.slideText || '')}
+              ${escapeHtml(lessonText || '')}
             </p>
           </div>
 
@@ -1550,8 +1558,8 @@ app.get('/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAuth, async (req,
         <div class="card" style="margin-top:20px;">
           <div class="label">Treść lekcji</div>
           <div class="title">${escapeHtml(lesson.lessonTitle)}</div>
-          <div style="margin-top:12px; line-height:1.7;">
-            ${escapeHtml(lesson.slideText || 'Brak treści')}
+          <div style="margin-top:12px; line-height:1.7; white-space:pre-line;">
+            ${escapeHtml(lessonText || 'Brak treści lekcji')}
           </div>
         </div>
       </div>
@@ -1563,7 +1571,6 @@ app.get('/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAuth, async (req,
     return res.status(500).send('Błąd widoku lekcji.');
   }
 });
-
 app.get('/panel-testera', requireAuth, async (req, res) => {
   try {
     if (req.session.user.role !== 'tester') {
