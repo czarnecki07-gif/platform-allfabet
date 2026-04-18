@@ -1575,7 +1575,21 @@ const html = renderHtmlPage(lesson.lessonTitle || 'Lekcja', `
     <div class="card" style="margin-top:20px;">
       <div class="label">Treść lekcji</div>
       <div style="white-space:pre-line; line-height:1.7;">
-        ${escapeHtml(lesson.slideText || 'Brak treści')}
+        ${(lesson.slideText || '')
+  .split('\n')
+  .filter(line => line.trim())
+  .map(line => `
+    <div style="
+      background:rgba(255,255,255,.04);
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:14px;
+      padding:14px 16px;
+      margin-bottom:10px;
+      line-height:1.6;
+    ">
+      ${escapeHtml(line.replace(/^•\s*/, ''))}
+    </div>
+  `).join('')}
       </div>
     </div>
 
