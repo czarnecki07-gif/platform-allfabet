@@ -3,6 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import fsSync from 'node:fs';
 import bcrypt from 'bcryptjs';
 import session from 'express-session';
 import { query, testDbConnection } from './db.js';
@@ -19,6 +20,7 @@ app.use(cors({
 
 app.use(express.json({ limit: '25mb' }));
 app.use(express.urlencoded({ extended: true }));
+app.use(express.raw({ type: 'application/octet-stream', limit: '50mb' }));
 
 app.use('/custom_media', express.static(path.join(process.cwd(), 'custom_media')));
 app.use('/generated_audio', express.static(path.join(process.cwd(), 'generated_audio')));
@@ -71,6 +73,13 @@ function escapeHtml(value) {
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#039;');
+}
+
+function sanitizeFileName(name) {
+  return String(name || '')
+    .replace(/[^a-zA-Z0-9._-]+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
 }
 
 function getLessonThumbnailUrl(lesson) {
@@ -2215,6 +2224,79 @@ app.get('/admin/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAdmin, asyn
   } catch (error) {
     console.error('admin lesson error:', error);
     return res.status(500).send('Błąd widoku lekcji (admin).');
+  }
+});
+
+app.post('/admin/upload-lesson-image', requireAdmin, async (req, res) => {
+  try {
+    const courseId = Number(req.headers['x-course-id']);
+    const sectionIndex = Number(req.headers['x-section-index']);
+    const lessonIndex = Number(req.headers['x-lesson-index']);
+    const fileNameRaw = req.headers['x-file-name'];
+
+    if (!courseId || isNaN(sectionIndex) || isNaN(lessonIndex)) {
+      return res.status(400).json({ error: 'Brak danych lekcji' });
+    }
+
+    if (!fileNameRaw) {
+      return res.status(400).json({ error: 'Brak nazwy pliku' });
+    }
+
+    const safeName = sanitizeFileName(fileNameRaw);
+    const finalName = `${Date.now()}-${safeName}`;
+
+    const uploadDir = path.join(process.cwd(), 'custom_media');
+    if (!fsSync.existsSync(uploadDir)) {
+      fsSync.mkdirSync(uploadDir, { recursive: true });
+    }
+
+    const filePath = path.join(uploadDir, finalName);
+
+    await fs.writeFile(filePath, req.body);
+
+    const fileUrl = `/custom_media/${finalName}`;
+
+    // 🔥 aktualizacja kursu
+    const result = await query('SELECT * FROM courses WHERE id = $1', [courseId]);
+    if (!result.rows.length) {
+      return res.status(404).json({ error: 'Nie znaleziono kursu' });
+    }
+
+    const course = result.rows[0];
+    const sections = Array.isArray(course.sections_json) ? course.sections_json : [];
+
+    const section = sections[sectionIndex];
+    if (!section) {
+      return res.status(404).json({ error: 'Nie znaleziono sekcji' });
+    }
+
+    const lessons = Array.isArray(section.media) ? section.media : [];
+    const lesson = lessons[lessonIndex];
+
+    if (!lesson) {
+      return res.status(404).json({ error: 'Nie znaleziono lekcji' });
+    }
+
+    if (!Array.isArray(lesson.customImages)) {
+      lesson.customImages = [];
+    }
+
+    // 🔥 nowy obraz jako pierwszy (nadpisuje widok)
+    lesson.customImages.unshift({
+      url: fileUrl,
+      addedAt: new Date().toISOString()
+    });
+
+    await query(
+      'UPDATE courses SET sections_json = $1 WHERE id = $2',
+      [JSON.stringify(sections), courseId]
+    );
+
+    return res.json({ success: true, url: fileUrl });
+
+  } catch (err) {
+    console.error('upload lesson image error:', err);
+    return res.status(500).json({ error: 'Błąd uploadu obrazu' });
   }
 });
 
