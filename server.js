@@ -2201,7 +2201,7 @@ app.get('/admin/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAdmin, asyn
             : `<div class="empty">Brak obrazu</div>`
           }
 
-          <div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap;">
+         <div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap;">
   <input
     id="lesson-image-file"
     type="file"
@@ -2210,12 +2210,21 @@ app.get('/admin/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAdmin, asyn
     onchange="uploadLessonImage(this.files[0])"
   />
 
-  <button class="btn" onclick="document.getElementById('lesson-image-file').click()">
+  <label
+    for="lesson-image-file"
+    class="btn"
+    style="cursor:pointer;"
+  >
     Podmień obraz
+  </label>
+
+  <button type="button" class="btn secondary" onclick="alert('Ta funkcja będzie w następnym kroku.')">
+    Dodaj nowy obraz
   </button>
 
-  <button class="btn secondary">Dodaj nowy obraz</button>
-  <button class="btn secondary">Dodaj overlay tekstowy</button>
+  <button type="button" class="btn secondary" onclick="alert('Ta funkcja będzie w następnym kroku.')">
+    Dodaj overlay tekstowy
+  </button>
 </div>
 
 <script>
@@ -2243,6 +2252,7 @@ async function uploadLessonImage(file) {
     return;
   }
 
+  alert('Obraz został podmieniony.');
   window.location.reload();
 }
 </script>
