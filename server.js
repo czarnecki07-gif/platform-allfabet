@@ -2202,11 +2202,50 @@ app.get('/admin/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAdmin, asyn
           }
 
           <div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap;">
-            <button class="btn">Podmień obraz</button>
-            <button class="btn secondary">Dodaj nowy obraz</button>
-            <button class="btn secondary">Dodaj overlay tekstowy</button>
-          </div>
-        </div>
+  <input
+    id="lesson-image-file"
+    type="file"
+    accept="image/png,image/jpeg,image/webp"
+    style="display:none"
+    onchange="uploadLessonImage(this.files[0])"
+  />
+
+  <button class="btn" onclick="document.getElementById('lesson-image-file').click()">
+    Podmień obraz
+  </button>
+
+  <button class="btn secondary">Dodaj nowy obraz</button>
+  <button class="btn secondary">Dodaj overlay tekstowy</button>
+</div>
+
+<script>
+async function uploadLessonImage(file) {
+  if (!file) return;
+
+  const buffer = await file.arrayBuffer();
+
+  const res = await fetch('/admin/upload-lesson-image', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/octet-stream',
+      'X-Course-Id': '${courseId}',
+      'X-Section-Index': '${sectionIndex}',
+      'X-Lesson-Index': '${lessonIndex}',
+      'X-File-Name': file.name
+    },
+    body: buffer
+  });
+
+  const data = await res.json();
+
+  if (!res.ok) {
+    alert(data.error || 'Błąd uploadu obrazu');
+    return;
+  }
+
+  window.location.reload();
+}
+</script>
 
         <div class="card" style="margin-top:20px;">
           <div class="label">Planowane obrazy lekcji</div>
