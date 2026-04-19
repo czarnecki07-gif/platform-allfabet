@@ -2139,6 +2139,85 @@ app.get('/', requireAdmin, async (req, res) => {
   }
 });
 
+app.get('/admin/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAdmin, async (req, res) => {
+  try {
+    const courseId = Number(req.params.courseId);
+    const sectionIndex = Number(req.params.sectionIndex);
+    const lessonIndex = Number(req.params.lessonIndex);
+
+    const result = await query('SELECT * FROM courses WHERE id = $1', [courseId]);
+    if (!result.rows.length) {
+      return res.status(404).send('Nie znaleziono kursu');
+    }
+
+    const course = result.rows[0];
+    const sections = Array.isArray(course.sections_json) ? course.sections_json : [];
+    const section = sections[sectionIndex];
+
+    if (!section) {
+      return res.status(404).send('Nie znaleziono sekcji');
+    }
+
+    const lessons = Array.isArray(section.media) ? section.media : [];
+    const lesson = lessons[lessonIndex];
+
+    if (!lesson) {
+      return res.status(404).send('Nie znaleziono lekcji');
+    }
+
+    const imageUrl =
+      lesson?.customImages?.[0]?.url ||
+      lesson?.generatedImage?.url;
+
+    const html = renderHtmlPage(`Admin: ${lesson.lessonTitle}`, `
+      <div class="wrap">
+
+        <div class="notice">
+          <strong>Tryb edycji lekcji</strong> — tutaj dodamy:
+          podmianę obrazu, wiele obrazów, overlaye i generowanie AI.
+        </div>
+
+        <h1>${escapeHtml(lesson.lessonTitle || 'Lekcja')}</h1>
+
+        <div class="toolbar">
+          <a href="/admin/kurs/${course.id}" class="btn secondary">Powrót do kursu</a>
+          <a href="/lekcja/${course.id}/${sectionIndex}/${lessonIndex}" class="btn">Widok kursanta</a>
+        </div>
+
+        <div class="card" style="margin-top:20px;">
+          <div class="label">Aktualny obraz</div>
+
+          ${imageUrl
+            ? `<img src="${escapeHtml(imageUrl)}" style="width:100%; border-radius:12px;" />`
+            : `<div class="empty">Brak obrazu</div>`
+          }
+
+          <div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap;">
+            <button class="btn">Podmień obraz</button>
+            <button class="btn secondary">Dodaj nowy obraz</button>
+            <button class="btn secondary">Dodaj overlay tekstowy</button>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:20px;">
+          <div class="label">Planowane obrazy lekcji</div>
+
+          <div class="empty">
+            Tu będzie lista wielu obrazów przypisanych do lekcji (z podpisami, promptami i overlayami).
+          </div>
+        </div>
+
+      </div>
+    `);
+
+    return res.send(html);
+
+  } catch (error) {
+    console.error('admin lesson error:', error);
+    return res.status(500).send('Błąd widoku lekcji (admin).');
+  }
+});
+
 app.listen(port, () => {
   console.log(`PLATFORM START: http://localhost:${port}`);
 });
