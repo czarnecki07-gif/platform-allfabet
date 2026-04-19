@@ -1504,6 +1504,196 @@ Wróć do swoich kursów albo przejdź dalej do wybranego materiału.
   }
 });
 
+app.get('/admin/kurs/:id', requireAdmin, async (req, res) => {
+  try {
+    const courseId = Number(req.params.id);
+
+    if (!Number.isInteger(courseId)) {
+      return res.status(400).send('Nieprawidłowe ID kursu.');
+    }
+
+    const result = await query('SELECT * FROM courses WHERE id = $1', [courseId]);
+    if (!result.rows.length) {
+      return res.status(404).send('Nie znaleziono kursu.');
+    }
+
+    const course = result.rows[0];
+    const sections = Array.isArray(course.sections_json) ? course.sections_json : [];
+    const outline = Array.isArray(course.outline_json) ? course.outline_json : [];
+
+    const totalLessons = sections.reduce((sum, section) => {
+      const lessons = Array.isArray(section?.media) ? section.media.length : 0;
+      return sum + lessons;
+    }, 0);
+
+    const sectionsHtml = sections.length
+      ? `
+        <div class="module-stack">
+          ${sections.map((section, index) => {
+            const lessons = Array.isArray(section?.media) ? section.media : [];
+            const outlineItem = outline[index] || {};
+            const sectionTitle =
+              outlineItem?.title
+              || section?.title
+              || section?.name
+              || section?.sectionTitle
+              || `Moduł ${index + 1}`;
+
+            return `
+              <div class="module-card">
+                <div class="module-head">
+                  <div>
+                    <div class="module-badge">Moduł ${index + 1}</div>
+                    <div class="module-title">${escapeHtml(sectionTitle)}</div>
+                    <div class="module-sub">
+                      ${lessons.length} ${
+                        lessons.length === 1 ? 'lekcja' :
+                        lessons.length >= 2 && lessons.length <= 4 ? 'lekcje' :
+                        'lekcji'
+                      }
+                    </div>
+                  </div>
+                </div>
+
+                <div class="lesson-list">
+                  <div style="font-weight:800; font-size:18px; margin-bottom:10px;">
+                    Lekcje
+                  </div>
+
+                  ${lessons.map((lesson, i) => {
+                    const imageUrl =
+                      lesson?.customImages?.[0]?.url ||
+                      lesson?.generatedImage?.url;
+
+                    const thumbHtml = `
+                      <div class="lesson-thumb">
+                        ${imageUrl
+                          ? `<img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(lesson.lessonTitle || 'Miniatura lekcji')}" />`
+                          : `<div class="lesson-thumb-fallback"><div>${escapeHtml(lesson.lessonTitle || 'Lekcja')}</div></div>`
+                        }
+                      </div>
+                    `;
+
+                    return `
+                      <div class="lesson-card">
+                        ${thumbHtml}
+
+                        <div class="lesson-body">
+                          <div class="lesson-id">${escapeHtml(lesson.lessonId || `L-${i + 1}`)}</div>
+                          <div class="lesson-title">${escapeHtml(lesson.lessonTitle || 'Brak tytułu')}</div>
+                          <div class="lesson-type">Typ: ${escapeHtml(lesson.mediaType || 'lesson')}</div>
+                          <div class="lesson-hint">Podgląd lekcji i narzędzia administracyjne</div>
+                        </div>
+
+                        <div class="lesson-action" style="flex-direction:column; align-items:flex-start; gap:8px;">
+                          <a href="/lekcja/${course.id}/${index}/${i}" class="start-pill">Podgląd</a>
+                          <a href="/admin/lekcja/${course.id}/${index}/${i}" class="start-pill" style="background:transparent; border:1px solid rgba(255,255,255,.2);">Edytuj</a>
+                          <a href="/admin/lekcja/${course.id}/${index}/${i}" class="start-pill" style="background:transparent; border:1px solid rgba(255,255,255,.2);">Wymień obraz</a>
+                        </div>
+                      </div>
+                    `;
+                  }).join('')}
+
+                  <div style="font-weight:800; font-size:18px; margin:20px 0 10px;">
+                    Sprawdzenie
+                  </div>
+
+                  <div class="lesson-card">
+                    <div class="lesson-thumb">
+                      <div class="lesson-thumb-fallback">
+                        <div>Quiz działowy</div>
+                      </div>
+                    </div>
+
+                    <div class="lesson-body">
+                      <div class="lesson-title">Quiz działowy</div>
+                      <div class="lesson-hint">Widoczny w podglądzie admina</div>
+                    </div>
+
+                    <div class="lesson-action">
+                      <a href="#" class="start-pill">Podgląd</a>
+                    </div>
+                  </div>
+
+                  <div class="lesson-card">
+                    <div class="lesson-thumb">
+                      <div class="lesson-thumb-fallback">
+                        <div>Test działowy</div>
+                      </div>
+                    </div>
+
+                    <div class="lesson-body">
+                      <div class="lesson-title">Test działowy</div>
+                      <div class="lesson-hint">Widoczny w podglądzie admina</div>
+                    </div>
+
+                    <div class="lesson-action">
+                      <a href="#" class="start-pill">Podgląd</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      `
+      : `<div class="empty">Ten kurs nie ma jeszcze widocznych sekcji.</div>`;
+
+    const html = renderHtmlPage(`Admin: ${course.title || 'Kurs'}`, `
+      <div class="wrap">
+        <div class="notice" style="margin-bottom:20px;">
+          <strong>Tryb admina:</strong> widzisz kurs jak kursant, ale z miejscem na poprawki tekstu, overlaye oraz całkowitą wymianę obrazu.
+        </div>
+
+        <div class="hero">
+          <div class="hero-card">
+            <span class="hero-kicker">Podgląd kursu — admin</span>
+            <h1 class="hero-title">${escapeHtml(course.title || 'Kurs')}</h1>
+            <p class="hero-desc">
+              To jest roboczy podgląd kursu z perspektywy odbiorcy, ale z przygotowaniem pod narzędzia redakcyjne.
+            </p>
+
+            <div class="stats">
+              <div class="stat">
+                <div class="stat-value">${sections.length}</div>
+                <div class="stat-label">Moduły</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value">${totalLessons}</div>
+                <div class="stat-label">Lekcje</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value">${escapeHtml(course.status || 'draft')}</div>
+                <div class="stat-label">Status</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <span class="hero-kicker">Narzędzia</span>
+            <h2 style="margin:0 0 10px;">Panel redakcyjny</h2>
+            <p class="hero-desc" style="margin-bottom:18px;">
+              Z tego poziomu przejdziesz do podglądu lekcji, edycji treści, nakładek tekstowych i pełnej wymiany obrazu.
+            </p>
+            <div class="toolbar" style="margin-bottom:0;">
+              <a href="/" class="btn">Powrót do panelu admina</a>
+              <a href="/kurs/${course.id}" class="btn secondary">Widok kursanta</a>
+              <a href="/logout" class="btn secondary">Wyloguj</a>
+            </div>
+          </div>
+        </div>
+
+        ${sectionsHtml}
+      </div>
+    `);
+
+    return res.send(html);
+  } catch (error) {
+    console.error('admin course preview error:', error);
+    return res.status(500).send('Błąd podglądu kursu dla admina.');
+  }
+});
+
 app.get('/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAuth, async (req, res) => {
   try {
     const courseId = Number(req.params.courseId);
