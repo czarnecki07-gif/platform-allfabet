@@ -2198,8 +2198,24 @@ app.get('/admin/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAdmin, asyn
       return res.status(404).send('Nie znaleziono sekcji');
     }
 
-    const lessons = Array.isArray(section.media) ? section.media : [];
-    const lesson = lessons[lessonIndex];
+   const lessons = Array.isArray(section.media) ? section.media : [];
+const lesson = lessons[lessonIndex];
+
+const sourceSections = Array.isArray(course?.source_project_json?.sections)
+  ? course.source_project_json.sections
+  : [];
+
+let fullLesson = null;
+
+for (const srcSection of sourceSections) {
+  const srcLessons = Array.isArray(srcSection?.lessons) ? srcSection.lessons : [];
+  const found = srcLessons.find(item => item?.id === lesson?.lessonId);
+
+  if (found) {
+    fullLesson = found;
+    break;
+  }
+}
 
     if (!lesson) {
       return res.status(404).send('Nie znaleziono lekcji');
@@ -2277,15 +2293,17 @@ app.get('/admin/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAdmin, asyn
     class="field"
   />
 
-  <select id="image-position" class="field">
-    <option value="0">Po wstępie</option>
-    ${Array.isArray(lesson.contentBlocks)
-      ? lesson.contentBlocks.map((_, i) => `
-        <option value="${i + 1}">Po sekcji ${i + 1}</option>
-      `).join('')
-      : ''
-    }
-  </select>
+ <select id="image-position" class="field">
+  <option value="0">Po wstępie</option>
+  ${Array.isArray(fullLesson?.contentBlocks)
+    ? fullLesson.contentBlocks.map((block, i) => `
+      <option value="${i + 1}">
+        Po sekcji ${i + 1}${block?.heading ? ` — ${escapeHtml(block.heading)}` : ''}
+      </option>
+    `).join('')
+    : ''
+  }
+</select>
 
   <button
     type="button"
