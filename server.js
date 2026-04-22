@@ -1715,213 +1715,210 @@ app.get('/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAuth, async (req,
     }
 
     const course = result.rows[0];
-const sections = Array.isArray(course.sections_json) ? course.sections_json : [];
+    const sections = Array.isArray(course.sections_json) ? course.sections_json : [];
 
-const section = sections[sectionIndex];
-if (!section) {
-  return res.status(404).send('Nie znaleziono sekcji');
-}
+    const section = sections[sectionIndex];
+    if (!section) {
+      return res.status(404).send('Nie znaleziono sekcji');
+    }
 
-const mediaLessons = Array.isArray(section.media) ? section.media : [];
-const mediaLesson = mediaLessons[lessonIndex];
+    const mediaLessons = Array.isArray(section.media) ? section.media : [];
+    const mediaLesson = mediaLessons[lessonIndex];
 
-if (!mediaLesson) {
-  return res.status(404).send('Nie znaleziono lekcji');
-}
+    if (!mediaLesson) {
+      return res.status(404).send('Nie znaleziono lekcji');
+    }
 
-const sourceSections = Array.isArray(course?.source_project_json?.sections)
-  ? course.source_project_json.sections
-  : [];
+    const sourceSections = Array.isArray(course?.source_project_json?.sections)
+      ? course.source_project_json.sections
+      : [];
 
-let fullLesson = null;
+    let fullLesson = null;
 
-for (const srcSection of sourceSections) {
-  const srcLessons = Array.isArray(srcSection?.lessons) ? srcSection.lessons : [];
-  const found = srcLessons.find(item => item?.id === mediaLesson?.lessonId);
+    for (const srcSection of sourceSections) {
+      const srcLessons = Array.isArray(srcSection?.lessons) ? srcSection.lessons : [];
+      const found = srcLessons.find(item => item?.id === mediaLesson?.lessonId);
 
-  if (found) {
-    fullLesson = found;
-    break;
-  }
-}
+      if (found) {
+        fullLesson = found;
+        break;
+      }
+    }
 
-const lesson = fullLesson || mediaLesson;
+    const lesson = fullLesson || mediaLesson;
 
-    const lessonText = [
-      lesson.slideText,
-      Array.isArray(lesson.keywords) && lesson.keywords.length
-        ? `Słowa kluczowe: ${lesson.keywords.join(', ')}`
-        : '',
-      lesson.adminNotes
-    ].filter(Boolean).join('\n\n');
+    const lessonImages = Array.isArray(mediaLesson?.customImages)
+      ? mediaLesson.customImages
+      : [];
 
     const imageUrl =
-  mediaLesson?.customImages?.[0]?.url ||
-  mediaLesson?.generatedImage?.url;
+      lessonImages[0]?.url ||
+      mediaLesson?.generatedImage?.url;
 
-const audioUrl = mediaLesson?.generatedAudio?.url;
+    const audioUrl = mediaLesson?.generatedAudio?.url;
 
-const html = renderHtmlPage(lesson.lessonTitle || 'Lekcja', `
-  <div class="wrap">
+    const html = renderHtmlPage(lesson.title || lesson.lessonTitle || 'Lekcja', `
+      <div class="wrap">
 
-    <div class="hero">
-      <div class="hero-card">
-        <span class="hero-kicker">Lekcja</span>
-        <h1 class="hero-title">${escapeHtml(lesson.lessonTitle || 'Lekcja')}</h1>
-      </div>
+        <div class="hero">
+          <div class="hero-card">
+            <span class="hero-kicker">Lekcja</span>
+            <h1 class="hero-title">${escapeHtml(lesson.title || lesson.lessonTitle || 'Lekcja')}</h1>
+          </div>
 
-      <div class="hero-card">
-        <span class="hero-kicker">Nawigacja</span>
-        <div class="toolbar">
-          <a href="/kurs/${courseId}" class="btn">Wróć do kursu</a>
-          <a href="/moje-kursy" class="btn secondary">Moje kursy</a>
+          <div class="hero-card">
+            <span class="hero-kicker">Nawigacja</span>
+            <div class="toolbar">
+              <a href="/kurs/${courseId}" class="btn">Wróć do kursu</a>
+              <a href="/moje-kursy" class="btn secondary">Moje kursy</a>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
 
-    ${imageUrl ? `
-      <div class="card" style="margin-top:20px;">
-        <img src="${imageUrl}" style="width:100%; border-radius:12px;" />
-      </div>
-    ` : ''}
+        ${imageUrl ? `
+          <div class="card" style="margin-top:20px;">
+            <img src="${escapeHtml(imageUrl)}" style="width:100%; border-radius:12px;" />
+          </div>
+        ` : ''}
 
-    ${audioUrl ? `
-      <div class="card" style="margin-top:20px;">
-        <audio controls style="width:100%;">
-          <source src="${audioUrl}" type="audio/mpeg">
-        </audio>
-      </div>
-    ` : ''}
+        ${audioUrl ? `
+          <div class="card" style="margin-top:20px;">
+            <audio controls style="width:100%;">
+              <source src="${escapeHtml(audioUrl)}" type="audio/mpeg">
+            </audio>
+          </div>
+        ` : ''}
 
-    <div class="card" style="margin-top:20px;">
-    <div class="label">Treść lekcji</div>
-    <div class="title">${escapeHtml(lesson.title || lesson.lessonTitle || 'Lekcja')}</div>
+        <div class="card" style="margin-top:20px;">
+          <div class="label">Treść lekcji</div>
+          <div class="title">${escapeHtml(lesson.title || lesson.lessonTitle || 'Lekcja')}</div>
 
-    ${lesson.lead ? `
-      <div style="margin-top:14px; line-height:1.8; color:#dbe7ff;">
-        ${escapeHtml(lesson.lead)}
-      </div>
-    ` : ''}
+          ${lesson.lead ? `
+            <div style="margin-top:14px; line-height:1.8; color:#dbe7ff;">
+              ${escapeHtml(lesson.lead)}
+            </div>
+          ` : ''}
 
-    ${lesson.intro ? `
-      <div style="margin-top:16px; line-height:1.8;">
-        ${escapeHtml(lesson.intro)}
-      </div>
-    ` : ''}
+          ${lesson.intro ? `
+            <div style="margin-top:16px; line-height:1.8;">
+              ${escapeHtml(lesson.intro)}
+            </div>
+          ` : ''}
 
-   ${Array.isArray(lesson.contentBlocks) ? lesson.contentBlocks.map((block, idx) => `
-  <div style="margin-top:22px;">
-    <h3 style="margin:0 0 10px; font-size:20px;">${escapeHtml(block.heading || '')}</h3>
-    <div style="line-height:1.8; color:#dbe7ff;">
-      ${escapeHtml(block.body || '')}
-    </div>
+          ${
+            Array.isArray(lessonImages)
+              ? lessonImages
+                  .filter(img => Number(img.insertAfterBlock || 0) === 0)
+                  .map(img => `
+                    <div style="margin-top:20px;">
+                      <img src="${escapeHtml(img.url)}" style="width:100%; border-radius:12px;" />
+                      ${img.caption ? `
+                        <div style="margin-top:6px; font-size:13px; color:#9db0d1;">
+                          ${escapeHtml(img.caption)}
+                        </div>
+                      ` : ''}
+                    </div>
+                  `).join('')
+              : ''
+          }
 
-    ${
-      Array.isArray(lesson.customImages)
-        ? lesson.customImages
-            .filter(img => Number(img.insertAfterBlock || 0) === idx + 1)
-            .map(img => `
-              <div style="margin-top:16px;">
-                <img src="${escapeHtml(img.url)}" style="width:100%; border-radius:12px;" />
-                ${img.caption ? `
-                  <div style="margin-top:6px; font-size:13px; color:#9db0d1;">
-                    ${escapeHtml(img.caption)}
-                  </div>
-                ` : ''}
+          ${Array.isArray(lesson.contentBlocks) ? lesson.contentBlocks.map((block, idx) => `
+            <div style="margin-top:22px;">
+              <h3 style="margin:0 0 10px; font-size:20px;">${escapeHtml(block.heading || '')}</h3>
+              <div style="line-height:1.8; color:#dbe7ff;">
+                ${escapeHtml(block.body || '')}
               </div>
-            `).join('')
-        : ''
-    }
-  </div>
-`).join('') : ''}
 
-${lesson.summary ? `
-  <div style="
-    margin-top:24px;
-    padding:16px;
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:14px;
-    background:rgba(255,255,255,.03);
-    line-height:1.8;
-  ">
-    <strong>Podsumowanie</strong><br/><br/>
-    ${escapeHtml(lesson.summary)}
-  </div>
-` : ''}
+              ${
+                Array.isArray(lessonImages)
+                  ? lessonImages
+                      .filter(img => Number(img.insertAfterBlock || 0) === idx + 1)
+                      .map(img => `
+                        <div style="margin-top:16px;">
+                          <img src="${escapeHtml(img.url)}" style="width:100%; border-radius:12px;" />
+                          ${img.caption ? `
+                            <div style="margin-top:6px; font-size:13px; color:#9db0d1;">
+                              ${escapeHtml(img.caption)}
+                            </div>
+                          ` : ''}
+                        </div>
+                      `).join('')
+                  : ''
+              }
+            </div>
+          `).join('') : ''}
 
-${Array.isArray(lesson.practicalExamples) && lesson.practicalExamples.length ? `
-  <div style="margin-top:24px;">
-    <h3 style="margin:0 0 10px; font-size:20px;">Przykłady praktyczne</h3>
-    ${lesson.practicalExamples.map(item => `
-      <div style="
-        background:rgba(255,255,255,.04);
-        border:1px solid rgba(255,255,255,.08);
-        border-radius:12px;
-        padding:14px 16px;
-        margin-bottom:10px;
-        line-height:1.7;
-      ">
-        ${escapeHtml(item)}
+          ${lesson.summary ? `
+            <div style="
+              margin-top:24px;
+              padding:16px;
+              border:1px solid rgba(255,255,255,.08);
+              border-radius:14px;
+              background:rgba(255,255,255,.03);
+              line-height:1.8;
+            ">
+              <strong>Podsumowanie</strong><br/><br/>
+              ${escapeHtml(lesson.summary)}
+            </div>
+          ` : ''}
+
+          ${Array.isArray(lesson.practicalExamples) && lesson.practicalExamples.length ? `
+            <div style="margin-top:24px;">
+              <h3 style="margin:0 0 10px; font-size:20px;">Przykłady praktyczne</h3>
+              ${lesson.practicalExamples.map(item => `
+                <div style="
+                  background:rgba(255,255,255,.04);
+                  border:1px solid rgba(255,255,255,.08);
+                  border-radius:12px;
+                  padding:14px 16px;
+                  margin-bottom:10px;
+                  line-height:1.7;
+                ">
+                  ${escapeHtml(item)}
+                </div>
+              `).join('')}
+            </div>
+          ` : ''}
+
+          ${Array.isArray(lesson.keyTakeaways) && lesson.keyTakeaways.length ? `
+            <div style="margin-top:24px;">
+              <h3 style="margin:0 0 10px; font-size:20px;">Najważniejsze wnioski</h3>
+              ${lesson.keyTakeaways.map(item => `
+                <div style="
+                  background:rgba(255,255,255,.04);
+                  border:1px solid rgba(255,255,255,.08);
+                  border-radius:12px;
+                  padding:14px 16px;
+                  margin-bottom:10px;
+                  line-height:1.7;
+                ">
+                  ${escapeHtml(item)}
+                </div>
+              `).join('')}
+            </div>
+          ` : ''}
+
+          ${Array.isArray(lesson.checkYourself) && lesson.checkYourself.length ? `
+            <div style="margin-top:24px;">
+              <h3 style="margin:0 0 10px; font-size:20px;">Sprawdź się</h3>
+              ${lesson.checkYourself.map(item => `
+                <div style="
+                  background:rgba(110,168,255,.06);
+                  border:1px solid rgba(110,168,255,.16);
+                  border-radius:12px;
+                  padding:14px 16px;
+                  margin-bottom:10px;
+                  line-height:1.7;
+                ">
+                  ${escapeHtml(item)}
+                </div>
+              `).join('')}
+            </div>
+          ` : ''}
+        </div>
+
       </div>
-    `).join('')}
-  </div>
-` : ''}
-
-${
-  Array.isArray(lesson.customImages)
-    ? lesson.customImages
-        .filter(img => Number(img.insertAfterBlock || 0) === 0)
-        .map(img => `
-          <div style="margin-top:20px;">
-            <img src="${escapeHtml(img.url)}" style="width:100%; border-radius:12px;" />
-            ${img.caption ? `
-              <div style="margin-top:6px; font-size:13px; color:#9db0d1;">
-                ${escapeHtml(img.caption)}
-              </div>
-            ` : ''}
-          </div>
-        `).join('')
-    : ''
-}
-    ${Array.isArray(lesson.keyTakeaways) && lesson.keyTakeaways.length ? `
-      <div style="margin-top:24px;">
-        <h3 style="margin:0 0 10px; font-size:20px;">Najważniejsze wnioski</h3>
-        ${lesson.keyTakeaways.map(item => `
-          <div style="
-            background:rgba(255,255,255,.04);
-            border:1px solid rgba(255,255,255,.08);
-            border-radius:12px;
-            padding:14px 16px;
-            margin-bottom:10px;
-            line-height:1.7;
-          ">
-            ${escapeHtml(item)}
-          </div>
-        `).join('')}
-      </div>
-    ` : ''}
-
-    ${Array.isArray(lesson.checkYourself) && lesson.checkYourself.length ? `
-      <div style="margin-top:24px;">
-        <h3 style="margin:0 0 10px; font-size:20px;">Sprawdź się</h3>
-        ${lesson.checkYourself.map(item => `
-          <div style="
-            background:rgba(110,168,255,.06);
-            border:1px solid rgba(110,168,255,.16);
-            border-radius:12px;
-            padding:14px 16px;
-            margin-bottom:10px;
-            line-height:1.7;
-          ">
-            ${escapeHtml(item)}
-          </div>
-        `).join('')}
-      </div>
-    ` : ''}
-  </div>
-
-</div>
-`);
+    `);
 
     return res.send(html);
   } catch (error) {
@@ -1929,6 +1926,7 @@ ${
     return res.status(500).send('Błąd widoku lekcji.');
   }
 });
+
 app.get('/panel-testera', requireAuth, async (req, res) => {
   try {
     if (req.session.user.role !== 'tester') {
