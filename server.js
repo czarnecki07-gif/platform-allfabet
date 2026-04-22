@@ -2209,7 +2209,11 @@ let fullLesson = null;
 
 for (const srcSection of sourceSections) {
   const srcLessons = Array.isArray(srcSection?.lessons) ? srcSection.lessons : [];
-  const found = srcLessons.find(item => item?.id === lesson?.lessonId);
+  const found = srcLessons.find(item =>
+  item?.id === lesson?.lessonId ||
+  item?.lessonId === lesson?.lessonId ||
+  item?.id === lesson?.id
+);
 
   if (found) {
     fullLesson = found;
