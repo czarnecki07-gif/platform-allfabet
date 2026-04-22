@@ -1809,47 +1809,80 @@ const html = renderHtmlPage(lesson.lessonTitle || 'Lekcja', `
       </div>
     ` : ''}
 
-    ${Array.isArray(lesson.contentBlocks) ? lesson.contentBlocks.map(block => `
-      <div style="margin-top:22px;">
-        <h3 style="margin:0 0 10px; font-size:20px;">${escapeHtml(block.heading || '')}</h3>
-        <div style="line-height:1.8; color:#dbe7ff;">
-          ${escapeHtml(block.body || '')}
-        </div>
-      </div>
-    `).join('') : ''}
+   ${Array.isArray(lesson.contentBlocks) ? lesson.contentBlocks.map((block, idx) => `
+  <div style="margin-top:22px;">
+    <h3 style="margin:0 0 10px; font-size:20px;">${escapeHtml(block.heading || '')}</h3>
+    <div style="line-height:1.8; color:#dbe7ff;">
+      ${escapeHtml(block.body || '')}
+    </div>
 
-    ${lesson.summary ? `
+    ${
+      Array.isArray(lesson.customImages)
+        ? lesson.customImages
+            .filter(img => Number(img.insertAfterBlock || 0) === idx + 1)
+            .map(img => `
+              <div style="margin-top:16px;">
+                <img src="${escapeHtml(img.url)}" style="width:100%; border-radius:12px;" />
+                ${img.caption ? `
+                  <div style="margin-top:6px; font-size:13px; color:#9db0d1;">
+                    ${escapeHtml(img.caption)}
+                  </div>
+                ` : ''}
+              </div>
+            `).join('')
+        : ''
+    }
+  </div>
+`).join('') : ''}
+
+${lesson.summary ? `
+  <div style="
+    margin-top:24px;
+    padding:16px;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:14px;
+    background:rgba(255,255,255,.03);
+    line-height:1.8;
+  ">
+    <strong>Podsumowanie</strong><br/><br/>
+    ${escapeHtml(lesson.summary)}
+  </div>
+` : ''}
+
+${Array.isArray(lesson.practicalExamples) && lesson.practicalExamples.length ? `
+  <div style="margin-top:24px;">
+    <h3 style="margin:0 0 10px; font-size:20px;">Przykłady praktyczne</h3>
+    ${lesson.practicalExamples.map(item => `
       <div style="
-        margin-top:24px;
-        padding:16px;
+        background:rgba(255,255,255,.04);
         border:1px solid rgba(255,255,255,.08);
-        border-radius:14px;
-        background:rgba(255,255,255,.03);
-        line-height:1.8;
+        border-radius:12px;
+        padding:14px 16px;
+        margin-bottom:10px;
+        line-height:1.7;
       ">
-        <strong>Podsumowanie</strong><br/><br/>
-        ${escapeHtml(lesson.summary)}
+        ${escapeHtml(item)}
       </div>
-    ` : ''}
+    `).join('')}
+  </div>
+` : ''}
 
-    ${Array.isArray(lesson.practicalExamples) && lesson.practicalExamples.length ? `
-      <div style="margin-top:24px;">
-        <h3 style="margin:0 0 10px; font-size:20px;">Przykłady praktyczne</h3>
-        ${lesson.practicalExamples.map(item => `
-          <div style="
-            background:rgba(255,255,255,.04);
-            border:1px solid rgba(255,255,255,.08);
-            border-radius:12px;
-            padding:14px 16px;
-            margin-bottom:10px;
-            line-height:1.7;
-          ">
-            ${escapeHtml(item)}
+${
+  Array.isArray(lesson.customImages)
+    ? lesson.customImages
+        .filter(img => Number(img.insertAfterBlock || 0) === 0)
+        .map(img => `
+          <div style="margin-top:20px;">
+            <img src="${escapeHtml(img.url)}" style="width:100%; border-radius:12px;" />
+            ${img.caption ? `
+              <div style="margin-top:6px; font-size:13px; color:#9db0d1;">
+                ${escapeHtml(img.caption)}
+              </div>
+            ` : ''}
           </div>
-        `).join('')}
-      </div>
-    ` : ''}
-
+        `).join('')
+    : ''
+}
     ${Array.isArray(lesson.keyTakeaways) && lesson.keyTakeaways.length ? `
       <div style="margin-top:24px;">
         <h3 style="margin:0 0 10px; font-size:20px;">Najważniejsze wnioski</h3>
