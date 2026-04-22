@@ -1751,9 +1751,9 @@ app.get('/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAuth, async (req,
       ? mediaLesson.customImages
       : [];
 
-    const imageUrl =
-      lessonImages[0]?.url ||
-      mediaLesson?.generatedImage?.url;
+  const imageUrl =
+  lessonImages[lessonImages.length - 1]?.url ||
+  mediaLesson?.generatedImage?.url;
 
     const audioUrl = mediaLesson?.generatedAudio?.url;
 
