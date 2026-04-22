@@ -2341,15 +2341,15 @@ async function submitNewImage() {
 
   const res = await fetch('/admin/upload-lesson-image', {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/octet-stream',
-      'X-Course-Id': '${courseId}',
-      'X-Section-Index': '${sectionIndex}',
-      'X-Lesson-Index': '${lessonIndex}',
-      'X-File-Name': file.name,
-      'X-Image-Caption': encodeURIComponent(caption),
-      'X-Insert-After-Block': position
-    },
+   headers: {
+  'Content-Type': 'application/octet-stream',
+  'X-Course-Id': String('${courseId}'),
+  'X-Section-Index': String('${sectionIndex}'),
+  'X-Lesson-Index': String('${lessonIndex}'),
+  'X-File-Name': encodeURIComponent(file.name),
+  'X-Image-Caption': encodeURIComponent(caption),
+  'X-Insert-After-Block': String(position)
+},
     body: buffer
   });
 
@@ -2390,6 +2390,7 @@ app.post('/admin/upload-lesson-image', requireAdmin, async (req, res) => {
     const sectionIndex = Number(req.headers['x-section-index']);
     const lessonIndex = Number(req.headers['x-lesson-index']);
     const fileNameRaw = req.headers['x-file-name'];
+const fileNameDecoded = decodeURIComponent(String(fileNameRaw || ''));
 
     if (!courseId || isNaN(sectionIndex) || isNaN(lessonIndex)) {
       return res.status(400).json({ error: 'Brak danych lekcji' });
@@ -2399,7 +2400,7 @@ app.post('/admin/upload-lesson-image', requireAdmin, async (req, res) => {
       return res.status(400).json({ error: 'Brak nazwy pliku' });
     }
 
-    const safeName = sanitizeFileName(fileNameRaw);
+    const safeName = sanitizeFileName(fileNameDecoded);
     const finalName = `${Date.now()}-${safeName}`;
 
     const uploadDir = path.join(process.cwd(), 'custom_media');
