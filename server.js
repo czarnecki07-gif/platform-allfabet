@@ -2347,7 +2347,7 @@ async function submitNewImage() {
       'X-Section-Index': '${sectionIndex}',
       'X-Lesson-Index': '${lessonIndex}',
       'X-File-Name': file.name,
-      'X-Image-Caption': caption,
+      'X-Image-Caption': encodeURIComponent(caption),
       'X-Insert-After-Block': position
     },
     body: buffer
@@ -2439,7 +2439,7 @@ app.post('/admin/upload-lesson-image', requireAdmin, async (req, res) => {
 
     lesson.customImages.push({
       url: fileUrl,
-      caption: String(req.headers['x-image-caption'] || ''),
+      caption: decodeURIComponent(String(req.headers['x-image-caption'] || '')),
       insertAfterBlock: Number(req.headers['x-insert-after-block'] || 0),
       addedAt: new Date().toISOString(),
       source: 'admin_upload'
