@@ -2203,27 +2203,65 @@ app.get('/admin/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAdmin, asyn
 
          <div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap;">
   <input
-    id="lesson-image-file"
-    type="file"
-    accept="image/png,image/jpeg,image/webp"
-    style="display:none"
-    onchange="uploadLessonImage(this.files[0])"
+  id="lesson-image-file"
+  type="file"
+  accept="image/png,image/jpeg,image/webp"
+  style="display:none"
+  onchange="uploadLessonImage(this.files[0])"
+/>
+
+<label
+  for="lesson-image-file"
+  class="btn"
+  style="cursor:pointer;"
+>
+  Podmień obraz
+</label>
+
+<input
+  id="lesson-image-add-file"
+  type="file"
+  accept="image/png,image/jpeg,image/webp"
+  style="display:none"
+/>
+
+<label
+  for="lesson-image-add-file"
+  class="btn secondary"
+  style="cursor:pointer;"
+>
+  Wybierz obraz
+</label>
+
+<button type="button" class="btn secondary" onclick="alert('Ta funkcja będzie w następnym kroku.')">
+  Dodaj overlay tekstowy
+</button>
+</div>
+
+<div style="margin-top:10px; display:flex; flex-direction:column; gap:10px; max-width:420px;">
+  <input
+    id="image-caption"
+    type="text"
+    placeholder="Podpis obrazu"
+    class="field"
   />
 
-  <label
-    for="lesson-image-file"
+  <select id="image-position" class="field">
+    <option value="0">Po wstępie</option>
+    ${Array.isArray(lesson.contentBlocks)
+      ? lesson.contentBlocks.map((_, i) => `
+        <option value="${i + 1}">Po sekcji ${i + 1}</option>
+      `).join('')
+      : ''
+    }
+  </select>
+
+  <button
+    type="button"
     class="btn"
-    style="cursor:pointer;"
+    onclick="submitNewImage()"
   >
-    Podmień obraz
-  </label>
-
-  <button type="button" class="btn secondary" onclick="alert('Ta funkcja będzie w następnym kroku.')">
     Dodaj nowy obraz
-  </button>
-
-  <button type="button" class="btn secondary" onclick="alert('Ta funkcja będzie w następnym kroku.')">
-    Dodaj overlay tekstowy
   </button>
 </div>
 
@@ -2253,6 +2291,45 @@ async function uploadLessonImage(file) {
   }
 
   alert('Obraz został podmieniony.');
+  window.location.reload();
+}
+
+async function submitNewImage() {
+  const fileInput = document.getElementById('lesson-image-add-file');
+  const caption = document.getElementById('image-caption').value;
+  const position = document.getElementById('image-position').value;
+
+  const file = fileInput.files[0];
+
+  if (!file) {
+    alert('Wybierz plik');
+    return;
+  }
+
+  const buffer = await file.arrayBuffer();
+
+  const res = await fetch('/admin/upload-lesson-image', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/octet-stream',
+      'X-Course-Id': '${courseId}',
+      'X-Section-Index': '${sectionIndex}',
+      'X-Lesson-Index': '${lessonIndex}',
+      'X-File-Name': file.name,
+      'X-Image-Caption': caption,
+      'X-Insert-After-Block': position
+    },
+    body: buffer
+  });
+
+  const data = await res.json();
+
+  if (!res.ok) {
+    alert(data.error || 'Błąd uploadu');
+    return;
+  }
+
+  alert('Obraz dodany z pozycją.');
   window.location.reload();
 }
 </script>
@@ -2305,7 +2382,6 @@ app.post('/admin/upload-lesson-image', requireAdmin, async (req, res) => {
 
     const fileUrl = `/custom_media/${finalName}`;
 
-    // 🔥 aktualizacja kursu
     const result = await query('SELECT * FROM courses WHERE id = $1', [courseId]);
     if (!result.rows.length) {
       return res.status(404).json({ error: 'Nie znaleziono kursu' });
@@ -2330,10 +2406,12 @@ app.post('/admin/upload-lesson-image', requireAdmin, async (req, res) => {
       lesson.customImages = [];
     }
 
-    // 🔥 nowy obraz jako pierwszy (nadpisuje widok)
-    lesson.customImages.unshift({
+    lesson.customImages.push({
       url: fileUrl,
-      addedAt: new Date().toISOString()
+      caption: String(req.headers['x-image-caption'] || ''),
+      insertAfterBlock: Number(req.headers['x-insert-after-block'] || 0),
+      addedAt: new Date().toISOString(),
+      source: 'admin_upload'
     });
 
     await query(
@@ -2342,7 +2420,6 @@ app.post('/admin/upload-lesson-image', requireAdmin, async (req, res) => {
     );
 
     return res.json({ success: true, url: fileUrl });
-
   } catch (err) {
     console.error('upload lesson image error:', err);
     return res.status(500).json({ error: 'Błąd uploadu obrazu' });
