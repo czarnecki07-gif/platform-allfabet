@@ -2304,6 +2304,7 @@ async function uploadLessonImage(file) {
 
   const res = await fetch('/admin/upload-lesson-image', {
     method: 'POST',
+credentials: 'include',
     headers: {
       'Content-Type': 'application/octet-stream',
       'X-Course-Id': '${courseId}',
