@@ -1811,7 +1811,31 @@ app.get('/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAuth, async (req,
                   .filter(img => Number(img.insertAfterBlock || 0) === 0)
                   .map(img => `
                     <div style="margin-top:20px;">
-                      <img src="${escapeHtml(img.url)}" style="width:100%; border-radius:12px;" />
+                      <div style="position:relative;">
+  <img src="${escapeHtml(img.url)}" style="width:100%; border-radius:12px;" />
+
+  ${
+    Array.isArray(img.overlays)
+      ? img.overlays.map(o => `
+        <div style="
+          position:absolute;
+          top:${o.y}px;
+          left:${o.x}px;
+          background:rgba(255,255,255,0.96);
+          color:#111;
+          padding:8px 12px;
+          border-radius:8px;
+          border:1px solid rgba(0,0,0,.12);
+          font-size:14px;
+          line-height:1.4;
+          max-width:60%;
+        ">
+          ${escapeHtml(o.text)}
+        </div>
+      `).join('')
+      : ''
+  }
+</div>
                       ${img.caption ? `
                         <div style="margin-top:6px; font-size:13px; color:#9db0d1;">
                           ${escapeHtml(img.caption)}
@@ -1835,7 +1859,31 @@ app.get('/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAuth, async (req,
                       .filter(img => Number(img.insertAfterBlock || 0) === idx + 1)
                       .map(img => `
                         <div style="margin-top:16px;">
-                          <img src="${escapeHtml(img.url)}" style="width:100%; border-radius:12px;" />
+                          <div style="position:relative;">
+  <img src="${escapeHtml(img.url)}" style="width:100%; border-radius:12px;" />
+
+  ${
+    Array.isArray(img.overlays)
+      ? img.overlays.map(o => `
+        <div style="
+          position:absolute;
+          top:${o.y}px;
+          left:${o.x}px;
+          background:rgba(255,255,255,0.96);
+          color:#111;
+          padding:8px 12px;
+          border-radius:8px;
+          border:1px solid rgba(0,0,0,.12);
+          font-size:14px;
+          line-height:1.4;
+          max-width:60%;
+        ">
+          ${escapeHtml(o.text)}
+        </div>
+      `).join('')
+      : ''
+  }
+</div>
                           ${img.caption ? `
                             <div style="margin-top:6px; font-size:13px; color:#9db0d1;">
                               ${escapeHtml(img.caption)}
@@ -2284,9 +2332,26 @@ for (const srcSection of sourceSections) {
   Wybierz obraz
 </label>
 
-<button type="button" class="btn secondary" onclick="alert('Ta funkcja będzie w następnym kroku.')">
+<button
+  type="button"
+  class="btn secondary"
+  onclick="document.getElementById('overlay-box').style.display='block'"
+>
   Dodaj overlay tekstowy
 </button>
+</div>
+
+<div id="overlay-box" style="display:none; margin-top:20px; max-width:420px;">
+  <div class="label">Overlay tekstowy</div>
+
+  <input id="overlay-text" class="field" placeholder="Tekst do zasłonięcia błędu AI" />
+
+  <input id="overlay-x" class="field" placeholder="Pozycja X (np. 20)" />
+  <input id="overlay-y" class="field" placeholder="Pozycja Y (np. 20)" />
+
+  <button class="btn" onclick="addOverlay(0)">
+    Zapisz overlay
+  </button>
 </div>
 
 <div style="margin-top:10px; display:flex; flex-direction:column; gap:10px; max-width:420px;">
@@ -2326,13 +2391,13 @@ async function uploadLessonImage(file) {
 
   const res = await fetch('/admin/upload-lesson-image', {
     method: 'POST',
-credentials: 'include',
+    credentials: 'include',
     headers: {
       'Content-Type': 'application/octet-stream',
-      'X-Course-Id': '${courseId}',
-      'X-Section-Index': '${sectionIndex}',
-      'X-Lesson-Index': '${lessonIndex}',
-      'X-File-Name': file.name
+      'X-Course-Id': String('${courseId}'),
+      'X-Section-Index': String('${sectionIndex}'),
+      'X-Lesson-Index': String('${lessonIndex}'),
+      'X-File-Name': encodeURIComponent(file.name)
     },
     body: buffer
   });
@@ -2364,15 +2429,16 @@ async function submitNewImage() {
 
   const res = await fetch('/admin/upload-lesson-image', {
     method: 'POST',
-   headers: {
-  'Content-Type': 'application/octet-stream',
-  'X-Course-Id': String('${courseId}'),
-  'X-Section-Index': String('${sectionIndex}'),
-  'X-Lesson-Index': String('${lessonIndex}'),
-  'X-File-Name': encodeURIComponent(file.name),
-  'X-Image-Caption': encodeURIComponent(caption),
-  'X-Insert-After-Block': String(position)
-},
+    credentials: 'include',
+    headers: {
+      'Content-Type': 'application/octet-stream',
+      'X-Course-Id': String('${courseId}'),
+      'X-Section-Index': String('${sectionIndex}'),
+      'X-Lesson-Index': String('${lessonIndex}'),
+      'X-File-Name': encodeURIComponent(file.name),
+      'X-Image-Caption': encodeURIComponent(caption),
+      'X-Insert-After-Block': String(position)
+    },
     body: buffer
   });
 
@@ -2386,8 +2452,45 @@ async function submitNewImage() {
   alert('Obraz dodany z pozycją.');
   window.location.reload();
 }
-</script>
 
+async function addOverlay(imageIndex) {
+  const text = document.getElementById('overlay-text').value;
+  const x = document.getElementById('overlay-x').value;
+  const y = document.getElementById('overlay-y').value;
+
+  if (!text) {
+    alert('Wpisz tekst overlay');
+    return;
+  }
+
+  const res = await fetch('/admin/add-overlay', {
+    method: 'POST',
+    credentials: 'include',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      courseId: ${courseId},
+      sectionIndex: ${sectionIndex},
+      lessonIndex: ${lessonIndex},
+      imageIndex,
+      text,
+      x,
+      y
+    })
+  });
+
+  const data = await res.json();
+
+  if (!res.ok) {
+    alert(data.error || 'Błąd overlay');
+    return;
+  }
+
+  alert('Overlay dodany');
+  window.location.reload();
+}
+</script>
         <div class="card" style="margin-top:20px;">
           <div class="label">Planowane obrazy lekcji</div>
 
@@ -2413,7 +2516,7 @@ app.post('/admin/upload-lesson-image', requireAdmin, async (req, res) => {
     const sectionIndex = Number(req.headers['x-section-index']);
     const lessonIndex = Number(req.headers['x-lesson-index']);
     const fileNameRaw = req.headers['x-file-name'];
-const fileNameDecoded = decodeURIComponent(String(fileNameRaw || ''));
+    const fileNameDecoded = decodeURIComponent(String(fileNameRaw || ''));
 
     if (!courseId || isNaN(sectionIndex) || isNaN(lessonIndex)) {
       return res.status(400).json({ error: 'Brak danych lekcji' });
@@ -2478,6 +2581,54 @@ const fileNameDecoded = decodeURIComponent(String(fileNameRaw || ''));
   } catch (err) {
     console.error('upload lesson image error:', err);
     return res.status(500).json({ error: 'Błąd uploadu obrazu' });
+  }
+});
+
+app.post('/admin/add-overlay', requireAdmin, async (req, res) => {
+  try {
+    const { courseId, sectionIndex, lessonIndex, imageIndex, text, x, y } = req.body;
+
+    const result = await query('SELECT * FROM courses WHERE id = $1', [courseId]);
+    if (!result.rows.length) {
+      return res.status(404).json({ error: 'Nie znaleziono kursu' });
+    }
+
+    const course = result.rows[0];
+    const sections = Array.isArray(course.sections_json) ? course.sections_json : [];
+
+    const lesson = sections?.[sectionIndex]?.media?.[lessonIndex];
+    if (!lesson) {
+      return res.status(404).json({ error: 'Nie znaleziono lekcji' });
+    }
+
+    if (!Array.isArray(lesson.customImages)) {
+      return res.status(400).json({ error: 'Brak obrazów' });
+    }
+
+    const image = lesson.customImages[imageIndex];
+    if (!image) {
+      return res.status(404).json({ error: 'Nie znaleziono obrazu' });
+    }
+
+    if (!Array.isArray(image.overlays)) {
+      image.overlays = [];
+    }
+
+    image.overlays.push({
+      text,
+      x: Number(x) || 20,
+      y: Number(y) || 20
+    });
+
+    await query(
+      'UPDATE courses SET sections_json = $1 WHERE id = $2',
+      [JSON.stringify(sections), courseId]
+    );
+
+    return res.json({ success: true });
+  } catch (err) {
+    console.error('add overlay error:', err);
+    return res.status(500).json({ error: 'Błąd overlay' });
   }
 });
 
