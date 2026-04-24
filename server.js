@@ -2301,9 +2301,38 @@ for (const srcSection of sourceSections) {
           <div class="label">Aktualny obraz</div>
 
           ${imageUrl
-            ? `<img src="${escapeHtml(imageUrl)}" style="width:100%; border-radius:12px;" />`
-            : `<div class="empty">Brak obrazu</div>`
-          }
+  ? `
+    <div id="overlay-editor" style="position:relative; width:100%; border-radius:12px; overflow:hidden;">
+      <img id="overlay-image" src="${escapeHtml(imageUrl)}" style="width:100%; border-radius:12px; display:block;" />
+      <div
+        id="overlay-preview"
+        style="
+          display:none;
+          position:absolute;
+          left:20px;
+          top:20px;
+          width:260px;
+          height:100px;
+          background:#ffffff;
+          color:#111;
+          border:2px solid #111;
+          border-radius:8px;
+          padding:10px;
+          font-size:18px;
+          line-height:1.35;
+          align-items:center;
+          justify-content:center;
+          text-align:center;
+          cursor:move;
+          z-index:5;
+        "
+      >
+        Overlay
+      </div>
+    </div>
+  `
+  : `<div class="empty">Brak obrazu</div>`
+}
 
          <div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap;">
   <input
@@ -2346,19 +2375,27 @@ for (const srcSection of sourceSections) {
 </button>
 </div>
 
-<div id="overlay-box" style="display:none; margin-top:20px; max-width:420px;">
+<div id="overlay-box" style="display:none; margin-top:20px; max-width:520px;">
   <div class="label">Overlay tekstowy</div>
 
-  <input id="overlay-text" class="field" placeholder="Tekst do zasłonięcia błędu AI" />
-<input id="overlay-x" class="field" placeholder="Pozycja X (np. 20)" />
-<input id="overlay-y" class="field" placeholder="Pozycja Y (np. 20)" />
+  <input id="overlay-text" class="field" placeholder="Tekst do zasłonięcia błędu AI" oninput="updateOverlayPreview()" />
 
-<input id="overlay-width" class="field" placeholder="Szerokość ramki (np. 300)" />
-<input id="overlay-height" class="field" placeholder="Wysokość ramki (np. 120)" />
+  <input id="overlay-width" class="field" placeholder="Szerokość ramki (np. 300)" value="260" oninput="updateOverlayPreview()" />
+  <input id="overlay-height" class="field" placeholder="Wysokość ramki (np. 120)" value="100" oninput="updateOverlayPreview()" />
+  <input id="overlay-font-size" class="field" placeholder="Rozmiar tekstu (np. 22)" value="18" oninput="updateOverlayPreview()" />
 
-  <button class="btn" onclick="addOverlay(0)">
-    Zapisz overlay
-  </button>
+  <input id="overlay-x" type="hidden" value="20" />
+  <input id="overlay-y" type="hidden" value="20" />
+
+  <div style="display:flex; gap:10px; flex-wrap:wrap;">
+    <button type="button" class="btn" onclick="addOverlay(0)">
+      Zapisz overlay
+    </button>
+
+    <button type="button" class="btn secondary" onclick="cancelOverlayPreview()">
+      Anuluj
+    </button>
+  </div>
 </div>
 
 <div style="margin-top:10px; display:flex; flex-direction:column; gap:10px; max-width:420px;">
@@ -2391,6 +2428,41 @@ for (const srcSection of sourceSections) {
 </div>
 
 <script>
+let overlayDragging = false;
+let overlayOffsetX = 0;
+let overlayOffsetY = 0;
+
+document.addEventListener('mousedown', function(e) {
+  const box = document.getElementById('overlay-preview');
+  if (!box || e.target !== box) return;
+
+  overlayDragging = true;
+  overlayOffsetX = e.offsetX;
+  overlayOffsetY = e.offsetY;
+});
+
+document.addEventListener('mousemove', function(e) {
+  if (!overlayDragging) return;
+
+  const editor = document.getElementById('overlay-editor');
+  const box = document.getElementById('overlay-preview');
+  if (!editor || !box) return;
+
+  const rect = editor.getBoundingClientRect();
+  const x = e.clientX - rect.left - overlayOffsetX;
+  const y = e.clientY - rect.top - overlayOffsetY;
+
+  box.style.left = Math.max(0, x) + 'px';
+  box.style.top = Math.max(0, y) + 'px';
+
+  document.getElementById('overlay-x').value = Math.round(Math.max(0, x));
+  document.getElementById('overlay-y').value = Math.round(Math.max(0, y));
+});
+
+document.addEventListener('mouseup', function() {
+  overlayDragging = false;
+});
+
 async function uploadLessonImage(file) {
   if (!file) return;
 
@@ -2461,11 +2533,14 @@ async function submitNewImage() {
 }
 
 async function addOverlay(imageIndex) {
- const text = document.getElementById('overlay-text').value;
-const x = document.getElementById('overlay-x').value;
-const y = document.getElementById('overlay-y').value;
-const width = document.getElementById('overlay-width').value;
-const height = document.getElementById('overlay-height').value;
+  updateOverlayPreview();
+
+  const text = document.getElementById('overlay-text').value;
+  const x = document.getElementById('overlay-x').value;
+  const y = document.getElementById('overlay-y').value;
+  const width = document.getElementById('overlay-width').value;
+  const height = document.getElementById('overlay-height').value;
+  const fontSize = document.getElementById('overlay-font-size').value;
 
   if (!text) {
     alert('Wpisz tekst overlay');
@@ -2484,10 +2559,11 @@ const height = document.getElementById('overlay-height').value;
       lessonIndex: ${lessonIndex},
       imageIndex,
       text,
-x,
-y,
-width,
-height
+      x,
+      y,
+      width,
+      height,
+      fontSize
     })
   });
 
