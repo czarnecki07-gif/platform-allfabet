@@ -1819,16 +1819,21 @@ app.get('/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAuth, async (req,
       ? img.overlays.map(o => `
         <div style="
           position:absolute;
-          top:${o.y}px;
-          left:${o.x}px;
-          background:rgba(255,255,255,0.96);
-          color:#111;
-          padding:8px 12px;
-          border-radius:8px;
-          border:1px solid rgba(0,0,0,.12);
-          font-size:14px;
-          line-height:1.4;
-          max-width:60%;
+top:${o.y}px;
+left:${o.x}px;
+width:${o.width || 260}px;
+height:${o.height || 100}px;
+background:rgba(255,255,255,0.96);
+color:#111;
+padding:10px 12px;
+border-radius:8px;
+border:1px solid rgba(0,0,0,.18);
+font-size:16px;
+line-height:1.35;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
         ">
           ${escapeHtml(o.text)}
         </div>
@@ -2345,9 +2350,11 @@ for (const srcSection of sourceSections) {
   <div class="label">Overlay tekstowy</div>
 
   <input id="overlay-text" class="field" placeholder="Tekst do zasłonięcia błędu AI" />
+<input id="overlay-x" class="field" placeholder="Pozycja X (np. 20)" />
+<input id="overlay-y" class="field" placeholder="Pozycja Y (np. 20)" />
 
-  <input id="overlay-x" class="field" placeholder="Pozycja X (np. 20)" />
-  <input id="overlay-y" class="field" placeholder="Pozycja Y (np. 20)" />
+<input id="overlay-width" class="field" placeholder="Szerokość ramki (np. 300)" />
+<input id="overlay-height" class="field" placeholder="Wysokość ramki (np. 120)" />
 
   <button class="btn" onclick="addOverlay(0)">
     Zapisz overlay
@@ -2454,9 +2461,11 @@ async function submitNewImage() {
 }
 
 async function addOverlay(imageIndex) {
-  const text = document.getElementById('overlay-text').value;
-  const x = document.getElementById('overlay-x').value;
-  const y = document.getElementById('overlay-y').value;
+ const text = document.getElementById('overlay-text').value;
+const x = document.getElementById('overlay-x').value;
+const y = document.getElementById('overlay-y').value;
+const width = document.getElementById('overlay-width').value;
+const height = document.getElementById('overlay-height').value;
 
   if (!text) {
     alert('Wpisz tekst overlay');
@@ -2475,8 +2484,10 @@ async function addOverlay(imageIndex) {
       lessonIndex: ${lessonIndex},
       imageIndex,
       text,
-      x,
-      y
+x,
+y,
+width,
+height
     })
   });
 
@@ -2586,7 +2597,7 @@ app.post('/admin/upload-lesson-image', requireAdmin, async (req, res) => {
 
 app.post('/admin/add-overlay', requireAdmin, async (req, res) => {
   try {
-    const { courseId, sectionIndex, lessonIndex, imageIndex, text, x, y } = req.body;
+const { courseId, sectionIndex, lessonIndex, imageIndex, text, x, y, width, height } = req.body;
 
     const result = await query('SELECT * FROM courses WHERE id = $1', [courseId]);
     if (!result.rows.length) {
@@ -2614,11 +2625,13 @@ app.post('/admin/add-overlay', requireAdmin, async (req, res) => {
       image.overlays = [];
     }
 
-    image.overlays.push({
-      text,
-      x: Number(x) || 20,
-      y: Number(y) || 20
-    });
+  image.overlays.push({
+  text,
+  x: Number(x) || 20,
+  y: Number(y) || 20,
+  width: Number(width) || 260,
+  height: Number(height) || 100
+});
 
     await query(
       'UPDATE courses SET sections_json = $1 WHERE id = $2',
