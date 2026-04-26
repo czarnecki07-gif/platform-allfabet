@@ -1756,6 +1756,7 @@ app.get('/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAuth, async (req,
   mediaLesson?.generatedImage?.url;
 
     const audioUrl = mediaLesson?.generatedAudio?.url;
+const fullAudioUrl = mediaLesson?.fullAudio?.url;
 
     const html = renderHtmlPage(lesson.title || lesson.lessonTitle || 'Lekcja', `
       <div class="wrap">
@@ -1781,13 +1782,23 @@ app.get('/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAuth, async (req,
           </div>
         ` : ''}
 
-        ${audioUrl ? `
-          <div class="card" style="margin-top:20px;">
-            <audio controls style="width:100%;">
-              <source src="${escapeHtml(audioUrl)}" type="audio/mpeg">
-            </audio>
-          </div>
-        ` : ''}
+       ${fullAudioUrl ? `
+  <div class="card" style="margin-top:20px;">
+    <div class="label">Pełna lekcja (audio)</div>
+    <audio controls style="width:100%;">
+      <source src="${escapeHtml(fullAudioUrl)}" type="audio/mpeg">
+    </audio>
+  </div>
+` : ''}
+
+${audioUrl ? `
+  <div class="card" style="margin-top:20px;">
+    <div class="label">Skrót lekcji (audio)</div>
+    <audio controls style="width:100%;">
+      <source src="${escapeHtml(audioUrl)}" type="audio/mpeg">
+    </audio>
+  </div>
+` : ''}
 
         <div class="card" style="margin-top:20px;">
           <div class="label">Treść lekcji</div>
@@ -2369,7 +2380,7 @@ for (const srcSection of sourceSections) {
 <button
   type="button"
   class="btn secondary"
-  onclick="document.getElementById('overlay-box').style.display='block'"
+  onclick="showOverlayEditor()"
 >
   Dodaj overlay tekstowy
 </button>
@@ -2378,16 +2389,46 @@ for (const srcSection of sourceSections) {
 <div id="overlay-box" style="display:none; margin-top:20px; max-width:520px;">
   <div class="label">Overlay tekstowy</div>
 
-  <input id="overlay-text" class="field" placeholder="Tekst do zasłonięcia błędu AI" oninput="updateOverlayPreview()" />
+  <div style="color:#9db0d1; font-size:13px; margin-bottom:10px;">
+    Po kliknięciu przycisku ramka pojawi się na obrazie powyżej — przeciągnij ją myszą.
+  </div>
 
-  <input id="overlay-width" class="field" placeholder="Szerokość ramki (np. 300)" value="260" oninput="updateOverlayPreview()" />
-  <input id="overlay-height" class="field" placeholder="Wysokość ramki (np. 120)" value="100" oninput="updateOverlayPreview()" />
-  <input id="overlay-font-size" class="field" placeholder="Rozmiar tekstu (np. 22)" value="18" oninput="updateOverlayPreview()" />
+  <input
+    id="overlay-text"
+    class="field"
+    placeholder="Tekst w ramce"
+    value="Poprawiony tekst"
+    oninput="updateOverlayPreview()"
+  />
+
+  <input
+    id="overlay-width"
+    class="field"
+    placeholder="Szerokość ramki (np. 300 px)"
+    value="260"
+    oninput="updateOverlayPreview()"
+  />
+
+  <input
+    id="overlay-height"
+    class="field"
+    placeholder="Wysokość ramki (np. 120 px)"
+    value="100"
+    oninput="updateOverlayPreview()"
+  />
+
+  <input
+    id="overlay-font-size"
+    class="field"
+    placeholder="Rozmiar tekstu (np. 22 px)"
+    value="18"
+    oninput="updateOverlayPreview()"
+  />
 
   <input id="overlay-x" type="hidden" value="20" />
   <input id="overlay-y" type="hidden" value="20" />
 
-  <div style="display:flex; gap:10px; flex-wrap:wrap;">
+  <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;">
     <button type="button" class="btn" onclick="addOverlay(0)">
       Zapisz overlay
     </button>
@@ -2397,7 +2438,6 @@ for (const srcSection of sourceSections) {
     </button>
   </div>
 </div>
-
 <div style="margin-top:10px; display:flex; flex-direction:column; gap:10px; max-width:420px;">
   <input
     id="image-caption"
