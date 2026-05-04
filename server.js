@@ -1748,8 +1748,8 @@ app.get('/lekcja/:courseId/:sectionIndex/:lessonIndex', requireAuth, async (req,
     const lesson = fullLesson || mediaLesson;
 
     const lessonImages = Array.isArray(mediaLesson?.customImages)
-      ? mediaLesson.customImages
-      : [];
+  ? mediaLesson.customImages.filter(img => img.imageApproved === true)
+  : [];
 
   const imageUrl =
   lessonImages[lessonImages.length - 1]?.url ||
@@ -2692,12 +2692,13 @@ app.post('/admin/upload-lesson-image', requireAdmin, async (req, res) => {
     }
 
     lesson.customImages.push({
-      url: fileUrl,
-      caption: decodeURIComponent(String(req.headers['x-image-caption'] || '')),
-      insertAfterBlock: Number(req.headers['x-insert-after-block'] || 0),
-      addedAt: new Date().toISOString(),
-      source: 'admin_upload'
-    });
+  url: fileUrl,
+  caption: decodeURIComponent(String(req.headers['x-image-caption'] || '')),
+  insertAfterBlock: Number(req.headers['x-insert-after-block'] || 0),
+  addedAt: new Date().toISOString(),
+  source: 'admin_upload',
+  imageApproved: true
+});
 
     await query(
       'UPDATE courses SET sections_json = $1 WHERE id = $2',
