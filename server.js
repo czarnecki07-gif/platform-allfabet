@@ -1001,17 +1001,35 @@ app.post('/admin/courses/:id/status', requireAdmin, async (req, res) => {
 
 app.post('/api/feedback', requireAuth, async (req, res) => {
   try {
-    const { course_id, comment } = req.body;
+    const {
+      course_id,
+      comment,
+      section_index = null,
+      lesson_index = null
+    } = req.body;
 
     if (!course_id || !comment) {
       return res.status(400).json({ error: 'course_id i comment są wymagane' });
     }
 
     const result = await query(
-      `INSERT INTO course_feedback (course_id, user_id, comment)
-       VALUES ($1, $2, $3)
-       RETURNING *`,
-      [course_id, req.session.user.id, comment]
+      `INSERT INTO course_feedback (
+        course_id,
+        user_id,
+        comment,
+        section_index,
+        lesson_index,
+        status
+      )
+      VALUES ($1, $2, $3, $4, $5, 'open')
+      RETURNING *`,
+      [
+        course_id,
+        req.session.user.id,
+        comment,
+        section_index,
+        lesson_index
+      ]
     );
 
     if (req.session.user.role === 'tester') {
@@ -1022,6 +1040,7 @@ app.post('/api/feedback', requireAuth, async (req, res) => {
       message: 'Uwaga została dodana',
       feedback: result.rows[0]
     });
+
   } catch (err) {
     console.error(err);
     return res.status(500).json({ error: 'Błąd dodawania uwagi' });
@@ -1979,7 +1998,29 @@ text-align:center;
               `).join('')}
             </div>
           ` : ''}
-        </div>
+               </div>
+
+        ${req.session.user.role === 'tester' ? `
+          <div class="card" style="margin-top:20px;">
+            <div class="label">Uwagi testera</div>
+            <form method="POST" action="/api/feedback" style="margin-top:14px;">
+              <input type="hidden" name="course_id" value="${courseId}" />
+              <input type="hidden" name="section_index" value="${sectionIndex}" />
+              <input type="hidden" name="lesson_index" value="${lessonIndex}" />
+
+              <textarea
+                name="comment"
+                placeholder="Opisz, co wymaga poprawy w tej lekcji..."
+                required
+                style="width:100%; min-height:120px; padding:12px; border-radius:12px; border:1px solid rgba(255,255,255,.15); background:#0d1727; color:white;"
+              ></textarea>
+
+              <div style="margin-top:12px;">
+                <button class="btn" type="submit">Dodaj uwagę</button>
+              </div>
+            </form>
+          </div>
+        ` : ''}
 
       </div>
     `);
