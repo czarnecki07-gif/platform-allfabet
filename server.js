@@ -2072,11 +2072,32 @@ app.get('/panel-testera', requireAuth, async (req, res) => {
                 <div class="feedback-box" style="margin-top:12px;">
                   <div class="feedback-title">Twoje zapisane uwagi:</div>
                   ${items.map(item => `
-                    <div class="feedback-item">
-                      • ${escapeHtml(item.comment)}<br/>
-                      <small>${new Date(item.created_at).toLocaleString('pl-PL')}</small>
-                    </div>
-                  `).join('')}
+  <div class="feedback-item" style="margin-bottom:10px;">
+    
+    <div style="font-size:12px; color:#7f95c5;">
+      Sekcja: ${item.section_index ?? '-'} |
+      Lekcja: ${item.lesson_index ?? '-'}
+    </div>
+
+    <div style="margin-top:4px;">
+      • ${escapeHtml(item.comment)}
+    </div>
+
+    <small style="display:block; margin-top:4px;">
+      ${new Date(item.created_at).toLocaleString('pl-PL')}
+    </small>
+
+    ${
+      item.section_index !== null && item.lesson_index !== null
+        ? `<a class="btn secondary" style="margin-top:6px; display:inline-block;"
+            href="/lekcja/${item.course_id}/${item.section_index}/${item.lesson_index}">
+            Przejdź do lekcji
+          </a>`
+        : ''
+    }
+
+  </div>
+`).join('')}
                 </div>
               `
               : `
@@ -2153,12 +2174,20 @@ app.get('/', requireAdmin, async (req, res) => {
       ORDER BY updated_at DESC, id DESC
     `);
 
-    const feedbackResult = await query(`
-      SELECT cf.course_id, cf.comment, cf.created_at, u.email
-      FROM course_feedback cf
-      JOIN users u ON u.id = cf.user_id
-      ORDER BY cf.created_at DESC
-    `);
+   const feedbackResult = await query(`
+  SELECT 
+    cf.course_id,
+    cf.comment,
+    cf.created_at,
+    cf.section_index,
+    cf.lesson_index,
+    u.email,
+    c.title as course_title
+  FROM course_feedback cf
+  JOIN users u ON u.id = cf.user_id
+  LEFT JOIN courses c ON c.id = cf.course_id
+  ORDER BY cf.created_at DESC
+`);
 
     const feedbackByCourseId = new Map();
     for (const row of feedbackResult.rows) {
@@ -2800,6 +2829,22 @@ const { courseId, sectionIndex, lessonIndex, imageIndex, text, x, y, width, heig
   } catch (err) {
     console.error('add overlay error:', err);
     return res.status(500).json({ error: 'Błąd overlay' });
+  }
+});
+
+app.get('/admin/migrate-feedback', requireAdmin, async (req, res) => {
+  try {
+    await query(`
+      ALTER TABLE course_feedback
+      ADD COLUMN IF NOT EXISTS section_index INTEGER,
+      ADD COLUMN IF NOT EXISTS lesson_index INTEGER,
+      ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'open'
+    `);
+
+    return res.send('Migracja feedback OK');
+  } catch (error) {
+    console.error('migrate feedback error:', error);
+    return res.status(500).send('Błąd migracji feedback');
   }
 });
 
